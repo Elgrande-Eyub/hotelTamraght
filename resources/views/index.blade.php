@@ -6,10 +6,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Travon - Tour and Hotel Booking HTML Template - Home One</title>
+    <title>SALTY WAVES - Tour and Hotel Booking HTML Template - Home One</title>
     <meta name="author" content="Adivaha">
-    <meta name="description" content="Travon - Tour and Hotel Booking HTML Template">
-    <meta name="keywords" content="Travon - Tour and Hotel Booking HTML Template">
+    <meta name="description" content="SALTY WAVES - Tour and Hotel Booking HTML Template">
+    <meta name="keywords" content="SALTY WAVES - Tour and Hotel Booking HTML Template">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicons/apple-icon-57x57.png') }}">
@@ -31,14 +31,17 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700;800;900&amp;family=Playfair+Display:wght@400;500;600;700;800;900&amp;family=Roboto:wght@100;300;400;500;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/app.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 </head>
 
 <body>
-    <div class="preloader"><button class="ot-btn style3 preloaderCls">Cancel Preloader</button>
+    <div class="preloader">
+        <button class="ot-btn style3 preloaderCls">Cancel Preloader</button>
         <div class="preloader-inner"><span class="loader"></span></div>
     </div>
     <div class="sidemenu-wrapper d-none d-lg-block">
@@ -46,7 +49,7 @@
             <div class="widget footer-widget">
                 <div class="ot-widget-about">
                     <div class="about-logo">
-                        <a href="index.html"><img src="assets/img/logo-white.svg" alt="Travon"></a>
+                        <a href="index.html"><img src="assets/img/logo-white.svg" alt="SALTY WAVES"></a>
                     </div>
                     <p class="about-text">Globally communicate adaptive e-markets & timely manufactured product. Objectively exploit collaborative relationships vis-a-vis competitive manufactured.</p>
                     <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
@@ -89,7 +92,7 @@
                     </div>
                     <div class="info-box">
                         <div class="info-box_icon"><i class="fas fa-envelope"></i></div>
-                        <p class="info-box_text"><a href="mailto:info@travon.com" class="info-box_link">info@travon.com</a></p>
+                        <p class="info-box_text"><a href="mailto:info@SALTY WAVES.com" class="info-box_link">info@SALTY WAVES.com</a></p>
                     </div>
                 </div>
             </div>
@@ -101,7 +104,7 @@
     <div class="ot-menu-wrapper">
         <div class="ot-menu-area text-center"><button class="ot-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Travon"></a>
+                <a href="index.html"><img src="assets/img/logo.jpg" alt="SALTY WAVES"></a>
             </div>
             <div class="ot-mobile-menu">
                 <ul>
@@ -144,15 +147,15 @@
         </div>
     </div>
     <header class="ot-header header-layout1">
-        <div class="header-top">
+    {{--     <div class="header-top">
             <div class="container">
                 <div class="row justify-content-center justify-content-lg-between align-items-center">
-                    <div class="col-auto d-none d-lg-block">
+                    <div class="col-auto  d-lg-block">
                         <div class="header-links">
                             <ul>
-                                <li><i class="fal fa-phone"></i><a href="tel:+256214203215">256 214 203 215</a></li>
-                                <li class="d-none d-xl-inline-block"><i class="fal fa-envelope"></i><a href="mailto:info@travon.com">info@travon.com</a></li>
-                                <li><i class="fal fa-location-dot"></i>9550 Bolsa Ave #126, United States</li>
+                                <li><i class="fal fa-phone"></i><a href="tel:+4915167251830">+49 1516 725 1830</a></li>
+                                <li class="d-none d-xl-inline-block"><i class="fal fa-envelope"></i><a href="mailto:info@SALTY WAVES.com">info@SALTY WAVES.com</a></li>
+                                <li><i class="fal fa-location-dot"></i>Taghazout , Agadir , Morocco</li>
                             </ul>
                         </div>
                     </div>
@@ -161,65 +164,55 @@
                             <ul>
                                 <li class="d-none d-lg-inline-block"><i class="far fa-user"></i><a href="contact.html">Login / Register</a></li>
                                 <li>
-                                    <div class="header-social"><span class="social-title">Follow Us:</span> <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a> <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></div>
+                                    <div class="header-social"><span class="social-title">@lang('index.folowus') :</span>
+                                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.instagram.com/salty_waves_taghazout" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.tiktok.com/@salty.waves.surf" target="_blank"><i class="fab fa-tiktok"></i></a> </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="sticky-wrapper">
             <div class="menu-area">
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="index.html"><img src="assets/img/logo.svg" alt="Travon"></a>
+                            <div class="header-logo text-center">
+                                <a href="index.html"><img src="assets/img/logo1.png" alt="SALTY WAVES"></a>
                             </div>
                         </div>
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li class="menu-item-has-children"><a href="#">Home</a>
+                                    <li><a href="#"><i class="fa-regular fa-house"></i> @lang('index.menu.home')</a>
+
+                                    </li>
+                                    <li class=""><a href="#"><i class="fa-regular  fa-circle-info"></i> @lang('index.menu.about')</a>
+
+                                    </li>
+                             <li class="menu-item-has-children"><a href="#"><i class="fa-regular fa-hotel"></i> @lang('index.menu.accommodations')</a>
                                         <ul class="sub-menu">
-                                            <li><a href="index.html">Home One</a></li>
-                                            <li><a href="index-2.html">Home Two</a></li>
+                                            <li><a href="tour.html"><i class="fa-duotone fa-location-dot p-7"></i> Taghazout</a></li>
+                                            <li><a href="tour-details.html"><i class="fa-duotone fa-location-dot p-7"></i> Tamraght</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="#">Destination</a>
+                                    <li class="menu-item-has-children"><a href="#"><i class=" fa-light fa-hand-holding-heart"></i> @lang('index.menu.package')</a>
                                         <ul class="sub-menu">
-                                            <li><a href="destination.html">Destination</a></li>
-                                            <li><a href="destination-details.html">Destination Details</a></li>
+                                            <li><a href="about.html"><i class="fa-regular fa-person-snowboarding p-7"></i> @lang('index.menu.packages.surf')</a></li>
+                                            <li><a href="team.html"><i class="fa-regular fa-spa p-7"></i> @lang('index.menu.packages.yoga')</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="#">Tour Types</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="tour.html">Tour</a></li>
-                                            <li><a href="tour-details.html">Tour Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="error.html">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="contact.html"><i class="fa-regular fa-messages"></i> @lang('index.menu.contact')</a></li>
                                 </ul>
                             </nav><button type="button" class="ot-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button></div>
                         <div class="col-auto d-none d-xl-block">
-                            <div class="header-button"><button type="button" class="icon-btn searchBoxToggler"><i class="far fa-search"></i></button> <a href="#" class="icon-btn sideMenuToggler"><i class="fa-regular fa-bars"></i></a> <a href="contact.html" class="ot-btn ml-25">Book Your Stay</a></div>
+                            <div class="header-button">
+                                {{-- <button type="button" class="icon-btn searchBoxToggler"><i class="far fa-search"></i></button>  --}}
+                                <a href="#" class="icon-btn sideMenuToggler"><i class="fa-regular fa-bars"></i></a>
+                                 <a href="contact.html" class="ot-btn ml-25">@lang('index.booknow')</a></div>
                         </div>
                     </div>
                 </div>
@@ -230,23 +223,23 @@
     <div class="ot-hero-wrapper hero-1">
         <div class="hero-slider ot-carousel" data-fade="true">
             <div class="ot-hero-slide">
-                <div class="ot-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_1.jpg"></div>
+                <div class="ot-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_1.png"></div>
                 <div class="container z-index-common">
                     <div class="hero-style1"><span class="sub-title hero-subtitle" data-ani="slideinup" data-ani-delay="0.1s">Relax & Enjoy <span class="shape right"><span class="dots"></span></span>
                         </span>
-                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Make Your Holiday</h1>
-                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.3s">Memorable</h1>
-                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.4s">Fine Hotel And Ticket With Best Experience. Intrinsicly architect superior core competencies vis-a-vis interactive partnerships.</p><a href="about.html" class="ot-btn" data-ani="slideinup" data-ani-delay="0.5s">Learn More</a></div>
+                        <h1 class="hero-title " style="color: white;"  data-ani="slideinup" data-ani-delay="0.2s">Taghazout-Tamraght</h1>
+                        <h1 class="hero-title" style="color: white" data-ani="slideinup" data-ani-delay="0.3s">Memorable</h1>
+                        <p class="hero-text" style="color: white" data-ani="slideinup" data-ani-delay="0.4s">Experience the best accommodation in Tamraght and Taghazout with us. where comfort meets perfection.</p><a href="about.html" class="ot-btn" data-ani="slideinup" data-ani-delay="0.5s">Learn More</a></div>
                 </div>
             </div>
             <div class="ot-hero-slide">
-                <div class="ot-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_2.jpg"></div>
+                <div class="ot-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_2.png"></div>
                 <div class="container z-index-common">
                     <div class="hero-style1"><span class="sub-title hero-subtitle" data-ani="slideinup" data-ani-delay="0.1s">Relax & Enjoy <span class="shape right"><span class="dots"></span></span>
                         </span>
-                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Enjoy Holiday By</h1>
-                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.3s">Traveling</h1>
-                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.4s">Fine Hotel And Ticket With Best Experience. Intrinsicly architect superior core competencies vis-a-vis interactive partnerships.</p><a href="about.html" class="ot-btn" data-ani="slideinup" data-ani-delay="0.5s">Learn More</a></div>
+                        <h1 class="hero-title" style="color: white;" data-ani="slideinup" data-ani-delay="0.2s">Enjoy Holiday By</h1>
+                        <h1 class="hero-title" style="color: white;" data-ani="slideinup" data-ani-delay="0.3s">Traveling</h1>
+                        <p class="hero-text" style="color: white;" data-ani="slideinup" data-ani-delay="0.4s">Fine Hotel And Ticket With Best Experience. Intrinsicly architect superior core competencies vis-a-vis interactive partnerships.</p><a href="about.html" class="ot-btn" data-ani="slideinup" data-ani-delay="0.5s">Learn More</a></div>
                 </div>
             </div>
             <div class="ot-hero-slide">
@@ -254,9 +247,9 @@
                 <div class="container z-index-common">
                     <div class="hero-style1"><span class="sub-title hero-subtitle" data-ani="slideinup" data-ani-delay="0.1s">Relax & Enjoy <span class="shape right"><span class="dots"></span></span>
                         </span>
-                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.2s">Start Your Travel</h1>
-                        <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.3s">With Travon</h1>
-                        <p class="hero-text" data-ani="slideinup" data-ani-delay="0.4s">Fine Hotel And Ticket With Best Experience. Intrinsicly architect superior core competencies vis-a-vis interactive partnerships.</p><a href="about.html" class="ot-btn" data-ani="slideinup" data-ani-delay="0.5s">Learn More</a></div>
+                        <h1 class="hero-title" style="color: white;" data-ani="slideinup" data-ani-delay="0.2s">Start Your Travel</h1>
+                        <h1 class="hero-title" style="color: white;" data-ani="slideinup" data-ani-delay="0.3s">With SALTY WAVES</h1>
+                        <p class="hero-text " style="color: white;" data-ani="slideinup" data-ani-delay="0.4s">Fine Hotel And Ticket With Best Experience. Intrinsicly architect superior core competencies vis-a-vis interactive partnerships.</p><a href="about.html" class="ot-btn" data-ani="slideinup" data-ani-delay="0.5s">Learn More</a></div>
                 </div>
             </div>
         </div>
@@ -264,7 +257,7 @@
     <div class="search-sec">
         <div class="container">
             <div class="search-box">
-                <form action="https://www.adivaha.com/themeforest-travon/mail.php" method="POST" class="tour-search">
+                <form action="https://www.adivaha.com/themeforest-SALTY WAVES/mail.php" method="POST" class="tour-search">
                     <div class="form-group"><select name="destination" id="destinationSelect" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Destination</option><option value="Switzerland">Switzerland</option><option value="Barcelona">Barcelona</option><option value="Amsterdam">Amsterdam</option><option value="Budapest City">Budapest City</option></select>                        <i class="fas fa-location-dot"></i></div>
                     <div class="form-group"><select name="destination" id="tourType" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Activities</option><option value="Travel">Travel</option><option value="Hiking">Hiking</option><option value="Air Ballon">Air Ballon</option><option value="Peak Climbing">Peak Climbing</option></select>                        <i class="fas fa-person-hiking"></i></div>
                     <div class="form-group"><select name="destination" id="durationselect" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Duration</option><option value="0 - 3 Days">0 - 3 Days</option><option value="0 - 7 Days">0 - 7 Days</option><option value="3 - 8 Days">3 - 8 Days</option><option value="7 - 12 Days">7 - 12 Days</option></select>                        <i class="fas fa-calendar-days"></i></div>
@@ -280,30 +273,30 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="img-box1">
-                        <div class="img1"><img src="assets/img/normal/about_1_1.jpg" alt="About"></div>
-                        <div class="img2"><img src="assets/img/normal/about_1_2.jpg" alt="About"></div>
+                        <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About"></div>
+                        <div class="img2"><img src="assets/img/normal/about_1_2.png" alt="About"></div>
                         <div class="shape1"><img src="assets/img/normal/about_shape_1.svg" alt="shape"></div>
                     </div>
                 </div>
                 <div class="col-xl-6 pe-xl-4">
                     <div class="title-area mb-35"><span class="sub-title">Get About Us <span class="shape right"><span class="dots"></span></span>
                         </span>
-                        <h2 class="sec-title">We Create Journeys Worth Taking For The Traveler</h2>
+                        <h2 class="sec-title">Welcome to Salty Waves, where every stay feels like home</h2>
                     </div>
                     <p class="mt-n2 mb-35">Progressively impact multidisciplinary leadership skills via e-business leadership skills. Holisticly repurpose multifunctional data before turnkey information. Globally restore client-focused potentialities before scalable core competencies.</p>
                     <div class="about-media-wrap">
                         <div class="about-media">
                             <div class="about-media_icon"><img src="assets/img/icon/about_media_1.svg" alt="icon"></div>
                             <div class="media-body">
-                                <h3 class="about-media_title box-title">24 Years Experience</h3>
-                                <p class="about-media_text">Holisticly procrastinate real-time solutions for services.</p>
+                                <h3 class="about-media_title box-title">22 Years Experience</h3>
+                                <p class="about-media_text">we guarantee a legacy of excellence in every moment you spend.</p>
                             </div>
                         </div>
                         <div class="about-media">
                             <div class="about-media_icon"><img src="assets/img/icon/about_media_2.svg" alt="icon"></div>
                             <div class="media-body">
-                                <h3 class="about-media_title box-title">Best Travel Agents</h3>
-                                <p class="about-media_text">Holisticly procrastinate real-time solutions for services.</p>
+                                <h3 class="about-media_title box-title">Endless Excitement</h3>
+                                <p class="about-media_text">Uncover exclusive offers and activities for an unforgettable experience with us.</p>
                             </div>
                         </div>
                     </div>
@@ -338,7 +331,7 @@
                     <div class="counter-card">
                         <div class="counter-card_icon"><img src="assets/img/icon/counter_1_2.svg" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">5,000</span>+</h2>
+                            <h2 class="counter-card_number"><span class="counter-number">100</span>+</h2>
                             <p class="counter-card_text">Destinations</p>
                         </div>
                     </div>
@@ -375,13 +368,13 @@
                     <div class="trip-details-slide ot-carousel" data-fade="true">
                         <div>
                             <div class="trip-card-details"><span class="subtitle">Locations</span>
-                                <h3 class="trip-title"><a href="destination.html">Switzerland</a></h3>
-                                <p class="trip-text">Globally drive pandemic e-business via functionalized e-business. Rapidiously simplify covalent leadership whereas distributed results.</p>
+                                <h3 class="trip-title"><a href="destination.html">Paradise Valley</a></h3>
+                                <p class="trip-text">River-fed swimming destination nestled between rocky cliffs, with natural pools & small waterfalls.</p>
                             </div>
                         </div>
                         <div>
                             <div class="trip-card-details"><span class="subtitle">Locations</span>
-                                <h3 class="trip-title"><a href="destination.html">Barcelona</a></h3>
+                                <h3 class="trip-title"><a href="destination.html">Agadir Small Desert</a></h3>
                                 <p class="trip-text">Simplify Globally pandemic e-business via functionalized e-business. Rapidiously covalent leadership whereas distributed results drive.</p>
                             </div>
                         </div>
@@ -403,16 +396,16 @@
                 <div class="col-xl-9">
                     <div class="trip-tab" data-asnavfor=".trip-details-slide">
                         <div class="trip-card active">
-                            <div class="trip-card__img"><img src="assets/img/trip/dest_1_1.jpg" alt="Trip image"></div>
+                            <div class="trip-card__img"><img src="assets/img/trip/dest_1_1.png" alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
-                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Switzerland</a></h2><span class="trip-card__count">6+ Trips</span> <a href="destination.html" class="ot-btn">Explore All</a></div>
+                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Paradise Valley</a></h2><span class="trip-card__count">6+ Trips</span> <a href="destination.html" class="ot-btn">Explore</a></div>
                         </div>
                         <div class="trip-card">
-                            <div class="trip-card__img"><img src="assets/img/trip/dest_1_2.jpg" alt="Trip image"></div>
+                            <div class="trip-card__img"><img src="assets/img/trip/dest_1_2.png" alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
-                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Barcelona</a></h2><span class="trip-card__count">8+ Trips</span> <a href="destination.html" class="ot-btn">Explore All</a></div>
+                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Agadir Small Desert</a></h2><span class="trip-card__count">8+ Trips</span> <a href="destination.html" class="ot-btn">Explore </a></div>
                         </div>
                         <div class="trip-card">
                             <div class="trip-card__img"><img src="assets/img/trip/dest_1_3.jpg" alt="Trip image"></div>
@@ -719,50 +712,50 @@
             <div class="container">
                 <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Testimonials <span class="shape right"><span class="dots"></span></span>
                     </span>
-                    <h2 class="sec-title">What Customer Say About Us</h2>
+                    <h2 class="sec-title">What Customer Say About SALTY WAVES</h2>
                 </div>
                 <div class="row slider-shadow ot-carousel" id="testiSlide1" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1">
                     <div class="col-lg-6">
                         <div class="testi-card">
                             <div class="testi-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            <p class="testi-card__text">“Objectively deploy open-source web-readiness impactful bandwidth. Compellingly coordinate business deliverables rather equity invested technologies. Phosfluorescently reinvent.”</p>
+                            <p class="testi-card__text">“We stayed for 1 night before moving over to our surf camp but wish we had longer! The riad is so dreamy, peaceful yet located in the middle of Taghazout, seconds away from the beach and restaurants as well as all the surf schools etc. We arrived a little early, Ms Saadi was great in welcoming us and letting us leave bags until the place was ready for check in. Would definitely recommend !”</p>
                             <div class="testi-card__profile">
-                                <div class="testi-card__avater"><img src="assets/img/testimonial/testi_1_1.jpg" alt="Avater"></div>
+                                <div class="testi-card__avater"><img src="assets/img/testimonial/testi_1_1.png" alt="Avater"></div>
                                 <div class="media-body">
-                                    <h3 class="testi-card__name">Mary Cruzleen</h3><span class="testi-card__desig">CEO of Maithon</span></div>
+                                    <h3 class="testi-card__name">Jessie</h3><span class="testi-card__desig">Travler</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="testi-card">
                             <div class="testi-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            <p class="testi-card__text">“Objectively deploy open-source web-readiness impactful bandwidth. Compellingly coordinate business deliverables rather equity invested technologies. Phosfluorescently reinvent.”</p>
+                            <p class="testi-card__text">“This is the perfect spot if you’re coming to surf, enjoy the beach, or eat at the many wonderful restaurants in Taghazout. Everything is just a few steps away! We spent most of our days surfing with the great crew from Surf Berbere, just a one minute walk from the door of this riad. They shuttled us to wherever the waves were best each day, and provided lunch, surf equipment and instruction...”</p>
                             <div class="testi-card__profile">
-                                <div class="testi-card__avater"><img src="assets/img/testimonial/testi_1_2.jpg" alt="Avater"></div>
+                                <div class="testi-card__avater"><img src="assets/img/testimonial/testi_1_2.png" alt="Avater"></div>
                                 <div class="media-body">
-                                    <h3 class="testi-card__name">David Milton</h3><span class="testi-card__desig">CEO of Gazal</span></div>
+                                    <h3 class="testi-card__name">Marcia</h3><span class="testi-card__desig">Travler</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="testi-card">
                             <div class="testi-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            <p class="testi-card__text">“Objectively deploy open-source web-readiness impactful bandwidth. Compellingly coordinate business deliverables rather equity invested technologies. Phosfluorescently reinvent.”</p>
+                            <p class="testi-card__text">“We stayed in two for four days, the apartment is really clean and spacious, the view is beautiful, it has an internal access (to the condominium) direct to the beach in front, everything is very easily reached and even if we did not have the car we were able to reach, for example, Anchor point in a very short time! Really helpful and kind, the owner and Salima, as we arrived before check-in time...”</p>
                             <div class="testi-card__profile">
-                                <div class="testi-card__avater"><img src="assets/img/testimonial/testi_1_3.jpg" alt="Avater"></div>
+                                <div class="testi-card__avater"><img src="assets/img/testimonial/testi_1_3.png" alt="Avater"></div>
                                 <div class="media-body">
-                                    <h3 class="testi-card__name">Abraham Khalil</h3><span class="testi-card__desig">CEO Adivaha</span></div>
+                                    <h3 class="testi-card__name">Giada</h3><span class="testi-card__desig">Travler</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="testi-card">
                             <div class="testi-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            <p class="testi-card__text">“Objectively deploy open-source web-readiness impactful bandwidth. Compellingly coordinate business deliverables rather equity invested technologies. Phosfluorescently reinvent.”</p>
+                            <p class="testi-card__text">“Tayebi is a fantastic host. She personally welcomed us and gave us plenty of insight into the apartment. We didn’t have any issues for the duration of our stay so didn’t speak much more than that. The apartment itself is so homely, the outside area is outstanding. If you’re coming to Taghazout you really should stay here..”</p>
                             <div class="testi-card__profile">
-                                <div class="testi-card__avater"><img src="assets/img/testimonial/testi_1_4.jpg" alt="Avater"></div>
+                                <div class="testi-card__avater"><img src="assets/img/testimonial/testi_1_4.png" alt="Avater"></div>
                                 <div class="media-body">
-                                    <h3 class="testi-card__name">Pisoori Janu</h3><span class="testi-card__desig">CEO at Travon</span></div>
+                                    <h3 class="testi-card__name">Jordan</h3><span class="testi-card__desig">Travler</span></div>
                             </div>
                         </div>
                     </div>
@@ -770,59 +763,11 @@
             </div>
         </div>
     </section>
-    <section class="space-bottom">
-        <div class="container">
-            <div class="row justify-content-lg-between justify-content-center align-items-end">
-                <div class="col-lg-8 mb-n2 mb-lg-0">
-                    <div class="title-area text-center text-lg-start"><span class="sub-title justify-content-center justify-content-lg-start"><span class="shape left d-inline-block d-lg-none"><span class="dots"></span></span> News & Updates <span class="shape right"><span class="dots"></span></span>
-                        </span>
-                        <h2 class="sec-title">Our Latest News & Articles</h2>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <div class="sec-btn"><a href="blog.html" class="ot-btn">View All Post</a></div>
-                </div>
-            </div>
-            <div class="row slider-shadow ot-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1" data-arrows="true">
-                <div class="col-md-6 col-xl-4">
-                    <div class="blog-card">
-                        <div class="blog-img"><img src="assets/img/blog/blog_1_1.jpg" alt="blog image"></div>
-                        <div class="blog-content">
-                            <div class="blog-meta"><a href="blog.html"><i class="fas fa-calendar-days"></i>15 July, 2023</a> <a href="blog.html"><i class="fas fa-tags"></i> Mountain</a></div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Get Tips For Making the Most of Your Summer</a></h3><a href="blog-details.html" class="link-btn">Read More <i class="fas fa-arrow-up-right"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="blog-card">
-                        <div class="blog-img"><img src="assets/img/blog/blog_1_2.jpg" alt="blog image"></div>
-                        <div class="blog-content">
-                            <div class="blog-meta"><a href="blog.html"><i class="fas fa-calendar-days"></i>16 July, 2023</a> <a href="blog.html"><i class="fas fa-tags"></i> Parasailing</a></div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Top 15 Holiday Can Enjoy in India Trips</a></h3><a href="blog-details.html" class="link-btn">Read More <i class="fas fa-arrow-up-right"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="blog-card">
-                        <div class="blog-img"><img src="assets/img/blog/blog_1_3.jpg" alt="blog image"></div>
-                        <div class="blog-content">
-                            <div class="blog-meta"><a href="blog.html"><i class="fas fa-calendar-days"></i>17 July, 2023</a> <a href="blog.html"><i class="fas fa-tags"></i> Lake View</a></div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">The Impact of Covid-19 on Tour Industry</a></h3><a href="blog-details.html" class="link-btn">Read More <i class="fas fa-arrow-up-right"></i></a></div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                    <div class="blog-card">
-                        <div class="blog-img"><img src="assets/img/blog/blog_1_4.jpg" alt="blog image"></div>
-                        <div class="blog-content">
-                            <div class="blog-meta"><a href="blog.html"><i class="fas fa-calendar-days"></i>18 July, 2023</a> <a href="blog.html"><i class="fas fa-tags"></i> Newyork City</a></div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Five Ways to Get Best Photos On Picnic Spot</a></h3><a href="blog-details.html" class="link-btn">Read More <i class="fas fa-arrow-up-right"></i></a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <section class="" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
         <div class="container">
             <div class="newsletter-wrap" data-bg-src="assets/img/bg/subscribe_bg_1.svg">
-                <h2 class="sec-title text-white mb-2">Get Special Offers And More From Travon</h2>
+                <h2 class="sec-title text-white mb-2">Get Special Offers And More From SALTY WAVES</h2>
                 <p class="text-white fs-md mb-4">Sign up now and get the best deals straight in your inbox!</p>
                 <form class="newsletter-form">
                     <div class="form-group"><input class="form-control" type="email" placeholder="Email Address" required=""> <i class="fal fa-envelope"></i></div><button type="submit" class="ot-btn">Subscribe</button></form>
@@ -837,7 +782,7 @@
                         <div class="widget footer-widget">
                             <div class="ot-widget-about">
                                 <div class="about-logo">
-                                    <a href="index.html"><img src="assets/img/logo-white.svg" alt="Travon"></a>
+                                    <a href="index.html"><img src="assets/img/logo-white.svg" alt="SALTY WAVES"></a>
                                 </div>
                                 <p class="about-text">Globally communicate adaptive e-markets & timely manufactured product. Objectively exploit collaborative relationships vis-a-vis competitive manufactured.</p>
                                 <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></div>
@@ -872,7 +817,7 @@
                                 </div>
                                 <div class="info-box">
                                     <div class="info-box_icon"><i class="fas fa-envelope"></i></div>
-                                    <p class="info-box_text"><a href="mailto:info@travon.com" class="info-box_link">info@travon.com</a></p>
+                                    <p class="info-box_text"><a href="mailto:info@SALTY WAVES.com" class="info-box_link">info@SALTY WAVES.com</a></p>
                                 </div>
                             </div>
                         </div>
@@ -897,7 +842,7 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-6">
-                        <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2023 <a href="#">Travon</a>. All Rights Reserved.</p>
+                        <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2023 <a href="#">SALTY WAVES</a>. All Rights Reserved.</p>
                     </div>
                     <div class="col-lg-6 text-end d-none d-lg-block">
                         <div class="footer-links">
@@ -916,6 +861,6 @@
     <script src="assets/js/app.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
-<!-- Mirrored from www.adivaha.com/themeforest-travon/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Nov 2023 20:18:07 GMT -->
+<!-- Mirrored from www.adivaha.com/themeforest-SALTY WAVES/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Nov 2023 20:18:07 GMT -->
 
 </html>

@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 @use "sass:math";
 :root {
-    --theme-color: #3cb371;
+    --theme-color: #29ADB2;
     --title-color: #161921;
     --body-color: #687179;
     --smoke-color: #F5F5F5;
-    --smoke-color2: #EBFFF4;
+    --smoke-color2: #29ADB2;
     --black-color: #000000;
     --white-color: #ffffff;
     --light-color: #72849B;
@@ -12,7 +13,8 @@
     --success-color: #28a745;
     --error-color: #dc3545;
     --border-color: #E4E4E4;
-    --title-font: 'Playfair Display', serif;
+    /* --title-font: 'Playfair Display', serif; */
+    --title-font: 'Signika Negative', sans-serif;
     --body-font: 'Roboto', sans-serif;
     --style-font: 'Dancing Script', cursive;
     --icon-font: "Font Awesome 6 Pro";
@@ -22,6 +24,10 @@
     --section-space-mobile: 80px;
     --section-title-space: 60px;
     --ripple-ani-duration: 5s
+}
+
+.p-7 {
+    padding-right: 7px;
 }
 
 html,
@@ -1446,7 +1452,7 @@ textarea.is-invalid {
     left: 50%;
     top: 50%;
     width: 600%;
-    background-color: #1B4D31;
+    background-color: #29ADB2;
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(60deg);
     -ms-transform: translateX(-50%) translateY(-50%) rotate(60deg);
     transform: translateX(-50%) translateY(-50%) rotate(60deg);
@@ -2215,7 +2221,7 @@ textarea.is-invalid {
 }
 
 .bg-dark2 {
-    background-color: #1B4D31
+    background-color: #29ADB2
 }
 
 .gr-bg1 {
@@ -4129,29 +4135,32 @@ a.text-theme:hover,
 
 .main-menu ul.sub-menu li a {
     position: relative;
-    padding-left: 23px;
+    /* padding-left: 23px; */
     text-transform: capitalize
 }
 
-.main-menu ul.sub-menu li a:before {
+
+/* .main-menu ul.sub-menu li a:before {
     content: "\f3de";
-    position: absolute;
-    top: 9px;
-    left: 0;
-    font-family: var(--icon-font);
-    width: 11px;
-    height: 11px;
-    text-align: center;
-    border-radius: 50%;
-    display: inline-block;
-    font-size: 0.9em;
-    line-height: 1;
-    color: var(--theme-color);
-    font-weight: 700;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg)
+
+position: absolute;
+top: 9px;
+left: 0;
+font-family: var(--icon-font);
+width: 11px;
+height: 11px;
+text-align: center;
+border-radius: 50%;
+display: inline-block;
+font-size: 0.9em;
+line-height: 1;
+color: var(--theme-color);
+font-weight: 700;
+-webkit-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+transform: rotate(-45deg)
 }
+*/
 
 .main-menu ul.sub-menu li ul.sub-menu {
     left: 100%;
@@ -4303,7 +4312,7 @@ a.text-theme:hover,
     left: 0;
     height: 100%;
     width: 24.5%;
-    background-color: var(--smoke-color2);
+    /* background-color: var(--smoke-color2); */
     -webkit-clip-path: polygon(0 0, calc(100% - 50px) 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0 0, calc(100% - 50px) 0%, 100% 100%, 0% 100%)
 }
@@ -5880,7 +5889,8 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
     }
 }
 
-.hero-1 .ot-hero-bg:before {
+
+/* .hero-1 .ot-hero-bg:before {
     content: '';
     height: 100%;
     width: 62%;
@@ -5889,6 +5899,29 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
     position: absolute;
     top: 0;
     left: 0
+} */
+
+
+/* .hero-1 .ot-hero-bg:before {
+    content: '';
+    height: 100%;
+    width: 62%;
+    background-image: -webkit-linear-gradient(left, rgba(7, 102, 173, 0.6) 0%, rgba(7, 102, 173, 0.5) 17.06%, rgba(7, 102, 173, 0.4) 38.29%, rgba(7, 102, 173, 0.35) 52.45%, rgba(7, 102, 173, 0.3) 64.97%, rgba(7, 102, 173, 0.25) 77.13%, rgba(7, 102, 173, 0.2) 88.14%, rgba(7, 102, 173, 0) 100%);
+    background-image: linear-gradient(90deg, rgba(7, 102, 173, 0.6) 0%, rgba(7, 102, 173, 0.5) 17.06%, rgba(7, 102, 173, 0.4) 38.29%, rgba(7, 102, 173, 0.35) 52.45%, rgba(7, 102, 173, 0.3) 64.97%, rgba(7, 102, 173, 0.25) 77.13%, rgba(7, 102, 173, 0.2) 88.14%, rgba(7, 102, 173, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.hero-1 .ot-hero-bg:before {
+    content: '';
+    height: 100%;
+    width: 62%;
+    background-image: -webkit-linear-gradient(left, rgba(41, 173, 178, 0.3) 0%, rgba(41, 173, 178, 0.25) 17.06%, rgba(41, 173, 178, 0.2) 38.29%, rgba(41, 173, 178, 0.15) 52.45%, rgba(41, 173, 178, 0.12) 64.97%, rgba(41, 173, 178, 0.1) 77.13%, rgba(41, 173, 178, 0.08) 88.14%, rgba(41, 173, 178, 0) 100%);
+    background-image: linear-gradient(90deg, rgba(41, 173, 178, 0.3) 0%, rgba(41, 173, 178, 0.25) 17.06%, rgba(41, 173, 178, 0.2) 38.29%, rgba(41, 173, 178, 0.15) 52.45%, rgba(41, 173, 178, 0.12) 64.97%, rgba(41, 173, 178, 0.1) 77.13%, rgba(41, 173, 178, 0.08) 88.14%, rgba(41, 173, 178, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .hero-style1 {
