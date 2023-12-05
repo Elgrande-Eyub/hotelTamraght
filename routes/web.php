@@ -13,6 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+
 Route::get('/{lang?}', function () {
     return view('index');
 });
+
+
+Route::get('/{lang?}/contact', function () {
+    return view('contact');
+})->name('contact');
+
+
