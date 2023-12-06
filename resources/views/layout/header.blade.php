@@ -1,6 +1,3 @@
-@php
-$lang = app('request')->segment(1);
-@endphp
 <div class="preloader">
     <button class="ot-btn style3 preloaderCls">Cancel Preloader</button>
     <div class="preloader-inner"><span class="loader"></span></div>
@@ -71,7 +68,7 @@ $lang = app('request')->segment(1);
 
 
 
-                <li><a href=" {{ route('contact', ['lang' => $lang]) }}">@lang('index.menu.contact')</a></li>
+                <li><a href="{{ route('contact', ['lang' => $lang]) }}">@lang('index.menu.contact')</a></li>
             </ul>
         </div>
     </div>

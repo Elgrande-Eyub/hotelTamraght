@@ -13,7 +13,7 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">About Us</h1>
+                <h1 class="breadcumb-title">SALTY WAVES</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="index.html">Home</a></li>
                     <li>About Us</li>
@@ -34,27 +34,28 @@
                 <div class="col-xl-6 pe-xl-4">
                     <div class="title-area mb-35"><span class="sub-title">Get About Us <span class="shape right"><span class="dots"></span></span>
                         </span>
-                        <h2 class="sec-title">We Create Journeys Worth Taking For The Traveler</h2>
+                        <h2 class="sec-title">Taghazout Or Tamraght ? Who Cares</h2>
                     </div>
-                    <p class="mt-n2 mb-35">Progressively impact multidisciplinary leadership skills via e-business leadership skills. Holisticly repurpose multifunctional data before turnkey information. Globally restore client-focused potentialities before scalable core competencies.</p>
+                    <p class="mt-n2 mb-35">Experience the best of both Agadir with our rental apartment in Taghazout or Tamraght – because here, it doesn't matter which coastal gem you choose. Embrace the laid-back vibes of Tamraght or the vibrant hustle of Taghazout , all from the comfort of your cozy abode. Whether you're a surfer chasing the perfect wave or a traveler seeking tranquility, our accommodation is your gateway to the beauty of both Taghazout and Tamraght. Your adventure begins here, where choices become possibilities and memories are made effortlessly</p>
                     <div
                         class="about-media-wrap">
                         <div class="about-media">
                             <div class="about-media_icon"><img src="{{ asset('assets/img/icon/about_media_1.svg') }}" alt="icon"></div>
                             <div class="media-body">
-                                <h3 class="about-media_title box-title">24 Years Experience</h3>
-                                <p class="about-media_text">Holisticly procrastinate real-time solutions for services.</p>
+                                <h3 class="about-media_title box-title">22 Years Experience</h3>
+                                <p class="about-media_text">we guarantee a legacy of excellence in every moment you spend.</p>
                             </div>
                         </div>
                         <div class="about-media">
                             <div class="about-media_icon"><img src="{{ asset('assets/img/icon/about_media_2.svg') }}" alt="icon"></div>
                             <div class="media-body">
                                 <h3 class="about-media_title box-title">Best Travel Agents</h3>
-                                <p class="about-media_text">Holisticly procrastinate real-time solutions for services.</p>
+                                <p class="about-media_text">Uncover exclusive offers and activities for an unforgettable experience with us.</p>
                             </div>
                         </div>
                 </div>
-                <div class="btn-group"><a href="about.html" class="ot-btn">Discover more</a>
+                <div >
+
                     <div class="customer-avater-wrap">
                         <div class="customer-avater-group">
                             <div class="customer-avater"><img src="{{ asset('assets/img/normal/avater_1_1.jpg') }}" alt="avater"></div>
@@ -73,33 +74,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 pe-xxl-5 text-center text-xl-start">
-                    <div class="title-area mb-35"><span class="sub-title justify-content-center justify-content-xl-start"><span class="shape left d-inline-block d-xl-none"><span class="dots"></span></span> Tour Percentage <span class="shape right"><span class="dots"></span></span>
+                    <div class="title-area mb-35"><span class="sub-title justify-content-center justify-content-xl-start"><span class="shape left d-inline-block d-xl-none"><span class="dots"></span></span> Salty Waves Bored ? <span class="shape right"><span class="dots"></span></span>
                         </span>
-                        <h2 class="sec-title">The Perfect Travel Place For You & Your Family</h2>
+                        <h2 class="sec-title">The Perfect Place For You & Your Family</h2>
                     </div>
                     <p class="mt-n2 mb-40">Progressively impact multidisciplinary leadership skills via e-business leadership skills. Holisticly repurpose multifunctional data before turnkey information. Globally restore client-focused potentialities before scalable core competencies.</p>
                     <div
                         class="skill-feature">
-                        <h3 class="skill-feature_title">Countryside</h3>
+                        <h3 class="skill-feature_title">Relaxing And Enjoying</h3>
                         <div class="progress">
-                            <div class="progress-bar" style="width: 85%;">
-                                <div class="progress-value">85%</div>
+                            <div class="progress-bar" style="width: 100%;">
+                                <div class="progress-value">100%</div>
                             </div>
                         </div>
                 </div>
                 <div class="skill-feature">
-                    <h3 class="skill-feature_title">Vineyard</h3>
+                    <h3 class="skill-feature_title">Activities</h3>
                     <div class="progress">
-                        <div class="progress-bar" style="width: 95%;">
-                            <div class="progress-value">95%</div>
+                        <div class="progress-bar" style="width: 100%;">
+                            <div class="progress-value">100%</div>
                         </div>
                     </div>
                 </div>
                 <div class="skill-feature">
-                    <h3 class="skill-feature_title">Wine Tasting</h3>
+                    <h3 class="skill-feature_title">Destinations Around</h3>
                     <div class="progress">
-                        <div class="progress-bar" style="width: 60%;">
-                            <div class="progress-value">60%</div>
+                        <div class="progress-bar" style="width: 100%;">
+                            <div class="progress-value">100%</div>
                         </div>
                     </div>
                 </div>
@@ -156,81 +157,47 @@
             </div>
         </div>
     </div>
-    <section class="space" id="team-sec">
+    <div class="space">
         <div class="container">
-            <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Travel exparts <span class="shape right"><span class="dots"></span></span>
+            <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Travel Image <span class="shape right"><span class="dots"></span></span>
                 </span>
-                <h2 class="sec-title">Meet Our Expert Guide</h2>
+                <h2 class="sec-title">Image Gallery</h2>
             </div>
-            <div class="row slider-shadow ot-carousel" data-slide-show="4" data-lg-slide-show="3" data-md-slide-show="2" data-xs-slide-show="1" data-arrows="true">
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="ot-team team-box">
-                        <div class="team-img"><img src="{{ asset('assets/img/team/team_1_1.jpg') }}" alt="Team">
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="ot-social"><a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a> <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a> <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a></div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="box-title"><a href="team-details.html">Mishel Marsh</a></h3><span class="team-desig">Switzerland Guide</span></div>
+            <div class="row gy-30 masonary-active">
+                <div class="col-md-6 col-xxl-auto filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="ot-team team-box">
-                        <div class="team-img"><img src="{{ asset('assets/img/team/team_1_2.jpg') }}" alt="Team">
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="ot-social"><a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a> <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a> <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a></div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="box-title"><a href="team-details.html">Michel Richard</a></h3><span class="team-desig">Maldivs Guide</span></div>
+                <div class="col-md-6 col-xxl-auto filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="ot-team team-box">
-                        <div class="team-img"><img src="{{ asset('assets/img/team/team_1_3.jpg') }}" alt="Team">
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="ot-social"><a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a> <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a> <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a></div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="box-title"><a href="team-details.html">Famhida Ruko</a></h3><span class="team-desig">Iceland Guide</span></div>
+                <div class="col-md-6 col-xxl-auto filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="ot-team team-box">
-                        <div class="team-img"><img src="{{ asset('assets/img/team/team_1_4.jpg') }}" alt="Team">
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="ot-social"><a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a> <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a> <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a></div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="box-title"><a href="team-details.html">Alex Anfantino</a></h3><span class="team-desig">Indonesia Guide</span></div>
+                <div class="col-md-6 col-xxl-auto filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_4.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_4.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="ot-team team-box">
-                        <div class="team-img"><img src="{{ asset('assets/img/team/team_1_5.jpg') }}" alt="Team">
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="ot-social"><a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a> <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a> <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a></div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="box-title"><a href="team-details.html">Joseph Carter</a></h3><span class="team-desig">Morokko Guide</span></div>
+                <div class="col-md-6 col-xxl-auto filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_5.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_5.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-auto filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_6.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_6.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+
     <section class="bg-top-center bg-auto" data-bg-src="{{ asset('assets/img/bg/bg_map_1.png') }}">
         <div class="">
             <div class="container">

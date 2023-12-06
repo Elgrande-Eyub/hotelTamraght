@@ -1,3 +1,10 @@
+<div class="whats-float d-none d-xl-inline-block">
+    <a href=""
+       target="_blank">
+       <i class="fa-brands fa-whatsapp"></i><span>WhatsApp<br><small>+90 12 123456</small></span>
+    </a>
+</div>
+
 <footer class="footer-wrapper footer-layout1">
     <div class="widget-area">
         <div class="container">

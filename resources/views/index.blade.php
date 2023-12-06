@@ -15,8 +15,8 @@
                 <div class="container z-index-common">
                     <div class="hero-style1"><span class="sub-title hero-subtitle" data-ani="slideinup" data-ani-delay="0.1s">Relax & Enjoy <span class="shape right"><span class="dots"></span></span>
                         </span>
-                        <h1 class="hero-title " style="color: white;"  data-ani="slideinup" data-ani-delay="0.2s">Taghazout-Tamraght</h1>
-                        <h1 class="hero-title" style="color: white" data-ani="slideinup" data-ani-delay="0.3s">Memorable</h1>
+                        <h1 class="hero-title " style="color: white;"  data-ani="slideinup" data-ani-delay="0.2s">Tamraght or Taghazout ?</h1>
+                        <h1 class="hero-title" style="color: white" data-ani="slideinup" data-ani-delay="0.3s">Doesn't Matter</h1>
                         <p class="hero-text" style="color: white" data-ani="slideinup" data-ani-delay="0.4s">Experience the best accommodation in Tamraght and Taghazout with us. where comfort meets perfection.</p><a href="about.html" class="ot-btn" data-ani="slideinup" data-ani-delay="0.5s">Learn More</a></div>
                 </div>
             </div>
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="btn-group"><a href="about.html" class="ot-btn">Discover more</a>
+                    <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Discover more</a>
                         <div class="customer-avater-wrap">
                             <div class="customer-avater-group">
                                 <div class="customer-avater"><img src="{{ asset('assets/img/normal/avater_1_1.jpg') }}" alt="avater"></div>
@@ -168,14 +168,15 @@
                         </div>
                         <div>
                             <div class="trip-card-details"><span class="subtitle">Locations</span>
-                                <h3 class="trip-title"><a href="destination.html">Amsterdam</a></h3>
-                                <p class="trip-text">Drive pandemic e-business via functionalized e-business. Rapidiously simplify covalent leadership whereas distributed results Globally.</p>
+                                <h3 class="trip-title"><a href="destination.html">Agadir cable car Telepherique</a></h3>
+                                <p class="trip-text">Agadir Cable car ride is a spectacular new attraction in the regions of Agadir, Morocco.
+                                </p>
                             </div>
                         </div>
                         <div>
                             <div class="trip-card-details"><span class="subtitle">Locations</span>
-                                <h3 class="trip-title"><a href="destination.html">Budapest City</a></h3>
-                                <p class="trip-text">Pandemic Globally drive e-business via functionalized e-business. Rapidiously simplify covalent leadership whereas distributed results.</p>
+                                <h3 class="trip-title"><a href="destination.html">Moroccan Cooking Class</a></h3>
+                                <p class="trip-text">Learn the fine art of Moroccan cuisine from a professional chef during this hands-on private masterclass i</p>
                             </div>
                         </div>
                     </div>
@@ -199,13 +200,13 @@
                             <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_3.jpg') }}" alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
-                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Amsterdam</a></h2><span class="trip-card__count">6+ Trips</span> <a href="destination.html" class="ot-btn">Explore All</a></div>
+                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Agadir cable car Telepherique</a></h2><span class="trip-card__count">6+ Trips</span> <a href="destination.html" class="ot-btn">Explore</a></div>
                         </div>
                         <div class="trip-card">
                             <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_4.jpg') }}" alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
-                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Budapest City</a></h2><span class="trip-card__count">5+ Trips</span> <a href="destination.html" class="ot-btn">Explore All</a></div>
+                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Private Traditional Moroccan Cooking Class</a></h2><span class="trip-card__count">5+ Trips</span> <a href="destination.html" class="ot-btn">Explore All</a></div>
                         </div>
                     </div>
                 </div>
@@ -563,6 +564,8 @@
         </div>
     </section>
     @include('layout.footer')
+
+
 
 </body>
 

@@ -13,8 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-
+Route::get('/', function () {
+    return  redirect()->route('index', ['lang' => 'en']);
+});
 
 Route::get('/{lang?}', function () {
     return view('index');

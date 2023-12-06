@@ -6,6 +6,7 @@
     --body-color: #687179;
     --smoke-color: #F5F5F5;
     --smoke-color2: #015292;
+    --hover-color: #143955;
     --black-color: #000000;
     --white-color: #ffffff;
     --light-color: #72849B;
@@ -1452,7 +1453,7 @@ textarea.is-invalid {
     left: 50%;
     top: 50%;
     width: 600%;
-    background-color: #29ADB2;
+    background-color: var(--hover-color);
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(60deg);
     -ms-transform: translateX(-50%) translateY(-50%) rotate(60deg);
     transform: translateX(-50%) translateY(-50%) rotate(60deg);
@@ -2221,7 +2222,7 @@ textarea.is-invalid {
 }
 
 .bg-dark2 {
-    background-color: #29ADB2
+    background-color: var(--hover-color)
 }
 
 .gr-bg1 {
@@ -5853,7 +5854,7 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 }
 
 .hero-title {
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -0.04em;
     margin-bottom: 0;
     letter-spacing: 0.002em
@@ -5871,7 +5872,7 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 
 @media (min-width: 1300px) {
     .hero-title {
-        font-size: 64px
+        /* font-size: 64px */
     }
 }
 
@@ -10658,4 +10659,48 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
     .space-extra2-bottom {
         padding-bottom: 70px
     }
+}
+
+.whats-float {
+    position: fixed;
+    transform: translate(108px, 0px);
+    top: 25%;
+    right: 0;
+    width: 150px;
+    overflow: hidden;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 4px 0 0 4px;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+    vertical-align: middle
+}
+
+.whats-float a span {
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    position: absolute;
+    line-height: 16px;
+    font-weight: bolder;
+}
+
+.whats-float i {
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+    padding: 10px;
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+}
+
+.whats-float:hover {
+    color: #FFFFFF;
+    transform: translate(0px, 0px);
+}
+
+.whats-float:hover i {
+    transform: rotate(360deg);
 }
