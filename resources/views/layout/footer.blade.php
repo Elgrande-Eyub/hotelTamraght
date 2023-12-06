@@ -6,7 +6,7 @@
                     <div class="widget footer-widget">
                         <div class="ot-widget-about">
                             <div class="about-logo">
-                                <a href="index.html"><img src="{{ asset('assets/img/whiteLogo.png') }}" alt="SALTY WAVES"></a>
+                                <a href="index.html"><img src="{{ asset('assets/img/logo/salty-waves-white.png') }}" alt="SALTY WAVES"></a>
                             </div>
                             <p class="about-text">Globally communicate adaptive e-markets & timely manufactured product. Objectively exploit collaborative relationships vis-a-vis competitive manufactured.</p>
                             <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>                                    <a href="https://www.instagram.com/salty_waves_taghazout"><i class="fab fa-instagram"></i></a> <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></div>
@@ -50,12 +50,12 @@
                     <div class="widget footer-widget">
                         <h3 class="widget_title">Gallery Showcase</h3>
                         <div class="sidebar-gallery">
-                            <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_1.jpg" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_1.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
-                            <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_2.jpg" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_2.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
-                            <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_3.jpg" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_3.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
-                            <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_4.jpg" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_4.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
-                            <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_5.jpg" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_5.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
-                            <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_6.jpg" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_6.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_1.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_1.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_2.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_2.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_3.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_3.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_4.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_4.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_5.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_5.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_6.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_6.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -80,3 +80,7 @@
         </div>
     </div>
 </footer>
+<div class="scroll-top"><svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102"><path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path></svg></div>
+<script src="{{ asset('assets/js/vendor/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ asset('assets/js/app.min.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>

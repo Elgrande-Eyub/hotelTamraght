@@ -1,3 +1,6 @@
+@php
+$lang = app('request')->segment(1);
+@endphp
 <div class="preloader">
     <button class="ot-btn style3 preloaderCls">Cancel Preloader</button>
     <div class="preloader-inner"><span class="loader"></span></div>
@@ -7,9 +10,9 @@
         <div class="widget footer-widget">
             <div class="ot-widget-about">
                 <div class="about-logo">
-                    <a href="index.html"><img src="{{ asset('assets/img/whiteLogo.png') }}" alt="SALTY WAVES"></a>
+                    <a href="{{ route('about', ['lang' => $lang]) }}"><img src="{{ asset('assets/img/logo/salty-waves-white.png') }}" alt="SALTY WAVES"></a>
                 </div>
-                <p class="about-text">Globally communicate adaptive e-markets & timely manufactured product. Objectively exploit collaborative relationships vis-a-vis competitive manufactured.</p>
+                <p class="about-text"></p>
                 <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://www.instagram.com/salty_waves_taghazout"><i class="fab fa-instagram"></i></a> <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></div>
             </div>
@@ -24,7 +27,9 @@
                 </div>
                 <div class="info-box">
                     <div class="info-box_icon"><i class="fas fa-phone"></i></div>
-                    <p class="info-box_text"><a href="tel:+4915167251830" class="info-box_link">+49 1516 725 1830</a> <a href="tel:+212682081129" class="info-box_link">+212 682081129</a></p>
+                    <p class="info-box_text">
+                        <a href="tel:+4917624898825" class="info-box_link">+49 1762 489 8825</a>
+                        <a href="tel:+212675111894" class="info-box_link">+212 6 75 11 18 94</a></p>
                 </div>
                 <div class="info-box">
                     <div class="info-box_icon"><i class="fas fa-envelope"></i></div>
@@ -40,22 +45,20 @@
 <div class="ot-menu-wrapper">
     <div class="ot-menu-area text-center"><button class="ot-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            {{-- <a href="index.html"><img src="assets/img/logo.jpg" alt="SALTY WAVES"></a> --}}
-            <a href="index.html"><img width="189" height="54" src="{{ asset('assets/img/logo/salty-waves.png') }}" alt="SALTY WAVES"></a>
+            <a href="{{ route('index', ['lang' => $lang]) }}"><img width="189" height="54" src="{{ asset('assets/img/logo/salty-waves.png') }}" alt="SALTY WAVES"></a>
         </div>
         <div class="ot-mobile-menu">
             <ul>
-                <li class="menu-item-has-children"><a href="#">@lang('index.menu.home')</a>
+                <li class="menu-item-has-children"><a href="{{ route('index', ['lang' => $lang]) }}">@lang('index.menu.home')</a>
 
                 </li>
-                <li class="menu-item-has-children"><a href="#">@lang('index.menu.about')</a>
+                <li class="menu-item-has-children"><a href="{{ route('about', ['lang' => $lang]) }}">@lang('index.menu.about')</a>
 
                 </li>
                 <li class="menu-item-has-children"><a href="#">@lang('index.menu.accommodations')</a>
                     <ul class="sub-menu">
-                        <li><a href="destination.html"> Taghazout</a></li>
-                        <li><a href="destination-details.html">Tamraght</a></li>
-
+                        <li><a href="{{ route('taghazout', ['lang' => $lang]) }}">Taghazout</a></li>
+                        <li><a href="{{ route('tamraght', ['lang' => $lang]) }}">Tamraght</a></li>
 
                     </ul>
                 </li>
@@ -65,9 +68,7 @@
                         <li><a href="tour-details.html">@lang('index.menu.packages.yoga')</a></li>
                     </ul>
                 </li>
-                @php
-                $lang = app('request')->segment(1);
-            @endphp
+
 
 
                 <li><a href=" {{ route('contact', ['lang' => $lang]) }}">@lang('index.menu.contact')</a></li>
@@ -83,7 +84,7 @@
                     <div class="header-links">
                         <ul>
 
-                            <li class="d-none d-xl-inline-block"><i class="fal fa-phone"></i><a href="tel:+4915167251830">+49 1516 725 1830</a></li>
+                            <li class="d-none d-xl-inline-block"><i class="fal fa-phone"></i><a href="tel:+4917624898825">+49 1762 489 8825</a></li>
                             <li class="d-none d-xl-inline-block"><i class="fal fa-envelope"></i><a href="mailto:info@SALTY WAVES.com">info@saltywaves.com</a></li>
                             <li class="d-none d-xl-inline-block"><i class="fal fa-location-dot"></i>Tamraght-Taghazout , Agadir , Morocco</li>
                             <li class="d-block d-xl-none"><i class="fa-regular fa-person-snowboarding p-7" style="margin: 0"></i>Welcome to Salty Waves<i class="fa-regular fa-person-snowboarding p-7" style="margin-left: 7px"></i></li>
@@ -100,22 +101,22 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo text-center">
-                            <a href="index.html"><img width="189" height="54" src="{{ asset('assets/img/logo/salty-waves.png') }}" alt="SALTY WAVES" ></a>
+                            <a href="{{ route('index', ['lang' => $lang]) }}"><img width="189" height="54" src="{{ asset('assets/img/logo/salty-waves.png') }}" alt="SALTY WAVES" ></a>
                         </div>
                     </div>
                     <div class="col-auto">
                         <nav class="main-menu d-none d-lg-inline-block">
                             <ul>
-                                <li><a href="#"><i class="fa-regular fa-house"></i> @lang('index.menu.home')</a>
+                                <li><a href="{{ route('index', ['lang' => $lang]) }}"><i class="fa-regular fa-house"></i> @lang('index.menu.home')</a>
 
                                 </li>
-                                <li><a href="#"><i class="fa-regular  fa-circle-info"></i> @lang('index.menu.about')</a>
+                                <li><a href="{{ route('about', ['lang' => $lang]) }}"><i class="fa-regular  fa-circle-info"></i> @lang('index.menu.about')</a>
 
                                 </li>
                          <li class="menu-item-has-children"><a href="#"><i class="fa-regular fa-hotel"></i> @lang('index.menu.accommodations')</a>
                                     <ul class="sub-menu">
-                                        <li><a href="tour.html"><i class="fa-duotone fa-location-dot p-7"></i> Taghazout</a></li>
-                                        <li><a href="tour-details.html"><i class="fa-duotone fa-location-dot p-7"></i> Tamraght</a></li>
+                                        <li><a href="{{ route('taghazout', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Taghazout</a></li>
+                                        <li><a href="{{ route('tamraght', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Tamraght</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children"><a href="#"><i class=" fa-light fa-hand-holding-heart"></i> @lang('index.menu.package')</a>
@@ -124,7 +125,7 @@
                                         <li><a href="team.html"><i class="fa-regular fa-spa p-7"></i> @lang('index.menu.packages.yoga')</a></li>
                                     </ul>
                                 </li>
-                                <li><a href=" {{ route('contact', ['lang' => $lang]) }}"><i class="fa-regular fa-messages"></i> @lang('index.menu.contact')</a></li>
+                                <li><a href="{{ route('contact', ['lang' => $lang]) }}"><i class="fa-regular fa-messages"></i> @lang('index.menu.contact')</a></li>
                             </ul>
                         </nav><button type="button" class="ot-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button></div>
                     <div class="col-auto d-none d-xl-block">

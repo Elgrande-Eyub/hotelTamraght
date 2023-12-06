@@ -18,11 +18,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/{lang?}', function () {
     return view('index');
-});
-
+})->name('index');
 
 Route::get('/{lang?}/contact', function () {
     return view('contact');
 })->name('contact');
 
+Route::get('/{lang?}/about', function () {
+    return view('about');
+})->name('about');
 
+Route::get('/{lang?}/tamraght', function () {
+    return view('accommodations.tamraght');
+})->name('tamraght');
+
+Route::get('/{lang?}/taghazout', function () {
+    return view('accommodations.taghazout');
+})->name('taghazout');

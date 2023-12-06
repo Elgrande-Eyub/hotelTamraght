@@ -9238,7 +9238,8 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
     width: 80px;
     height: 80px;
     line-height: 80px;
-    background-color: rgba(60, 179, 113, 0.1);
+    /* background-color: rgba(60, 179, 113, 0.1); */
+    background-color: #0153920e;
     border-radius: 99px;
     text-align: center;
     margin: 0 auto 25px auto;
