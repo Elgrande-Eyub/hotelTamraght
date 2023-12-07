@@ -23,25 +23,12 @@
     <section class="space-top space-extra-bottom">
         <div class="container">
             <div class="destination-details">
-                <h2 class="h3 destination-title"><i class="fas fa-location-dot"></i>Taghazout: Surfers' Paradise with a Bohemian Soul</h2>
 
-               {{--  <div class="col-12 d-flex text-justify" style="gap: 2rem ;margin-bottom:2rem">
-                    <div class="col-3">
-                           <img class="radius-10 " src="{{ asset('assets/img/normal/about_1_1.png') }}" alt="About">
-                        </div>
-                    <div class="col-9">
-                        <p class="mb-4">
-
-                            Venture a bit farther north, and you'll find Taghazout, a world-renowned surfers' paradise with a bohemian soul. Picture-perfect waves roll onto golden beaches, creating a haven for surfers seeking the ultimate ride. But Taghazout is more than just a surf spot; it's a cultural mosaic where tradition and modernity dance in harmony.
-                        </p>
-                        <p class="mb-4">
-                            Explore the winding streets adorned with vibrant street art, where the aroma of freshly prepared tagines mingles with the salty sea breeze. Our apartments, perched overlooking the ocean, provide a front-row seat to the beauty of Taghazout. Each corner of this town tells a story—whether you're savoring local cuisine in a beachside café or strolling through the bustling souks.
-                        </p>
-                        <p class="mb-4">
-                            The spirit of adventure extends beyond the surf, as Taghazout offers a gateway to the rugged landscapes and authentic experiences that define Morocco. Embark on a journey to nearby attractions, join yoga sessions overlooking the sea, and let the rhythmic beats of live music carry you into the night.
-                        </p>
-                    </div>
-                </div> --}}
+            <section>
+                <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Surfers' Paradise with a Bohemian Soul <span class="shape right"><span class="dots"></span></span>
+                </span>
+                <h2 class="sec-title">Taghazout: Surfers' Paradise with a Bohemian Soul</h2>
+                </div>
 
                 <div class=" text-justify">
                     <p class="mb-4">
@@ -56,30 +43,56 @@
                     </p>
                 </div>
 
-                <div class="mt-4 mb-4">
-                        <div class="row gy-30 masonary-active">
-                            <div class="col-md-6 col-xxl-auto filter-item">
-                                <div class="gallery-card">
-                                    <div class="gallery-img"><img style="width:420ppx; height:320px" src="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+
+            </section>
+
+                <section style="margin-top: 5rem">
+                    <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Gallery <span class="shape right"><span class="dots"></span></span>
+                    </span>
+                    <h2 class="sec-title">Taghazout Accommodations</h2>
+                    </div>
+                    <div class="mt-4 mb-4">
+                            <div class="row gy-30 masonary-active">
+                                <div class="col-md-6 col-xxl-auto filter-item">
+                                    <div class="gallery-card">
+                                        <div class="gallery-img"><img style="width:420ppx; height:320px"   src="{{ asset('assets/img/gallery/taghazout_1_6.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-auto filter-item">
+                                    <div class="gallery-card">
+                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/taghazout_1_2.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-auto filter-item">
+                                    <div class="gallery-card">
+                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/taghazout_1_3.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-auto filter-item">
+                                    <div class="gallery-card">
+                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/taghazout_1_4.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_4.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-auto filter-item">
+                                    <div class="gallery-card">
+                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/taghazout_1_5.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_5.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xxl-auto filter-item">
+                                    <div class="gallery-card">
+                                        <div class="gallery-img"><img style="width:420ppx; height:320px" src="{{ asset('assets/img/gallery/taghazout_1_1.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_6.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xxl-auto filter-item">
-                                <div class="gallery-card">
-                                    <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xxl-auto filter-item">
-                                <div class="gallery-card">
-                                    <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
-                                </div>
-                            </div>
 
-                        </div>
+                    </div>
+                </section>
 
-                </div>
-
-               <h2 class="h3 destination-title mt-4"><i class="fa-solid fa-house-building"></i>Taghazout Apartments: Your Home by the Sea</h2>
-
+                <section style="margin-top: 5rem">
+               <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Accommodations <span class="shape right"><span class="dots"></span></span>
+               </span>
+               <h2 class="sec-title">Taghazout Apartments: Your Home by the Sea</h2>
+               </div>
                 <div class="text-justify">
                <p class="mb-4 text-justify">In Taghazout, Agadir, our apartments offer a different kind of charm. Overlooking the mesmerizing coastline, each apartment is a cozy haven where you can unwind after a day of exploration. Whether you're a solo traveler, a couple, or a group of friends, our apartments provide the comfort and privacy you need.</p>
                <p class="mb-4">But it's not just about the space; it's about the experience. Taghazout, known for its laid-back atmosphere and world-class surf, becomes your playground. Start your day with the sunrise over the Atlantic, and end it with the warm glow of the sunset. Our apartments are not just a place to sleep; they're your home by the sea.</p>
@@ -117,8 +130,13 @@
                     </div>
 
             </div>
+            </section>
+            <section style="margin-top: 5rem">
+            <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Accommodations <span class="shape right"><span class="dots"></span></span>
+            </span>
+            <h2 class="sec-title">Taghazout Riad: Where Tradition Meets Tranquility</h2>
+            </div>
 
-            <h3 class="h4 mb-20">Taghazout Riad: Where Tradition Meets Tranquility</h3>
             <div class="text-justify">
             <p class="mb-4">
                 Step into a world where traditional Moroccan architecture meets modern comfort. Our Riad is a tranquil oasis in the midst of Taghazout's vibrant energy. Immerse yourself in the soothing ambiance of the inner courtyard, adorned with intricate tilework and lush greenery. The Riad offers a blend of privacy and communal spaces, providing a perfect balance for those seeking a unique and serene experience.
@@ -149,6 +167,7 @@
                     </div>
                 </div>
             </div>
+        </section>
         </div>
         </div>
     </section>

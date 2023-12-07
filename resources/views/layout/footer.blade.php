@@ -18,7 +18,7 @@
                             <p class="about-text text-justify">
                                 Embrace the coastal charm at Salty Waves Retreat in Tamraght. Where every stay is a dance with salty waves and each sunrise brings the promise of a new adventure.
                             </p>
-                            <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>                                    <a href="https://www.instagram.com/salty_waves_taghazout"><i class="fab fa-instagram"></i></a> <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></div>
+                            <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/salty_waves_taghazout"><i class="fab fa-instagram"></i></a> <a href="https://api.whatsapp.com/send?phone=212675111894"><i class="fab fa-whatsapp"></i></a></div>
                         </div>
                     </div>
                 </div>
