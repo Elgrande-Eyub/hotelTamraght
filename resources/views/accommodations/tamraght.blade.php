@@ -1,102 +1,92 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Travon - Tour and Hotel Booking HTML Template - Destination</title>
-   @include('layout.head')
+    <title>SALTY WAVES - Tamraght</title>
+    @include('layout.head')
 </head>
 
 <body>
-    @include('layout.header')
+  @include('layout.header')
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Destination</h1>
+                <h1 class="breadcumb-title">Tamraght</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="index.html">Home</a></li>
-                    <li>Destination</li>
+                    <li>Tamraght</li>
                 </ul>
             </div>
         </div>
     </div>
     <section class="space-top space-extra-bottom">
         <div class="container">
-            <div class="dest-sort-bar">
-                <div class="row gy-3 align-items-center justify-content-between">
-                    <div class="col-sm-auto">
-                        <p class="result">Showing 8 out of 24 destination</p>
-                    </div>
-                    <div class="col-sm-auto">
-                        <form class="tour-ordering" method="get"><select name="orderby" class="orderby form-select nice-select" aria-label="Tour order"><option value="menu_order" disabled="disabled" selected="selected">Default Sorting</option><option value="popularity">Sort by popularity</option><option value="rating">Sort by average rating</option><option value="date">Sort by latest</option><option value="price">Sort by price: low to high</option><option value="price-desc">Sort by price: high to low</option></select></form>
-                    </div>
+            <div class="destination-details">
+                <h2 class="h3 destination-title"><i class="fas fa-location-dot"></i>Tamraght: A Haven for Surf Enthusiasts</h2>
+
+                <div class=" text-justify">
+                    <p class="mb-4">
+                        Tamraght, a laid-back haven with a bohemian spirit, beckons surf enthusiasts and free spirits alike. Feel the pulse of the ocean as you wander through its charming streets. Here, time slows down, inviting you to embrace the rhythm of the waves and the warmth of the local community.
+                     </p>
+                    <p class="mb-4">
+                        In Tamraght, surf is not just a sport; it's a way of life. Wake up to the sound of the Atlantic waves crashing against the shore, and let the salty breeze guide you to our Surf House—a vibrant hub where passion for surfing and the joy of community collide. From seasoned surfers catching the perfect wave to beginners finding their sea legs, Tamraght is a playground for all.
+                    </p>
+                    <p class="mb-4">
+                        As the sun sets, Tamraght transforms into a kaleidoscope of colors, casting its warm glow over the coastline. Engage with fellow travelers, share stories over a cup of Moroccan tea, and immerse yourself in the authentic charm that makes Tamraght a destination like no other.
+                    </p>
                 </div>
+
+                <div class="mt-4 mb-4">
+                        <div class="row gy-30 masonary-active">
+                            <div class="col-md-6 col-xxl-auto filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img style="width:420ppx; height:320px" src="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-auto filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-auto filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                </div>
+
+               <h2 class="h3 destination-title mt-4"><i class="fa-solid fa-house-building"></i>Tamraght Surf House Hostel : Ride the Waves, Live the Dream</h2>
+
+                <div class="text-justify">
+               <p class="mb-4 text-justify">Nestled in the vibrant community of Tamraght, our Surf House is more than just a place to stay; it's a haven for surfers and adventure seekers alike. Feel the energy of the ocean as you wake up to the sound of crashing waves. Our cozy rooms are designed to provide the perfect retreat after an exhilarating day on the waves.</p>
+               <p class="mb-4">But it's not just about the accommodation; it's about the lifestyle. Immerse yourself in the surfing culture with our expert instructors, whether you're a seasoned pro or a first-timer. Share stories and laughs with fellow travelers in our communal spaces, and let the passion for the surf bind you together.</p>
+               <p class="mb-4">As part of our commitment to creating unforgettable experiences, we organize trips to popular destinations around Tamraght. Explore the breathtaking landscapes, savor local cuisine, and make memories that will last a lifetime. Our Surf House is not just a place to stay; it's a hub for creating connections and fostering a love for the ocean.</p>
+                </div>
+
+                <div
+                    class="row mb-40 ot-carousel slider-shadow" data-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="tour-card">
+                            <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_1.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
+                            <div class="tour-card__content">
+                                <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Taghazout</a>
+                                    <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
+                                </div>
+                                <h3 class="tour-card__title"><a href="tour-details.html">Surf Appartement N4 (Salty Waves) Taghazout</a></h3>
+                                <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 5</span></div>
+                                <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+
             </div>
-            <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-35">
-                    <div class="trip-box">
-                        <div class="trip-box__img"><img src="{{ asset('assets/img/trip/dest_2_1.jpg') }}" alt="Trip image"></div>
-                        <div class="trip-box__content">
-                            <h2 class="trip-box__title box-title"><i class="fas fa-location-dot"></i> <a href="destination-details.html">Switzerland</a></h2><span class="trip-box__count">6+ Trips</span></div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-35">
-                    <div class="trip-box">
-                        <div class="trip-box__img"><img src="{{ asset('assets/img/trip/dest_2_2.jpg') }}" alt="Trip image"></div>
-                        <div class="trip-box__content">
-                            <h2 class="trip-box__title box-title"><i class="fas fa-location-dot"></i> <a href="destination-details.html">Barcelona</a></h2><span class="trip-box__count">8+ Trips</span></div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-35">
-                    <div class="trip-box">
-                        <div class="trip-box__img"><img src="{{ asset('assets/img/trip/dest_2_3.jpg') }}" alt="Trip image"></div>
-                        <div class="trip-box__content">
-                            <h2 class="trip-box__title box-title"><i class="fas fa-location-dot"></i> <a href="destination-details.html">Amsterdam</a></h2><span class="trip-box__count">6+ Trips</span></div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-35">
-                    <div class="trip-box">
-                        <div class="trip-box__img"><img src="{{ asset('assets/img/trip/dest_2_4.jpg') }}" alt="Trip image"></div>
-                        <div class="trip-box__content">
-                            <h2 class="trip-box__title box-title"><i class="fas fa-location-dot"></i> <a href="destination-details.html">Budapest City</a></h2><span class="trip-box__count">5+ Trips</span></div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-35">
-                    <div class="trip-box">
-                        <div class="trip-box__img"><img src="{{ asset('assets/img/trip/dest_2_5.jpg') }}" alt="Trip image"></div>
-                        <div class="trip-box__content">
-                            <h2 class="trip-box__title box-title"><i class="fas fa-location-dot"></i> <a href="destination-details.html">Maldives</a></h2><span class="trip-box__count">7+ Trips</span></div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-35">
-                    <div class="trip-box">
-                        <div class="trip-box__img"><img src="{{ asset('assets/img/trip/dest_2_6.jpg') }}" alt="Trip image"></div>
-                        <div class="trip-box__content">
-                            <h2 class="trip-box__title box-title"><i class="fas fa-location-dot"></i> <a href="destination-details.html">Indonesia</a></h2><span class="trip-box__count">6+ Trips</span></div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-35">
-                    <div class="trip-box">
-                        <div class="trip-box__img"><img src="{{ asset('assets/img/trip/dest_2_7.jpg') }}" alt="Trip image"></div>
-                        <div class="trip-box__content">
-                            <h2 class="trip-box__title box-title"><i class="fas fa-location-dot"></i> <a href="destination-details.html">Bangkok</a></h2><span class="trip-box__count">5+ Trips</span></div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-35">
-                    <div class="trip-box">
-                        <div class="trip-box__img"><img src="{{ asset('assets/img/trip/dest_2_8.jpg') }}" alt="Trip image"></div>
-                        <div class="trip-box__content">
-                            <h2 class="trip-box__title box-title"><i class="fas fa-location-dot"></i> <a href="destination-details.html">Nepal</a></h2><span class="trip-box__count">7+ Trips</span></div>
-                    </div>
-                </div>
-            </div>
-            <div class="ot-pagination mt-3 text-center">
-                <ul>
-                    <li><a href="blog.html">1</a></li>
-                    <li><a href="blog.html">2</a></li>
-                    <li><a href="blog.html">3</a></li>
-                    <li><a href="blog.html"><i class="far fa-arrow-right"></i></a></li>
-                </ul>
-            </div>
+
+
+        </div>
         </div>
     </section>
     <section class="" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
@@ -109,6 +99,7 @@
             </div>
         </div>
     </section>
+
     @include('layout.footer')
 </body>
 

@@ -42,15 +42,17 @@
                         <div class="ot-widget-contact">
                             <div class="info-box">
                                 <div class="info-box_icon"><i class="fas fa-location-dot"></i></div>
-                                <p class="info-box_text">5807 W 63rd St, Chicago, IL 60638, United States</p>
+                                <p class="info-box_text">Tamraght-Taghazout , Agadir , Morocco</p>
                             </div>
                             <div class="info-box">
                                 <div class="info-box_icon"><i class="fas fa-phone"></i></div>
-                                <p class="info-box_text"><a href="tel:+11234567890" class="info-box_link">+(1) 123 456 7890</a> <a href="tel:+10987654321" class="info-box_link">+(1) 098 765 4321</a></p>
+                                <p class="info-box_text">
+                                    <a href="tel:+4917624898825" class="info-box_link">+49 1762 489 8825</a>
+                                    <a href="tel:+212675111894" class="info-box_link">+212 6 75 11 18 94</a></p>
                             </div>
                             <div class="info-box">
                                 <div class="info-box_icon"><i class="fas fa-envelope"></i></div>
-                                <p class="info-box_text"><a href="mailto:info@SALTY WAVES.com" class="info-box_link">info@SALTY WAVES.com</a></p>
+                                <p class="info-box_text"><a href="mailto:info@saltywaves.com" class="info-box_link">info@saltywaves.com</a></p>
                             </div>
                         </div>
                     </div>

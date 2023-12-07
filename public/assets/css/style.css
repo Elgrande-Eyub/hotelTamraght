@@ -10671,7 +10671,7 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 
 .whats-float {
     position: fixed;
-    transform: translate(108px, 0px);
+    transform: translate(115px, 0px);
     top: 25%;
     right: 0;
     width: 160px;

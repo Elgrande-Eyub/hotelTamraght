@@ -54,7 +54,7 @@
                             </div>
                         </div>
                 </div>
-                <div >
+                <div class="">
 
                     <div class="customer-avater-wrap">
                         <div class="customer-avater-group">
@@ -107,7 +107,7 @@
             </div>
             <div class="col-xl-6 mt-40 mt-xl-0">
                 <div class="img-box2">
-                    <div class="img1"><img src="{{ asset('assets/img/normal/about_2_1.jpg') }}" alt="About"></div>
+                    <div class="img1"><img src="{{ asset('assets/img/normal/about_2_1.png') }}" alt="About"></div>
                     <div class="ot-video" data-overlay="title" data-opacity="2"><img src="{{ asset('assets/img/normal/about_2_2.jpg') }}" alt="Video"> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
                     <div class="shape1"><img src="{{ asset('assets/img/normal/about_shape_2.svg') }}" alt="shape"></div>
                 </div>
@@ -122,7 +122,7 @@
                     <div class="counter-card style2">
                         <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_1.svg') }}" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number text-white"><span class="counter-number">100,000</span>+</h2>
+                            <h2 class="counter-card_number text-white"><span class="counter-number">117,325</span>+</h2>
                             <p class="counter-card_text text-white">Our Explorers</p>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                     <div class="counter-card style2">
                         <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_2.svg') }}" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number text-white"><span class="counter-number">5,000</span>+</h2>
+                            <h2 class="counter-card_number text-white"><span class="counter-number">172</span>+</h2>
                             <p class="counter-card_text text-white">Destinations</p>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                     <div class="counter-card style2">
                         <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_3.svg') }}" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number text-white"><span class="counter-number">10,000</span>+</h2>
+                            <h2 class="counter-card_number text-white"><span class="counter-number">12,542</span>+</h2>
                             <p class="counter-card_text text-white">More Trips</p>
                         </div>
                     </div>
@@ -149,8 +149,8 @@
                     <div class="counter-card style2">
                         <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_4.svg') }}" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number text-white"><span class="counter-number">2,000</span>+</h2>
-                            <p class="counter-card_text text-white">Luxary Hotel</p>
+                            <h2 class="counter-card_number text-white"><span class="counter-number">12</span>+</h2>
+                            <p class="counter-card_text text-white">Accommodations</p>
                         </div>
                     </div>
                 </div>
@@ -166,7 +166,7 @@
             <div class="row gy-30 masonary-active">
                 <div class="col-md-6 col-xxl-auto filter-item">
                     <div class="gallery-card">
-                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                        <div class="gallery-img"><img style="width:420ppx; height:320px" src="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-xxl-auto filter-item">
@@ -215,50 +215,50 @@
             <div class="container">
                 <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Testimonials <span class="shape right"><span class="dots"></span></span>
                     </span>
-                    <h2 class="sec-title">What Customer Say About Us</h2>
+                    <h2 class="sec-title">What Customer Say About SALTY WAVES</h2>
                 </div>
                 <div class="row slider-shadow ot-carousel" id="testiSlide1" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1">
                     <div class="col-lg-6">
                         <div class="testi-card">
                             <div class="testi-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            <p class="testi-card__text">“Objectively deploy open-source web-readiness impactful bandwidth. Compellingly coordinate business deliverables rather equity invested technologies. Phosfluorescently reinvent.”</p>
+                            <p class="testi-card__text">“We stayed for 1 night before moving over to our surf camp but wish we had longer! The riad is so dreamy, peaceful yet located in the middle of Taghazout, seconds away from the beach and restaurants as well as all the surf schools etc. We arrived a little early, Ms Saadi was great in welcoming us and letting us leave bags until the place was ready for check in. Would definitely recommend !”</p>
                             <div class="testi-card__profile">
-                                <div class="testi-card__avater"><img src="{{ asset('assets/img/testimonial/testi_1_1.jpg') }}" alt="Avater"></div>
+                                <div class="testi-card__avater"><img src="{{ asset('assets/img/testimonial/testi_1_1.png') }}" alt="Avater"></div>
                                 <div class="media-body">
-                                    <h3 class="testi-card__name">Mary Cruzleen</h3><span class="testi-card__desig">CEO of Maithon</span></div>
+                                    <h3 class="testi-card__name">Jessie</h3><span class="testi-card__desig">Travler</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="testi-card">
                             <div class="testi-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            <p class="testi-card__text">“Objectively deploy open-source web-readiness impactful bandwidth. Compellingly coordinate business deliverables rather equity invested technologies. Phosfluorescently reinvent.”</p>
+                            <p class="testi-card__text">“This is the perfect spot if you’re coming to surf, enjoy the beach, or eat at the many wonderful restaurants in Taghazout. Everything is just a few steps away! We spent most of our days surfing with the great crew from Surf Berbere, just a one minute walk from the door of this riad. They shuttled us to wherever the waves were best each day, and provided lunch, surf equipment and instruction...”</p>
                             <div class="testi-card__profile">
-                                <div class="testi-card__avater"><img src="{{ asset('assets/img/testimonial/testi_1_2.jpg') }}" alt="Avater"></div>
+                                <div class="testi-card__avater"><img src="{{ asset('assets/img/testimonial/testi_1_2.png') }}" alt="Avater"></div>
                                 <div class="media-body">
-                                    <h3 class="testi-card__name">David Milton</h3><span class="testi-card__desig">CEO of Gazal</span></div>
+                                    <h3 class="testi-card__name">Marcia</h3><span class="testi-card__desig">Travler</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="testi-card">
                             <div class="testi-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            <p class="testi-card__text">“Objectively deploy open-source web-readiness impactful bandwidth. Compellingly coordinate business deliverables rather equity invested technologies. Phosfluorescently reinvent.”</p>
+                            <p class="testi-card__text">“We stayed in two for four days, the apartment is really clean and spacious, the view is beautiful, it has an internal access (to the condominium) direct to the beach in front, everything is very easily reached and even if we did not have the car we were able to reach, for example, Anchor point in a very short time! Really helpful and kind, the owner and Salima, as we arrived before check-in time...”</p>
                             <div class="testi-card__profile">
-                                <div class="testi-card__avater"><img src="{{ asset('assets/img/testimonial/testi_1_3.jpg') }}" alt="Avater"></div>
+                                <div class="testi-card__avater"><img src="{{ asset('assets/img/testimonial/testi_1_3.png') }}" alt="Avater"></div>
                                 <div class="media-body">
-                                    <h3 class="testi-card__name">Abraham Khalil</h3><span class="testi-card__desig">CEO Adivaha</span></div>
+                                    <h3 class="testi-card__name">Giada</h3><span class="testi-card__desig">Travler</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="testi-card">
                             <div class="testi-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            <p class="testi-card__text">“Objectively deploy open-source web-readiness impactful bandwidth. Compellingly coordinate business deliverables rather equity invested technologies. Phosfluorescently reinvent.”</p>
+                            <p class="testi-card__text">“Tayebi is a fantastic host. She personally welcomed us and gave us plenty of insight into the apartment. We didn’t have any issues for the duration of our stay so didn’t speak much more than that. The apartment itself is so homely, the outside area is outstanding. If you’re coming to Taghazout you really should stay here..”</p>
                             <div class="testi-card__profile">
-                                <div class="testi-card__avater"><img src="{{ asset('assets/img/testimonial/testi_1_4.jpg') }}" alt="Avater"></div>
+                                <div class="testi-card__avater"><img src="{{ asset('assets/img/testimonial/testi_1_4.png') }}" alt="Avater"></div>
                                 <div class="media-body">
-                                    <h3 class="testi-card__name">Pisoori Janu</h3><span class="testi-card__desig">CEO at Travon</span></div>
+                                    <h3 class="testi-card__name">Jordan</h3><span class="testi-card__desig">Travler</span></div>
                             </div>
                         </div>
                     </div>

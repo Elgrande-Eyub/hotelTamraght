@@ -8,7 +8,7 @@
 
 <body>
     @include('layout.header')
-    <div class="ot-hero-wrapper hero-1">
+    {{-- <div class="ot-hero-wrapper hero-1">
         <div class="hero-slider ot-carousel" data-fade="true">
             <div class="ot-hero-slide">
                 <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_bg_1_5.jpg') }}"></div>
@@ -41,7 +41,27 @@
                 </div>
             </div>
         </div>
+    </div> --}}
+    <div class="ot-hero-wrapper hero-2">
+        <div class="ot-hero-slide">
+            <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_bg_2_2.jpg') }}"></div>
+            <div class="container z-index-common">
+                <div class="hero-style2"><span class="sub-title hero-subtitle">Enjoy Every Good Moment <span class="shape right"><span class="dots"></span></span>
+                    </span>
+                    <h1 class="hero-title">Tamraght or Taghazout ?</h1>
+                    <h1 class="hero-title">Doesn't Matter</h1>
+                    <p class="hero-text">Experience the best accommodation in Tamraght and Taghazout with us. where comfort meets perfection.</p>
+                    <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Salty Waves ? Check this out</a> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video-link popup-video"><span class="play-btn style3"><i class="fas fa-play"></i></span> Feel The Mood </a></div>
+                </div>
+            </div>
+        </div>
+        <div class="tree-1"><img src="{{ asset('assets/img/hero/tree_1.svg') }}" alt="tree"></div>
+        <div class="tree-2"><img src="{{ asset('assets/img/hero/tree_2.svg') }}" alt="tree"></div>
+        <div class="cloud-1"><img src="{{ asset('assets/img/hero/cloud_1.png') }}" alt="cloud"></div>
+        <div class="cloud-2"><img src="{{ asset('assets/img/hero/cloud_2.png') }}" alt="cloud"></div>
+        <div class="cloud-3"><img src="{{ asset('assets/img/hero/cloud_3.png') }}" alt="cloud"></div>
     </div>
+
     <div class="search-sec">
         <div class="container">
             <div class="search-box">
