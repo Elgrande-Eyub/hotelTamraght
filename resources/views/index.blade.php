@@ -11,7 +11,7 @@
     <div class="ot-hero-wrapper hero-1">
         <div class="hero-slider ot-carousel" data-fade="true">
             <div class="ot-hero-slide">
-                <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/tamraght.webp') }}"></div>
+                <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_bg_1_5.jpg') }}"></div>
                 <div class="container z-index-common">
                     <div class="hero-style1"><span class="sub-title hero-subtitle" data-ani="slideinup" data-ani-delay="0.1s">Relax & Enjoy <span class="shape right"><span class="dots"></span></span>
                         </span>
@@ -49,7 +49,7 @@
                     <div class="form-group"><select name="destination" id="destinationSelect" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Destination</option><option value="Switzerland">Switzerland</option><option value="Barcelona">Barcelona</option><option value="Amsterdam">Amsterdam</option><option value="Budapest City">Budapest City</option></select>                        <i class="fas fa-location-dot"></i></div>
                     <div class="form-group"><select name="destination" id="tourType" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Activities</option><option value="Travel">Travel</option><option value="Hiking">Hiking</option><option value="Air Ballon">Air Ballon</option><option value="Peak Climbing">Peak Climbing</option></select>                        <i class="fas fa-person-hiking"></i></div>
                     <div class="form-group"><select name="destination" id="durationselect" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Duration</option><option value="0 - 3 Days">0 - 3 Days</option><option value="0 - 7 Days">0 - 7 Days</option><option value="3 - 8 Days">3 - 8 Days</option><option value="7 - 12 Days">7 - 12 Days</option></select>                        <i class="fas fa-calendar-days"></i></div>
-                    <div class="form-group"><select name="destination" id="budgetSelect" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Budget</option><option value="100$ - 300$">100$ - 300$</option><option value="300$ - 700$">300$ - 700$</option><option value="700 - 1000$">700 - 1000$</option><option value="1000$ - 1500$">1000$ - 1500$</option></select>                        <i class="far fa-circle-dollar"></i></div>
+                    <div class="form-group"><select name="destination" id="budgetSelect" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Budget</option><option value="100€ - 300€">100€ - 300€</option><option value="300€ - 700€">300€ - 700€</option><option value="700 - 1000€">700 - 1000€</option><option value="1000€ - 1500€">1000€ - 1500€</option></select>                        <i class="far fa-circle-dollar"></i></div>
                     <div class="form-btn"><button class="ot-btn">Search</button></div>
                     <p class="form-messages mb-0 mt-3"></p>
                 </form>
@@ -63,7 +63,7 @@
                     <div class="img-box1">
                         <div class="img1"><img src="{{ asset('assets/img/normal/about_1_1.png') }}" alt="About"></div>
                         <div class="img2"><img src="{{ asset('assets/img/normal/about_1_2.png') }}" alt="About"></div>
-                        <div class="shape1"><img src="{{ asset('assets/img/normal/about_shape_1.svg') }}" alt="shape"></div>
+                        <div class="shape1"><img src="{{ asset('assets/img/normal/about_shape_1.png') }}" alt="shape"></div>
                     </div>
                 </div>
                 <div class="col-xl-6 pe-xl-4">
@@ -110,7 +110,7 @@
                     <div class="counter-card">
                         <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_1.svg') }}" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">100,000</span>+</h2>
+                            <h2 class="counter-card_number"><span class="counter-number">117,325</span>+</h2>
                             <p class="counter-card_text">Our Explorers</p>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                     <div class="counter-card">
                         <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_2.svg') }}" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">100</span>+</h2>
+                            <h2 class="counter-card_number"><span class="counter-number">172</span>+</h2>
                             <p class="counter-card_text">Destinations</p>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                     <div class="counter-card">
                         <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_3.svg') }}" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">10,000</span>+</h2>
+                            <h2 class="counter-card_number"><span class="counter-number">12,542</span>+</h2>
                             <p class="counter-card_text">More Trips</p>
                         </div>
                     </div>
@@ -137,8 +137,8 @@
                     <div class="counter-card">
                         <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_4.svg') }}" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">2,000</span>+</h2>
-                            <p class="counter-card_text">Luxary Hotel</p>
+                            <h2 class="counter-card_number"><span class="counter-number">12</span>+</h2>
+                            <p class="counter-card_text">Accommodations</p>
                         </div>
                     </div>
                 </div>
@@ -293,47 +293,47 @@
     </section>
     <section class="space bg-repeat bg-smoke" id="tour-sec" data-bg-src="{{ asset('assets/img/bg/pattern_bg_1.png') }}">
         <div class="container">
-            <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Featured Tour <span class="shape right"><span class="dots"></span></span>
+            <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Featured Accommodations <span class="shape right"><span class="dots"></span></span>
                 </span>
-                <h2 class="sec-title">Most Popular Tours</h2>
+                <h2 class="sec-title">Our Accommodations</h2>
             </div>
             <div class="row gy-30">
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="tour-card">
-                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_1_1.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
+                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_4.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
                         <div class="tour-card__content">
-                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Madrid, Spain</a>
+                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Taghazout</a>
                                 <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
                             </div>
-                            <h3 class="tour-card__title"><a href="tour-details.html">Brooklyn Beach Resort Tour</a></h3>
-                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 10 Days</span> <span><i class="fa-light fa-user-group"></i> 50+</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                            <h3 class="tour-card__title"><a href="tour-details.html">Surf Riad (Salty Waves) Taghazout</a></h3>
+                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 12</span></div>
+                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="tour-card">
-                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_1_2.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
+                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_2.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
                         <div class="tour-card__content">
-                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Chumphon, Thailand</a>
+                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Taghazout</a>
                                 <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
                             </div>
-                            <h3 class="tour-card__title"><a href="tour-details.html">Pak Chumphon Town Tour</a></h3>
-                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 12 Days</span> <span><i class="fa-light fa-user-group"></i> 70+</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$450</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                            <h3 class="tour-card__title"><a href="tour-details.html">Surf Appartement N6 (Salty Waves) Taghazout</a></h3>
+                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 5 </span></div>
+                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€450</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <div class="tour-card">
-                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_1_3.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
+                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_1.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
                         <div class="tour-card__content">
-                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Lasvegus, USA</a>
+                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Taghazout</a>
                                 <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
                             </div>
-                            <h3 class="tour-card__title"><a href="tour-details.html">Bali One Life Adventure</a></h3>
-                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 07 Days</span> <span><i class="fa-light fa-user-group"></i> 52+</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$350</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                            <h3 class="tour-card__title"><a href="tour-details.html">Surf Appartement N4 (Salty Waves) Taghazout</a></h3>
+                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 5</span></div>
+                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -346,7 +346,7 @@
                             </div>
                             <h3 class="tour-card__title"><a href="tour-details.html">Places To Travel November</a></h3>
                             <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 13 Days</span> <span><i class="fa-light fa-user-group"></i> 100+</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$550</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€550</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -359,7 +359,7 @@
                             </div>
                             <h3 class="tour-card__title"><a href="tour-details.html">Brooklyn Christmas Lights</a></h3>
                             <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 15 Days</span> <span><i class="fa-light fa-user-group"></i> 312+</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$600</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€600</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -372,7 +372,7 @@
                             </div>
                             <h3 class="tour-card__title"><a href="tour-details.html">Discovery Island Kayaking</a></h3>
                             <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 18 Days</span> <span><i class="fa-light fa-user-group"></i> 500+</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -385,7 +385,7 @@
                             </div>
                             <h3 class="tour-card__title"><a href="tour-details.html">Los Glaciares & Fitz Trip</a></h3>
                             <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 20 Days</span> <span><i class="fa-light fa-user-group"></i> 50+</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -398,7 +398,7 @@
                             </div>
                             <h3 class="tour-card__title"><a href="tour-details.html">Kupland Christmas Tour</a></h3>
                             <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 06 Days</span> <span><i class="fa-light fa-user-group"></i> 60+</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$550</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€550</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -428,7 +428,7 @@
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Maldivs Beach</a></h3><span class="tour-offer__subtitle">Exploring Maldivs</span></div><span class="tour-offer__price"><span class="price">$250</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Maldivs Beach</a></h3><span class="tour-offer__subtitle">Exploring Maldivs</span></div><span class="tour-offer__price"><span class="price">€250</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>
@@ -440,7 +440,7 @@
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Seychelles</a></h3><span class="tour-offer__subtitle">Enjoy Seychelles</span></div><span class="tour-offer__price"><span class="price">$150</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Seychelles</a></h3><span class="tour-offer__subtitle">Enjoy Seychelles</span></div><span class="tour-offer__price"><span class="price">€150</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>
@@ -452,7 +452,7 @@
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Adventure Mountain</a></h3><span class="tour-offer__subtitle">Mountain Iceland</span></div><span class="tour-offer__price"><span class="price">$250</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Adventure Mountain</a></h3><span class="tour-offer__subtitle">Mountain Iceland</span></div><span class="tour-offer__price"><span class="price">€250</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>
@@ -464,7 +464,7 @@
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Adventures</a></h3><span class="tour-offer__subtitle">Explore Adventures</span></div><span class="tour-offer__price"><span class="price">$350</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Adventures</a></h3><span class="tour-offer__subtitle">Explore Adventures</span></div><span class="tour-offer__price"><span class="price">€350</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>
@@ -476,7 +476,7 @@
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Night City</a></h3><span class="tour-offer__subtitle">City Night Beauty</span></div><span class="tour-offer__price"><span class="price">$200</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Night City</a></h3><span class="tour-offer__subtitle">City Night Beauty</span></div><span class="tour-offer__price"><span class="price">€200</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>

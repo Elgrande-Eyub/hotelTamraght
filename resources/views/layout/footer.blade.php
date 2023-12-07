@@ -1,7 +1,7 @@
 <div class="whats-float d-none d-xl-inline-block">
-    <a href=""
+    <a href="https://api.whatsapp.com/send?phone=212675111894"
        target="_blank">
-       <i class="fa-brands fa-whatsapp"></i><span>WhatsApp<br><small>+90 12 123456</small></span>
+       <i class="fa-brands fa-whatsapp"></i><span>WhatsApp<br><small>+212 675111894</small></span>
     </a>
 </div>
 
@@ -15,7 +15,9 @@
                             <div class="about-logo">
                                 <a href="index.html"><img src="{{ asset('assets/img/logo/salty-waves-white.png') }}" alt="SALTY WAVES"></a>
                             </div>
-                            <p class="about-text">Globally communicate adaptive e-markets & timely manufactured product. Objectively exploit collaborative relationships vis-a-vis competitive manufactured.</p>
+                            <p class="about-text text-justify">
+                                Embrace the coastal charm at Salty Waves Retreat in Tamraght. Where every stay is a dance with salty waves and each sunrise brings the promise of a new adventure.
+                            </p>
                             <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>                                    <a href="https://www.instagram.com/salty_waves_taghazout"><i class="fab fa-instagram"></i></a> <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></div>
                         </div>
                     </div>

@@ -23,107 +23,128 @@
     <section class="space-top space-extra-bottom">
         <div class="container">
             <div class="destination-details">
-                <h2 class="h3 destination-title"><i class="fas fa-location-dot"></i>TAGHAZOUT</h2>
-                <p class="mb-4">Dynamically leverage other's excellent collaboration and idea-sharing via multimedia based applications. Appropriately incentivize go forward leadership skills rather than business processes. Globally synthesize focused innovation vis-à-vis
-                    resource sucking technology. Monotonically recapitalize client-centered markets rather than excellent paradigms. Objectively orchestrate multifunctional. Efficiently implement accurate e-services after superior imperatives.</p>
-                <p class="mb-40">Collaboratively architect one-to-one niche markets vis-à-vis alternative niche market. Completely engineer alternative mindshare vis-à-vis strategic total linkage. Efficiently formulate worldwide schemas without interdependent metric.
-                    Dramatically morph compelling growth strategies whereas standardized processes. Credibly embrace extensive core competencies after reliable channel. Conveniently parallel task strategic sources for team driven leadership skills. Distinctively
-                    build cross-media potentialities via unique technology. Energetically reintermediation. Monotonically monetize reliable networks vis-à-vis extensive mindshare. Monotonically restore standards compliant e-tailers before equity invested
-                    e-business. Assertively mecarbinate interdependent infrastructures whereas cooperative e-services. Proactively restore emerging.</p>
-                <h3 class="h4 mb-20">Hiking</h3>
-                <p class="mb-4">Seamlessly streamline world-class paradigms and 2.0 materials. Completely network excellent bandwidth without extensive convergence. Continually facilitate user-centric portals whereas highly efficient core competencies. Synergistically
-                    grow enterprise result for principle-centered niche market. Monotonically parallel task cross-media data for economically sound partnerships. Objectively pontificate equity invested partnerships through multimedia based relationships.
-                    Proactively visualize resource maximizing leadership skills and fully tested solutions. Dramatically simplify focused results via innovative action items. Seamlessly incubate just in time e-markets after revolutionary ideas. Completely
-                    parallel task dynamic total linkage after e-business niche markets.</p>
-                <p class="mb-4">Compellingly maintain client-focused technology for functionalized innovation. Competently maximize interactive interfaces via intermediated action items. Conveniently utilize extensible functionalities before high-payoff initiatives.
-                    Rapaciously transition efficient markets vis-à-vis adaptive leadership. Globally disintermediate synergistic networks through web-enabled results. Globally harness cross-platform content via economically sound partnerships. Proactively.</p>
+                <h2 class="h3 destination-title"><i class="fas fa-location-dot"></i>Taghazout: Surfers' Paradise with a Bohemian Soul</h2>
+
+               {{--  <div class="col-12 d-flex text-justify" style="gap: 2rem ;margin-bottom:2rem">
+                    <div class="col-3">
+                           <img class="radius-10 " src="{{ asset('assets/img/normal/about_1_1.png') }}" alt="About">
+                        </div>
+                    <div class="col-9">
+                        <p class="mb-4">
+
+                            Venture a bit farther north, and you'll find Taghazout, a world-renowned surfers' paradise with a bohemian soul. Picture-perfect waves roll onto golden beaches, creating a haven for surfers seeking the ultimate ride. But Taghazout is more than just a surf spot; it's a cultural mosaic where tradition and modernity dance in harmony.
+                        </p>
+                        <p class="mb-4">
+                            Explore the winding streets adorned with vibrant street art, where the aroma of freshly prepared tagines mingles with the salty sea breeze. Our apartments, perched overlooking the ocean, provide a front-row seat to the beauty of Taghazout. Each corner of this town tells a story—whether you're savoring local cuisine in a beachside café or strolling through the bustling souks.
+                        </p>
+                        <p class="mb-4">
+                            The spirit of adventure extends beyond the surf, as Taghazout offers a gateway to the rugged landscapes and authentic experiences that define Morocco. Embark on a journey to nearby attractions, join yoga sessions overlooking the sea, and let the rhythmic beats of live music carry you into the night.
+                        </p>
+                    </div>
+                </div> --}}
+
+                <div class=" text-justify">
+                    <p class="mb-4">
+
+                        Venture a bit farther north, and you'll find Taghazout, a world-renowned surfers' paradise with a bohemian soul. Picture-perfect waves roll onto golden beaches, creating a haven for surfers seeking the ultimate ride. But Taghazout is more than just a surf spot; it's a cultural mosaic where tradition and modernity dance in harmony.
+                    </p>
+                    <p class="mb-4">
+                        Explore the winding streets adorned with vibrant street art, where the aroma of freshly prepared tagines mingles with the salty sea breeze. Our apartments, perched overlooking the ocean, provide a front-row seat to the beauty of Taghazout. Each corner of this town tells a story—whether you're savoring local cuisine in a beachside café or strolling through the bustling souks.
+                    </p>
+                    <p class="mb-4">
+                        The spirit of adventure extends beyond the surf, as Taghazout offers a gateway to the rugged landscapes and authentic experiences that define Morocco. Embark on a journey to nearby attractions, join yoga sessions overlooking the sea, and let the rhythmic beats of live music carry you into the night.
+                    </p>
+                </div>
+
+                <div class="mt-4 mb-4">
+                        <div class="row gy-30 masonary-active">
+                            <div class="col-md-6 col-xxl-auto filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img style="width:420ppx; height:320px" src="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-auto filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-auto filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                </div>
+
+               <h2 class="h3 destination-title mt-4"><i class="fa-solid fa-house-building"></i>Taghazout Apartments: Your Home by the Sea</h2>
+
+                <div class="text-justify">
+               <p class="mb-4 text-justify">In Taghazout, Agadir, our apartments offer a different kind of charm. Overlooking the mesmerizing coastline, each apartment is a cozy haven where you can unwind after a day of exploration. Whether you're a solo traveler, a couple, or a group of friends, our apartments provide the comfort and privacy you need.</p>
+               <p class="mb-4">But it's not just about the space; it's about the experience. Taghazout, known for its laid-back atmosphere and world-class surf, becomes your playground. Start your day with the sunrise over the Atlantic, and end it with the warm glow of the sunset. Our apartments are not just a place to sleep; they're your home by the sea.</p>
+               <p class="mb-4">Beyond the waves, we offer a plethora of activities to enhance your stay. From yoga sessions on the terrace to cultural excursions and beach bonfires, we're here to make your time in Taghazout as vibrant and diverse as the town itself.</p>
+               <p class="mb-4">Join us on this journey where passion meets accommodation, and where every day is a new chapter in the story of your adventure. Your surf and stay experience awaits!</p>
+                </div>
+
                 <div
                     class="row mb-40 ot-carousel slider-shadow" data-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="tour-card">
                             <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_1.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
                             <div class="tour-card__content">
-                                <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Paris</a>
+                                <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Taghazout</a>
                                     <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
                                 </div>
-                                <h3 class="tour-card__title"><a href="tour-details.html">Brooklyn Beach Resort Tour</a></h3>
-                                <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 10 Days</span> <span><i class="fa-light fa-user-group"></i> 50+</span></div>
-                                <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                                <h3 class="tour-card__title"><a href="tour-details.html">Surf Appartement N4 (Salty Waves) Taghazout</a></h3>
+                                <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 5</span></div>
+                                <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-12 col-md-6">
                         <div class="tour-card">
                             <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_2.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
                             <div class="tour-card__content">
-                                <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Paris</a>
+                                <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Taghazout</a>
                                     <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
                                 </div>
-                                <h3 class="tour-card__title"><a href="tour-details.html">Pak Chumphon Town Tour</a></h3>
-                                <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 12 Days</span> <span><i class="fa-light fa-user-group"></i> 70+</span></div>
-                                <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$450</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                                <h3 class="tour-card__title"><a href="tour-details.html">Surf Appartement N6 (Salty Waves) Taghazout</a></h3>
+                                <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 5 </span></div>
+                                <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€450</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="tour-card">
-                            <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_3.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
-                            <div class="tour-card__content">
-                                <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Paris</a>
-                                    <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                                </div>
-                                <h3 class="tour-card__title"><a href="tour-details.html">Bali One Life Adventure</a></h3>
-                                <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 07 Days</span> <span><i class="fa-light fa-user-group"></i> 52+</span></div>
-                                <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$350</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
+
             </div>
-            <h3 class="h4 mb-20">Hot Air Ballon</h3>
-            <p class="mb-4">Phosphorescently grow cross-unit total linkage and timely partnerships. Efficiently fabricate standardized manufactured products for an expanded array of users. Completely productivity world-class communities before backend core competencies.
-                Holistically engineer maintainable leadership rather than intermediated innovation. Proactively fabricate emerging meta-services whereas best-of-breed outsourcing. Interactively integrate premier outsourcing without backend infomediaries.
-                Conveniently leverage existing process-centric human capital via corporate ideas. Quickly maintain exceptional infomediaries via low-risk high-yield potentialities. Rapaciously administrate stand-alone testing procedures for pandemic human
-                capital. Competently evolve ethical expertise with world-class platforms.</p>
-            <p class="mb-4">Objectively restore mission-critical niche and leveraged collaboration and idea-sharing. Phosphorescently procrastinate principle-centered scenario and tactical synergy. Appropriately plagiarize open-source manufactured product and customer
-                directed opportunity. Continually transform integrated content rather than unique web-readiness. Intrinsically pontificate enterprise-wide services for optimal results.</p>
+
+            <h3 class="h4 mb-20">Taghazout Riad: Where Tradition Meets Tranquility</h3>
+            <div class="text-justify">
+            <p class="mb-4">
+                Step into a world where traditional Moroccan architecture meets modern comfort. Our Riad is a tranquil oasis in the midst of Taghazout's vibrant energy. Immerse yourself in the soothing ambiance of the inner courtyard, adorned with intricate tilework and lush greenery. The Riad offers a blend of privacy and communal spaces, providing a perfect balance for those seeking a unique and serene experience.
+            </p>
+            <p class="mb-4">
+                Your room in the Riad is more than just a place to sleep; it's a retreat within a retreat. The cozy and elegantly decorated rooms provide a haven of relaxation, ensuring you're well-rested for the adventures that await just beyond the Riad's doorstep.
+            </p>
+            <p class="mb-4">
+                As the sun rises over the Atlantic, enjoy a leisurely breakfast on the Riad's rooftop terrace, where panoramic views of the ocean and the town unfold. The Riad is not just a place to stay; it's an invitation to savor the authentic flavors of Taghazout and the warm hospitality of Morocco.
+            </p>
+            <p class="mb-4">
+                Our commitment to providing a holistic experience extends beyond the Riad's walls. Join us for surf lessons that cater to all skill levels, explore the vibrant souks of Taghazout, or embark on a journey to nearby attractions. The Riad is your starting point for a multifaceted adventure.
+            </p>
+        </div>
             <div class="row mb-30 ot-carousel slider-shadow" data-slide-show="3"
                 data-md-slide-show="2" data-sm-slide-show="1">
                 <div class="col-lg-4 col-md-6">
                     <div class="tour-card">
                         <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_4.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
                         <div class="tour-card__content">
-                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Paris</a>
+                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Taghazout</a>
                                 <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
                             </div>
-                            <h3 class="tour-card__title"><a href="tour-details.html">Brooklyn Beach Resort Tour</a></h3>
-                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 10 Days</span> <span><i class="fa-light fa-user-group"></i> 50+</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="tour-card">
-                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_5.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
-                        <div class="tour-card__content">
-                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Paris</a>
-                                <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            </div>
-                            <h3 class="tour-card__title"><a href="tour-details.html">Pak Chumphon Town Tour</a></h3>
-                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 12 Days</span> <span><i class="fa-light fa-user-group"></i> 70+</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$450</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="tour-card">
-                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_6.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
-                        <div class="tour-card__content">
-                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Paris</a>
-                                <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            </div>
-                            <h3 class="tour-card__title"><a href="tour-details.html">Bali One Life Adventure</a></h3>
-                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 07 Days</span> <span><i class="fa-light fa-user-group"></i> 52+</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">$350</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+                            <h3 class="tour-card__title"><a href="tour-details.html">Surf Riad (Salty Waves) Taghazout</a></h3>
+                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 12</span></div>
+                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
                         </div>
                     </div>
                 </div>

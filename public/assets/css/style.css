@@ -110,6 +110,14 @@ th {
     padding: 9px 12px
 }
 
+.text-justify {
+    text-align: justify;
+}
+
+.radius-10 {
+    border-radius: 10px;
+}
+
 a {
     color: var(--theme-color);
     text-decoration: none;
@@ -10666,7 +10674,7 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
     transform: translate(108px, 0px);
     top: 25%;
     right: 0;
-    width: 150px;
+    width: 160px;
     overflow: hidden;
     background-color: #25d366;
     color: #FFF;
