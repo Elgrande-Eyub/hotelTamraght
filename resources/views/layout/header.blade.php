@@ -54,7 +54,7 @@
                 <li class="menu-item-has-children"><a href="{{ route('about', ['lang' => $lang]) }}">@lang('index.menu.about')</a>
 
                 </li>
-                <li class="menu-item-has-children"><a href="#">@lang('index.menu.accommodations')</a>
+                <li class="menu-item-has-children"><a href="{{ route('accommodations', ['lang' => $lang]) }}">@lang('index.menu.accommodations')</a>
                     <ul class="sub-menu">
                         <li><a href="{{ route('tamraght', ['lang' => $lang]) }}">Tamraght</a></li>
                         <li><a href="{{ route('taghazout', ['lang' => $lang]) }}">Taghazout</a></li>
@@ -112,7 +112,7 @@
                                 <li><a href="{{ route('about', ['lang' => $lang]) }}"><i class="fa-regular  fa-circle-info"></i> @lang('index.menu.about')</a>
 
                                 </li>
-                         <li class="menu-item-has-children"><a href="#"><i class="fa-regular fa-hotel"></i> @lang('index.menu.accommodations')</a>
+                         <li class="menu-item-has-children"><a href="{{ route('accommodations', ['lang' => $lang]) }}"><i class="fa-regular fa-hotel"></i> @lang('index.menu.accommodations')</a>
                                     <ul class="sub-menu">
                                         <li><a href="{{ route('tamraght', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Tamraght</a></li>
                                         <li><a href="{{ route('taghazout', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Taghazout</a></li>

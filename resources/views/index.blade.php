@@ -319,59 +319,17 @@
             </div>
             <div class="row gy-30">
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="tour-card">
-                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_3.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
-                        <div class="tour-card__content">
-                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Tamraght</a>
-                                <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            </div>
-                            <h3 class="tour-card__title"><a href="tour-details.html">Tamraght Surf House Hostel (Salty Waves)</a></h3>
-                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 12</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
-                        </div>
-                    </div>
+                    @include('layout.accommodations.tamraght-hostle')
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="tour-card">
-                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_4.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
-                        <div class="tour-card__content">
-                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Taghazout</a>
-                                <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            </div>
-                            <h3 class="tour-card__title"><a href="tour-details.html">Surf Riad (Salty Waves) Taghazout</a></h3>
-                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 12</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
-                        </div>
-                    </div>
+                    @include('layout.accommodations.surf-riad')
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="tour-card">
-                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_2.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
-                        <div class="tour-card__content">
-                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Taghazout</a>
-                                <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            </div>
-                            <h3 class="tour-card__title"><a href="tour-details.html">Surf Appartement N6 (Salty Waves) Taghazout</a></h3>
-                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 5 </span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€450</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
-                        </div>
-                    </div>
+                    @include('layout.accommodations.apartment-n6')
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="tour-card">
-                        <div class="tour-card__img"><img src="{{ asset('assets/img/trip/tour_4_1.jpg') }}" alt="Tour Image"> <span class="tour-card__tag"><i class="far fa-heart"></i></span></div>
-                        <div class="tour-card__content">
-                            <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Taghazout</a>
-                                <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
-                            </div>
-                            <h3 class="tour-card__title"><a href="tour-details.html">Surf Appartement N4 (Salty Waves) Taghazout</a></h3>
-                            <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 5</span></div>
-                            <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€250</span></span> <a href="tour-details.html" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
-                        </div>
-                    </div>
+                    @include('layout.accommodations.apartment-n4')
                 </div>
-
-
             </div>
         </div>
     </section>
@@ -523,16 +481,7 @@
         </div>
     </section>
 
-    <section class="" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
-        <div class="container">
-            <div class="newsletter-wrap" data-bg-src="{{ asset('assets/img/bg/subscribe_bg_1.svg') }}">
-                <h2 class="sec-title text-white mb-2">Get Special Offers And More From SALTY WAVES</h2>
-                <p class="text-white fs-md mb-4">Sign up now and get the best deals straight in your inbox!</p>
-                <form class="newsletter-form">
-                    <div class="form-group"><input class="form-control" type="email" placeholder="Email Address" required=""> <i class="fal fa-envelope"></i></div><button type="submit" class="ot-btn">Subscribe</button></form>
-            </div>
-        </div>
-    </section>
+
     @include('layout.footer')
 
 

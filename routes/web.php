@@ -36,3 +36,7 @@ Route::get('/{lang?}/tamraght', function () {
 Route::get('/{lang?}/taghazout', function () {
     return view('accommodations.taghazout');
 })->name('taghazout');
+
+Route::get('/{lang?}/accommodations', function () {
+    return view('accommodations');
+})->name('accommodations');

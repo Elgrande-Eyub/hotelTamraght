@@ -6500,9 +6500,10 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
     transform: translateY(-50%)
 }
 
-.contact-info:last-of-type {
+
+/* .contact-info:last-of-type {
     margin-bottom: 0
-}
+} */
 
 .contact-info__title {
     font-size: 20px;

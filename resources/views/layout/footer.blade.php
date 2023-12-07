@@ -4,7 +4,16 @@
        <i class="fa-brands fa-whatsapp"></i><span>WhatsApp<br><small>+212 675111894</small></span>
     </a>
 </div>
-
+<section class="" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
+    <div class="container">
+        <div class="newsletter-wrap" data-bg-src="{{ asset('assets/img/bg/subscribe_bg_1.svg') }}">
+            <h2 class="sec-title text-white mb-2">Get Special Offers And More From Travon</h2>
+            <p class="text-white fs-md mb-4">Sign up now and get the best deals straight in your inbox!</p>
+            <form class="newsletter-form">
+                <div class="form-group"><input class="form-control" type="email" placeholder="Email Address" required=""> <i class="fal fa-envelope"></i></div><button type="submit" class="ot-btn">Subscribe</button></form>
+        </div>
+    </div>
+</section>
 <footer class="footer-wrapper footer-layout1">
     <div class="widget-area">
         <div class="container">
@@ -77,13 +86,13 @@
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
-                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2023 <a href="#">SALTY WAVES</a>. All Rights Reserved.</p>
+                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="https://www.instagram.com/salty_waves_taghazout" target="_blank">SALTY WAVES</a>. All Rights Reserved.</p>
                 </div>
                 <div class="col-lg-6 text-end d-none d-lg-block">
                     <div class="footer-links">
                         <ul>
-                            <li><a href="about.html">Terms of Use</a></li>
-                            <li><a href="about.html">Privacy Environmental Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Environmental Policy</a></li>
                         </ul>
                     </div>
                 </div>

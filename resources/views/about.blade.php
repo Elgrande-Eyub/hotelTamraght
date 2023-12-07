@@ -15,7 +15,7 @@
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">SALTY WAVES</h1>
                 <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li>About Us</li>
                 </ul>
             </div>
@@ -266,16 +266,7 @@
             </div>
         </div>
     </section>
-    <section class="" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
-        <div class="container">
-            <div class="newsletter-wrap" data-bg-src="{{ asset('assets/img/bg/subscribe_bg_1.svg') }}">
-                <h2 class="sec-title text-white mb-2">Get Special Offers And More From Travon</h2>
-                <p class="text-white fs-md mb-4">Sign up now and get the best deals straight in your inbox!</p>
-                <form class="newsletter-form">
-                    <div class="form-group"><input class="form-control" type="email" placeholder="Email Address" required=""> <i class="fal fa-envelope"></i></div><button type="submit" class="ot-btn">Subscribe</button></form>
-            </div>
-        </div>
-    </section>
+
    @include('layout.footer')
 
 </body>
