@@ -37,7 +37,6 @@
                         <div class="col-xl-6 col-lg-12 col-md-6 mb-30">
                            @include('layout.accommodations.apartment-n4')
                         </div>
-
                     </div>
 
                 </div>

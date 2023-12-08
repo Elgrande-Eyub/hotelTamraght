@@ -40,3 +40,7 @@ Route::get('/{lang?}/taghazout', function () {
 Route::get('/{lang?}/accommodations', function () {
     return view('accommodations');
 })->name('accommodations');
+
+Route::get('/{lang?}/accommodations/apartment-n4', function () {
+    return view('acco-details.apartment-n4');
+})->name('apartment-n4');

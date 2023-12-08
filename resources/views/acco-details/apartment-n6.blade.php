@@ -12,11 +12,10 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Surf Apartment N4 (Salty Waves) Taghazout</h1>
+                <h1 class="breadcumb-title">Tour details</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
-                    <li><a href="{{ route('accommodations', ['lang' => $lang]) }}">Accommodations</a></li>
-                    <li>Surf Apartment N4 (Salty Waves) Taghazout</li>
+                    <li>Tour details</li>
                 </ul>
             </div>
         </div>
@@ -27,39 +26,39 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="tour-details">
                         <div class="tour-header">
-                            <h2 class="tour-title">Surf Apartment N4 (Salty Waves) Taghazout</h2>
+                            <h2 class="tour-title">Brooklyn Christmas Lights Tour</h2>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">Є50.00</p>
+                                        <p class="meta-box_text">$250.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-clock"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">Duration</h5>
-                                        <p class="meta-box_text">1 Day</p>
+                                        <p class="meta-box_text">10 Days, 11 Nights</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-location-dot"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">Location</h5>
-                                        <p class="meta-box_text">Taghazout</p>
+                                        <p class="meta-box_text">Madrid, Spain</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-users"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">Group Size</h5>
-                                        <p class="meta-box_text">5 People</p>
+                                        <p class="meta-box_text">50+ People</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tour-img"><img src="{{ asset('assets/img/accommodations/apartement n4/main.jpg') }}" alt="Tour Image"></div>
+                        <div class="tour-img"><img src="{{ asset('assets/img/trip/tour_details.jpg') }}" alt="Tour Image"></div>
                         <ul class="nav tour-tab" id="tourTab" role="tablist">
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Information</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Tour Plan</a></li>
@@ -69,25 +68,21 @@
                         <div class="tab-content" id="productTabContent">
                             <div class="tab-pane fade show active" id="tourDescription" role="tabpanel" aria-labelledby="description-tab">
                                 <div class="tour-description">
-                                    <h3 class="inner-title">About this space</h3>
-                                    <p class="mt-n2 mb-4">
-                                        apartment located in a residence with beautiful ocean views and direct access to the beach
-                                        5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. Many activities await you: Surfing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
-                                    </p>
-                                    <h3>The space</h3>
-                                    <p class="mb-30">apartment located in a residence with beautiful ocean views and direct access to the beach
-                                        5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. There are plenty of activities waiting for you: sailing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
-                                    </p>
+                                    <h3 class="inner-title">Description</h3>
+                                    <p class="mt-n2 mb-4">Objectively leverage existing tactical core competencies for innovative innovation. Continually matrix unique resources for impactful solutions. Uniquely coordinate competitive e-tailers after resource maximizing benefits.
+                                        Uniquely actualize principle-centered best practices rather than front-end testing procedures. Efficiently repurpose high-quality outsourcing vis-a-vis leading-edge schemas.</p>
+                                    <p class="mb-30">Collaboratively predominate team building functionalities vis-a-vis holistic quality vectors. Appropriately plagiarize interdependent customer service without enterprise web-readiness. Holisticly formulate leading-edge
+                                        resources through out-of-the-box internal or "organic" sources. Synergistically utilize user-centric opportunities after world-class ideas. Synergistically facilitate.</p>
                                     <div class="description-table-wrap">
                                         <table class="description-table">
                                             <tbody>
                                                 <tr>
                                                     <th>Destination</th>
-                                                    <td>Salty Waves Taghazout >> Surf   Apartment N4 (Salty Waves) Taghazout</td>
+                                                    <td>NYC International Airport</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Apartement </th>
-                                                    <td>4 guests,1 bedroom,3 beds,1 bath                                                    </td>
+                                                    <th>Depature</th>
+                                                    <td>Yes Required</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Departure Time</th>
@@ -99,25 +94,11 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Included</th>
-                                                    <td>
-                                                        <span><i class="fal fa-check"></i> Beach view</span>
-                                                        <br><span><i class="fal fa-check"></i> Washer</span>
-                                                        <br><span><i class="fal fa-check"></i> Children’s books and toys</span>
-                                                        <br><span><i class="fal fa-check"></i> Board games</span>
-                                                        <br><span><i class="fal fa-check"></i> Beach access</span>
-                                                        <br>...
-
-                                                        </td>
+                                                    <td><span><i class="fal fa-check"></i> Specilaized Bilingual Guide</span><br><span><i class="fal fa-check"></i> Private Transport</span><br><span><i class="fal fa-check"></i> Entrance Fees</span><br><span><i class="fal fa-check"></i> Box Lunch,Water,Dinner and Snacks</span><br></td>
                                                 </tr>
                                                 <tr>
                                                     <th>Excluded</th>
-                                                    <td><span><i class="fal fa-xmark"></i> Security cameras on property</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Hair dryer</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Essentials</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Smoke alarm</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Pets</span>
-
-                                                        <br></td>
+                                                    <td><span><i class="fal fa-xmark"></i> Additional Services</span><br><span><i class="fal fa-xmark"></i> Insurance</span><br><span><i class="fal fa-xmark"></i> Drink</span><br><span><i class="fal fa-xmark"></i> Tickets</span><br></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -235,28 +216,19 @@
                     <div class="tour-photos">
                         <div class="row g-4 masonary-active">
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-1.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/trip/tour_inner_1.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-2.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/trip/tour_inner_2.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-3.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/trip/tour_inner_3.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-4.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/trip/tour_inner_4.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-5.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-11.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-33.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-55.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/trip/tour_inner_5.jpg') }}" alt="Image"></div>
                             </div>
                         </div>
                     </div>
@@ -289,21 +261,19 @@
                 <div class="widget widget_book">
                     <div class="widget-tour-book">
                         <div class="top">
-                            <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">$50.00</p>
+                            <h4 class="title">Book This Tour</h4>
+                            <p class="price">$250.00 per person</p>
                         </div>
                         <form action="https://www.adivaha.com/themeforest-travon/mail.php" method="POST" class="widget-form">
-                            <p>This place has a maximum of 4 guests, not including infants. Pets aren't allowed.</p>
                             <div class="form-group"><input type="text" class="form-control" name="name" id="name" placeholder="Your Name"> <i class="fal fa-user"></i></div>
                             <div class="form-group"><input type="email" class="form-control" name="email" id="email" placeholder="Your Email"> <i class="fal fa-envelope"></i></div>
                             <div class="form-group"><input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number"> <i class="fal fa-phone"></i></div>
                             <div class="form-group"><select name="subject" id="ticketType" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Ticket Types</option><option value="Basic Ticket">Basic Ticket</option><option value="Standard Ticket">Standard Ticket</option><option value="VIP Ticket">VIP Ticket</option></select>                                <i class="fal fa-chevron-down"></i></div>
                             <div class="row">
-                                <div class="col-6 form-group"><select name="person" id="person" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Adult</option><option value="1 Person">1 Person</option><option value="2 Person">2 Person</option><option value="3 Person">3 Person</option><option value="4 Person">4 Person</option></select>                                    <i class="fal fa-chevron-down"></i></div>
-                                <div class="col-6 form-group"><select name="child" id="child" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Child</option><option value="1 Person">1 Person</option><option value="2 Person">2 Person</option><option value="3 Person">3 Person</option><option value="4 Person">4 Person</option><option value="5 Person">5 Person</option></select>                                    <i class="fal fa-chevron-down"></i></div>
+                                <div class="col-6 form-group"><select name="person" id="person" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Adult</option><option value="1 Person">1 Person</option><option value="2 Person">2 Person</option><option value="3 Person">3 Person</option></select>                                    <i class="fal fa-chevron-down"></i></div>
+                                <div class="col-6 form-group"><select name="child" id="child" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Child</option><option value="1 Person">1 Person</option><option value="2 Person">2 Person</option><option value="3 Person">3 Person</option></select>                                    <i class="fal fa-chevron-down"></i></div>
                             </div>
-                            <div class="form-group"><input type="text" class="form-control" name="Checkin" id="date" placeholder="Checkin"> <i class="fal fa-calendar-alt"></i></div>
-                            <div class="form-group"><input type="text" class="form-control" name="checkout" id="date" placeholder="checkout"> <i class="fal fa-calendar-alt"></i></div>
+                            <div class="form-group"><input type="text" class="form-control" name="date" id="date" placeholder="mm/dd/yyyyy"> <i class="fal fa-calendar-alt"></i></div>
                             <div class="form-group"><textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea> <i class="fal fa-pencil"></i></div>
                             <div class="form-btn"><button class="ot-btn w-100">Book now</button></div>
                             <p class="form-messages mb-0 mt-3"></p>
@@ -312,7 +282,6 @@
                 </div>
                 <div class="widget">
                     <h3 class="widget_title">Last Minute Deals</h3>
-
                     <div class="recent-post-wrap">
                         <div class="recent-post">
                             <div class="media-img">
@@ -350,12 +319,12 @@
                 </div>
                 <div class="widget widget_banner">
                     <div class="offer-banner">
-                        <div class="banner-logo"><img width="40%" src="{{ asset('assets/img/logo/salty-waves-white.png') }}" alt="Travon"></div><span class="banner-subtitle">Happy Holiday</span>
+                        <div class="banner-logo"><img src="{{ asset('assets/img/logo-white.svg') }}" alt="Travon"></div><span class="banner-subtitle">Happy Holiday</span>
                         <h3 class="banner-title">Adventure Ture</h3>
                         <div class="offer">
-                            <h6 class="offer-title"><span class="text-theme">Salty</span> Waves</h6>
-                            <p class="offer-text"><span class="text-theme">Response rate</span> 100%</p>
-                        </div><a href="{{ route('contact', ['lang' => $lang]) }}" class="ot-btn">Get A Quote</a></div>
+                            <h6 class="offer-title"><span class="text-theme">Travon</span> Special</h6>
+                            <p class="offer-text"><span class="text-theme">30% off</span> On All Booking</p>
+                        </div><a href="contact.html" class="ot-btn">Get A Quote</a></div>
                 </div>
             </aside>
         </div>
