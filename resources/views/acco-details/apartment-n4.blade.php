@@ -62,7 +62,7 @@
                         <div class="tour-img"><img src="{{ asset('assets/img/accommodations/apartement n4/main.jpg') }}" alt="Tour Image"></div>
                         <ul class="nav tour-tab" id="tourTab" role="tablist">
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Information</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Tour Plan</a></li>
+                            {{-- <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Tour Plan</a></li> --}}
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="photos-tab" data-bs-toggle="tab" href="#photos" role="tab" aria-controls="photos" aria-selected="false">Tour Photos</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="location-tab" data-bs-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="false">Location</a></li>
                         </ul>
@@ -354,7 +354,7 @@
                         <h3 class="banner-title">Adventure Ture</h3>
                         <div class="offer">
                             <h6 class="offer-title"><span class="text-theme">Salty</span> Waves</h6>
-                            <p class="offer-text"><span class="text-theme">Response rate</span> 100%</p>
+                            <p class="offer-text"><span class="text-theme">Response rate 100%</span></p>
                         </div><a href="{{ route('contact', ['lang' => $lang]) }}" class="ot-btn">Get A Quote</a></div>
                 </div>
             </aside>
