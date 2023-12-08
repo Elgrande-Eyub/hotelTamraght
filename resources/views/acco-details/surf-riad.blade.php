@@ -3,20 +3,19 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves - Apartment N6</title>
+    <title>Salty Waves - Surf Riad Taghazout</title>
     @include('layout.head')
 </head>
-
 <body>
     @include('layout.header')
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Surf Apartment N6 (Salty Waves) Taghazout</h1>
+                <h1 class="breadcumb-title">Surf Riad Taghazout - Salty Waves</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li><a href="{{ route('accommodations', ['lang' => $lang]) }}">Accommodations</a></li>
-                    <li>Surf Apartment N6 (Salty Waves) Taghazout</li>
+                    <li>Surf Riad Taghazout - Salty Waves</li>
                 </ul>
             </div>
         </div>
@@ -27,13 +26,13 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="tour-details">
                         <div class="tour-header">
-                            <h2 class="tour-title">Surf Apartment N6 (Salty Waves) Taghazout</h2>
+                            <h2 class="tour-title">Surf Riad Taghazout - Salty Waves</h2>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">Є50.00</p>
+                                        <p class="meta-box_text">Є109.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -54,12 +53,12 @@
                                     <div class="meta-box_icon"><i class="fal fa-users"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">Group Size</h5>
-                                        <p class="meta-box_text">5 People</p>
+                                        <p class="meta-box_text">12 People</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tour-img"><img src="{{ asset('assets/img/accommodations/apartement n6/main.jpg') }}" alt="Tour Image"></div>
+                        <div class="tour-img"><img src="{{ asset('assets/img/accommodations/surf-riad/main.jpg') }}" alt="Tour Image"></div>
                         <ul class="nav tour-tab" id="tourTab" role="tablist">
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Information</a></li>
                             {{-- <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Plan</a></li> --}}
@@ -71,36 +70,35 @@
                                 <div class="tour-description">
                                     <h3 class="inner-title">About this space</h3>
                                     <p class="mt-n2 mb-4">
-                                        You'll have a great time at this comfortable place to stay.
+                                        Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
+                                        The terrace upstairs offers three different seating areas and downstairs courtyard additionally a traditional seating area.
+                                        The following rooms are located on the ground floor:
+                                        A kitchen , a bedroom with a double bed for 2 people , a living room with sleeping facilities for 2 people as well as a bathroom with shower and the magnificent courtyard.
                                     </p>
-                                    <h3>The space</h3>
-                                    <p class="mb-30">This apartment is located directly on the beach of Taghazout and is 70 square meters in size.
+                                    <h3>Guest access</h3>
+                                    <p class="mb-30">Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
+                                        The top terrace offers three different seating options and the bottom courtyard also offers a traditional seating group.
+                                        On the ground floor there are the following rooms:
+                                        A kitchen , a bedroom with a double bed for 2 persons , a living room with sleeping facilities for 2 persons, a bathroom with shower and the magnificent courtyard. In the middle of the house, a beautiful tree protrudes all the way up.
+                                        The house is located a few steps to the sea and to the beautiful cafés and restaurants directly on the sea.
+                                        Taghazout is a fishing village, with several surfer pointe.
+                                        We also offer yoga and surfing courses.
+                                        Taghazout is very popular with surfers from all over the world.
+                                        Of course, Taghazout is also known for the great weather all year round.
+                                        Young and old meet here in Taghazout.
+                                        On request, we also offer an airport shuttle from and to the airport. The nearest airport is about 40 kilometers from the house.
+                                        Welcome........... Merhaba</p>
 
-                                        It has one bedroom with a double bed,
-
-                                        one bedroom with two single beds(bed linen is provided) one bathroom with
-
-                                        Shower, a kitchen equipped with electric appliances(fridge-freezer,
-
-                                        Microwave, kettle, electric grill, coffee maker), as well as the complete dishes.
-
-                                        The living room is equipped in a Moroccan style and thus also offers sleeping options  for two to three people.
-
-                                        There is also a CD player and a video device in the living room with digital  programs(all European programs).
-
-                                        In the hallway is a large closet with enough storage space.
-
-                                        The apartment has a large balcony with beautiful views of the sea.</p>
                                     <div class="description-table-wrap">
                                         <table class="description-table">
                                             <tbody>
                                                 <tr>
                                                     <th>Destination</th>
-                                                    <td>Salty Waves Taghazout >> Surf   Apartment N6 (Salty Waves) Taghazout</td>
+                                                    <td>Salty Waves Taghazout >> Surf Riad Taghazout - Salty Waves</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>
-                                                    <td>5 guests,1 bedroom,1 beds,1 bathroom                                                    </td>
+                                                    <td>5 guests,2 bedrooms,5 beds,2.5 bathrooms                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <th>Departure Time</th>
@@ -248,28 +246,28 @@
                     <div class="tour-photos">
                         <div class="row g-4 masonary-active">
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-1.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-1.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-2.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-2.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-3.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-3.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-4.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-4.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-5.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-5.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-11.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-6.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-22.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-7.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-44.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-8.jpg') }}" alt="Image"></div>
                             </div>
                         </div>
                     </div>
@@ -303,7 +301,7 @@
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">$50.00</p>
+                            <p class="price">$109.00</p>
                         </div>
                         <form action="https://www.adivaha.com/themeforest-travon/mail.php" method="POST" class="widget-form">
                             <p>This place has a maximum of 5 guests, not including infants. Pets aren't allowed.</p>
@@ -323,7 +321,7 @@
                         </form>
                     </div>
                 </div>
-                {{-- <div class="widget">
+               {{--  <div class="widget">
                     <h3 class="widget_title">Last Minute Deals</h3>
 
                     <div class="recent-post-wrap">

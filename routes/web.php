@@ -48,3 +48,11 @@ Route::get('/{lang?}/accommodations/apartment-n4', function () {
 Route::get('/{lang?}/accommodations/apartment-n6', function () {
     return view('acco-details.apartment-n6');
 })->name('apartment-n6');
+
+Route::get('/{lang?}/accommodations/surf-riad', function () {
+    return view('acco-details.surf-riad');
+})->name('surf-riad');
+
+Route::get('/{lang?}/accommodations/hostel-tamraght', function () {
+    return view('acco-details.hostel-tamraght');
+})->name('hostel-tamraght');
