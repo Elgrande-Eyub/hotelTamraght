@@ -53,7 +53,7 @@
                                     <div class="meta-box_icon"><i class="fal fa-users"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">Group Size</h5>
-                                        <p class="meta-box_text">5 People</p>
+                                        <p class="meta-box_text">12 People</p>
                                     </div>
                                 </div>
                             </div>
