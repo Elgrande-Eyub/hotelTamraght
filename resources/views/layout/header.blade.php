@@ -118,7 +118,7 @@
                                         <li><a href="{{ route('taghazout', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Taghazout</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item-has-children"><a href="#"><i class=" fa-light fa-hand-holding-heart"></i> @lang('index.menu.package')</a>
+                                <li class="menu-item-has-children"><a href="{{ route('packages', ['lang' => $lang]) }}"><i class=" fa-light fa-hand-holding-heart"></i> @lang('index.menu.package')</a>
                                     <ul class="sub-menu">
                                         <li><a href="about.html"><i class="fa-regular fa-person-snowboarding p-7"></i> @lang('index.menu.packages.surf')</a></li>
                                         <li><a href="team.html"><i class="fa-regular fa-spa p-7"></i> @lang('index.menu.packages.yoga')</a></li>

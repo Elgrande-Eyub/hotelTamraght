@@ -56,3 +56,7 @@ Route::get('/{lang?}/accommodations/surf-riad', function () {
 Route::get('/{lang?}/accommodations/hostel-tamraght', function () {
     return view('acco-details.hostel-tamraght');
 })->name('hostel-tamraght');
+
+Route::get('/{lang?}/packages', function () {
+    return view('packages');
+})->name('packages');

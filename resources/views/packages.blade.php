@@ -3,7 +3,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves - Accommodations</title>
+    <title>Salty Waves - Packages</title>
    @include('layout.head')
 </head>
 
@@ -12,10 +12,10 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Accommodations</h1>
+                <h1 class="breadcumb-title">Packages</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="index.html">Home</a></li>
-                    <li>Accommodations</li>
+                    <li>Packages</li>
                 </ul>
             </div>
         </div>
