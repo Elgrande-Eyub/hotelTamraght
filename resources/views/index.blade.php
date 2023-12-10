@@ -175,7 +175,7 @@
         <div class="container">
             <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Top Destinations <span class="shape right"><span class="dots"></span></span>
                 </span>
-                <h2 class="sec-title">Popular Destinations</h2>
+                <h2 class="sec-title">Popular Destinations N' Activities</h2>
             </div>
             <div class="row align-items-center">
                 <div class="col-xl-3 mb-40 mb-xl-0">

@@ -20,7 +20,8 @@ class SetLocale
         if (in_array($locale, ['en', 'fr','de'])) {
             app()->setLocale($locale);
         } else {
-            app()->setLocale(config('app.fallback_locale'));
+            abort(404);
+            // app()->setLocale(config('app.fallback_locale'));
         }
 
         return $next($request);
