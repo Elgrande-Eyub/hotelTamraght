@@ -6144,7 +6144,8 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 
 @media (max-width: 767px) {
     .hero-2 {
-        margin-bottom: 148px
+        /* margin-bottom: 148px */
+        margin-bottom: 1rem;
     }
     .hero-2 .ot-hero-bg {
         background-size: cover
@@ -10712,4 +10713,25 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 
 .whats-float:hover i {
     transform: rotate(360deg);
+}
+
+.booknow {
+    justify-content: center;
+    display: flex;
+    display: flex;
+    width: 100%;
+    /* margin-top: 4rem; */
+    transform: translate(0, -50%);
+    z-index: 10000;
+    position: relative;
+}
+
+.booknow-btn {
+    width: 35%;
+}
+
+@media (max-width: 767px) {
+    .booknow-btn {
+        width: 70%;
+    }
 }

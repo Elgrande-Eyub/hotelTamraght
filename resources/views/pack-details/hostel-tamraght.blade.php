@@ -27,6 +27,7 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title">Hostel Tamraght - Salty Waves</h2>
+                            <p>2 beds,Shared  bathrooms </p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>

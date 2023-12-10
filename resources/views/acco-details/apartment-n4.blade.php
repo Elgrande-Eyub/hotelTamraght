@@ -27,7 +27,8 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="tour-details">
                         <div class="tour-header">
-                            <h2 class="tour-title">Surf Apartment N4 (Salty Waves) Taghazout</h2>
+                            <h2 class="tour-title" style="margin: 0">Surf Apartment N4 (Salty Waves) Taghazout</h2>
+                            <p>5 guests, 1 bedroom, 3 beds, 1 bathroom </p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
@@ -87,15 +88,11 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>
-                                                    <td>4 guests,1 bedroom,3 beds,1 bath                                                    </td>
+                                                    <td>4 guests, 1 bedroom, 3 beds, 1 bath                                                    </td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Departure Time</th>
-                                                    <td>01 January, 2023 10.00AM</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Return Time</th>
-                                                    <td>08 January, 2023 10.00AM</td>
+                                                    <th>Airbnb's Rate</th>
+                                                    <td>5 out of 5</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Included</th>

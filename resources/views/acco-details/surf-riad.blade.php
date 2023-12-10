@@ -26,7 +26,8 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="tour-details">
                         <div class="tour-header">
-                            <h2 class="tour-title">Surf Riad Taghazout - Salty Waves</h2>
+                            <h2 class="tour-title" style="margin: 0">Surf Riad Taghazout - Salty Waves</h2>
+                            <p>5 guests, 2 bedrooms, 5 beds, 2.5 bathrooms</p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
@@ -53,7 +54,7 @@
                                     <div class="meta-box_icon"><i class="fal fa-users"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">Group Size</h5>
-                                        <p class="meta-box_text">12 People</p>
+                                        <p class="meta-box_text">5 People</p>
                                     </div>
                                 </div>
                             </div>
@@ -98,15 +99,11 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>
-                                                    <td>5 guests,2 bedrooms,5 beds,2.5 bathrooms                                                    </td>
+                                                    <td>5 guests, 2 bedrooms, 5 beds, 2.5 bathrooms                                                   </td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Departure Time</th>
-                                                    <td>01 January, 2023 10.00AM</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Return Time</th>
-                                                    <td>08 January, 2023 10.00AM</td>
+                                                    <th>Airbnb's Rate</th>
+                                                    <td>4.97 out of 5</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Included</th>

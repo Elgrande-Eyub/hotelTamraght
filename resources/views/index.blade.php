@@ -62,7 +62,10 @@
         <div class="cloud-3"><img src="{{ asset('assets/img/hero/cloud_3.png') }}" alt="cloud"></div>
     </div>
 
-    <div class="search-sec">
+    <div class="booknow">
+
+         <a href=" {{ route('contact', ['lang' => $lang]) }}" class="ot-btn booknow-btn" >@lang('index.booknow')</a></div>
+   {{--  <div class="search-sec">
         <div class="container">
             <div class="search-box">
                 <form action="https://www.adivaha.com/themeforest-SALTY WAVES/mail.php" method="POST" class="tour-search">
@@ -75,7 +78,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="space">
         <div class="container">
             <div class="row">
@@ -92,22 +95,25 @@
                         <h2 class="sec-title">Welcome to Salty Waves, where every stay feels like home</h2>
                     </div>
                     <p class="mt-n2 mb-35">Progressively impact multidisciplinary leadership skills via e-business leadership skills. Holisticly repurpose multifunctional data before turnkey information. Globally restore client-focused potentialities before scalable core competencies.</p>
-                    <div class="about-media-wrap">
+
+                    <div class="title-area mb-35">
+                    <h4 class="sec-title"><img src="{{ asset('assets/img/icon/counter_1_2.svg') }}" alt="icon" style="margin-right: 1rem"> Our Location</h4>
+                </div>
+                <p class="mt-n2 mb-35">Progressively impact multidisciplinary leadership skills via e-business leadership skills. Holisticly repurpose multifunctional data before turnkey information. Globally restore client-focused potentialities before scalable core competencies.</p>
+
+                   {{--  <div class="about-media-wrap">
                         <div class="about-media">
-                            <div class="about-media_icon"><img src="{{ asset('assets/img/icon/about_media_1.svg') }}" alt="icon"></div>
+                            <div class="about-media_icon">
+                                <img src="{{ asset('assets/img/icon/counter_1_2.svg') }}" alt="icon">
+                            </div>
                             <div class="media-body">
-                                <h3 class="about-media_title box-title">22 Years Experience</h3>
+                                <h3 class="about-media_title box-title">Our Location</h3>
+                                <p class="about-media_text">we guarantee a legacy of excellence in every moment you spend.</p>
                                 <p class="about-media_text">we guarantee a legacy of excellence in every moment you spend.</p>
                             </div>
                         </div>
-                        <div class="about-media">
-                            <div class="about-media_icon"><img src="{{ asset('assets/img/icon/about_media_2.svg') }}" alt="icon"></div>
-                            <div class="media-body">
-                                <h3 class="about-media_title box-title">Endless Excitement</h3>
-                                <p class="about-media_text">Uncover exclusive offers and activities for an unforgettable experience with us.</p>
-                            </div>
-                        </div>
-                    </div>
+
+                    </div> --}}
                     <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Discover more</a>
                         <div class="customer-avater-wrap">
                             <div class="customer-avater-group">
@@ -235,7 +241,7 @@
         <div class="shape-mockup jump-reverse d-none d-lg-block" data-top="2%" data-left="0%"><img src="{{ asset('assets/img/shape/plane_shape_1.svg') }}" alt="shapes"></div>
         <div class="shape-mockup jump d-none d-xl-block" data-bottom="2%" data-right="0%"><img src="{{ asset('assets/img/shape/plane_shape_2.svg') }}" alt="shapes"></div>
     </div>
-    <div class="space">
+  {{--   <div class="space">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-7">
@@ -294,23 +300,23 @@
                 </div>
             </div>
         </div>
-    </div>
-    <section class="" data-pos-for="#tour-sec" data-sec-pos="bottom-half">
+    </div> --}}
+    {{-- <section class="" data-pos-for="#tour-sec" data-sec-pos="bottom-half">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mb-30 mb-xl-0">
                     <div class="offer-card" data-bg-src="{{ asset('assets/img/bg/offer_bg_1.jpg') }}">
                         <h2 class="offer-card__offer">45% OFF</h2>
-                        <h3 class="offer-card__text box-title">Explore The World Tour Hotel Booking.</h3><a href="contact.html" class="ot-btn">Book Now</a></div>
+                        <h3 class="offer-card__text box-title">Explore Salty Waves Hotel Booking.</h3><a href="contact.html" class="ot-btn">Book Now</a></div>
                 </div>
                 <div class="col-lg-6">
                     <div class="offer-card" data-bg-src="{{ asset('assets/img/bg/offer_bg_2.jpg') }}">
                         <h2 class="offer-card__offer">35% OFF</h2>
-                        <h3 class="offer-card__text box-title">On Flight Ticket Grab This Now.</h3><a href="contact.html" class="ot-btn">Buy Now</a></div>
+                        <h3 class="offer-card__text box-title">Our Offers Are On Fire Grab It Now.</h3><a href="contact.html" class="ot-btn">Buy Now</a></div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <section class="space bg-repeat bg-smoke" id="tour-sec" data-bg-src="{{ asset('assets/img/bg/pattern_bg_1.png') }}">
         <div class="container">
             <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Featured Accommodations <span class="shape right"><span class="dots"></span></span>
@@ -339,7 +345,7 @@
                 <div class="col-lg-8 mb-n2 mb-lg-0">
                     <div class="title-area"><span class="sub-title justify-content-center justify-content-lg-start"><span class="shape left d-inline-block d-lg-none"><span class="dots"></span></span> Deals & Offers <span class="shape right"><span class="dots"></span></span>
                         </span>
-                        <h2 class="sec-title text-white">Last Minute Amazing Deals</h2>
+                        <h2 class="sec-title text-white">Our Packs</h2>
                     </div>
                 </div>
                 <div class="col-auto">
@@ -350,66 +356,59 @@
             </div>
         </div>
         <div class="row gx-0 ot-carousel" id="dealSlide1" data-slide-show="4" data-ml-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1">
+
             <div class="col-xl-3 col-lg-4 col-md-6">
                 <div class="tour-offer">
-                    <div class="tour-offer__img"><img src="{{ asset('assets/img/trip/tour_2_1.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">40% Off</span></div>
+                    <div class="tour-offer__img"><img src="{{ asset('assets/img/surfnstays/5surfnstays.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">45% Off</span></div>
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Maldivs Beach</a></h3><span class="tour-offer__subtitle">Exploring Maldivs</span></div><span class="tour-offer__price"><span class="price">€250</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">5 Surf N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 1</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>
                 </div>
             </div>
+
             <div class="col-xl-3 col-lg-4 col-md-6">
                 <div class="tour-offer">
-                    <div class="tour-offer__img"><img src="{{ asset('assets/img/trip/tour_2_2.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">30% Off</span></div>
+                    <div class="tour-offer__img"><img src="{{ asset('assets/img/surfnstays/surfnstaysplus.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">45% Off</span></div>
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Seychelles</a></h3><span class="tour-offer__subtitle">Enjoy Seychelles</span></div><span class="tour-offer__price"><span class="price">€150</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Surf N' Stays +PLUS</a></h3><span class="tour-offer__subtitle" style="color: white">Level 2</span></div><span class="tour-offer__price"><span class="price" style="color: white">€470</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>
                 </div>
             </div>
+
             <div class="col-xl-3 col-lg-4 col-md-6">
                 <div class="tour-offer">
-                    <div class="tour-offer__img"><img src="{{ asset('assets/img/trip/tour_2_3.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">25% Off</span></div>
+                    <div class="tour-offer__img"><img src="{{ asset('assets/img/surfnstays/surfexplorenstays.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">45% Off</span></div>
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Adventure Mountain</a></h3><span class="tour-offer__subtitle">Mountain Iceland</span></div><span class="tour-offer__price"><span class="price">€250</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Surf Explore N' Stays +PLUS</a></h3><span class="tour-offer__subtitle" style="color: white">Level 3</span></div><span class="tour-offer__price"><span class="price" style="color: white">€540</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>
                 </div>
             </div>
+
             <div class="col-xl-3 col-lg-4 col-md-6">
                 <div class="tour-offer">
-                    <div class="tour-offer__img"><img src="{{ asset('assets/img/trip/tour_2_4.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">30% Off</span></div>
+                    <div class="tour-offer__img"><img src="{{ asset('assets/img/surfnstays/5surfnstays.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">45% Off</span></div>
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Adventures</a></h3><span class="tour-offer__subtitle">Explore Adventures</span></div><span class="tour-offer__price"><span class="price">€350</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">5 Surf N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 1</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="tour-offer">
-                    <div class="tour-offer__img"><img src="{{ asset('assets/img/trip/tour_2_5.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">45% Off</span></div>
-                    <div class="tour-offer__content">
-                        <div class="tour-offer__top">
-                            <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Night City</a></h3><span class="tour-offer__subtitle">City Night Beauty</span></div><span class="tour-offer__price"><span class="price">€200</span></span>
-                        </div>
-                        <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
     <section class="space-top bg-auto" data-bg-src="{{ asset('assets/img/bg/bg_map_1.png') }}">
