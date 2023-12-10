@@ -17,7 +17,7 @@ class SetLocale
     {
         $locale = $request->segment(1); // Assuming language segment is the first segment in the URL
 
-        if (in_array($locale, ['en', 'fr','de'])) {
+        if (in_array($locale, ['en', 'fr','de',''])) {
             app()->setLocale($locale);
         } else {
             abort(404);
