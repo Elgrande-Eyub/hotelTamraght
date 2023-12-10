@@ -94,9 +94,13 @@
 
 
                     <div class="text-justify">
-                   <p class="mb-4 text-justify">Nestled in the vibrant community of Tamraght, our Surf House is more than just a place to stay; it's a haven for surfers and adventure seekers alike. Feel the energy of the ocean as you wake up to the sound of crashing waves. Our cozy rooms are designed to provide the perfect retreat after an exhilarating day on the waves.</p>
-                   <p class="mb-4">But it's not just about the accommodation; it's about the lifestyle. Immerse yourself in the surfing culture with our expert instructors, whether you're a seasoned pro or a first-timer. Share stories and laughs with fellow travelers in our communal spaces, and let the passion for the surf bind you together.</p>
-                   <p class="mb-4">As part of our commitment to creating unforgettable experiences, we organize trips to popular destinations around Tamraght. Explore the breathtaking landscapes, savor local cuisine, and make memories that will last a lifetime. Our Surf House is not just a place to stay; it's a hub for creating connections and fostering a love for the ocean.</p>
+                   <p class="mb-4 text-justify">Welcome to our surf hostel in Tamraght, just 700 meters from the enchanting Imourane beach! Our beautifully decorated house spans three floors and two rooftop terraces with breathtaking views of the sea and mountains.
+                </p>
+                   <p class="mb-4">In just 10 minutes on foot, you can reach the beach, and within 5 minutes, discover the many cozy cafes and restaurants in the vicinity. Our accommodation features three double rooms, two with a sea view, as well as a dormitory with four beds. The dormitory boasts a terrace with a splendid view of the sea, the town, and the surrounding mountains.
+                </p>
+                   <p class="mb-4">With three bathrooms, three kitchens, and a reception, our house is well-equipped. The spacious Moroccan-style living room is perfect for reading, relaxing, and watching TV together.
+                </p>
+                <p class="mb-4">The highlight of our hostel is the rooftop terrace at the very top – ideal for a leisurely breakfast or dinner with a rich selection of healthy dishes. We spoil you with freshly cooked specialties, including vegetarian delights and typical Moroccan dishes like the popular Tagine. Welcome to your home away from home – here, you experience a surf vacation with style and comfort!</p>
                     </div>
 
                     <div

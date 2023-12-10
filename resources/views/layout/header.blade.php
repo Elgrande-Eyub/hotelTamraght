@@ -112,30 +112,30 @@
                                 <li><a href="{{ route('about', ['lang' => $lang]) }}"><i class="fa-regular  fa-circle-info"></i> @lang('index.menu.about')</a>
 
                                 </li>
-                                
-                                <li class="menu-item-has-children"><a href="{{ route('packages', ['lang' => $lang]) }}"><i class="fa-regular fa-map-location-dot"></i> Locations</a>
+
+                                <li class="menu-item-has-children"><a href="#"><i class="fa-regular fa-map-location-dot"></i> Locations</a>
                                     <ul class="sub-menu">
                                          <li><a href="{{ route('tamraght', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Salty Waves Tamraght</a></li>
-                                        <li><a href="{{ route('taghazout', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Salty Waves Taghazout</a></li> 
+                                        <li><a href="{{ route('taghazout', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Salty Waves Taghazout</a></li>
                                     </ul>
                                 </li>
                          <li class="menu-item-has-children"><a href="{{ route('accommodations', ['lang' => $lang]) }}"><i class="fa-regular fa-hotel"></i> @lang('index.menu.accommodations')</a>
                                     <ul class="sub-menu">
                                         {{-- <li><a href="{{ route('tamraght', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Tamraght</a></li>
                                         <li><a href="{{ route('taghazout', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Taghazout</a></li> --}}
+                                        <li><a href="{{ route('hostel-tamraght', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Hostle Tamraght</a></li>
+                                        <li><a href="{{ route('apartment-n4', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Apartement N4 Taghazout</a></li>
+                                        <li><a href="{{ route('apartment-n6', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Apartement N6 Taghazout</a></li>
+                                        <li><a href="{{ route('surf-riad', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Surf Riad Taghazout</a></li>
 
-                                        <li><a href="{{ route('tamraght', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Apartement N4 Taghazout</a></li>
-                                        <li><a href="{{ route('taghazout', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Apartement N4 Taghazout</a></li>
-                                        <li><a href="{{ route('tamraght', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Surf Riad Taghazout</a></li>
-                                        <li><a href="{{ route('taghazout', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Hostle Tamraght</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children"><a href="{{ route('packages', ['lang' => $lang]) }}"><i class=" fa-light fa-hand-holding-heart"></i> @lang('index.menu.package')</a>
                                     <ul class="sub-menu">
-                                        <li><a href="about.html"><i class="fa-regular fa-person-snowboarding p-7"></i> Surf N'Stays</a></li>
-                                        <li><a href="about.html"><i class="fa-regular fa-person-snowboarding p-7"></i> Surf N'Stays Plus</a></li>
-                                        <li><a href="about.html"><i class="fa-regular fa-person-snowboarding p-7"></i> Surf Explore N'Stays</a></li>
-                                        <li><a href="team.html"><i class="fa-regular fa-spa p-7"></i> Yoga Activites</a></li>
+                                        <li><a href="#"><i class="fa-regular fa-person-snowboarding p-7"></i> Surf N'Stays</a></li>
+                                        <li><a href="#"><i class="fa-regular fa-person-snowboarding p-7"></i> Surf N'Stays Plus</a></li>
+                                        <li><a href="#"><i class="fa-regular fa-person-snowboarding p-7"></i> Surf Explore N'Stays</a></li>
+                                        <li><a href="#"><i class="fa-regular fa-spa p-7"></i> Yoga Activites</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="{{ route('contact', ['lang' => $lang]) }}"><i class="fa-regular fa-messages"></i> @lang('index.menu.contact')</a></li>

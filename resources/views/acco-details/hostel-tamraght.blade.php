@@ -77,18 +77,14 @@
                                         A kitchen , a bedroom with a double bed for 2 people , a living room with sleeping facilities for 2 people as well as a bathroom with shower and the magnificent courtyard.
                                     </p>
                                     <h3>Guest access</h3>
-                                    <p class="mb-30">Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
-                                        The top terrace offers three different seating options and the bottom courtyard also offers a traditional seating group.
-                                        On the ground floor there are the following rooms:
-                                        A kitchen , a bedroom with a double bed for 2 persons , a living room with sleeping facilities for 2 persons, a bathroom with shower and the magnificent courtyard. In the middle of the house, a beautiful tree protrudes all the way up.
-                                        The house is located a few steps to the sea and to the beautiful cafés and restaurants directly on the sea.
-                                        Taghazout is a fishing village, with several surfer pointe.
-                                        We also offer yoga and surfing courses.
-                                        Taghazout is very popular with surfers from all over the world.
-                                        Of course, Taghazout is also known for the great weather all year round.
-                                        Young and old meet here in Taghazout.
-                                        On request, we also offer an airport shuttle from and to the airport. The nearest airport is about 40 kilometers from the house.
-                                        Welcome........... Merhaba</p>
+                                    <p class="mb-4 text-justify">Welcome to our surf hostel in Tamraght, just 700 meters from the enchanting Imourane beach! Our beautifully decorated house spans three floors and two rooftop terraces with breathtaking views of the sea and mountains.
+
+                                       <p class="mb-4 text-justify">In just 10 minutes on foot, you can reach the beach, and within 5 minutes, discover the many cozy cafes and restaurants in the vicinity. Our accommodation features three double rooms, two with a sea view, as well as a dormitory with four beds. The dormitory boasts a terrace with a splendid view of the sea, the town, and the surrounding mountains.
+                                    </p>
+                                       <p class="mb-4 text-justify">With three bathrooms, three kitchens, and a reception, our house is well-equipped. The spacious Moroccan-style living room is perfect for reading, relaxing, and watching TV together.
+                                    </p>
+                                    <p class="mb-4 text-justify">The highlight of our hostel is the rooftop terrace at the very top – ideal for a leisurely breakfast or dinner with a rich selection of healthy dishes. We spoil you with freshly cooked specialties, including vegetarian delights and typical Moroccan dishes like the popular Tagine. Welcome to your home away from home – here, you experience a surf vacation with style and comfort!</p>
+                                        </p>
 
                                     <div class="description-table-wrap">
                                         <table class="description-table">

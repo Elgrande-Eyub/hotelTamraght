@@ -389,7 +389,7 @@
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Surf Explore N' Stays +PLUS</a></h3><span class="tour-offer__subtitle" style="color: white">Level 3</span></div><span class="tour-offer__price"><span class="price" style="color: white">€540</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Surf Explore N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 3</span></div><span class="tour-offer__price"><span class="price" style="color: white">€540</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>
