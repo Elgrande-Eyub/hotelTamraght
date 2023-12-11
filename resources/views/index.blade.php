@@ -84,8 +84,8 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="img-box1">
-                        <div class="img1"><img src="{{ asset('assets/img/normal/about_1_1.png') }}" alt="About"></div>
-                        <div class="img2"><img src="{{ asset('assets/img/normal/about_1_2.png') }}" alt="About"></div>
+                        <div class="img1"><img src="{{ asset('assets/img/normal/about_1_1.jpg') }}" alt="About"></div>
+                        <div class="img2"><img src="{{ asset('assets/img/normal/about_1_2.jpg') }}" alt="About"></div>
                         <div class="shape1"><img src="{{ asset('assets/img/normal/about_shape_1.png') }}" alt="shape"></div>
                     </div>
                 </div>
@@ -182,27 +182,33 @@
                     <div class="trip-details-slide ot-carousel" data-fade="true">
                         <div>
                             <div class="trip-card-details"><span class="subtitle">Locations</span>
-                                <h3 class="trip-title"><a href="destination.html">Paradise Valley</a></h3>
+                                <h3 class="trip-title"><a href="#">Paradise Valley</a></h3>
                                 <p class="trip-text">River-fed swimming destination nestled between rocky cliffs, with natural pools & small waterfalls.</p>
                             </div>
                         </div>
                         <div>
                             <div class="trip-card-details"><span class="subtitle">Locations</span>
-                                <h3 class="trip-title"><a href="destination.html">Agadir Small Desert</a></h3>
+                                <h3 class="trip-title"><a href="#">Agadir Small Desert</a></h3>
                                 <p class="trip-text">Simplify Globally pandemic e-business via functionalized e-business. Rapidiously covalent leadership whereas distributed results drive.</p>
                             </div>
                         </div>
                         <div>
                             <div class="trip-card-details"><span class="subtitle">Locations</span>
-                                <h3 class="trip-title"><a href="destination.html">Agadir cable car Telepherique</a></h3>
+                                <h3 class="trip-title"><a href="#">Agadir cable car Telepherique</a></h3>
                                 <p class="trip-text">Agadir Cable car ride is a spectacular new attraction in the regions of Agadir, Morocco.
                                 </p>
                             </div>
                         </div>
                         <div>
                             <div class="trip-card-details"><span class="subtitle">Locations</span>
-                                <h3 class="trip-title"><a href="destination.html">Moroccan Cooking Class</a></h3>
-                                <p class="trip-text">Learn the fine art of Moroccan cuisine from a professional chef during this hands-on private masterclass i</p>
+                                <h3 class="trip-title"><a href="#">Moroccan Cooking Class</a></h3>
+                                <p class="trip-text">Learn the fine art of Moroccan cuisine from a professional chef during this hands-on private masterclass</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="trip-card-details"><span class="subtitle">Locations</span>
+                                <h3 class="trip-title"><a href="#">Surfing Classes</a></h3>
+                                <p class="trip-text">Discover surfing with expert guidance. Join our personalized sessions, whether you're a beginner or honing your skills. Experience the joy of riding the waves and the freedom of the open sea!</p>
                             </div>
                         </div>
                     </div>
@@ -214,25 +220,31 @@
                             <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_1.png') }}" alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
-                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Paradise Valley</a></h2><span class="trip-card__count">6+ Trips</span> <a href="destination.html" class="ot-btn">Explore</a></div>
+                                <h2 class="trip-card__title box-title"><a href="#">Paradise Valley</a></h2></div>
                         </div>
                         <div class="trip-card">
                             <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_2.png') }}" alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
-                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Agadir Small Desert</a></h2><span class="trip-card__count">8+ Trips</span> <a href="destination.html" class="ot-btn">Explore </a></div>
+                                <h2 class="trip-card__title box-title"><a href="#">Agadir Small Desert</a></h2></div>
                         </div>
                         <div class="trip-card">
                             <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_3.jpg') }}" alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
-                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Agadir cable car Telepherique</a></h2><span class="trip-card__count">6+ Trips</span> <a href="destination.html" class="ot-btn">Explore</a></div>
+                                <h2 class="trip-card__title box-title"><a href="#">Agadir cable car Telepherique</a></h2></div>
                         </div>
                         <div class="trip-card">
                             <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_4.jpg') }}" alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
-                                <h2 class="trip-card__title box-title"><a href="destination-details.html">Private Traditional Moroccan Cooking Class</a></h2><span class="trip-card__count">5+ Trips</span> <a href="destination.html" class="ot-btn">Explore All</a></div>
+                                <h2 class="trip-card__title box-title"><a href="#">Private Traditional Moroccan Cooking Class</a></h2></div>
+                        </div>
+                        <div class="trip-card">
+                            <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_5.jpg') }}" alt="Trip image"></div>
+                            <div class="trip-card__content">
+                                <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
+                                <h2 class="trip-card__title box-title"><a href="#">Surfing Classes</a></h2></div>
                         </div>
                     </div>
                 </div>

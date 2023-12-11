@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\contactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -60,3 +61,6 @@ Route::get('/{lang?}/accommodations/hostel-tamraght', function () {
 Route::get('/{lang?}/packages', function () {
     return view('packages');
 })->name('packages');
+
+
+Route::post('/{lang?}/contactform', [contactController::class,'store'])->name('storeContact');

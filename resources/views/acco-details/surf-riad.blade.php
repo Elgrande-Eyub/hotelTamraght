@@ -33,7 +33,7 @@
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">Є109.00</p>
+                                        <p class="meta-box_text">Є85.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -298,7 +298,7 @@
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">$109.00</p>
+                            <p class="price">Є85.00</p>
                         </div>
                         <form action="https://www.adivaha.com/themeforest-travon/mail.php" method="POST" class="widget-form">
                             <p>This place has a maximum of 5 guests, not including infants. Pets aren't allowed.</p>

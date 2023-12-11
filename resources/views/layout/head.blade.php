@@ -1,4 +1,4 @@
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="author" content="Adivaha">
     <meta name="description" content="SALTY WAVES - Tour and Hotel Booking HTML Template">
@@ -19,3 +19,4 @@
     <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link  rel="stylesheet" href="{{ asset('assets/css/carousel.css') }}" >

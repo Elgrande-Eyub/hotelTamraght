@@ -27,13 +27,13 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title" style="margin: 0">Hostel Tamraght - Salty Waves</h2>
-                            <p>2 beds, Shared  bathrooms </p>
+                            <p>3 rooms with 2 beds each <strong>(35$/each)</strong> , Dormitory with 6 Beds <strong>(20$/each)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">Є25.00</p>
+                                        <p class="meta-box_text">Є20.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -59,9 +59,39 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tour-img"><img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" alt="Tour Image"></div>
+
+                        <div class="tour-img">
+                            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+
+                        </div>
+
+
+
+                        {{-- <div class="tour-img"><img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" alt="Tour Image"></div> --}}
                         <ul class="nav tour-tab" id="tourTab" role="tablist">
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Information</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">about</a></li>
+
                             {{-- <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Plan</a></li> --}}
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="photos-tab" data-bs-toggle="tab" href="#photos" role="tab" aria-controls="photos" aria-selected="false">Photos</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="location-tab" data-bs-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="false">Location</a></li>
@@ -69,22 +99,7 @@
                         <div class="tab-content" id="productTabContent">
                             <div class="tab-pane fade show active" id="tourDescription" role="tabpanel" aria-labelledby="description-tab">
                                 <div class="tour-description">
-                                    <h3 class="inner-title">About this space</h3>
-                                    <p class="mt-n2 mb-4">
-                                        Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
-                                        The terrace upstairs offers three different seating areas and downstairs courtyard additionally a traditional seating area.
-                                        The following rooms are located on the ground floor:
-                                        A kitchen , a bedroom with a double bed for 2 people , a living room with sleeping facilities for 2 people as well as a bathroom with shower and the magnificent courtyard.
-                                    </p>
-                                    <h3>Guest access</h3>
-                                    <p class="mb-4 text-justify">Welcome to our surf hostel in Tamraght, just 700 meters from the enchanting Imourane beach! Our beautifully decorated house spans three floors and two rooftop terraces with breathtaking views of the sea and mountains.
 
-                                       <p class="mb-4 text-justify">In just 10 minutes on foot, you can reach the beach, and within 5 minutes, discover the many cozy cafes and restaurants in the vicinity. Our accommodation features three double rooms, two with a sea view, as well as a dormitory with four beds. The dormitory boasts a terrace with a splendid view of the sea, the town, and the surrounding mountains.
-                                    </p>
-                                       <p class="mb-4 text-justify">With three bathrooms, three kitchens, and a reception, our house is well-equipped. The spacious Moroccan-style living room is perfect for reading, relaxing, and watching TV together.
-                                    </p>
-                                    <p class="mb-4 text-justify">The highlight of our hostel is the rooftop terrace at the very top – ideal for a leisurely breakfast or dinner with a rich selection of healthy dishes. We spoil you with freshly cooked specialties, including vegetarian delights and typical Moroccan dishes like the popular Tagine. Welcome to your home away from home – here, you experience a surf vacation with style and comfort!</p>
-                                        </p>
 
                                     <div class="description-table-wrap">
                                         <table class="description-table">
@@ -94,8 +109,12 @@
                                                     <td>Salty Waves Taghazout >> Hostel Tamraght - Salty Waves</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Apartement </th>
-                                                    <td>2 beds, Shared  bathrooms                                                    </td>
+                                                    <th>Hostle Contain</th>
+                                                    <td>3 rooms with 2 beds each <strong>(35$/each)</strong> , Dormitory with 6 Beds <strong>(20$/each)</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Breakfast</th>
+                                                    <td>Included</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Airbnb's Rate</th>
@@ -265,12 +284,33 @@
                         </div>
                     </div>
                 </div>
+                <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+                    <div class="tour-location"> <h3 class="inner-title">About this space</h3>
+                        <p class="mt-n2 mb-4 text-justify">
+                            Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
+                            The terrace upstairs offers three different seating areas and downstairs courtyard additionally a traditional seating area.
+                            The following rooms are located on the ground floor:
+                            A kitchen , a bedroom with a double bed for 2 people , a living room with sleeping facilities for 2 people as well as a bathroom with shower and the magnificent courtyard.
+                        </p>
+                        <h3>Guest access</h3>
+                        <p class="mb-4 text-justify">Welcome to our surf hostel in Tamraght, just 700 meters from the enchanting Imourane beach! Our beautifully decorated house spans three floors and two rooftop terraces with breathtaking views of the sea and mountains.
+
+                           <p class="mb-4 text-justify">In just 10 minutes on foot, you can reach the beach, and within 5 minutes, discover the many cozy cafes and restaurants in the vicinity. Our accommodation features three double rooms, two with a sea view, as well as a dormitory with four beds. The dormitory boasts a terrace with a splendid view of the sea, the town, and the surrounding mountains.
+                        </p>
+                           <p class="mb-4 text-justify">With three bathrooms, three kitchens, and a reception, our house is well-equipped. The spacious Moroccan-style living room is perfect for reading, relaxing, and watching TV together.
+                        </p>
+                        <p class="mb-4 text-justify">The highlight of our hostel is the rooftop terrace at the very top – ideal for a leisurely breakfast or dinner with a rich selection of healthy dishes. We spoil you with freshly cooked specialties, including vegetarian delights and typical Moroccan dishes like the popular Tagine. Welcome to your home away from home – here, you experience a surf vacation with style and comfort!</p>
+                            </p></div>
+                </div>
                 <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
-                    <div class="tour-location"><iframe src="{{ asset('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sAngfuzsoft!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd') }}"
-                            allowfullscreen="" loading="lazy"></iframe></div>
+                    <div class="tour-location">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d245.49714091693684!2d-9.679411469427103!3d30.51337373483196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMwJzQ4LjEiTiA5wrA0MCc0NS43Ilc!5e1!3m2!1sen!2sma!4v1702293290800!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+
                 </div>
             </div>
-            <div class="ot-comment-form">
+           {{--  <div class="ot-comment-form">
                 <div class="form-title">
                     <h3 class="blog-inner-title">Leave A Reply</h3>
                     <p class="text">Your email address will not be published. Required fields are marked *</p>
@@ -285,7 +325,7 @@
                     <div class="col-12 form-group"><input id="reviewcheck" name="reviewcheck" type="checkbox"> <label for="reviewcheck">Save my name, email, and website in this browser for the next time I comment.<span class="checkmark"></span></label></div>
                     <div class="col-12 form-group mb-0"><button class="ot-btn">Post Review</button></div>
                 </div>
-            </div>
+            </div> --}}
         </div>
         </div>
         <div class="col-xxl-4 col-lg-5">
@@ -294,17 +334,49 @@
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">$25.00 per person</p>
+                            <p class="price">$20.00 per person</p>
                         </div>
                         <form action="https://www.adivaha.com/themeforest-travon/mail.php" method="POST" class="widget-form">
-                            <p>This place has a maximum of 5 guests, not including infants. Pets aren't allowed.</p>
+                            <p>This place has a maximum of 12 guests, not including infants. Pets aren't allowed.</p>
                             <div class="form-group"><input type="text" class="form-control" name="name" id="name" placeholder="Your Name"> <i class="fal fa-user"></i></div>
                             <div class="form-group"><input type="email" class="form-control" name="email" id="email" placeholder="Your Email"> <i class="fal fa-envelope"></i></div>
                             <div class="form-group"><input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number"> <i class="fal fa-phone"></i></div>
                             <div class="form-group"><select name="subject" id="ticketType" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Ticket Types</option><option value="Basic Ticket">Basic Ticket</option><option value="Standard Ticket">Standard Ticket</option><option value="VIP Ticket">VIP Ticket</option></select>                                <i class="fal fa-chevron-down"></i></div>
+
+                            <div>
+                                <p>To Book this Accommodation is Obligate to chose an Activitie Package . Check This <a href="">Link</a> </p>
+                            <div class="form-group"><select name="person" id="person" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Activities</option><option value="Surf N' Stays">Surf N' Stays</option><option value="Surf N'Stays +plus">Surf N'Stays +plus</option><option value="Surf Explore N'Stays">Surf Explore N'Stays</option><option value="Yoga Sessions">Yoga Sessions</option></select>                                    <i class="fal fa-chevron-down"></i></div>
+                            </div>
                             <div class="row">
-                                <div class="col-6 form-group"><select name="person" id="person" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Adult</option><option value="1 Person">1 Person</option><option value="2 Person">2 Person</option><option value="3 Person">3 Person</option><option value="4 Person">4 Person</option></select>                                    <i class="fal fa-chevron-down"></i></div>
-                                <div class="col-6 form-group"><select name="child" id="child" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Child</option><option value="1 Person">1 Person</option><option value="2 Person">2 Person</option><option value="3 Person">3 Person</option><option value="4 Person">4 Person</option><option value="5 Person">5 Person</option></select>                                    <i class="fal fa-chevron-down"></i></div>
+                                <div class="col-6 form-group">
+                                    <select name="person" id="person" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Adult</option>
+                                        <option value="1 Person">1 Person</option>
+                                        <option value="2 Person">2 Person</option>
+                                        <option value="3 Person">3 Person</option>
+                                        <option value="4 Person">4 Person</option>
+                                        <option value="5 Person">5 Person</option>
+                                        <option value="6 Person">6 Person</option>
+                                        <option value="7 Person">7 Person</option>
+                                        <option value="8 Person">8 Person</option>
+
+                                    </select>
+                                      <i class="fal fa-chevron-down"></i></div>
+                                <div class="col-6 form-group">
+                                    <select name="child" id="child" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Child</option>
+                                        <option value="1 Person">1 Person</option>
+                                        <option value="2 Person">2 Person</option>
+                                        <option value="3 Person">3 Person</option>
+                                        <option value="4 Person">4 Person</option>
+                                        <option value="5 Person">5 Person</option>
+                                        <option value="6 Person">6 Person</option>
+                                        <option value="7 Person">7 Person</option>
+                                        <option value="8 Person">8 Person</option>
+
+
+                                    </select>
+                               <i class="fal fa-chevron-down"></i></div>
                             </div>
                             <div class="form-group"><input type="text" class="form-control" name="Checkin" id="date" placeholder="Checkin"> <i class="fal fa-calendar-alt"></i></div>
                             <div class="form-group"><input type="text" class="form-control" name="checkout" id="date" placeholder="checkout"> <i class="fal fa-calendar-alt"></i></div>
@@ -314,44 +386,7 @@
                         </form>
                     </div>
                 </div>
-               {{--  <div class="widget">
-                    <h3 class="widget_title">Last Minute Deals</h3>
 
-                    <div class="recent-post-wrap">
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-1.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Brooklyn Christmas Lights</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-2.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Java & Bali One Life Adventure</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-3.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Places To Travel In November</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-3.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Pak Nam Chumphon Town Tour</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
                 <div class="widget widget_banner">
                     <div class="offer-banner">
                         <div class="banner-logo"><img width="40%" src="{{ asset('assets/img/logo/salty-waves-white.png') }}" alt="Travon"></div><span class="banner-subtitle">Happy Holiday</span>
@@ -368,6 +403,7 @@
     </section>
 
     @include('layout.footer')
+
 </body>
 
 </html>
