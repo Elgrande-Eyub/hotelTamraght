@@ -378,14 +378,26 @@
                                     </select>
                                <i class="fal fa-chevron-down"></i></div>
                             </div>
-                            <div class="form-group"><input type="text" class="form-control" name="Checkin" id="date" placeholder="Checkin"> <i class="fal fa-calendar-alt"></i></div>
-                            <div class="form-group"><input type="text" class="form-control" name="checkout" id="date" placeholder="checkout"> <i class="fal fa-calendar-alt"></i></div>
+                            <div class="form-group"><input type="date" class="form-control" name="Checkin" id="date" placeholder="Checkin"> <i class="fal fa-calendar-alt"></i></div>
+                            <div class="form-group"><input type="date" class="form-control" name="checkout" id="date" placeholder="checkout"> <i class="fal fa-calendar-alt"></i></div>
                             <div class="form-group"><textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea> <i class="fal fa-pencil"></i></div>
                             <div class="form-btn"><button class="ot-btn w-100">Book now</button></div>
                             <p class="form-messages mb-0 mt-3"></p>
                         </form>
                     </div>
                 </div>
+
+                <style>
+                    input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+                </style>
 
                 <div class="widget widget_banner">
                     <div class="offer-banner">
