@@ -112,7 +112,12 @@
                     </div>
                 </section>
 
-
+                <div class="col-12">
+                    <span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> lOCATION <span class="shape right"><span class="dots"></span></span>
+               </span>
+                    <h3 class="sec-title">hostle Tamraght Location</h3>
+                    <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d245.49714091693684!2d-9.679411469427103!3d30.51337373483196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMwJzQ4LjEiTiA5wrA0MCc0NS43Ilc!5e1!3m2!1sen!2sma!4v1702293290800!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
 
 
         </div>

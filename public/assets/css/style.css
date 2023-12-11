@@ -4712,7 +4712,8 @@ transform: rotate(-45deg)
     font-weight: 700;
     line-height: 1.18;
     color: var(--white-color);
-    margin: -0.19em 0 -0.19em 0
+    margin: -0.19em 0 -0.19em 0;
+    text-transform: uppercase
 }
 
 .breadcumb-wrapper {
@@ -6804,7 +6805,8 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
         margin-bottom: 30px
     }
     .img-box1 .img2 {
-        max-width: 70%
+        max-width: 70%;
+        display: none;
     }
     .btn-group .customer-avater-wrap {
         margin-left: 0
@@ -10734,4 +10736,8 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
     .booknow-btn {
         width: 70%;
     }
+}
+
+.location {
+    border-radius: 10px;
 }

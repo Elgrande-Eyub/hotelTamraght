@@ -73,12 +73,12 @@
                     <div class="widget footer-widget">
                         <h3 class="widget_title">Gallery Showcase</h3>
                         <div class="sidebar-gallery">
-                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_1.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_1.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
-                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_2.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_2.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
-                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_3.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_3.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
-                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_4.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_4.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
-                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_5.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_5.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
-                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_6.jpg') }}" alt="Gallery Image"> <a href="assets/img/widget/gallery_1_6.jpg" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_1-thumb.jpg') }}" alt="Gallery Image"> <a href="{{ ASSET('assets/img/widget/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_2-thumb.jpg') }}" alt="Gallery Image"> <a href="{{ ASSET('assets/img/widget/gallery_1_2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_3-thumb.jpg') }}" alt="Gallery Image"> <a href="{{ asset('assets/img/widget/gallery_1_3.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_4-thumb.jpg') }}" alt="Gallery Image"> <a href="{{ asset('assets/img/widget/gallery_1_4.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_5-thumb.jpg') }}" alt="Gallery Image"> <a href="{{ asset('assets/img/widget/gallery_1_5.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
+                            <div class="gallery-thumb"><img src="{{ ASSET('assets/img/widget/gallery_1_6-thumb.jpg') }}" alt="Gallery Image"> <a href="{{ asset('assets/img/widget/gallery_1_6.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-plus"></i></a></div>
                         </div>
                     </div>
                 </div>

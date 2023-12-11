@@ -11,7 +11,7 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Hostel Tamraght - Salty Waves</h1>
+                <h1 class="breadcumb-title" >Hostel Tamraght - Salty Waves</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li><a href="{{ route('accommodations', ['lang' => $lang]) }}">Accommodations</a></li>
@@ -47,7 +47,7 @@
                                     <div class="meta-box_icon"><i class="fal fa-location-dot"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">Location</h5>
-                                        <p class="meta-box_text">Taghazout</p>
+                                        <p class="meta-box_text">Tamraght</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -64,13 +64,19 @@
                             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" class="d-block w-100" alt="...">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" class="d-block w-100" alt="...">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-1.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" class="d-block w-100" alt="...">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-2.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-3.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-4.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
                                   </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
