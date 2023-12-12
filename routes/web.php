@@ -66,5 +66,13 @@ Route::get('/{lang?}/packages/surf-stays', function () {
     return view('pack-details.surf-stay');
 })->name('surf-stay');
 
+Route::get('/{lang?}/packages/surf-stays-plus', function () {
+    return view('pack-details.surf-stayplus');
+})->name('surf-stayplus');
+
+Route::get('/{lang?}/packages/surf-explore-stays', function () {
+    return view('pack-details.surf-explore-stay');
+})->name('surf-explore-stay');
+
 
 Route::post('/{lang?}/contactform', [contactController::class,'store'])->name('storeContact');

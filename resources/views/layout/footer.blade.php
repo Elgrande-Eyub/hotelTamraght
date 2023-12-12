@@ -39,11 +39,11 @@
                         <h3 class="widget_title">Quick Links</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="tour.html">Tour</a></li>
-                                <li><a href="destination.html">Destinations</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
+                                <li><a href="{{ route('about', ['lang' => $lang]) }}">About Us</a></li>
+                                <li><a href="{{ route('packages', ['lang' => $lang]) }}">Packages</a></li>
+                                <li><a href="{{ route('accommodations', ['lang' => $lang]) }}">Accommodations</a></li>
+                                <li><a href="{{ route('accommodations', ['lang' => $lang]) }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                             </div>
                             <div class="info-box">
                                 <div class="info-box_icon"><i class="fas fa-envelope"></i></div>
-                                <p class="info-box_text"><a href="mailto:info@saltywaves.com" class="info-box_link">info@saltywaves.com</a></p>
+                                <p class="info-box_text"><a href="mailto:info@salty-wave.com" class="info-box_link">info@salty-wave.com</a></p>
                             </div>
                         </div>
                     </div>

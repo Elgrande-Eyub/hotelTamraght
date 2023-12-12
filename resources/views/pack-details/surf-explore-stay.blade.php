@@ -12,11 +12,11 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Surf N' Stays Pack</h1>
+                <h1 class="breadcumb-title">Surf Explore N' Stays Pack</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li><a href="{{ route('packages', ['lang' => $lang]) }}">Packages</a></li>
-                    <li>Surf N' Stays Pack</li>
+                    <li>Surf Explore N' Stays Pack</li>
                 </ul>
             </div>
         </div>
@@ -36,15 +36,14 @@
                         <div class="col-xl-6">
                             <div class="about-card__box ">
                                 <div class="about-card__top">
-                                    <div><h2 class="about-card__title">Surf N' Stays Level 1</h2>
+                                    <div><h2 class="about-card__title">Surf Explore N' Stays Level 3</h2>
                                     </div>
                                 </div>
                                 <h4 class="about-card__subtitle">PACK Provide</h4>
                                 <p class="mb-30">
-                                    If this will be your first time surfing, level 1 is right for you. Our highly experienced team will guide you through the first stages, getting you standing on the board and teaching you vital information about handling yourself in the water. We aim to get you to beaches with small, manageable waves, gradually building your confidence through the week.
-
+                                    Our qualified surf guides know the area and culture ‘like the back of their hand’ so they can transport get you to the best waves every day. Experience cruising along the Moroccan coastline with the music playing, the sun shining and the swell pumping. Maybe you’ll drive past a herd of camels or a bunch of goats climbing trees. Experience one of the most surprising and vibrant cultures this planet has to offer on a surf adventure with us!
                                     This offer can be booked for stays of 5 nights or more.</p>
-                                    <p style="font-size: 2rem">Surf N' Stays Level 1 - <strong style="color:#015292">€340.00/5Days</strong></p>
+                                    <p style="font-size: 2rem">Surf Explore N' Stays Level 3 - <strong style="color:#015292">€540.00/7Days</strong></p>
                                 <div class="about-infos">
                                     <div style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
@@ -56,15 +55,31 @@
                                        </div>
                                        <div style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                        <p class="about-info"><strong>Accommodation in dormitory rooms</strong></p>
+                                       </div>
+                                       <div style="display: flex">
+                                        <p class="about-info"> <i class="fa-light fa-check"></i></p>
                                         <p class="about-info"><strong>Surf equipments provided</strong></p>
                                        </div>
                                        <div style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>4 Daily meals provided (breakfast of champions, packed surfer lunch, healthy dinner)</strong></p>
+                                        <p class="about-info"><strong>6 Daily meals provided (breakfast of champions, packed surfer lunch, healthy dinner)</strong></p>
                                        </div>
                                        <div style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>4 surf sessions in two different spots, (3 hours of lessons and free evening surf)</strong></p>
+                                        <p class="about-info"><strong>2 Surf sessions in the convenient spot</strong></p>
+                                       </div>
+                                       <div style="display: flex">
+                                        <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                        <p class="about-info"><strong>1 Trip to Paradise Valley authentic experience</strong></p>
+                                       </div>
+                                       <div style="display: flex">
+                                        <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                        <p class="about-info"><strong>1 Trip to Tamri Desert (Sand boarding and sunset tea break)</strong></p>
+                                       </div>
+                                       <div style="display: flex">
+                                        <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                        <p class="about-info"><strong>1 Surf session in Imsouane</strong></p>
                                        </div>
                                        <div style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>

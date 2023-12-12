@@ -274,7 +274,7 @@
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">5 Surf N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 1</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-stay', ['lang' => $lang]) }}">Surf N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 1</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>
@@ -287,7 +287,7 @@
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Surf N' Stays +PLUS</a></h3><span class="tour-offer__subtitle" style="color: white">Level 2</span></div><span class="tour-offer__price"><span class="price" style="color: white">€470</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-stayplus', ['lang' => $lang]) }}">Surf N' Stays +PLUS</a></h3><span class="tour-offer__subtitle" style="color: white">Level 2</span></div><span class="tour-offer__price"><span class="price" style="color: white">€470</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>
@@ -300,7 +300,7 @@
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">Surf Explore N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 3</span></div><span class="tour-offer__price"><span class="price" style="color: white">€540</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-explore-stay', ['lang' => $lang]) }}">Surf Explore N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 3</span></div><span class="tour-offer__price"><span class="price" style="color: white">€540</span></span>
                         </div>
                         <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
                     </div>

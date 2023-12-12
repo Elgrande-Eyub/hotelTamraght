@@ -12,11 +12,11 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Surf N' Stays Pack</h1>
+                <h1 class="breadcumb-title">Surf N' Stays +Plus Pack</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li><a href="{{ route('packages', ['lang' => $lang]) }}">Packages</a></li>
-                    <li>Surf N' Stays Pack</li>
+                    <li>Surf N' Stays +Plus Pack</li>
                 </ul>
             </div>
         </div>
@@ -30,21 +30,21 @@
                         <div class="row align-items-center">
                         <div class="col-xl-6">
                             <div class="about-card__img">
-                                <img class="w-100" src="{{ asset('assets/img/surfnstays/5surfnstays.jpg') }}" alt="team image">
+                                <img class="w-100" src="{{ asset('assets/img/surfnstays/surfnstaysplus.jpg') }}" alt="team image">
                             </div>
                         </div>
                         <div class="col-xl-6">
                             <div class="about-card__box ">
                                 <div class="about-card__top">
-                                    <div><h2 class="about-card__title">Surf N' Stays Level 1</h2>
+                                    <div><h2 class="about-card__title">Surf N' Stays +Plus level 2</h2>
                                     </div>
                                 </div>
                                 <h4 class="about-card__subtitle">PACK Provide</h4>
                                 <p class="mb-30">
-                                    If this will be your first time surfing, level 1 is right for you. Our highly experienced team will guide you through the first stages, getting you standing on the board and teaching you vital information about handling yourself in the water. We aim to get you to beaches with small, manageable waves, gradually building your confidence through the week.
+                                    If this will be your first time surfing, level 2 is right for you. Our highly experienced team will guide you through the first stages, getting you standing on the board and teaching you vital information about handling yourself in the water. We aim to get you to beaches with small, manageable waves, gradually building your confidence through the week.
 
-                                    This offer can be booked for stays of 5 nights or more.</p>
-                                    <p style="font-size: 2rem">Surf N' Stays Level 1 - <strong style="color:#015292">€340.00/5Days</strong></p>
+                                    This offer can be booked for stays of 7 nights or more.</p>
+                                    <p style="font-size: 1.8rem">Surf N' Stays +Plus level 2 - <strong style="color:#015292">€470.00/7Days</strong></p>
                                 <div class="about-infos">
                                     <div style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
@@ -60,15 +60,19 @@
                                        </div>
                                        <div style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>4 Daily meals provided (breakfast of champions, packed surfer lunch, healthy dinner)</strong></p>
+                                        <p class="about-info"><strong>6 Daily meals provided (breakfast of champions, packed surfer lunch, healthy dinner)</strong></p>
                                        </div>
                                        <div style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>4 surf sessions in two different spots, (3 hours of lessons and free evening surf)</strong></p>
+                                        <p class="about-info"><strong>5 surf sessions in two different spots, (3 hours of lessons and free evening surf)</strong></p>
                                        </div>
                                        <div style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
                                         <p class="about-info"><strong>Transportation to and from the surf spots</strong></p>
+                                       </div>
+                                       <div style="display: flex">
+                                        <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                        <p class="about-info"><strong>1 Trip to Paradise Valley authentic experience</strong></p>
                                        </div>
                                  </div>
                                         </div>

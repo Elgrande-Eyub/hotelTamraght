@@ -38,7 +38,7 @@
                             <div class="contact-info">
                                 <h4 class="contact-info__title">Mail Address:</h4>
                                 <div class="contact-info__icon bg-theme"><i class="fal fa-envelope"></i></div>
-                                <div class="media-body"><span class="contact-info__text"><a href="mailto:info@saltywaves.com">info@saltywaves.com</a> <a href="mailto:info.example@gmail.com">info.example@gmail.com</a></span></div>
+                                <div class="media-body"><span class="contact-info__text"><a href="mailto:info@salty-wave.com">info@salty-wave.com</a> </span></div>
                             </div>
                             <div class="contact-info">
                                 <h4 class="contact-info__title">Address:</h4>

@@ -16,10 +16,8 @@ class contactForm extends Mailable
 
 
 
-    /**
-     * Create a new message instance.
-     */
-    public function __construct( public contact $contact)
+
+    public function __construct(public contact $contact)
     {
 
     }
@@ -30,7 +28,7 @@ class contactForm extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Contact Form',
+            subject: 'New Message From Salty Waves',
         );
     }
 

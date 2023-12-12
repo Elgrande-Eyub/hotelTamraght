@@ -62,7 +62,7 @@ class contactController extends Controller
         $Contact->message = $request->input('message');
         $Contact->save();
 
-        Mail::to('ayoub.baraoui.02@gmail.com')->send(new contactForm($Contact));
+        Mail::to('info@salty-wave.com')->send(new contactForm($Contact));
 
         if($lang == 'fr'){
                  return redirect()->back()->with('success', 'Merci '. $request->input('name') .'. Nous vous contacterons dès que possible.')->withFragment('contact');;
