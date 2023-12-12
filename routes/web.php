@@ -62,5 +62,9 @@ Route::get('/{lang?}/packages', function () {
     return view('packages');
 })->name('packages');
 
+Route::get('/{lang?}/packages/surf-stays', function () {
+    return view('pack-details.surf-stay');
+})->name('surf-stay');
+
 
 Route::post('/{lang?}/contactform', [contactController::class,'store'])->name('storeContact');

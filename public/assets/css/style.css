@@ -7245,7 +7245,7 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 .about-info i {
     background-color: var(--smoke-color2);
     font-size: 16px;
-    color: var(--theme-color);
+    color: var(--smoke-color);
     height: 40px;
     width: 40px;
     line-height: 40px;
@@ -10740,4 +10740,8 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 
 .location {
     border-radius: 10px;
+}
+
+.about-infos>* {
+    margin: 1rem 0rem;
 }
