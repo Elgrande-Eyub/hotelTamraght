@@ -28,13 +28,13 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title" style="margin: 0">Surf Apartment N4 (Salty Waves) Taghazout</h2>
-                            <p>5 guests, 1 bedroom, 3 beds, 1 bathroom </p>
+                            <p>5 Guests, 1 Bedroom, 3 Beds, 1 Bathroom <strong>(€50.00/day)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">Є50.00</p>
+                                        <p class="meta-box_text">€50.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -60,25 +60,49 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tour-img"><img src="{{ asset('assets/img/accommodations/apartement n4/main.jpg') }}" alt="Tour Image"></div>
+                        <div class="tour-img">
+                            {{-- <img src="{{ asset('assets/img/accommodations/apartement n4/main.jpg') }}" alt="Tour Image"> --}}
+                            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main.jpg') }}" class="d-block w-100" alt="Apartement Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-1.jpg') }}" class="d-block w-100" alt="Apartement Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-2.jpg') }}" class="d-block w-100" alt="Apartement Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-3.jpg') }}" class="d-block w-100" alt="Apartement Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-4.jpg') }}" class="d-block w-100" alt="Apartement Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-5.jpg') }}" class="d-block w-100" alt="Apartement Photos">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
                         <ul class="nav tour-tab" id="tourTab" role="tablist">
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Information</a></li>
-                            {{-- <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Tour Plan</a></li> --}}
+                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">about</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="photos-tab" data-bs-toggle="tab" href="#photos" role="tab" aria-controls="photos" aria-selected="false">Photos</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="location-tab" data-bs-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="false">Location</a></li>
                         </ul>
                         <div class="tab-content" id="productTabContent">
                             <div class="tab-pane fade show active" id="tourDescription" role="tabpanel" aria-labelledby="description-tab">
                                 <div class="tour-description">
-                                    <h3 class="inner-title">About this space</h3>
-                                    <p class="mt-n2 mb-4">
-                                        apartment located in a residence with beautiful ocean views and direct access to the beach
-                                        5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. Many activities await you: Surfing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
-                                    </p>
-                                    <h3>The space</h3>
-                                    <p class="mb-30">apartment located in a residence with beautiful ocean views and direct access to the beach
-                                        5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. There are plenty of activities waiting for you: sailing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
-                                    </p>
+
                                     <div class="description-table-wrap">
                                         <table class="description-table">
                                             <tbody>
@@ -88,7 +112,11 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>
-                                                    <td>4 guests, 1 bedroom, 3 beds, 1 bath                                                    </td>
+                                                    <td>5 Guests, 1 Bedroom, 3 Beds, 1 Bathrooms <strong>(€50.00/day)</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Breakfast</th>
+                                                    <td>Included</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Airbnb's Rate</th>
@@ -258,27 +286,28 @@
                         </div>
                     </div>
                 </div>
+                <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+                    <div class="tour-location">
+                        <h3 class="inner-title">About this space</h3>
+                        <p class="mt-n2 mb-4">
+                            apartment located in a residence with beautiful ocean views and direct access to the beach
+                            5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. Many activities await you: Surfing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
+                        </p>
+                        <h3>The space</h3>
+                        <p class="mb-30">apartment located in a residence with beautiful ocean views and direct access to the beach
+                            5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. There are plenty of activities waiting for you: sailing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
+                        </p></div>
+                </div>
                 <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
-                    <div class="tour-location"><iframe src="{{ asset('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sAngfuzsoft!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd') }}"
-                            allowfullscreen="" loading="lazy"></iframe></div>
+                    <div class="tour-location">
+                        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d412.7379685492819!2d-9.713078851828755!3d30.545702211478222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQ0LjQiTiA5wrA0Mic0Ny4xIlc!5e1!3m2!1sen!2sma!4v1702293757319!5m2!1sen!2sma" height="320px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+                        </div>
                 </div>
             </div>
-            <div class="ot-comment-form">
-                <div class="form-title">
-                    <h3 class="blog-inner-title">Leave A Reply</h3>
-                    <p class="text">Your email address will not be published. Required fields are marked *</p>
-                </div>
-                <div class="row">
-                    <div class="form-group rating-select d-flex align-items-center"><label>Your Rating</label>
-                        <p class="stars"><span><a class="star-1" href="#">1</a> <a class="star-2" href="#">2</a> <a class="star-3" href="#">3</a> <a class="star-4" href="#">4</a> <a class="star-5" href="#">5</a></span></p>
-                    </div>
-                    <div class="col-12 form-group"><textarea placeholder="Write a Message" class="form-control"></textarea> <i class="text-title far fa-pencil-alt"></i></div>
-                    <div class="col-md-6 form-group"><input type="text" placeholder="Your Name" class="form-control"> <i class="text-title far fa-user"></i></div>
-                    <div class="col-md-6 form-group"><input type="text" placeholder="Your Email" class="form-control"> <i class="text-title far fa-envelope"></i></div>
-                    <div class="col-12 form-group"><input id="reviewcheck" name="reviewcheck" type="checkbox"> <label for="reviewcheck">Save my name, email, and website in this browser for the next time I comment.<span class="checkmark"></span></label></div>
-                    <div class="col-12 form-group mb-0"><button class="ot-btn">Post Review</button></div>
-                </div>
-            </div>
+
         </div>
         </div>
         <div class="col-xxl-4 col-lg-5">
@@ -287,7 +316,7 @@
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">$50.00</p>
+                            <p class="price">€50.00</p>
                         </div>
                         <form action="https://www.adivaha.com/themeforest-travon/mail.php" method="POST" class="widget-form">
                             <p>This place has a maximum of 4 guests, not including infants. Pets aren't allowed.</p>
@@ -296,8 +325,24 @@
                             <div class="form-group"><input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number"> <i class="fal fa-phone"></i></div>
                             <div class="form-group"><select name="subject" id="ticketType" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Ticket Types</option><option value="Basic Ticket">Basic Ticket</option><option value="Standard Ticket">Standard Ticket</option><option value="VIP Ticket">VIP Ticket</option></select>                                <i class="fal fa-chevron-down"></i></div>
                             <div class="row">
-                                <div class="col-6 form-group"><select name="person" id="person" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Adult</option><option value="1 Person">1 Person</option><option value="2 Person">2 Person</option><option value="3 Person">3 Person</option><option value="4 Person">4 Person</option></select>                                    <i class="fal fa-chevron-down"></i></div>
-                                <div class="col-6 form-group"><select name="child" id="child" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Child</option><option value="1 Person">1 Person</option><option value="2 Person">2 Person</option><option value="3 Person">3 Person</option><option value="4 Person">4 Person</option><option value="5 Person">5 Person</option></select>                                    <i class="fal fa-chevron-down"></i></div>
+                                <div class="col-6 form-group">
+                                    <select name="person" id="person" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Adult</option>
+                                        <option value="1 Adult">1 Person</option>
+                                        <option value="2 Adult">2 Person</option>
+                                        <option value="3 Adult">3 Person</option>
+                                        <option value="4 Adult">4 Person</option>
+                                        <option value="5 Adult">5 Person</option>
+                                    </select>                                    <i class="fal fa-chevron-down"></i></div>
+                                <div class="col-6 form-group">
+                                    <select name="child" id="child" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Child</option>
+                                        <option value="1 Child">1 Person</option>
+                                        <option value="2 Child">2 Person</option>
+                                        <option value="3 Child">3 Person</option>
+                                        <option value="4 Child">4 Person</option>
+                                        <option value="5 Child">5 Person</option>
+                                    </select>                                    <i class="fal fa-chevron-down"></i></div>
                             </div>
                             <div class="form-group"><input type="text" class="form-control" name="Checkin" id="date" placeholder="Checkin"> <i class="fal fa-calendar-alt"></i></div>
                             <div class="form-group"><input type="text" class="form-control" name="checkout" id="date" placeholder="checkout"> <i class="fal fa-calendar-alt"></i></div>
@@ -307,44 +352,7 @@
                         </form>
                     </div>
                 </div>
-                {{-- <div class="widget">
-                    <h3 class="widget_title">Last Minute Deals</h3>
 
-                    <div class="recent-post-wrap">
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-1.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Brooklyn Christmas Lights</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-2.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Java & Bali One Life Adventure</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-3.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Places To Travel In November</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-3.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Pak Nam Chumphon Town Tour</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
                 <div class="widget widget_banner">
                     <div class="offer-banner">
                         <div class="banner-logo"><img width="40%" src="{{ asset('assets/img/logo/salty-waves-white.png') }}" alt="Travon"></div><span class="banner-subtitle">Happy Holiday</span>

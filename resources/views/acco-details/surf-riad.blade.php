@@ -27,13 +27,13 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title" style="margin: 0">Surf Riad Taghazout - Salty Waves</h2>
-                            <p>5 guests, 2 bedrooms, 5 beds, 2.5 bathrooms</p>
+                            <p>5 Guests, 2 Bedrooms, 5 Beds, 2.5 Bathrooms <strong>(€85.00/day)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">Є85.00</p>
+                                        <p class="meta-box_text">€85.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -59,36 +59,55 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tour-img"><img src="{{ asset('assets/img/accommodations/surf-riad/main.jpg') }}" alt="Tour Image"></div>
+                        <div class="tour-img">
+                            {{-- <img src="{{ asset('assets/img/accommodations/surf-riad/main.jpg') }}" alt="Tour Image"> --}}
+                            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-1.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-2.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-3.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-4.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-5.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-6.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-7.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
                         <ul class="nav tour-tab" id="tourTab" role="tablist">
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Information</a></li>
-                            {{-- <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Plan</a></li> --}}
+                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">about</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="photos-tab" data-bs-toggle="tab" href="#photos" role="tab" aria-controls="photos" aria-selected="false">Photos</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="location-tab" data-bs-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="false">Location</a></li>
                         </ul>
                         <div class="tab-content" id="productTabContent">
                             <div class="tab-pane fade show active" id="tourDescription" role="tabpanel" aria-labelledby="description-tab">
                                 <div class="tour-description">
-                                    <h3 class="inner-title">About this space</h3>
-                                    <p class="mt-n2 mb-4">
-                                        Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
-                                        The terrace upstairs offers three different seating areas and downstairs courtyard additionally a traditional seating area.
-                                        The following rooms are located on the ground floor:
-                                        A kitchen , a bedroom with a double bed for 2 people , a living room with sleeping facilities for 2 people as well as a bathroom with shower and the magnificent courtyard.
-                                    </p>
-                                    <h3>Guest access</h3>
-                                    <p class="mb-30">Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
-                                        The top terrace offers three different seating options and the bottom courtyard also offers a traditional seating group.
-                                        On the ground floor there are the following rooms:
-                                        A kitchen , a bedroom with a double bed for 2 persons , a living room with sleeping facilities for 2 persons, a bathroom with shower and the magnificent courtyard. In the middle of the house, a beautiful tree protrudes all the way up.
-                                        The house is located a few steps to the sea and to the beautiful cafés and restaurants directly on the sea.
-                                        Taghazout is a fishing village, with several surfer pointe.
-                                        We also offer yoga and surfing courses.
-                                        Taghazout is very popular with surfers from all over the world.
-                                        Of course, Taghazout is also known for the great weather all year round.
-                                        Young and old meet here in Taghazout.
-                                        On request, we also offer an airport shuttle from and to the airport. The nearest airport is about 40 kilometers from the house.
-                                        Welcome........... Merhaba</p>
+
 
                                     <div class="description-table-wrap">
                                         <table class="description-table">
@@ -99,7 +118,7 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>
-                                                    <td>5 guests, 2 bedrooms, 5 beds, 2.5 bathrooms                                                   </td>
+                                                    <td>5 Guests, 2 Bedrooms, 5 Beds, 2.5 Bathrooms <strong>(€85.00/day)</strong></td>
                                                 </tr>
                                                 <tr>
                                                     <th>Airbnb's Rate</th>
@@ -269,27 +288,38 @@
                         </div>
                     </div>
                 </div>
+                <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+                    <div class="tour-location">
+                        <h3 class="inner-title">About this space</h3>
+                                    <p class="mt-n2 mb-4">
+                                        Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
+                                        The terrace upstairs offers three different seating areas and downstairs courtyard additionally a traditional seating area.
+                                        The following rooms are located on the ground floor:
+                                        A kitchen , a bedroom with a double bed for 2 people , a living room with sleeping facilities for 2 people as well as a bathroom with shower and the magnificent courtyard.
+                                    </p>
+                                    <h3>Guest access</h3>
+                                    <p class="mb-30">Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
+                                        The top terrace offers three different seating options and the bottom courtyard also offers a traditional seating group.
+                                        On the ground floor there are the following rooms:
+                                        A kitchen , a bedroom with a double bed for 2 persons , a living room with sleeping facilities for 2 persons, a bathroom with shower and the magnificent courtyard. In the middle of the house, a beautiful tree protrudes all the way up.
+                                        The house is located a few steps to the sea and to the beautiful cafés and restaurants directly on the sea.
+                                        Taghazout is a fishing village, with several surfer pointe.
+                                        We also offer yoga and surfing courses.
+                                        Taghazout is very popular with surfers from all over the world.
+                                        Of course, Taghazout is also known for the great weather all year round.
+                                        Young and old meet here in Taghazout.
+                                        On request, we also offer an airport shuttle from and to the airport. The nearest airport is about 40 kilometers from the house.
+                                        Welcome........... Merhaba</p>
+                        </div>
+                </div>
                 <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
-                    <div class="tour-location"><iframe src="{{ asset('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sAngfuzsoft!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd') }}"
-                            allowfullscreen="" loading="lazy"></iframe></div>
+                    <div class="tour-location">
+                        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d583.7036393297946!2d-9.709814815442307!3d30.545035769313657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQyLjQiTiA5wrA0MiczMy44Ilc!5e1!3m2!1sen!2sma!4v1702309439261!5m2!1sen!2sma" height="320px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
                 </div>
             </div>
-            <div class="ot-comment-form">
-                <div class="form-title">
-                    <h3 class="blog-inner-title">Leave A Reply</h3>
-                    <p class="text">Your email address will not be published. Required fields are marked *</p>
-                </div>
-                <div class="row">
-                    <div class="form-group rating-select d-flex align-items-center"><label>Your Rating</label>
-                        <p class="stars"><span><a class="star-1" href="#">1</a> <a class="star-2" href="#">2</a> <a class="star-3" href="#">3</a> <a class="star-4" href="#">4</a> <a class="star-5" href="#">5</a></span></p>
-                    </div>
-                    <div class="col-12 form-group"><textarea placeholder="Write a Message" class="form-control"></textarea> <i class="text-title far fa-pencil-alt"></i></div>
-                    <div class="col-md-6 form-group"><input type="text" placeholder="Your Name" class="form-control"> <i class="text-title far fa-user"></i></div>
-                    <div class="col-md-6 form-group"><input type="text" placeholder="Your Email" class="form-control"> <i class="text-title far fa-envelope"></i></div>
-                    <div class="col-12 form-group"><input id="reviewcheck" name="reviewcheck" type="checkbox"> <label for="reviewcheck">Save my name, email, and website in this browser for the next time I comment.<span class="checkmark"></span></label></div>
-                    <div class="col-12 form-group mb-0"><button class="ot-btn">Post Review</button></div>
-                </div>
-            </div>
+
         </div>
         </div>
         <div class="col-xxl-4 col-lg-5">
@@ -298,7 +328,7 @@
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">Є85.00</p>
+                            <p class="price">€85.00</p>
                         </div>
                         <form action="https://www.adivaha.com/themeforest-travon/mail.php" method="POST" class="widget-form">
                             <p>This place has a maximum of 5 guests, not including infants. Pets aren't allowed.</p>

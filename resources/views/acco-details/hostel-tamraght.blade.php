@@ -27,13 +27,13 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title" style="margin: 0">Hostel Tamraght - Salty Waves</h2>
-                            <p>3 rooms with 2 beds each <strong>(35$/each)</strong> , Dormitory with 6 Beds <strong>(20$/each)</strong></p>
+                            <p>3 Rooms with 2 Beds each <strong>(35€/each)</strong> , Dormitory with 6 Beds <strong>(20€/each)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">Є20.00</p>
+                                        <p class="meta-box_text">€20.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -64,19 +64,19 @@
                             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" class="d-block w-100" alt="Surf Riad Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-1.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-1.jpg') }}" class="d-block w-100" alt="Surf Riad Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-2.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-2.jpg') }}" class="d-block w-100" alt="Surf Riad Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-3.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-3.jpg') }}" class="d-block w-100" alt="Surf Riad Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-4.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                    <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-4.jpg') }}" class="d-block w-100" alt="Surf Riad Photos">
                                   </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -88,17 +88,10 @@
                                   <span class="visually-hidden">Next</span>
                                 </button>
                               </div>
-
                         </div>
-
-
-
-                        {{-- <div class="tour-img"><img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" alt="Tour Image"></div> --}}
                         <ul class="nav tour-tab" id="tourTab" role="tablist">
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Information</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">about</a></li>
-
-                            {{-- <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Plan</a></li> --}}
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="photos-tab" data-bs-toggle="tab" href="#photos" role="tab" aria-controls="photos" aria-selected="false">Photos</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="location-tab" data-bs-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="false">Location</a></li>
                         </ul>
@@ -116,7 +109,7 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Hostle Contain</th>
-                                                    <td>3 rooms with 2 beds each <strong>(35$/each)</strong> , Dormitory with 6 Beds <strong>(20$/each)</strong></td>
+                                                    <td>3 Rooms with 2 Beds each <strong>(35€/each)</strong> , Dormitory with 6 Beds <strong>(20€/each)</strong></td>
                                                 </tr>
                                                 <tr>
                                                     <th>Breakfast</th>
@@ -310,28 +303,13 @@
                 </div>
                 <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
                     <div class="tour-location">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d245.49714091693684!2d-9.679411469427103!3d30.51337373483196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMwJzQ4LjEiTiA5wrA0MCc0NS43Ilc!5e1!3m2!1sen!2sma!4v1702293290800!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d429.6588803933894!2d-9.679411!3d30.513374!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMwJzQ4LjEiTiA5wrA0MCc0NS43Ilc!5e0!3m2!1sen!2sma!4v1702371064141!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                         </div>
 
                 </div>
             </div>
-           {{--  <div class="ot-comment-form">
-                <div class="form-title">
-                    <h3 class="blog-inner-title">Leave A Reply</h3>
-                    <p class="text">Your email address will not be published. Required fields are marked *</p>
-                </div>
-                <div class="row">
-                    <div class="form-group rating-select d-flex align-items-center"><label>Your Rating</label>
-                        <p class="stars"><span><a class="star-1" href="#">1</a> <a class="star-2" href="#">2</a> <a class="star-3" href="#">3</a> <a class="star-4" href="#">4</a> <a class="star-5" href="#">5</a></span></p>
-                    </div>
-                    <div class="col-12 form-group"><textarea placeholder="Write a Message" class="form-control"></textarea> <i class="text-title far fa-pencil-alt"></i></div>
-                    <div class="col-md-6 form-group"><input type="text" placeholder="Your Name" class="form-control"> <i class="text-title far fa-user"></i></div>
-                    <div class="col-md-6 form-group"><input type="text" placeholder="Your Email" class="form-control"> <i class="text-title far fa-envelope"></i></div>
-                    <div class="col-12 form-group"><input id="reviewcheck" name="reviewcheck" type="checkbox"> <label for="reviewcheck">Save my name, email, and website in this browser for the next time I comment.<span class="checkmark"></span></label></div>
-                    <div class="col-12 form-group mb-0"><button class="ot-btn">Post Review</button></div>
-                </div>
-            </div> --}}
+
         </div>
         </div>
         <div class="col-xxl-4 col-lg-5">
@@ -340,7 +318,7 @@
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">$20.00 per person</p>
+                            <p class="price">€20.00 per person</p>
                         </div>
                         <form action="https://www.adivaha.com/themeforest-travon/mail.php" method="POST" class="widget-form">
                             <p>This place has a maximum of 12 guests, not including infants. Pets aren't allowed.</p>
@@ -357,30 +335,28 @@
                                 <div class="col-6 form-group">
                                     <select name="person" id="person" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Adult</option>
-                                        <option value="1 Person">1 Person</option>
-                                        <option value="2 Person">2 Person</option>
-                                        <option value="3 Person">3 Person</option>
-                                        <option value="4 Person">4 Person</option>
-                                        <option value="5 Person">5 Person</option>
-                                        <option value="6 Person">6 Person</option>
-                                        <option value="7 Person">7 Person</option>
-                                        <option value="8 Person">8 Person</option>
+                                        <option value="1 Adult">1 Person</option>
+                                        <option value="2 Adult">2 Person</option>
+                                        <option value="3 Adult">3 Person</option>
+                                        <option value="4 Adult">4 Person</option>
+                                        <option value="5 Adult">5 Person</option>
+                                        <option value="6 Adult">6 Person</option>
+                                        <option value="7 Adult">7 Person</option>
+                                        <option value="8 Adult">8 Person</option>
 
                                     </select>
                                       <i class="fal fa-chevron-down"></i></div>
                                 <div class="col-6 form-group">
                                     <select name="child" id="child" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Child</option>
-                                        <option value="1 Person">1 Person</option>
-                                        <option value="2 Person">2 Person</option>
-                                        <option value="3 Person">3 Person</option>
-                                        <option value="4 Person">4 Person</option>
-                                        <option value="5 Person">5 Person</option>
-                                        <option value="6 Person">6 Person</option>
-                                        <option value="7 Person">7 Person</option>
-                                        <option value="8 Person">8 Person</option>
-
-
+                                        <option value="1 Child">1 Person</option>
+                                        <option value="2 Child">2 Person</option>
+                                        <option value="3 Child">3 Person</option>
+                                        <option value="4 Child">4 Person</option>
+                                        <option value="5 Child">5 Person</option>
+                                        <option value="6 Child">6 Person</option>
+                                        <option value="7 Child">7 Person</option>
+                                        <option value="8 Child">8 Person</option>
                                     </select>
                                <i class="fal fa-chevron-down"></i></div>
                             </div>
