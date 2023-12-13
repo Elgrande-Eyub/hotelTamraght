@@ -57,6 +57,7 @@
             <p><strong>Number of Guests:</strong> {{ $booking->person }} person</p>
             <p><strong>E-mail:</strong> {{ $booking->email }}</p>
             <p><strong>Country:</strong> {{ $booking->country }}</p>
+            <p><strong>Total:</strong> {{ $booking->total }}</p>
             <p><strong>Message:</strong> {{ $booking->message }}</p>
             <!-- Add more booking details as needed -->
         </div>
