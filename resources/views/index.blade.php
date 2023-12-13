@@ -81,12 +81,12 @@
                         </span>
                         <h2 class="sec-title">Welcome to Salty Waves, where every stay feels like home</h2>
                     </div>
-                    <p class="mt-n2 mb-35">Progressively impact multidisciplinary leadership skills via e-business leadership skills. Holisticly repurpose multifunctional data before turnkey information. Globally restore client-focused potentialities before scalable core competencies.</p>
+                    <p class="mt-n2 mb-35">Welcome to Salty Waves, where every stay feels like home. Immerse yourself in the perfect blend of relaxation and adventure with our passion for surf, yoga, and memorable trips. Whether you're catching waves, finding your zen in our yoga sessions, or exploring exciting excursions, every moment is crafted to make your stay truly exceptional. Embrace the Salty Waves experience, where your home away from home is a gateway to unforgettable activities and cherished memories.</p>
 
                     <div class="title-area mb-35">
                     <h4 class="sec-title"><img src="{{ asset('assets/img/icon/counter_1_2.svg') }}" alt="icon" style="margin-right: 1rem"> Our Location</h4>
                 </div>
-                <p class="mt-n2 mb-35">Progressively impact multidisciplinary leadership skills via e-business leadership skills. Holisticly repurpose multifunctional data before turnkey information. Globally restore client-focused potentialities before scalable core competencies.</p>
+                <p class="mt-n2 mb-35">To reach this charming spot, fly into Agadir, just a 45-minute drive away from our location in the Atlas Mountains. Marrakesh is another option, about three hours from the camp. We provide transfers from both airports. Public transportation and taxis are also available for you and your friends to easily access this scenic destination.</p>
 
                     <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Discover more</a>
                         <div class="customer-avater-wrap">
@@ -276,7 +276,7 @@
                             <div>
                                 <h3 class="tour-offer__title box-title"><a href="{{ route('surf-stay', ['lang' => $lang]) }}">Surf N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 1</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
                         </div>
-                        <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
+                        <p class="tour-offer__text">Experience the thrill of surfing amidst breathtaking landscapes. Our Level 1 package offers the perfect blend of waves, relaxation, and personalized guidance. Professionally optimize your surfing skills and make memories that last a lifetime.</p>
                     </div>
                 </div>
             </div>
@@ -289,7 +289,7 @@
                             <div>
                                 <h3 class="tour-offer__title box-title"><a href="{{ route('surf-stayplus', ['lang' => $lang]) }}">Surf N' Stays +PLUS</a></h3><span class="tour-offer__subtitle" style="color: white">Level 2</span></div><span class="tour-offer__price"><span class="price" style="color: white">€470</span></span>
                         </div>
-                        <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
+                        <p class="tour-offer__text">Elevate your surfing experience with our Level 2 package, Surf N' Stays +PLUS. Enjoy exclusive perks, personalized coaching, and a more immersive surf adventure. Immerse yourself in the waves and take your skills to the next level.</p>
                     </div>
                 </div>
             </div>
@@ -302,7 +302,7 @@
                             <div>
                                 <h3 class="tour-offer__title box-title"><a href="{{ route('surf-explore-stay', ['lang' => $lang]) }}">Surf Explore N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 3</span></div><span class="tour-offer__price"><span class="price" style="color: white">€540</span></span>
                         </div>
-                        <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
+                        <p class="tour-offer__text">Embark on a surfing adventure like never before with our Level 3 package, Surf Explore N' Stays. Dive into the excitement of exploration, discover new surf spots, and create unforgettable memories. Join us for an unparalleled surf experience.</p>
                     </div>
                 </div>
             </div>
@@ -315,7 +315,7 @@
                             <div>
                                 <h3 class="tour-offer__title box-title"><a href="tour-details.html">5 Surf N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 1</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
                         </div>
-                        <p class="tour-offer__text">Professionally optimize mission-critical networks rather than resource maximizing ideas globally.</p>
+                        <p class="tour-offer__text">Experience the thrill of surfing amidst breathtaking landscapes. Our Level 1 package offers the perfect blend of waves, relaxation, and personalized guidance. Professionally optimize your surfing skills and make memories that last a lifetime.</p>
                     </div>
                 </div>
             </div>

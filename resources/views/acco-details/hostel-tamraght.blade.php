@@ -325,14 +325,25 @@
                             <div class="form-group"><input type="text" class="form-control" name="name" id="name" placeholder="Your Name"> <i class="fal fa-user"></i></div>
                             <div class="form-group"><input type="email" class="form-control" name="email" id="email" placeholder="Your Email"> <i class="fal fa-envelope"></i></div>
                             <div class="form-group"><input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number"> <i class="fal fa-phone"></i></div>
-                            <div class="form-group"><select name="subject" id="ticketType" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Ticket Types</option><option value="Basic Ticket">Basic Ticket</option><option value="Standard Ticket">Standard Ticket</option><option value="VIP Ticket">VIP Ticket</option></select>                                <i class="fal fa-chevron-down"></i></div>
+                            <div class="form-group"><input type="text" class="form-control" name="number" id="number" placeholder="Country"> <i class="fa-light fa-globe"></i></div>
+
+                            {{-- <div class="form-group"><select name="subject" id="ticketType" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Ticket Types</option><option value="Basic Ticket">Basic Ticket</option><option value="Standard Ticket">Standard Ticket</option><option value="VIP Ticket">VIP Ticket</option></select>                                <i class="fal fa-chevron-down"></i></div> --}}
 
                             <div>
-                                <p>To Book this Accommodation is Obligate to chose an Activitie Package . Check This <a href="">Link</a> </p>
-                            <div class="form-group"><select name="person" id="person" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Activities</option><option value="Surf N' Stays">Surf N' Stays</option><option value="Surf N'Stays +plus">Surf N'Stays +plus</option><option value="Surf Explore N'Stays">Surf Explore N'Stays</option><option value="Yoga Sessions">Yoga Sessions</option></select>                                    <i class="fal fa-chevron-down"></i></div>
+                                <p>To Book this Accommodation is Obligate to chose an Activitie Package . Check This <a href="">Link</a>
+                                </p>
+                            <div class="form-group">
+                                <select name="person" id="person" class="form-select nice-select">
+                                    <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
+                                    <option value="Surf N' Stays">Surf N' Stays - €350/Per</option>
+                                    <option value="Surf N'Stays +plus">Surf N'Stays +plus - €470/Per</option>
+                                    <option value="Surf Explore N'Stays">Surf Explore N'Stays - €540/Per</option>
+                                    {{-- <option value="Yoga Sessions">Yoga Sessions €350/Per</option> --}}
+                                </select>
+                             <i class="fal fa-chevron-down"></i></div>
                             </div>
                             <div class="row">
-                                <div class="col-6 form-group">
+                                <div class=" form-group">
                                     <select name="person" id="person" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Adult</option>
                                         <option value="1 Adult">1 Person</option>
@@ -343,10 +354,13 @@
                                         <option value="6 Adult">6 Person</option>
                                         <option value="7 Adult">7 Person</option>
                                         <option value="8 Adult">8 Person</option>
-
+                                        <option value="9 Adult">9 Person</option>
+                                        <option value="10 Adult">10 Person</option>
+                                        <option value="11 Adult">11 Person</option>
+                                        <option value="12 Adult">12 Person</option>
                                     </select>
                                       <i class="fal fa-chevron-down"></i></div>
-                                <div class="col-6 form-group">
+                              {{--   <div class="col-6 form-group">
                                     <select name="child" id="child" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Child</option>
                                         <option value="1 Child">1 Person</option>
@@ -358,28 +372,45 @@
                                         <option value="7 Child">7 Person</option>
                                         <option value="8 Child">8 Person</option>
                                     </select>
-                               <i class="fal fa-chevron-down"></i></div>
+                               <i class="fal fa-chevron-down"></i>
+                            </div> --}}
                             </div>
-                            <div class="form-group"><input type="date" class="form-control" name="Checkin" id="date" placeholder="Checkin"> <i class="fal fa-calendar-alt"></i></div>
-                            <div class="form-group"><input type="date" class="form-control" name="checkout" id="date" placeholder="checkout"> <i class="fal fa-calendar-alt"></i></div>
+
+
+                            <div class="form-group"><input type="date" class="form-control" name="Checkin" id="date" placeholder="Checkin"><i class="fal fa-calendar-alt"></i></div>
+                            {{-- <div class="form-group"><input type="date" class="form-control" name="checkout" id="date" placeholder="checkout"> <i class="fal fa-calendar-alt"></i></div> --}}
                             <div class="form-group"><textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea> <i class="fal fa-pencil"></i></div>
+                            <div class="form-group text-end">
+                                <p>Total : <strong>€00.00</strong>
+                                </p>
+                            </div>
+
                             <div class="form-btn"><button class="ot-btn w-100">Book now</button></div>
                             <p class="form-messages mb-0 mt-3"></p>
                         </form>
                     </div>
                 </div>
 
+
                 <style>
                     input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
-}
+                        display: none;
+                    }
 
-input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
+                    input[type="date"]::-webkit-inner-spin-button,
+                    input[type="date"]::-webkit-outer-spin-button {
+                        -webkit-appearance: none;
+                        margin: 0;
+                    }
+
+                    /* Hide the default date input arrow icon */
+                    input[type="date"] {
+                        -webkit-appearance: none;
+                        appearance: none;
+                    }
                 </style>
+
+
 
                 <div class="widget widget_banner">
                     <div class="offer-banner">

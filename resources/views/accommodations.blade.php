@@ -14,7 +14,7 @@
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Accommodations</h1>
                 <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li>Accommodations</li>
                 </ul>
             </div>

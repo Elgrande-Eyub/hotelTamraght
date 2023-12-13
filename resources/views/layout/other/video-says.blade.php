@@ -3,7 +3,7 @@
         <div class="container">
             <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Watch Our Story <span class="shape right"><span class="dots"></span></span>
                 </span>
-                <h2 class="sec-title">Unforgettable Travel Experiences<br>Get Your Guide</h2>
+                <h2 class="sec-title">Book your unforgettable travel now</h2>
                 <div class="btn-group pb-3 mt-30 justify-content-center">
                     <a href="{{ route('contact', ['lang' => $lang]) }}" class="ot-btn">Contact Us</a>
                     <a href="{{ route('accommodations', ['lang' => $lang]) }}" class="ot-btn style3">Book Now</a></div>

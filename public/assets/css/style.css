@@ -8970,7 +8970,7 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 
 .widget_book {
     padding: 0;
-    overflow: hidden
+    /* overflow: hidden */
 }
 
 .widget-tour-book .top {
@@ -10744,4 +10744,16 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 
 .about-infos>* {
     margin: 1rem 0rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
 }

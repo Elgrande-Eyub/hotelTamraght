@@ -170,18 +170,14 @@
                                     {{-- <h2 class="sec-title">Our Accommodations</h2> --}}
                                 </div>
                                 <div class="row gy-30 text-center" style="display:flex;justify-content: center">
-                                    <div class="row">
+                                    <div class="row d-flex justify-center">
                                         <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
                                             @include('layout.packages.surfnstay')
 
                                         </div>
-                                        <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-
-
-
+                                     {{--    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
                                             @include('layout.packages.surfnstayplus')
-
-                                        </div>
+                                        </div> --}}
                                         <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
 
 
