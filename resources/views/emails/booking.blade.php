@@ -50,8 +50,8 @@
         <div class="details">
             <h2>Booking Details:</h2>
             <p><strong>Check-in Date:</strong> {{ $booking->checkin }}</p>
+            <p><strong>Accommodation:</strong> {{ $booking->accommodation }}</p>
             <p><strong>Number of Guests:</strong> {{ $booking->person }} Person</p>
-            <p><strong>Accommodation:</strong> {{ $booking->accommodation }} Person</p>
             <p><strong>Total :</strong> €{{ $booking->total }}</p>
         </div>
 
