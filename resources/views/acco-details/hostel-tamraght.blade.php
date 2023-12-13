@@ -376,8 +376,8 @@
                             </div> --}}
                             </div>
 
-
-                            <div class="form-group"><input type="date" class="form-control" name="Checkin" id="date" placeholder="Checkin"><i class="fal fa-calendar-alt"></i></div>
+                            <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkin</p>
+                            <div class="form-group" ><input type="date" class="form-control" name="Checkin" id="date" placeholder="Checkin"><i class="fal fa-calendar-alt"></i></div>
                             {{-- <div class="form-group"><input type="date" class="form-control" name="checkout" id="date" placeholder="checkout"> <i class="fal fa-calendar-alt"></i></div> --}}
                             <div class="form-group"><textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea> <i class="fal fa-pencil"></i></div>
                             <div class="form-group text-end">
