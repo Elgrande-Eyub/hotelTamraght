@@ -52,9 +52,6 @@ class contactController extends Controller
 
             if ($validator->fails()) {
                 Session::flash('error', $validator->errors()->first());
-
-                // redirect()->back()->withInput(Input::all()->withMessage('some validation error message'));
-
                 return redirect()->back()->withFragment('contact')->withInput($request->all());
             }
 

@@ -35,7 +35,6 @@ class BookingController extends Controller
      */
     public function store(Request $request,$lang)
     {
-
         try{
             DB::beginTransaction();
 
@@ -52,7 +51,6 @@ class BookingController extends Controller
 
         if ($validator->fails()) {
             Session::flash('error', $validator->errors()->first());
-
             return redirect()->back()->withFragment('booking-form')->withInput($request->all());
         }
 
@@ -76,13 +74,11 @@ class BookingController extends Controller
              }
         return redirect()->back()->with('success', 'Thank you '. $request->input('name') .'. Your Booking! Its Currently Being Processed.')->withFragment('contact');
 
-
         }catch(Exception $e){
             DB::rollback();
             Session::flash('error', 'Apologies, there was an issue sending your message. Please attempt to send it again later.');
             return redirect()->back()->withFragment('booking-form')->withInput($request->all());
         }
-
     }
 
     /**
