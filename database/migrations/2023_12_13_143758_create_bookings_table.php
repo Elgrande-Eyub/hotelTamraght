@@ -11,13 +11,18 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('contacts', function (Blueprint $table) {
+        Schema::create('bookings', function (Blueprint $table) {
             $table->id();
             $table->string('name')->nullable();
             $table->string('email')->nullable();
             $table->string('phone')->nullable();
-            $table->string('topic')->nullable();
+            $table->string('country')->nullable();
+            $table->string('accommodation')->nullable();
+            $table->string('activity')->nullable();
+            $table->integer('person')->nullable();
+            $table->date('checkin')->nullable();
             $table->longText('message')->nullable();
+            $table->float('total',8,2)->nullable();
             $table->boolean('seen')->default(0);
             $table->timestamps();
             $table->softDeletes();
@@ -29,6 +34,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('contacts');
+        Schema::dropIfExists('bookings');
     }
 };

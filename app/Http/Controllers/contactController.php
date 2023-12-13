@@ -31,10 +31,10 @@ class contactController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(Request $request,$lang)
     {
 
-        $lang=  $request->segment(1);
+        // $lang=  $request->segment(1);
         // if($lang == 'fr'){
         //     return 'ahahahah en';
         // }

@@ -320,76 +320,114 @@
                             <h4 class="title">Book This Accommodation</h4>
                             <p class="price">€20.00 per person</p>
                         </div>
-                        <form action="https://www.adivaha.com/themeforest-travon/mail.php" method="POST" class="widget-form">
+                        <form id="booking-form" action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST" class="widget-form">
+                            @csrf
                             <p>This place has a maximum of 12 guests, not including infants. Pets aren't allowed.</p>
-                            <div class="form-group"><input type="text" class="form-control" name="name" id="name" placeholder="Your Name"> <i class="fal fa-user"></i></div>
-                            <div class="form-group"><input type="email" class="form-control" name="email" id="email" placeholder="Your Email"> <i class="fal fa-envelope"></i></div>
-                            <div class="form-group"><input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number"> <i class="fal fa-phone"></i></div>
-                            <div class="form-group"><input type="text" class="form-control" name="number" id="number" placeholder="Country"> <i class="fa-light fa-globe"></i></div>
 
-                            {{-- <div class="form-group"><select name="subject" id="ticketType" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Ticket Types</option><option value="Basic Ticket">Basic Ticket</option><option value="Standard Ticket">Standard Ticket</option><option value="VIP Ticket">VIP Ticket</option></select>                                <i class="fal fa-chevron-down"></i></div> --}}
+                            @if(session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
+                            @if(Session::has('error'))
+                                <div class="alert alert-danger">
+                                    {{ Session::get('error') }}
+                                </div>
+                            @endif
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" value="{{ old('name') }}">
+                                <i class="fal fa-user"></i>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" value="{{ old('email') }}">
+                                <i class="fal fa-envelope"></i>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number" value="{{ old('phone') }}">
+                                <i class="fal fa-phone"></i>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="country" id="country" placeholder="Country" value="{{ old('country') }}">
+                                <i class="fa-light fa-globe"></i>
+                            </div>
+
+                            <input type="text" name="accommodation" hidden value="Hostle Tamraght">
 
                             <div>
-                                <p>To Book this Accommodation is Obligate to chose an Activitie Package . Check This <a href="">Link</a>
-                                </p>
-                            <div class="form-group">
-                                <select name="person" id="person" class="form-select nice-select">
-                                    <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
-                                    <option value="Surf N' Stays">Surf N' Stays - €350/Person</option>
-                                    <option value="Surf N'Stays +plus">Surf N'Stays +plus - €470/Person</option>
-                                    <option value="Surf Explore N'Stays">Surf Explore N'Stays - €540/Person</option>
-                                    {{-- <option value="Yoga Sessions">Yoga Sessions €350/Per</option> --}}
-                                </select>
-                             <i class="fal fa-chevron-down"></i></div>
+                                <p>To Book this Accommodation is Obligate to chose an Activitie Package. Check This <a href="">Link</a></p>
+                                <div class="form-group">
+                                    <select name="activity" id="activity" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
+                                        <option value="Surf NStays" data-price="350" {{ old('activity') == 'Surf NStays' ? 'selected' : '' }}>Surf N' Stays - €350/Person</option>
+                                        <option value="Surf NStays +plus" data-price="470" {{ old('activity') == 'Surf NStays +plus' ? 'selected' : '' }}>Surf N'Stays +plus - €470/Person</option>
+                                        <option value="Surf Explore NStays" data-price="540" {{ old('activity') == 'Surf Explore NStays' ? 'selected' : '' }}>Surf Explore N'Stays - €540/Person</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
                             </div>
+
                             <div class="row">
                                 <div class=" form-group">
                                     <select name="person" id="person" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Adult</option>
-                                        <option value="1 Adult">1 Person</option>
-                                        <option value="2 Adult">2 Person</option>
-                                        <option value="3 Adult">3 Person</option>
-                                        <option value="4 Adult">4 Person</option>
-                                        <option value="5 Adult">5 Person</option>
-                                        <option value="6 Adult">6 Person</option>
-                                        <option value="7 Adult">7 Person</option>
-                                        <option value="8 Adult">8 Person</option>
-                                        <option value="9 Adult">9 Person</option>
-                                        <option value="10 Adult">10 Person</option>
-                                        <option value="11 Adult">11 Person</option>
-                                        <option value="12 Adult">12 Person</option>
+                                        @for ($i = 1; $i <= 12; $i++)
+                                            <option value="{{ $i }}" {{ old('person') == $i ? 'selected' : '' }}>{{ $i }} Person</option>
+                                        @endfor
                                     </select>
-                                      <i class="fal fa-chevron-down"></i></div>
-                              {{--   <div class="col-6 form-group">
-                                    <select name="child" id="child" class="form-select nice-select">
-                                        <option value="" disabled="disabled" selected="selected" hidden>Child</option>
-                                        <option value="1 Child">1 Person</option>
-                                        <option value="2 Child">2 Person</option>
-                                        <option value="3 Child">3 Person</option>
-                                        <option value="4 Child">4 Person</option>
-                                        <option value="5 Child">5 Person</option>
-                                        <option value="6 Child">6 Person</option>
-                                        <option value="7 Child">7 Person</option>
-                                        <option value="8 Child">8 Person</option>
-                                    </select>
-                               <i class="fal fa-chevron-down"></i>
-                            </div> --}}
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
                             </div>
 
+                            <input type="hidden" value="" name="total" id="totalInput" hidden>
+
                             <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkin Date</p>
-                            <div class="form-group" ><input type="date" class="form-control" name="Checkin" id="date" placeholder="Checkin"><i class="fal fa-calendar-alt"></i></div>
-                            {{-- <div class="form-group"><input type="date" class="form-control" name="checkout" id="date" placeholder="checkout"> <i class="fal fa-calendar-alt"></i></div> --}}
-                            <div class="form-group"><textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea> <i class="fal fa-pencil"></i></div>
+                            <div class="form-group">
+                                <input type="date" class="form-control" name="checkin" id="date" placeholder="Checkin" value="{{ old('checkin') }}">
+                                <i class="fal fa-calendar-alt"></i>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message">{{ old('message') }}</textarea>
+                                <i class="fal fa-pencil"></i>
+                            </div>
+
                             <div class="form-group text-end">
-                                <p>Total : <strong>€00.00</strong>
-                                </p>
+                                <p>Total : <strong id="total">€{{ old('total', '0.00') }}</strong></p>
                             </div>
 
                             <div class="form-btn"><button class="ot-btn w-100">Book now</button></div>
                             <p class="form-messages mb-0 mt-3"></p>
                         </form>
+
                     </div>
                 </div>
+
+
+
+
+                <script>
+
+                    $(document).ready(function () {
+
+                            $('#activity, #person').change(function () {
+
+                                var activityPrice = parseFloat($('#activity').find(':selected').data('price')) || 0;
+                                var numberOfPersons = parseFloat($('#person').val()) || 0;
+
+                                var total = activityPrice * numberOfPersons;
+                                console.log(total);
+
+                                $('#total').text('€' + total.toFixed(2));
+                                $('#totalInput').val(total.toFixed(2));
+
+                            });
+                        });
+                </script>
+
 
 
                 <style>
@@ -403,7 +441,6 @@
                         margin: 0;
                     }
 
-                    /* Hide the default date input arrow icon */
                     input[type="date"] {
                         -webkit-appearance: none;
                         appearance: none;

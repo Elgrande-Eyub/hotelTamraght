@@ -78,7 +78,7 @@
                         </span>
                         <h2 class="sec-title">The Perfect Place For You & Your Family</h2>
                     </div>
-                    <p class="mt-n2 mb-40">Progressively impact multidisciplinary leadership skills via e-business leadership skills. Holisticly repurpose multifunctional data before turnkey information. Globally restore client-focused potentialities before scalable core competencies.</p>
+                    <p class="mt-n2 mb-40">Explore the coastal gems of Tamraght and Taghazout, where 'The Perfect Place' awaits to elevate your family getaway. Nestled in the heart of these charming Moroccan villages, our haven offers an unparalleled experience blending the laid-back atmosphere of Tamraght and the vibrant surf culture of Taghazout. Immerse your family in the thrill of surfing on world-renowned waves, embark on captivating trips to nearby scenic spots, and unwind with rejuvenating yoga sessions. At 'The Perfect Place,' every day is an adventure, and every moment is a cherished memory in the making.</p>
                     {{-- <div
                         class="skill-feature">
                         <h3 class="skill-feature_title">Relaxing And Enjoying</h3>

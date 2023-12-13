@@ -20,3 +20,4 @@
     <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link  rel="stylesheet" href="{{ asset('assets/css/carousel.css') }}" >
+    <script src="{{ asset('assets/js/vendor/jquery-3.6.4.min.js') }}"></script>
