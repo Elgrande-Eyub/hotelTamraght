@@ -335,9 +335,9 @@
                             <div class="form-group">
                                 <select name="person" id="person" class="form-select nice-select">
                                     <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
-                                    <option value="Surf N' Stays">Surf N' Stays - €350/Per</option>
-                                    <option value="Surf N'Stays +plus">Surf N'Stays +plus - €470/Per</option>
-                                    <option value="Surf Explore N'Stays">Surf Explore N'Stays - €540/Per</option>
+                                    <option value="Surf N' Stays">Surf N' Stays - €350/Person</option>
+                                    <option value="Surf N'Stays +plus">Surf N'Stays +plus - €470/Person</option>
+                                    <option value="Surf Explore N'Stays">Surf Explore N'Stays - €540/Person</option>
                                     {{-- <option value="Yoga Sessions">Yoga Sessions €350/Per</option> --}}
                                 </select>
                              <i class="fal fa-chevron-down"></i></div>
@@ -376,7 +376,7 @@
                             </div> --}}
                             </div>
 
-                            <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkin</p>
+                            <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkin Date</p>
                             <div class="form-group" ><input type="date" class="form-control" name="Checkin" id="date" placeholder="Checkin"><i class="fal fa-calendar-alt"></i></div>
                             {{-- <div class="form-group"><input type="date" class="form-control" name="checkout" id="date" placeholder="checkout"> <i class="fal fa-calendar-alt"></i></div> --}}
                             <div class="form-group"><textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea> <i class="fal fa-pencil"></i></div>
