@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\booking as MailBooking;
+use App\Mail\bookingSystem;
 use App\Models\booking;
 use Exception;
 use Illuminate\Http\Request;
@@ -68,8 +69,9 @@ class BookingController extends Controller
         $booking->total = $request->input('total');
         $booking->save();
 
-        // Mail::to('info@salty-wave.com')->send(new contactForm($Contact));
+
         Mail::to($booking->email)->send(new MailBooking($booking));
+        Mail::to('info@salty-wave.com')->send(new bookingSystem($booking));
 
         DB::commit();
         if($lang == 'fr'){
