@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\booking;
+use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
@@ -34,12 +36,8 @@ class BookingController extends Controller
     public function store(Request $request,$lang)
     {
 
-
-        // return $request;
-        // $lang=  $request->segment(1);
-        // if($lang == 'fr'){
-        //     return 'ahahahah en';
-        // }
+        try{
+            DB::beginTransaction();
 
         $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:255',
@@ -72,11 +70,18 @@ class BookingController extends Controller
         $booking->save();
 
         // Mail::to('info@salty-wave.com')->send(new contactForm($Contact));
-
+        DB::commit();
         if($lang == 'fr'){
                  return redirect()->back()->with('success', 'Merci '. $request->input('name') .'. Votre réservation ! Elle est actuellement en cours de traitement.')->withFragment('contact');;
              }
         return redirect()->back()->with('success', 'Thank you '. $request->input('name') .'. Your Booking! Its Currently Being Processed.')->withFragment('contact');
+
+
+        }catch(Exception $e){
+            DB::rollback();
+            Session::flash('error', 'Apologies, there was an issue sending your message. Please attempt to send it again later.');
+            return redirect()->back()->withFragment('booking-form')->withInput($request->all());
+        }
 
     }
 

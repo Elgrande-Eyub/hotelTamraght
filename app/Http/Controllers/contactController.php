@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Mail\contactForm;
 use App\Models\contact;
+use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
@@ -39,35 +41,46 @@ class contactController extends Controller
         //     return 'ahahahah en';
         // }
 
-        $validator = Validator::make($request->all(), [
-            'name' => 'required|string|max:255',
-            'phone' => 'required|string|max:20',
-            'email' => 'required|email|max:255',
-            'message' => 'required|string|max:255',
-        ]);
+        try{
+            DB::beginTransaction();
+            $validator = Validator::make($request->all(), [
+                'name' => 'required|string|max:255',
+                'phone' => 'required|string|max:20',
+                'email' => 'required|email|max:255',
+                'message' => 'required|string|max:255',
+            ]);
 
-        if ($validator->fails()) {
-            Session::flash('error', $validator->errors()->first());
+            if ($validator->fails()) {
+                Session::flash('error', $validator->errors()->first());
 
-            // redirect()->back()->withInput(Input::all()->withMessage('some validation error message'));
+                // redirect()->back()->withInput(Input::all()->withMessage('some validation error message'));
 
-            return redirect()->back()->withFragment('contact')->withInput($request->all());
+                return redirect()->back()->withFragment('contact')->withInput($request->all());
+            }
+
+            $Contact = new contact();
+            $Contact->name = $request->input('name');
+            $Contact->phone = $request->input('phone');
+            $Contact->email = $request->input('email');
+            $Contact->topic = $request->input('topic');
+            $Contact->message = $request->input('message');
+            $Contact->save();
+
+            Mail::to('info@salty-wave.com')->send(new contactForm($Contact));
+
+            DB::commit();
+            if($lang == 'fr'){
+                     return redirect()->back()->with('success', 'Merci '. $request->input('name') .'. Nous vous contacterons dès que possible.')->withFragment('contact');;
+                 }
+            return redirect()->back()->with('success', 'Thank you '. $request->input('name') .'. We will contact you as soon as possible.')->withFragment('contact');
+
+        }catch(Exception $e){
+            DB::rollback();
+            Session::flash('error', 'Apologies, there was an issue sending your message. Please attempt to send it again later.');
+            return redirect()->back()->withFragment('booking-form')->withInput($request->all());
+
         }
 
-        $Contact = new contact();
-        $Contact->name = $request->input('name');
-        $Contact->phone = $request->input('phone');
-        $Contact->email = $request->input('email');
-        $Contact->topic = $request->input('topic');
-        $Contact->message = $request->input('message');
-        $Contact->save();
-
-        Mail::to('info@salty-wave.com')->send(new contactForm($Contact));
-
-        if($lang == 'fr'){
-                 return redirect()->back()->with('success', 'Merci '. $request->input('name') .'. Nous vous contacterons dès que possible.')->withFragment('contact');;
-             }
-        return redirect()->back()->with('success', 'Thank you '. $request->input('name') .'. We will contact you as soon as possible.')->withFragment('contact');
 
     }
 
