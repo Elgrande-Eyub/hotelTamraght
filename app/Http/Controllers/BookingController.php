@@ -70,9 +70,9 @@ class BookingController extends Controller
         // Mail::to('info@salty-wave.com')->send(new contactForm($Contact));
         DB::commit();
         if($lang == 'fr'){
-                 return redirect()->back()->with('success', 'Merci '. $request->input('name') .'. Votre réservation ! Elle est actuellement en cours de traitement.')->withFragment('contact');;
+                 return redirect()->back()->with('success', 'Merci '. $request->input('name') .'. Votre réservation ! Elle est actuellement en cours de traitement.')->withFragment('booking-form');;
              }
-        return redirect()->back()->with('success', 'Thank you '. $request->input('name') .'. Your Booking! Its Currently Being Processed.')->withFragment('contact');
+        return redirect()->back()->with('success', 'Thank you '. $request->input('name') .'. Your Booking! Its Currently Being Processed.')->withFragment('booking-form');
 
         }catch(Exception $e){
             DB::rollback();

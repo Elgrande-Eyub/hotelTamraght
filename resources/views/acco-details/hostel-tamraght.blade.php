@@ -382,7 +382,7 @@
                                 </div>
                             </div>
 
-                            <input type="hidden" value="" name="total" id="totalInput" hidden>
+                            <input type="hidden" value="{{ old('total') }}" name="total" id="totalInput" >
 
                             <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkin Date</p>
                             <div class="form-group">
