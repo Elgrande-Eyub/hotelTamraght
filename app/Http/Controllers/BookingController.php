@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\booking as MailBooking;
 use App\Models\booking;
 use Exception;
 use Illuminate\Http\Request;
@@ -68,6 +69,8 @@ class BookingController extends Controller
         $booking->save();
 
         // Mail::to('info@salty-wave.com')->send(new contactForm($Contact));
+        Mail::to($booking->email)->send(new MailBooking($booking));
+
         DB::commit();
         if($lang == 'fr'){
                  return redirect()->back()->with('success', 'Merci '. $request->input('name') .'. Votre réservation ! Elle est actuellement en cours de traitement.')->withFragment('booking-form');;
