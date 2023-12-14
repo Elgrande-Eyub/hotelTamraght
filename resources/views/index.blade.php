@@ -79,9 +79,9 @@
                 <div class="col-xl-6 pe-xl-4">
                     <div class="title-area mb-35"><span class="sub-title">Get About Us <span class="shape right"><span class="dots"></span></span>
                         </span>
-                        <h2 class="sec-title">Welcome to Salty Waves, where every stay feels like home</h2>
+                        <h2 class="sec-title">Welcome to Salty Waves, where every place feels like home</h2>
                     </div>
-                    <p class="mt-n2 mb-35">Welcome to Salty Waves, where every stay feels like home. Immerse yourself in the perfect blend of relaxation and adventure with our passion for surf, yoga, and memorable trips. Whether you're catching waves, finding your zen in our yoga sessions, or exploring exciting excursions, every moment is crafted to make your stay truly exceptional. Embrace the Salty Waves experience, where your home away from home is a gateway to unforgettable activities and cherished memories.</p>
+                    <p class="mt-n2 mb-35">Welcome to Salty Waves, where every place feels like home. Immerse yourself in the perfect blend of relaxation and adventure with our passion for surf, yoga, and memorable trips. Whether you're catching waves, finding your zen in our yoga sessions, or exploring exciting excursions, every moment is crafted to make your stay truly exceptional. Embrace the Salty Waves experience, where your home away from home is a gateway to unforgettable activities and cherished memories.</p>
 
                     <div class="title-area mb-35">
                     <h4 class="sec-title"><img src="{{ asset('assets/img/icon/counter_1_2.svg') }}" alt="icon" style="margin-right: 1rem"> Our Location</h4>
