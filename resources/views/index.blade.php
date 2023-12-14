@@ -149,40 +149,54 @@
         <div class="container">
             <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Top Destinations <span class="shape right"><span class="dots"></span></span>
                 </span>
-                <h2 class="sec-title">Popular Destinations N' Activities</h2>
+                <h2 class="sec-title">Popular destinations and Activities Nearby</h2>
             </div>
             <div class="row align-items-center">
                 <div class="col-xl-3 mb-40 mb-xl-0">
                     <div class="trip-details-slide ot-carousel" data-fade="true">
                         <div>
-                            <div class="trip-card-details"><span class="subtitle">Locations</span>
+                            <div class="trip-card-details">
+                                {{-- <span class="subtitle">Locations</span> --}}
                                 <h3 class="trip-title"><a href="#">Paradise Valley</a></h3>
                                 <p class="trip-text">River-fed swimming destination nestled between rocky cliffs, with natural pools & small waterfalls.</p>
                             </div>
                         </div>
                         <div>
-                            <div class="trip-card-details"><span class="subtitle">Locations</span>
+                            <div class="trip-card-details">
+                                {{-- <span class="subtitle">Locations</span> --}}
                                 <h3 class="trip-title"><a href="#">Agadir Small Desert</a></h3>
-                                <p class="trip-text">Simplify Globally pandemic e-business via functionalized e-business. Rapidiously covalent leadership whereas distributed results drive.</p>
+                                <p class="trip-text">
+                                    Discover Agadir's Small Desert with Quad adventures. Experience the thrill of sandy terrains, blending tranquility and adrenaline. Create lasting memories in this unique landscape with every Quad ride.</p>
                             </div>
                         </div>
                         <div>
-                            <div class="trip-card-details"><span class="subtitle">Locations</span>
+                            <div class="trip-card-details">
+                                {{-- <span class="subtitle">Locations</span> --}}
                                 <h3 class="trip-title"><a href="#">Agadir cable car Telepherique</a></h3>
                                 <p class="trip-text">Agadir Cable car ride is a spectacular new attraction in the regions of Agadir, Morocco.
                                 </p>
                             </div>
                         </div>
                         <div>
-                            <div class="trip-card-details"><span class="subtitle">Locations</span>
-                                <h3 class="trip-title"><a href="#">Moroccan Cooking Class</a></h3>
-                                <p class="trip-text">Learn the fine art of Moroccan cuisine from a professional chef during this hands-on private masterclass</p>
+                            <div class="trip-card-details">
+                                {{-- <span class="subtitle">Locations</span> --}}
+                                <h3 class="trip-title"><a href="#">Souk El Had d'Agadir</a></h3>
+                                <p class="trip-text">One of the biggest souks in Morocco, this authentic traditional market features over 6,000 shops spread over 13 hectares in the center of Agadir. </p>
                             </div>
                         </div>
                         <div>
-                            <div class="trip-card-details"><span class="subtitle">Locations</span>
+                            <div class="trip-card-details">
+                                {{-- <span class="subtitle">Locations</span> --}}
                                 <h3 class="trip-title"><a href="#">Surfing Classes</a></h3>
                                 <p class="trip-text">Discover surfing with expert guidance. Join our personalized sessions, whether you're a beginner or honing your skills. Experience the joy of riding the waves and the freedom of the open sea!</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="trip-card-details">
+                                {{-- <span class="subtitle">Locations</span> --}}
+                                <h3 class="trip-title"><a href="#">Yoga Activity</a></h3>
+                                <p class="trip-text">Practice yoga at sunrise or sunset, learn to surf in clear waters and stay in relaxing accommodation. Eat delicious, healthy and nutritious Moroccan cuisine.</p>
                             </div>
                         </div>
                     </div>
@@ -197,10 +211,10 @@
                                 <h2 class="trip-card__title box-title"><a href="#">Paradise Valley</a></h2></div>
                         </div>
                         <div class="trip-card">
-                            <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_2.png') }}" alt="Trip image"></div>
+                            <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_2.jpg') }}" alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
-                                <h2 class="trip-card__title box-title"><a href="#">Agadir Small Desert</a></h2></div>
+                                <h2 class="trip-card__title box-title"><a href="#">Quad Excitement in Agadir's Small Desert</a></h2></div>
                         </div>
                         <div class="trip-card">
                             <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_3.jpg') }}" alt="Trip image"></div>
@@ -212,13 +226,19 @@
                             <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_4.jpg') }}" alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
-                                <h2 class="trip-card__title box-title"><a href="#">Private Traditional Moroccan Cooking Class</a></h2></div>
+                                <h2 class="trip-card__title box-title"><a href="#">Souk El Had d'Agadir</a></h2></div>
                         </div>
                         <div class="trip-card">
                             <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_5.jpg') }}" alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
                                 <h2 class="trip-card__title box-title"><a href="#">Surfing Classes</a></h2></div>
+                        </div>
+                        <div class="trip-card">
+                            <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_6.jpg') }}" alt="Trip image"></div>
+                            <div class="trip-card__content">
+                                <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
+                                <h2 class="trip-card__title box-title"><a href="#">Yoga Activity</a></h2></div>
                         </div>
                     </div>
                 </div>

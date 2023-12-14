@@ -8447,7 +8447,8 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 }
 
 .trip-card-details .trip-text {
-    margin-bottom: 27px
+    margin-bottom: 27px;
+    text-align: justify;
 }
 
 @media (max-width: 1199px) {

@@ -116,10 +116,7 @@
                                                     <th>Apartement </th>
                                                     <td>5 Guests, 1 Bedroom, 1 Beds, 1 Bathroom <strong>(€50.00/day)</strong></td>
                                                 </tr>
-                                                <tr>
-                                                    <th>Breakfast</th>
-                                                    <td>Included</td>
-                                                </tr>
+
                                                 <tr>
                                                     <th>Airbnb's Rate</th>
                                                     <td>4.83 out of 5</td>

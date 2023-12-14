@@ -312,7 +312,7 @@
 
         </div>
         </div>
-        <div class="col-xxl-4 col-lg-5">
+        <div class="col-xxl-4 col-lg-5" id="booking-form" >
             <aside class="sidebar-area">
                 <div class="widget widget_book">
                     <div class="widget-tour-book">
@@ -320,7 +320,7 @@
                             <h4 class="title">Book This Accommodation</h4>
                             <p class="price">€20.00 per person</p>
                         </div>
-                        <form id="booking-form" action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST" class="widget-form">
+                        <form action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST" class="widget-form">
                             @csrf
                             <p>This place has a maximum of 12 guests, not including infants. Pets aren't allowed.</p>
 
@@ -384,10 +384,18 @@
 
                             <input type="hidden" value="{{ old('total') }}" name="total" id="totalInput" >
 
-                            <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkin Date</p>
+                            <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkin-Checkout Date</p>
                             <div class="form-group">
                                 <input type="date" class="form-control" name="checkin" id="date" placeholder="Checkin" value="{{ old('checkin') }}">
-                                <i class="fal fa-calendar-alt"></i>
+                                {{-- <i class="fal fa-calendar-alt"></i> --}}
+                                <i class="fa-light fa-plane-departure"></i>
+                            </div>
+
+                            {{-- <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkout Date</p> --}}
+                            <div class="form-group">
+                                <input type="date" class="form-control" name="Checkout" id="date" placeholder="Checkout" value="{{ old('Checkout') }}">
+                                {{-- <i class="fal fa-calendar-alt"></i> --}}
+                                <i class="fa-light fa-plane-arrival"></i>
                             </div>
 
                             <div class="form-group">
