@@ -55,32 +55,32 @@
                             <div class="row gy-30 masonary-active">
                                 <div class="col-md-6 col-xxl-auto filter-item">
                                     <div class="gallery-card">
-                                        <div class="gallery-img"><img style="width:420ppx; height:320px"   src="{{ asset('assets/img/gallery/taghazout_1_6.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                        <div class="gallery-img"><img style="width:420ppx; height:320px"   src="{{ asset('assets/img/gallery/Taghazout_1_6.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-xxl-auto filter-item">
                                     <div class="gallery-card">
-                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/taghazout_1_2.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/Taghazout_1_2.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-xxl-auto filter-item">
                                     <div class="gallery-card">
-                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/taghazout_1_3.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/Taghazout_1_3.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-xxl-auto filter-item">
                                     <div class="gallery-card">
-                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/taghazout_1_4.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_4.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/Taghazout_1_4.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_4.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-xxl-auto filter-item">
                                     <div class="gallery-card">
-                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/taghazout_1_5.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_5.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                        <div class="gallery-img"><img src="{{ asset('assets/img/gallery/Taghazout_1_5.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_5.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-xxl-auto filter-item">
                                     <div class="gallery-card">
-                                        <div class="gallery-img"><img style="width:420ppx; height:320px" src="{{ asset('assets/img/gallery/taghazout_1_1.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_6.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                        <div class="gallery-img"><img style="width:420ppx; height:320px" src="{{ asset('assets/img/gallery/Taghazout_1_1.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_6.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                     </div>
                                 </div>
                             </div>
