@@ -9,7 +9,7 @@
 
 <body>
   @include('layout.header')
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/tamraghtBack.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Tamraght</h1>
