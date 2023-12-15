@@ -147,9 +147,22 @@
     </div>
     <div class="space bg-smoke overflow-hidden">
         <div class="container">
-            <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Top Destinations <span class="shape right"><span class="dots"></span></span>
+            <div class="title-area text-center" >
+                <span class="sub-title justify-content-center">
+                    <span class="shape left"><span class="dots"></span></span> Top Destinations <span class="shape right"><span class="dots"></span></span>
                 </span>
                 <h2 class="sec-title">Popular destinations and Activities Nearby</h2>
+                <p class="text-justify ">We don’t  only offer waves but also a variety of experiences!
+
+                    For surf enthusiasts, we provide group surf coaching, group surf guiding, and private surf coaching. We also supply surfboards and wetsuits for unforgettable surf adventures.
+
+                    Our talented yoga instructors craft inspiring yoga courses upon request, perfect for yoga enthusiasts in the popular location of Tamraght and Taghazout.
+
+                    Immerse yourself in traditional Moroccan culture with a visit to our hammam. Choose between Hammam Traditional, Hammam Mira, Hammam Taziri, and Hammam Royal.
+                    Relax with various massage options, including Relaxing Massage, Massage Special Black, Hot Stone Massage, and Massage 4 Hand.
+
+                    Indulge in culinary delights by ordering delicious tagines directly from us. Additionally, we offer exciting activities such as quad biking, the cable car in Agadir, and excursions to the souk, Crocodile Park, and Imsouane. It's not just about surfing with us – it's about a comprehensive experience in the beautiful backdrop of Morocco!"
+                </p>
             </div>
             <div class="row align-items-center">
                 <div class="col-xl-3 mb-40 mb-xl-0">
