@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 pe-xl-4">
-                    <div class="title-area mb-35"><span class="sub-title">Get About Us <span class="shape right"><span class="dots"></span></span>
+                    <div class="title-area mb-35"><span class="sub-title">About Us <span class="shape right"><span class="dots"></span></span>
                         </span>
                         <h2 class="sec-title">Welcome to Salty Waves, where every place feels like home</h2>
                     </div>
