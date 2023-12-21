@@ -106,38 +106,29 @@
     <div class="space-bottom">
         <div class="container">
             <div class="row gx-0 justify-content-between">
-                <div class="col-6 col-lg-3 counter-card-wrap">
+                <div class="col-6 col-lg-4 counter-card-wrap">
                     <div class="counter-card">
                         <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_1.svg') }}" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">117,325</span>+</h2>
+                            <h2 class="counter-card_number"><span class="counter-number">2800</span>+</h2>
                             <p class="counter-card_text">Our Explorers</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-lg-3 counter-card-wrap">
+                <div class="col-6 col-lg-4 counter-card-wrap">
                     <div class="counter-card">
                         <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_2.svg') }}" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">172</span>+</h2>
-                            <p class="counter-card_text">Destinations</p>
+                            <h2 class="counter-card_number"><span class="counter-number">22</span>+</h2>
+                            <p class="counter-card_text">Years of Experiences</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 col-lg-3 counter-card-wrap">
-                    <div class="counter-card">
-                        <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_3.svg') }}" alt="icon"></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">12,542</span>+</h2>
-                            <p class="counter-card_text">More Trips</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3 counter-card-wrap">
+                <div class="col-6 col-lg-4 counter-card-wrap">
                     <div class="counter-card">
                         <div class="counter-card_icon"><img src="{{ asset('assets/img/icon/counter_1_4.svg') }}" alt="icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">12</span>+</h2>
+                            <h2 class="counter-card_number"><span class="counter-number">4</span>+</h2>
                             <p class="counter-card_text">Accommodations</p>
                         </div>
                     </div>
