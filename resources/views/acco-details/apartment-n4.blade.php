@@ -475,6 +475,13 @@
 
                         <script>
                         $(document).ready(function() {
+                            const checkINDate = new Date();
+                        checkINDate.setDate(checkINDate.getDate() + 1);
+                        document.getElementById('checkin').valueAsDate =checkINDate;
+                        const checkoutDate = new Date();
+                        checkoutDate.setDate(checkoutDate.getDate() + 3);
+                        document.getElementById('checkout').valueAsDate = checkoutDate;
+
                             function updateTotalCost() {
 
                                 var checkinDate = new Date($('#checkin').val());
