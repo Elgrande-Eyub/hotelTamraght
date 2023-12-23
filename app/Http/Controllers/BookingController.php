@@ -54,9 +54,16 @@ class BookingController extends Controller
 
         if($request->accommodation != "Hostle Tamraght"){
             $validator = Validator::make($request->all(), [
+                'name' => 'required|string|max:255',
+                'phone' => 'required|string|max:20',
+                'email' => 'required|email|max:255',
+                'country' => 'required|string|max:255',
+                'accommodation' => 'required|string|max:255',
                 'pack' => 'nullable|string|max:255',
                 'rooms' => 'nullable|string|max:255',
                 'dorms' => 'nullable|string|max:255',
+                'checkin' => 'required|date|after:today|max:255',
+                'checkout' => 'required|date|after:today|max:255',
             ]);
         }
 
