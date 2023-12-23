@@ -4,7 +4,7 @@
         <div class="tour-card__top"><a href="https://www.google.com/maps" class="tour-card__location"><i class="fa-light fa-location-dot"></i> Taghazout</a>
             <div class="tour-card__rating"><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
         </div>
-        <h3 class="tour-card__title"><a href="{{ route('apartment-n6', ['lang' => $lang]) }}">Surf Apartment N6 (Salty Waves) Taghazout</a></h3>
+        <h3 class="tour-card__title"><a href="{{ route('apartment-n6', ['lang' => $lang]) }}">Surf Apartment N6 Taghazout</a></h3>
         <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 5 </span></div>
         <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€50</span></span> <a href="{{ route('apartment-n6', ['lang' => $lang]) }}" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
     </div>

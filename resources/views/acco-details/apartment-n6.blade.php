@@ -110,7 +110,7 @@
                                             <tbody>
                                                 <tr>
                                                     <th>Destination</th>
-                                                    <td>Salty Waves Taghazout >> Surf   Apartment N6 (Salty Waves) Taghazout</td>
+                                                    <td>Salty Waves Taghazout >> Surf   Apartment N6 Taghazout</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>

@@ -11,7 +11,7 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title" >Hostel Tamraght - Salty Waves</h1>
+                <h1 class="breadcumb-title" >Hostel Tamraght </h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li><a href="{{ route('accommodations', ['lang' => $lang]) }}">Accommodations</a></li>
@@ -357,20 +357,76 @@
 
                             <input type="text" name="accommodation" hidden value="Hostle Tamraght">
 
-                            <div>
-                                <p>To Book this Accommodation is Obligate to chose an Activitie Package. Check This <a href="">Link</a></p>
+                          {{--   <div>
+                                <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p>
                                 <div class="form-group">
                                     <select name="activity" id="activity" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
                                         <option value="Surf NStays" data-price="350" {{ old('activity') == 'Surf NStays' ? 'selected' : '' }}>Surf N' Stays - €350/Person</option>
                                         <option value="Surf NStays +plus" data-price="470" {{ old('activity') == 'Surf NStays +plus' ? 'selected' : '' }}>Surf N'Stays +plus - €470/Person</option>
                                         <option value="Surf Explore NStays" data-price="540" {{ old('activity') == 'Surf Explore NStays' ? 'selected' : '' }}>Surf Explore N'Stays - €540/Person</option>
+                                        <option value="Surf Only" data-price="0" {{ old('activity') == 'Surf Only' ? 'selected' : '' }}>Stay Only</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div> --}}
+
+                            <div class="row">
+                                <div class=" form-group">
+                                    <select disabled class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Accommodation: Hostle Tamraght</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p>
+                                {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
+
+                                {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
+                                <div class="form-group">
+                                    <select name="pack" id="pack" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
+                                        <option value="Surf NStays" data-price="350" {{ old('pack') == 'Surf NStays' ? 'selected' : '' }}>Surf N' Stays - €350/Person</option>
+                                        <option value="Surf NStays +plus" data-price="470" {{ old('pack') == 'Surf NStays +plus' ? 'selected' : '' }}>Surf N'Stays +plus - €470/Person</option>
+                                        <option value="Surf Explore NStays" data-price="540" {{ old('pack') == 'Surf Explore NStays' ? 'selected' : '' }}>Surf Explore N'Stays - €540/Person</option>
+                                        <option value="Surf Only" data-price="0" {{ old('pack') == 'Surf Only' ? 'selected' : '' }}>Stay Only</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div>
+                                {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
+                                <div class="form-group">
+                                    <select name="rooms" id="rooms" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Rooms</option>
+                                        <option value="1 Deluxe Twin Room" data-price="35" {{ old('rooms') == '1 Deluxe Twin Room' ? 'selected' : '' }}>1 Deluxe Twin Room (2 Beds/each)</option>
+                                        <option value="2 Deluxe Twin Room" data-price="70" {{ old('rooms') == '2 Deluxe Twin Room' ? 'selected' : '' }}>2 Deluxe Twin Room (2 Beds/each)</option>
+                                        <option value="3 Deluxe Twin Room" data-price="105" {{ old('rooms') == '3 Deluxe Twin Room' ? 'selected' : '' }}>3 Deluxe Twin Room (2 Beds/each)</option>
+                                        <option value="0 Deluxe Twin Room" data-price="0" {{ old('rooms') == '0 Deluxe Twin Room' ? 'selected' : '' }}>0 Deluxe Twin Room (2 Beds/each)</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div>
+                                {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
+                                <div class="form-group">
+                                    <select name="dorms" id="dorms" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Dormitory</option>
+                                        <option value="1 Bed In Dormitory" data-price="20" {{ old('dorms') == '1 Bed In Dormitory' ? 'selected' : '' }}>1 Bed </option>
+                                        <option value="2 Beds In Dormitory" data-price="40" {{ old('dorms') == '2 Beds In Dormitory' ? 'selected' : '' }}>2 Beds</option>
+                                        <option value="3 Beds In Dormitory" data-price="60" {{ old('dorms') == '3 Beds In Dormitory' ? 'selected' : '' }}>3 Beds</option>
+                                        <option value="4 Beds In Dormitory" data-price="80" {{ old('dorms') == '4 Beds In Dormitory' ? 'selected' : '' }}>4 Beds</option>
+                                        <option value="5 Beds In Dormitory" data-price="100" {{ old('dorms') == '5 Beds In Dormitory' ? 'selected' : '' }}>5 Beds</option>
+                                        <option value="6 Beds In Dormitory" data-price="120" {{ old('dorms') == '6 Beds In Dormitory' ? 'selected' : '' }}>6 Beds</option>
+                                        <option value="0 Bed In Dormitory" data-price="0" {{ old('dorms') == '0 Bed In Dormitory' ? 'selected' : '' }}>0 Bed </option>
+
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
                             </div>
 
-                            <div class="row">
+                           {{--  <div class="row">
                                 <div class=" form-group">
                                     <select name="person" id="person" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Adult</option>
@@ -380,20 +436,20 @@
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
-                            </div>
+                            </div> --}}
 
                             <input type="hidden" value="{{ old('total') }}" name="total" id="totalInput" >
 
                             <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkin-Checkout Date</p>
                             <div class="form-group">
-                                <input type="date" class="form-control" name="checkin" id="date" placeholder="Checkin" value="{{ old('checkin') }}">
+                                <input type="date" class="form-control" name="checkin" id="checkin" placeholder="Checkin" value="{{ old('checkin') }}">
                                 {{-- <i class="fal fa-calendar-alt"></i> --}}
                                 <i class="fa-light fa-plane-departure"></i>
                             </div>
 
                             {{-- <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkout Date</p> --}}
                             <div class="form-group">
-                                <input type="date" class="form-control" name="Checkout" id="date" placeholder="Checkout" value="{{ old('Checkout') }}">
+                                <input type="date" class="form-control" name="checkout"  id="checkout" placeholder="Checkout" value="{{ old('Checkout') }}">
                                 {{-- <i class="fal fa-calendar-alt"></i> --}}
                                 <i class="fa-light fa-plane-arrival"></i>
                             </div>
@@ -415,18 +471,41 @@
                 </div>
 
 
-
-
                 <script>
+                    $(document).ready(function () {
+                        const checkINDate = new Date();
+                        checkINDate.setDate(checkINDate.getDate() + 1);
+                        document.getElementById('checkin').valueAsDate =checkINDate;
+                        const checkoutDate = new Date();
+                        checkoutDate.setDate(checkoutDate.getDate() + 3);
+                        document.getElementById('checkout').valueAsDate = checkoutDate;
 
+
+                        $('#pack, #dorms, #rooms').change(function () {
+                            var activityPrice = parseFloat($('#pack').find(':selected').data('price')) || 0;
+                            var dormsPrice = parseFloat($('#dorms').find(':selected').data('price')) || 0;
+                            var roomsPrice = parseFloat($('#rooms').find(':selected').data('price')) || 0;
+
+                            var total = activityPrice + dormsPrice + roomsPrice;
+
+                            $('#total').text('€' + total.toFixed(2));
+                            $('#totalInput').val(total.toFixed(2));
+                        });
+                    });
+                </script>
+
+
+                {{-- <script>
                     $(document).ready(function () {
 
-                            $('#activity, #person').change(function () {
+                            $('#pack, #dorms','#rooms').change(function () {
 
-                                var activityPrice = parseFloat($('#activity').find(':selected').data('price')) || 0;
-                                var numberOfPersons = parseFloat($('#person').val()) || 0;
+                                var activityPrice = parseFloat($('#pack').find(':selected').data('price')) || 0;
+                                var dormsPrice = parseFloat($('#dorms').find(':selected').data('price')) || 0;
+                                var roomsPrice = parseFloat($('#rooms').find(':selected').data('price')) || 0;
+                                // var numberOfPersons = parseFloat($('#person').val()) || 0;
 
-                                var total = activityPrice * numberOfPersons;
+                                var total = activityPrice + dormPrice + roomsPrice;
                                 console.log(total);
 
                                 $('#total').text('€' + total.toFixed(2));
@@ -434,7 +513,7 @@
 
                             });
                         });
-                </script>
+                </script> --}}
 
 
 

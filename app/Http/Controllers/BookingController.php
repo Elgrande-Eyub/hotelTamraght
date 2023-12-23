@@ -46,10 +46,21 @@ class BookingController extends Controller
             'email' => 'required|email|max:255',
             'country' => 'required|string|max:255',
             'accommodation' => 'required|string|max:255',
-            'activity' => 'required|string|max:20',
-            'person' => 'required|string|max:255',
+            'rooms' => 'required|string|max:255',
+            'dorms' => 'required|string|max:255',
             'checkin' => 'required|date|after:today|max:255',
+            'checkout' => 'required|date|after:today|max:255',
         ]);
+
+        if($request->accommodation != "Hostle Tamraght"){
+            $validator = Validator::make($request->all(), [
+                'pack' => 'nullable|string|max:255',
+                'rooms' => 'nullable|string|max:255',
+                'dorms' => 'nullable|string|max:255',
+            ]);
+        }
+
+
 
         if ($validator->fails()) {
             Session::flash('error', $validator->errors()->first());
@@ -62,9 +73,12 @@ class BookingController extends Controller
         $booking->email = $request->input('email');
         $booking->country = $request->input('country');
         $booking->accommodation = $request->input('accommodation');
-        $booking->activity = $request->input('activity');
-        $booking->person = $request->input('person');
+        $booking->pack =$request->input('pack');
+        $booking->person =$request->input('person');
+        $booking->dorms = $request->input('dorms');
+        $booking->rooms = $request->input('rooms');
         $booking->checkin = $request->input('checkin');
+        $booking->checkout = $request->input('checkout');
         $booking->message = $request->input('message');
         $booking->total = $request->input('total');
         $booking->save();

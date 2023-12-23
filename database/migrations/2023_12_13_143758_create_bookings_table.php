@@ -18,9 +18,14 @@ return new class extends Migration
             $table->string('phone')->nullable();
             $table->string('country')->nullable();
             $table->string('accommodation')->nullable();
-            $table->string('activity')->nullable();
-            $table->integer('person')->nullable();
+            $table->string('pack')->nullable();
+            $table->string('rooms')->nullable();
+            $table->string('dorms')->nullable();
+            $table->string('person')->nullable();
             $table->date('checkin')->nullable();
+            $table->date('checkout')->nullable();
+            $table->string('booking_id')->nullable();
+            $table->string('status')->nullable();
             $table->longText('message')->nullable();
             $table->float('total',8,2)->nullable();
             $table->boolean('seen')->default(0);

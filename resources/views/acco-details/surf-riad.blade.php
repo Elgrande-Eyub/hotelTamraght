@@ -26,7 +26,7 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="tour-details">
                         <div class="tour-header">
-                            <h2 class="tour-title" style="margin: 0">Surf Riad Taghazout - Salty Waves</h2>
+                            <h2 class="tour-title" style="margin: 0">Surf Riad Taghazout</h2>
                             <p>5 Guests, 2 Bedrooms, 5 Beds, 2.5 Bathrooms <strong>(€85.00/day)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
