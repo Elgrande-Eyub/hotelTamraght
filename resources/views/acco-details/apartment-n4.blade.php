@@ -475,7 +475,7 @@
 
                         <script>
                         $(document).ready(function() {
-                            const checkINDate = new Date();
+                                const checkINDate = new Date();
                         checkINDate.setDate(checkINDate.getDate() + 1);
                         document.getElementById('checkin').valueAsDate =checkINDate;
                         const checkoutDate = new Date();
@@ -555,7 +555,7 @@
                         </div><a href="{{ route('contact', ['lang' => $lang]) }}" class="ot-btn">Get A Quote</a></div>
                 </div>
             </aside>
-        </div>>
+        </div>
         </div>
         </div>
     </section>

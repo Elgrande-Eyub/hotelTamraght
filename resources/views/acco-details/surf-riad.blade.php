@@ -322,70 +322,244 @@
 
         </div>
         </div>
-        <div class="col-xxl-4 col-lg-5">
+        <div class="col-xxl-4 col-lg-5" id="booking-form" >
             <aside class="sidebar-area">
                 <div class="widget widget_book">
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">€85.00</p>
+                            <p class="price">€85.00 per day</p>
                         </div>
-                        <form action="https://www.adivaha.com/themeforest-travon/mail.php" method="POST" class="widget-form">
+                        <form action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST" class="widget-form">
+                            @csrf
                             <p>This place has a maximum of 5 guests, not including infants. Pets aren't allowed.</p>
-                            <div class="form-group"><input type="text" class="form-control" name="name" id="name" placeholder="Your Name"> <i class="fal fa-user"></i></div>
-                            <div class="form-group"><input type="email" class="form-control" name="email" id="email" placeholder="Your Email"> <i class="fal fa-envelope"></i></div>
-                            <div class="form-group"><input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number"> <i class="fal fa-phone"></i></div>
-                            <div class="form-group"><select name="subject" id="ticketType" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Ticket Types</option><option value="Basic Ticket">Basic Ticket</option><option value="Standard Ticket">Standard Ticket</option><option value="VIP Ticket">VIP Ticket</option></select>                                <i class="fal fa-chevron-down"></i></div>
-                            <div class="row">
-                                <div class="col-6 form-group"><select name="person" id="person" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Adult</option><option value="1 Person">1 Person</option><option value="2 Person">2 Person</option><option value="3 Person">3 Person</option><option value="4 Person">4 Person</option></select>                                    <i class="fal fa-chevron-down"></i></div>
-                                <div class="col-6 form-group"><select name="child" id="child" class="form-select nice-select"><option value="" disabled="disabled" selected="selected" hidden>Child</option><option value="1 Person">1 Person</option><option value="2 Person">2 Person</option><option value="3 Person">3 Person</option><option value="4 Person">4 Person</option><option value="5 Person">5 Person</option></select>                                    <i class="fal fa-chevron-down"></i></div>
+
+                            @if(session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
+                            @if(Session::has('error'))
+                                <div class="alert alert-danger">
+                                    {{ Session::get('error') }}
+                                </div>
+                            @endif
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" value="{{ old('name') }}">
+                                <i class="fal fa-user"></i>
                             </div>
-                            <div class="form-group"><input type="text" class="form-control" name="Checkin" id="date" placeholder="Checkin"> <i class="fal fa-calendar-alt"></i></div>
-                            <div class="form-group"><input type="text" class="form-control" name="checkout" id="date" placeholder="checkout"> <i class="fal fa-calendar-alt"></i></div>
-                            <div class="form-group"><textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea> <i class="fal fa-pencil"></i></div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" value="{{ old('email') }}">
+                                <i class="fal fa-envelope"></i>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number" value="{{ old('phone') }}">
+                                <i class="fal fa-phone"></i>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="country" id="country" placeholder="Country" value="{{ old('country') }}">
+                                <i class="fa-light fa-globe"></i>
+                            </div>
+
+                            <input type="text" name="accommodation" hidden value="Surf Riad">
+
+                            <div class="row">
+                                <div class=" form-group">
+                                    <select name="person" id="person" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Number of Guests?</option>
+                                        @for ($i = 1; $i <= 5; $i++)
+                                            <option value="{{ $i }}" {{ old('person') == $i ? 'selected' : '' }}>{{ $i }} Person</option>
+                                        @endfor
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class=" form-group">
+                                    <select disabled class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Accommodation: Surf Riad</option>
+
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+
+                          {{--   <div>
+                                <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p>
+                                <div class="form-group">
+                                    <select name="activity" id="activity" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
+                                        <option value="Surf NStays" data-price="385" {{ old('activity') == 'Surf NStays' ? 'selected' : '' }}>Surf N' Stays - €385/Person</option>
+                                        <option value="Surf NStays +plus" data-price="470" {{ old('activity') == 'Surf NStays +plus' ? 'selected' : '' }}>Surf N'Stays +plus - €470/Person</option>
+                                        <option value="Surf Explore NStays" data-price="540" {{ old('activity') == 'Surf Explore NStays' ? 'selected' : '' }}>Surf Explore N'Stays - €540/Person</option>
+                                        <option value="Surf Only" data-price="0" {{ old('activity') == 'Surf Only' ? 'selected' : '' }}>Stay Only</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div> --}}
+                            {{-- <div>
+                                <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p>
+
+
+                                <div class="form-group">
+                                    <select name="pack" id="pack" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
+                                        <option value="Surf NStays" data-price="350" {{ old('pack') == 'Surf NStays' ? 'selected' : '' }}>Surf N' Stays - €350/Person</option>
+                                        <option value="Surf NStays +plus" data-price="470" {{ old('pack') == 'Surf NStays +plus' ? 'selected' : '' }}>Surf N'Stays +plus - €470/Person</option>
+                                        <option value="Surf Explore NStays" data-price="540" {{ old('pack') == 'Surf Explore NStays' ? 'selected' : '' }}>Surf Explore N'Stays - €540/Person</option>
+                                        <option value="Surf Only" data-price="0" {{ old('pack') == 'Surf Only' ? 'selected' : '' }}>Stay Only</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div>
+                              <div class="form-group">
+                                    <select name="rooms" id="rooms" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Rooms</option>
+                                        <option value="1 Deluxe Twin Room" data-price="35" {{ old('rooms') == '1 Deluxe Twin Room' ? 'selected' : '' }}>1 Deluxe Twin Room (2 Beds/each)</option>
+                                        <option value="2 Deluxe Twin Room" data-price="70" {{ old('rooms') == '2 Deluxe Twin Room' ? 'selected' : '' }}>2 Deluxe Twin Room (2 Beds/each)</option>
+                                        <option value="3 Deluxe Twin Room" data-price="105" {{ old('rooms') == '3 Deluxe Twin Room' ? 'selected' : '' }}>3 Deluxe Twin Room (2 Beds/each)</option>
+                                        <option value="0 Deluxe Twin Room" data-price="0" {{ old('rooms') == '0 Deluxe Twin Room' ? 'selected' : '' }}>0 Deluxe Twin Room (2 Beds/each)</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+                            <div>
+
+                                <div class="form-group">
+                                    <select name="dorms" id="dorms" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Dormitory</option>
+                                        <option value="1 Bed In Dormitory" data-price="20" {{ old('dorms') == '1 Bed In Dormitory' ? 'selected' : '' }}>1 Bed </option>
+                                        <option value="2 Beds In Dormitory" data-price="40" {{ old('dorms') == '2 Beds In Dormitory' ? 'selected' : '' }}>2 Beds</option>
+                                        <option value="3 Beds In Dormitory" data-price="60" {{ old('dorms') == '3 Beds In Dormitory' ? 'selected' : '' }}>3 Beds</option>
+                                        <option value="4 Beds In Dormitory" data-price="80" {{ old('dorms') == '4 Beds In Dormitory' ? 'selected' : '' }}>4 Beds</option>
+                                        <option value="5 Beds In Dormitory" data-price="100" {{ old('dorms') == '5 Beds In Dormitory' ? 'selected' : '' }}>5 Beds</option>
+                                        <option value="6 Beds In Dormitory" data-price="120" {{ old('dorms') == '6 Beds In Dormitory' ? 'selected' : '' }}>6 Beds</option>
+                                        <option value="0 Bed In Dormitory" data-price="0" {{ old('dorms') == '0 Bed In Dormitory' ? 'selected' : '' }}>0 Bed </option>
+
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div> --}}
+
+                           {{--  <div class="row">
+                                <div class=" form-group">
+                                    <select name="person" id="person" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Adult</option>
+                                        @for ($i = 1; $i <= 12; $i++)
+                                            <option value="{{ $i }}" {{ old('person') == $i ? 'selected' : '' }}>{{ $i }} Person</option>
+                                        @endfor
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div> --}}
+
+                            <input type="hidden" value="{{ old('total') }}" name="total" id="totalInput" >
+
+                            <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkin-Checkout Date</p>
+                            <div class="form-group">
+                                <input type="date" class="form-control" name="checkin" id="checkin" placeholder="Checkin" value="{{ old('checkin') }}">
+                                {{-- <i class="fal fa-calendar-alt"></i> --}}
+                                <i class="fa-light fa-plane-departure"></i>
+                            </div>
+
+                            {{-- <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkout Date</p> --}}
+                            <div class="form-group">
+                                <input type="date" class="form-control" name="checkout"  id="checkout" placeholder="Checkout" value="{{ old('Checkout') }}">
+                                {{-- <i class="fal fa-calendar-alt"></i> --}}
+                                <i class="fa-light fa-plane-arrival"></i>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message">{{ old('message') }}</textarea>
+                                <i class="fal fa-pencil"></i>
+                            </div>
+
+                            <div class="form-group text-end">
+                                <p>Total : <strong id="total">€{{ old('total', '0.00') }}</strong></p>
+                            </div>
+
+
+
+
+
+                        <script>
+                        $(document).ready(function() {
+                                const checkINDate = new Date();
+                        checkINDate.setDate(checkINDate.getDate() + 1);
+                        document.getElementById('checkin').valueAsDate =checkINDate;
+                        const checkoutDate = new Date();
+                        checkoutDate.setDate(checkoutDate.getDate() + 3);
+                        document.getElementById('checkout').valueAsDate = checkoutDate;
+
+                            function updateTotalCost() {
+
+                                var checkinDate = new Date($('#checkin').val());
+                                var checkoutDate = new Date($('#checkout').val());
+
+                                if (!isNaN(checkinDate.getTime()) && !isNaN(checkoutDate.getTime())) {
+
+                                    var timeDifference = checkoutDate.getTime() - checkinDate.getTime();
+                                    var nights = Math.ceil(timeDifference / (1000 * 3600 * 24));
+
+                                    var totalCost = nights * 85;
+
+                                    $('#total').text('€' + totalCost.toFixed(2));
+
+                                    $('#totalInput').val(totalCost.toFixed(2));
+                                } else {
+
+                                    $('#total').text('Invalid Dates');
+
+                                    $('#totalInput').val('');
+                                }
+                            }
+
+                            $('#checkin, #checkout').change(updateTotalCost);
+
+                            updateTotalCost();
+                        });
+                        </script>
+
+
                             <div class="form-btn"><button class="ot-btn w-100">Book now</button></div>
                             <p class="form-messages mb-0 mt-3"></p>
                         </form>
+
                     </div>
                 </div>
-               {{--  <div class="widget">
-                    <h3 class="widget_title">Last Minute Deals</h3>
 
-                    <div class="recent-post-wrap">
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-1.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Brooklyn Christmas Lights</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-2.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Java & Bali One Life Adventure</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-3.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Places To Travel In November</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                        <div class="recent-post">
-                            <div class="media-img">
-                                <a href="blog-details.html"><img src="{{ asset('assets/img/trip/recent-tour-1-3.jpg') }}" alt="Blog Image"></a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Pak Nam Chumphon Town Tour</a></h4><span class="tour-price">From <span class="price">250$</span></span>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
+
+
+
+
+
+
+
+                <style>
+                    input[type="date"]::-webkit-calendar-picker-indicator {
+                        display: none;
+                    }
+
+                    input[type="date"]::-webkit-inner-spin-button,
+                    input[type="date"]::-webkit-outer-spin-button {
+                        -webkit-appearance: none;
+                        margin: 0;
+                    }
+
+                    input[type="date"] {
+                        -webkit-appearance: none;
+                        appearance: none;
+                    }
+                </style>
+
+
+
                 <div class="widget widget_banner">
                     <div class="offer-banner">
                         <div class="banner-logo"><img width="40%" src="{{ asset('assets/img/logo/salty-waves-white.png') }}" alt="Travon"></div><span class="banner-subtitle">Happy Holiday</span>
