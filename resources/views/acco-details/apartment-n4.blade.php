@@ -12,11 +12,11 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Surf Apartment N4 (Salty Waves) Taghazout</h1>
+                <h1 class="breadcumb-title">Surf Apartment N4 Taghazout</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li><a href="{{ route('accommodations', ['lang' => $lang]) }}">Accommodations</a></li>
-                    <li>Surf Apartment N4 (Salty Waves) Taghazout</li>
+                    <li>Surf Apartment N4 Taghazout</li>
                 </ul>
             </div>
         </div>
@@ -27,7 +27,7 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="tour-details">
                         <div class="tour-header">
-                            <h2 class="tour-title" style="margin: 0">Surf Apartment N4 (Salty Waves) Taghazout</h2>
+                            <h2 class="tour-title" style="margin: 0">Surf Apartment N4 Taghazout</h2>
                             <p>5 Guests, 1 Bedroom, 3 Beds, 1 Bathroom <strong>(€50.00/day)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
@@ -253,7 +253,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
+           {{--      <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
                     <div class="tour-photos">
                         <div class="row g-4 masonary-active">
                             <div class="col-md-6 filter-item">
@@ -282,7 +282,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
+
                 <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
                     <div class="tour-location">
                         <h3 class="inner-title">About this space</h3>

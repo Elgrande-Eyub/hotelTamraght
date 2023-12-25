@@ -44,7 +44,7 @@ Route::get('/{lang?}/accommodations', function () {
 })->name('accommodations');
 
 Route::get('/{lang?}/accommodations/apartment-n4', function () {
-    return view('acco-details.apartment-n4');
+    return view('acco-details.apartment-n4copy');
 })->name('apartment-n4');
 
 Route::get('/{lang?}/accommodations/apartment-n6', function () {

@@ -3,19 +3,20 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves - Surf Riad Taghazout</title>
+    <title>Salty Waves - Apartment N4</title>
     @include('layout.head')
 </head>
+
 <body>
     @include('layout.header')
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Surf Riad Taghazout</h1>
+                <h1 class="breadcumb-title">Surf Apartment N4 Taghazout</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li><a href="{{ route('accommodations', ['lang' => $lang]) }}">Accommodations</a></li>
-                    <li>Surf Riad Taghazout</li>
+                    <li>Surf Apartment N4 Taghazout</li>
                 </ul>
             </div>
         </div>
@@ -26,14 +27,14 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="tour-details">
                         <div class="tour-header">
-                            <h2 class="tour-title" style="margin: 0">Surf Riad Taghazout</h2>
-                            <p>5 Guests, 2 Bedrooms, 5 Beds, 2.5 Bathrooms <strong>(€85.00/day)</strong></p>
+                            <h2 class="tour-title" style="margin: 0">Surf Apartment N4 Taghazout</h2>
+                            <p>5 Guests, 1 Bedroom, 3 Beds, 1 Bathroom <strong>(€50.00/day)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">€85.00</p>
+                                        <p class="meta-box_text">€50.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -60,33 +61,27 @@
                             </div>
                         </div>
                         <div class="tour-img">
-                            {{-- <img src="{{ asset('assets/img/accommodations/surf-riad/main.jpg') }}" alt="Tour Image"> --}}
                             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-1.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-1.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-2.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-2.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-3.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-3.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-4.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-4.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-5.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-5.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-6.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/surf-riad/main-7.jpg') }}" class="d-block w-100" alt="Hostle Tamraght Photos">
-                                  </div>
+
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -108,21 +103,21 @@
                             <div class="tab-pane fade show active" id="tourDescription" role="tabpanel" aria-labelledby="description-tab">
                                 <div class="tour-description">
 
-
                                     <div class="description-table-wrap">
                                         <table class="description-table">
                                             <tbody>
                                                 <tr>
                                                     <th>Destination</th>
-                                                    <td>Salty Waves Taghazout >> Surf Riad Taghazout - Salty Waves</td>
+                                                    <td>Salty Waves Taghazout >> Surf   Apartment N4 Taghazout</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>
-                                                    <td>5 Guests, 2 Bedrooms, 5 Beds, 2.5 Bathrooms <strong>(€85.00/day)</strong></td>
+                                                    <td>5 Guests, 1 Bedroom, 3 Beds, 1 Bathrooms <strong>(€50.00/day)</strong></td>
                                                 </tr>
+
                                                 <tr>
                                                     <th>Airbnb's Rate</th>
-                                                    <td>4.97 out of 5</td>
+                                                    <td>5 out of 5</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Included</th>
@@ -262,59 +257,44 @@
                     <div class="tour-photos">
                         <div class="row g-4 masonary-active">
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-1.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-1.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-2.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-2.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-3.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-3.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-4.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-4.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-5.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-5.jpg') }}" alt="Image"></div>
                             </div>
                             <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-6.jpg') }}" alt="Image"></div>
+                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-11.jpg') }}" alt="Image"></div>
                             </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-7.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/surf-riad/app-8.jpg') }}" alt="Image"></div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
                     <div class="tour-location">
                         <h3 class="inner-title">About this space</h3>
-                                    <p class="mt-n2 mb-4">
-                                        Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
-                                        The terrace upstairs offers three different seating areas and downstairs courtyard additionally a traditional seating area.
-                                        The following rooms are located on the ground floor:
-                                        A kitchen , a bedroom with a double bed for 2 people , a living room with sleeping facilities for 2 people as well as a bathroom with shower and the magnificent courtyard.
-                                    </p>
-                                    <h3>Guest access</h3>
-                                    <p class="mb-30">Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
-                                        The top terrace offers three different seating options and the bottom courtyard also offers a traditional seating group.
-                                        On the ground floor there are the following rooms:
-                                        A kitchen , a bedroom with a double bed for 2 persons , a living room with sleeping facilities for 2 persons, a bathroom with shower and the magnificent courtyard. In the middle of the house, a beautiful tree protrudes all the way up.
-                                        The house is located a few steps to the sea and to the beautiful cafés and restaurants directly on the sea.
-                                        Taghazout is a fishing village, with several surfer pointe.
-                                        We also offer yoga and surfing courses.
-                                        Taghazout is very popular with surfers from all over the world.
-                                        Of course, Taghazout is also known for the great weather all year round.
-                                        Young and old meet here in Taghazout.
-                                        On request, we also offer an airport shuttle from and to the airport. The nearest airport is about 40 kilometers from the house.
-                                        Welcome........... Merhaba</p>
-                        </div>
+                        <p class="mt-n2 mb-4">
+                            apartment located in a residence with beautiful ocean views and direct access to the beach
+                            5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. Many activities await you: Surfing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
+                        </p>
+                        <h3>The space</h3>
+                        <p class="mb-30">apartment located in a residence with beautiful ocean views and direct access to the beach
+                            5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. There are plenty of activities waiting for you: sailing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
+                        </p></div>
                 </div>
                 <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
                     <div class="tour-location">
-                        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d583.7036393297946!2d-9.709814815442307!3d30.545035769313657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQyLjQiTiA5wrA0MiczMy44Ilc!5e1!3m2!1sen!2sma!4v1702309439261!5m2!1sen!2sma" height="320px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d412.7379685492819!2d-9.713078851828755!3d30.545702211478222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQ0LjQiTiA5wrA0Mic0Ny4xIlc!5e1!3m2!1sen!2sma!4v1702293757319!5m2!1sen!2sma" height="320px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
 
                         </div>
                 </div>
@@ -328,7 +308,7 @@
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">€85.00 per day</p>
+                            <p class="price">€50.00 per day</p>
                         </div>
                         <form action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST" class="widget-form">
                             @csrf
@@ -365,7 +345,7 @@
                                 <i class="fa-light fa-globe"></i>
                             </div>
 
-                            <input type="text" name="accommodation" hidden value="Surf Riad">
+                            <input type="text" name="accommodation" hidden value="Apartment N4">
 
                             <div class="row">
                                 <div class=" form-group">
@@ -382,7 +362,7 @@
                             <div class="row">
                                 <div class=" form-group">
                                     <select disabled class="form-select nice-select">
-                                        <option value="" disabled="disabled" selected="selected" hidden>Accommodation: Surf Riad</option>
+                                        <option value="" disabled="disabled" selected="selected" hidden>Accommodation: Apartment N4</option>
 
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
@@ -394,7 +374,7 @@
                                 <div class="form-group">
                                     <select name="activity" id="activity" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
-                                        <option value="Surf NStays" data-price="385" {{ old('activity') == 'Surf NStays' ? 'selected' : '' }}>Surf N' Stays - €385/Person</option>
+                                        <option value="Surf NStays" data-price="350" {{ old('activity') == 'Surf NStays' ? 'selected' : '' }}>Surf N' Stays - €350/Person</option>
                                         <option value="Surf NStays +plus" data-price="470" {{ old('activity') == 'Surf NStays +plus' ? 'selected' : '' }}>Surf N'Stays +plus - €470/Person</option>
                                         <option value="Surf Explore NStays" data-price="540" {{ old('activity') == 'Surf Explore NStays' ? 'selected' : '' }}>Surf Explore N'Stays - €540/Person</option>
                                         <option value="Surf Only" data-price="0" {{ old('activity') == 'Surf Only' ? 'selected' : '' }}>Stay Only</option>
@@ -507,7 +487,7 @@
                                     var timeDifference = checkoutDate.getTime() - checkinDate.getTime();
                                     var nights = Math.ceil(timeDifference / (1000 * 3600 * 24));
 
-                                    var totalCost = nights * 85;
+                                    var totalCost = nights * 50;
 
                                     $('#total').text('€' + totalCost.toFixed(2));
 
