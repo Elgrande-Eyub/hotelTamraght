@@ -387,14 +387,42 @@
                                 <div class="form-group">
                                     <select name="pack" id="pack" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
-                                        <option value="Surf NStays" data-price="350" {{ old('pack') == 'Surf NStays' ? 'selected' : '' }}>Surf N' Stays - €350/Person</option>
-                                        <option value="Surf NStays +plus" data-price="470" {{ old('pack') == 'Surf NStays +plus' ? 'selected' : '' }}>Surf N'Stays +plus - €470/Person</option>
-                                        <option value="Surf Explore NStays" data-price="540" {{ old('pack') == 'Surf Explore NStays' ? 'selected' : '' }}>Surf Explore N'Stays - €540/Person</option>
+                                        <option value="Premuim Surf & Yoga Pack" data-price="350" {{ old('pack') == 'Premuim Surf & Yoga Pack' ? 'selected' : '' }}>Premuim Surf & Yoga Pack</option>
+                                        <option value="Popular Surf Coaching Pack" data-price="470" {{ old('pack') == 'Popular Surf Coaching Pack' ? 'selected' : '' }}>Popular Surf Coaching Pack</option>
+                                        {{-- <option value="Surf Explore NStays" data-price="540" {{ old('pack') == 'Surf Explore NStays' ? 'selected' : '' }}>Surf Explore N'Stays - €540/Person</option> --}}
                                         <option value="Surf Only" data-price="0" {{ old('pack') == 'Surf Only' ? 'selected' : '' }}>Stay Only</option>
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
                             </div>
+
+                            <div class="row">
+                                {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
+                                <div class="form-group col-6">
+                                    <select name="solo" id="rooms" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Surf Solo</option>
+                                        <option value="1 Surf Solo" data-price="35" {{ old('rooms') == '1 Surf Solo' ? 'selected' : '' }}>1 Surf Solo</option>
+                                        <option value="2 Surf Solo" data-price="70" {{ old('rooms') == '2 Surf Solo' ? 'selected' : '' }}>2 Surf Solo</option>
+                                        <option value="3 Surf Solo" data-price="105" {{ old('rooms') == '3 Surf Solo' ? 'selected' : '' }}>3 Surf Solo</option>
+                                        <option value="4 Surf Solo" data-price="0" {{ old('rooms') == '4 Surf Solo' ? 'selected' : '' }}>4 Surf Solo</option>
+                                        <option value="5 Surf Solo" data-price="105" {{ old('rooms') == '5 Surf Solo' ? 'selected' : '' }}>5 Surf Solo</option>
+                                        <option value="6 Surf Solo" data-price="0" {{ old('rooms') == '6 Surf Solo' ? 'selected' : '' }}>6 Surf Solo</option>
+                                        <option value="0 Surf Solo" data-price="0" {{ old('rooms') == '0 Surf Solo' ? 'selected' : '' }}>0 Surf Solo</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                                <div class="form-group col-6">
+                                    <select name="buddies" id="rooms" class="form-select nice-select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Surf Buddies</option>
+                                        <option value="1 Surf Buddies" data-price="35" {{ old('rooms') == '1 Surf Buddies' ? 'selected' : '' }}>1 Surf Buddies</option>
+                                        <option value="2 Surf Buddies" data-price="70" {{ old('rooms') == '2 Surf Buddies' ? 'selected' : '' }}>2 Surf Buddies</option>
+                                        <option value="3 Surf Buddies" data-price="105" {{ old('rooms') == '3 Surf Buddies' ? 'selected' : '' }}>3 Surf Buddies</option>
+                                        <option value="0 Surf Buddies" data-price="0" {{ old('rooms') == '0 Surf Buddies' ? 'selected' : '' }}>0 Surf Buddies</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+
                             <div>
                                 {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
                                 <div class="form-group">
