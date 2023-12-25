@@ -30,17 +30,17 @@
                             @include('layout.packages.surfnstay')
 
                         </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                      {{--   <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
 
 
                             @include('layout.packages.surfnstayplus')
 
 
-                        </div>
+                        </div> --}}
                         <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
 
 
-                            @include('layout.packages.surfnstayexplore')
+                            @include('layout.packages.surfcoaching')
 
 
                         </div>

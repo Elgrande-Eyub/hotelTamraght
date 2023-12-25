@@ -3,7 +3,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves - Apartment N4</title>
+    <title>Salty Waves - SURF COACHING</title>
     @include('layout.head')
 </head>
 
@@ -12,11 +12,11 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Surf N' Stays +Plus Pack</h1>
+                <h1 class="breadcumb-title">Popular SURF COACHING Package</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li><a href="{{ route('packages', ['lang' => $lang]) }}">Packages</a></li>
-                    <li>Surf N' Stays +Plus Pack</li>
+                    <li>Popular SURF COACHING Package</li>
                 </ul>
             </div>
         </div>
@@ -29,56 +29,108 @@
                     <div class="about-card mb-5">
                         <div class="row align-items-center">
                         <div class="col-xl-6">
-                            <div class="about-card__img">
-                                <img class="w-100" src="{{ asset('assets/img/surfnstays/surfnstaysplus.jpg') }}" alt="team image">
+                            <div class="about-card__img" >
+                                {{-- <img class="w-100" style="margin-bottom:1rem; border-radius: 15px" src="{{ asset('assets/img/surfnstays/4083286.jpg') }}" alt="team image"> --}}
+                                <img class="w-100" src="{{ asset('assets/img/surfnstays/surfcoachingposter-2.jpg') }}" alt="team image">
                             </div>
                         </div>
                         <div class="col-xl-6">
                             <div class="about-card__box ">
                                 <div class="about-card__top">
-                                    <div><h2 class="about-card__title">Surf N' Stays +Plus level 2</h2>
+                                    <div>
+                                        <h2 class="about-card__title">POPULAR 7 NIGHTS SURF COACHING PACKAGE</h2>
+                                        <p class="badge-btn popular">Popular</p>
                                     </div>
                                 </div>
-                                <h4 class="about-card__subtitle">PACK Provide</h4>
-                                <p class="mb-30">
-                                    If this will be your first time surfing, level 2 is right for you. Our highly experienced team will guide you through the first stages, getting you standing on the board and teaching you vital information about handling yourself in the water. We aim to get you to beaches with small, manageable waves, gradually building your confidence through the week.
-
-                                    This offer can be booked for stays of 7 nights or more.</p>
-                                    <p style="font-size: 1.8rem">Surf N' Stays +Plus level 2 - <strong style="color:#015292">€470.00/7Days</strong></p>
+                                <h4 class="about-card__subtitle">PACK Description</h4>
+                                <p class="mb-30 text-justify">Discover the ultimate Surf Coaching escape with our 7 Nights Surf Coaching Package. For just €505, solo surfers get 7 nights in shared accommodation, daily meals, 6 surf lessons, and equipment rental.
+<br><br>
+                                    If you're with a friend, the package for two people is from €1145, including a double room for 7 nights. Dive into local culture at Agadir's market, try sandboarding, and unwind with a spa Hammam.
+<br><br>
+                                    Add convenience with airport transfers at €20 per person or bus station transfers at €15 per person. Customize your stay with extra yoga classes for €10 each.
+<br>
+                                    Book now for a week of surf, yoga, and relaxation on your terms.</p>
+                                    <p style="font-size: 2rem">7 NIGHTS SURF Coaching - <strong style="color:#015292">€505.00/7Days</strong></p>
                                 <div class="about-infos">
-                                    <div style="display: flex">
+                                    <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>Shuttles from and to the airport/ Bus station</strong></p>
+                                        <p class="about-info"><strong>7 Nights Accommodation</strong></p>
                                        </div>
-                                       <div style="display: flex">
+                                       <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>A Dinner out (guest's expenses, optional)</strong></p>
+                                        <p class="about-info"><strong>7 x Breakfast, lunch and dinner</strong></p>
                                        </div>
-                                       <div style="display: flex">
+                                       <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>Surf equipments provided</strong></p>
+                                        <p class="about-info"><strong>6 x Surf lessons, surf equipment rental (board + wetsuit)</strong></p>
                                        </div>
-                                       <div style="display: flex">
+                                       <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>6 Daily meals provided (breakfast of champions, packed surfer lunch, healthy dinner)</strong></p>
+                                        <p class="about-info"><strong>surf spot transport</strong></p>
                                        </div>
-                                       <div style="display: flex">
+                                       <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>5 surf sessions in two different spots, (3 hours of lessons and free evening surf)</strong></p>
+                                        <p class="about-info"><strong>Visit to Agadir market (Souk)</strong></p>
                                        </div>
-                                       <div style="display: flex">
+                                       <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>Transportation to and from the surf spots</strong></p>
+                                        <p class="about-info"><strong>Sandboarding in the Sand dunes</strong></p>
                                        </div>
-                                       <div style="display: flex">
+                                       <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>1 Trip to Paradise Valley authentic experience</strong></p>
+                                        <p class="about-info"><strong>Spa Hammam</strong></p>
+                                       </div>
+                                       <div class="align-items-center" style="display: flex">
+                                        <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                        <p class="about-info"><strong>Day trip to Paradise Valley</strong></p>
+                                       </div>
+                                       <div class="booknow" style="margin-top:5rem;justify-content:start;">
+                                        <a href="{{ asset('assets/img/surfnstays/surfCoaching.jpg') }}" download  class="ot-btn booknow-btn" style="width:auto;" >Download INFOGRAPHIC</a>
                                        </div>
                                  </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+                           {{--  <div class="tour-details">
+                                <h3>Pack Options</h3>
+                                <ul>
+                                    <li>Airport transfers available for 20€</li>
+                                </ul>
+                            </div> --}}
+                            <div class="tour-details">
+                                <div class="tour-header  ">
+                                    {{-- <h1 class="tour-title text-center m-0">Choose Your Accommodations</h1> --}}
+                                    <div class="container">
+                                        <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Pack Options <span class="shape right"><span class="dots"></span></span>
+                                            </span>
+                                            {{-- <h2 class="sec-title">Our Accommodations</h2> --}}
+                                        </div>
+                                        <div >
+                                            <div class="d-flex" style="flex-wrap: wrap">
+                                               <div class="align-items-center " style="display: flex;margin-top:10px;">
+                                                <p class="about-info"> <i class="fa-regular fa-plane"></i></p>
+                                                <p class="about-info"><strong>Airport transfers available for 20€</strong></p>
+                                               </div>
+                                               <div class="align-items-center" style="display: flex;margin-top:10px;">
+                                                <p class="about-info"> <i class="fa-regular fa-bus"></i></p>
+                                                <p class="about-info"><strong>Bus station transfers available for 15€</strong></p>
+                                               </div>
+                                               <div class="align-items-center" style="display: flex;margin-top:10px;">
+                                                <p class="about-info"><i class="fa-regular fa-head-side-heart"></i></p>
+                                                <p class="about-info"><strong>You can add extra yoga classes to your package for 10€ / class</strong></p>
+                                               </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+
+                </div>
 
                     <div class="tour-details">
                         <div class="tour-header  ">
@@ -90,7 +142,7 @@
                                 </div>
                                 <div class="row gy-30 text-center" style="display:flex;justify-content: center">
                                     <div class="col-xl-5 col-lg-4 col-md-6">
-                                        <h1>Dormitory Rooms</h1>
+                                        <h3>Solo Surfer - Dormitory Rooms</h3>
                                         <p class="text-justify">Our dorm room with is the perfect choice for groups of friends and solo travelers in a budget. A large room that will change your concept about dorm rooms, where you can have a good rest and recover all the energy spent during the surfing sessions.</p>
                                         <div id="carouselExampleInterval" class="carousel slide tour-img" data-bs-ride="carousel">
                                             <div class="carousel-inner">
@@ -118,7 +170,7 @@
                                           </div>
                                     </div>
                                     <div class="col-xl-5 col-lg-4 col-md-6 ">
-                                        <h1>Deluxe Rooms</h1>
+                                        <h3>Surf Buddies - Deluxe Rooms</h3>
                                         <p class="text-justify">Our double rooms are the perfect choice for couples or solo traveleres that want an extra of privacy and comfort staying in a private room, decorated and designed with love by our interior will inspire your dreams, has air conditioning and Wi-Fi access.</p>
 
                                         <div id="carouselExampleInterval1" class="carousel slide tour-img" data-bs-ride="carousel">
@@ -171,20 +223,24 @@
                                 </div>
                                 <div class="row gy-30 text-center" style="display:flex;justify-content: center">
                                     <div class="row d-flex justify-center">
-                                        <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+                                     {{--    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
                                             @include('layout.packages.surfnstay')
 
-                                        </div>
-                                     {{--    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-                                            @include('layout.packages.surfnstayplus')
                                         </div> --}}
                                         <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
 
 
 
-                                            @include('layout.packages.surfnstayexplore')
+                                            @include('layout.packages.surfnstay')
 
                                         </div>
+                                       {{--  <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+
+
+
+                                            @include('layout.packages.surfnstayexplore')
+
+                                        </div> --}}
 
                                     </div>
 

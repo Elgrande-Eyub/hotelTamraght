@@ -8,7 +8,8 @@
 
 <body>
     @include('layout.header')
-    {{-- <div class="ot-hero-wrapper hero-1">
+    {{--
+        <div class="ot-hero-wrapper hero-1">
         <div class="hero-slider ot-carousel" data-fade="true">
             <div class="ot-hero-slide">
                 <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_bg_1_5.jpg') }}"></div>
@@ -41,17 +42,18 @@
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
+    --}}
     <div class="ot-hero-wrapper hero-2">
         <div class="ot-hero-slide">
             <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_bg_2_2.jpg') }}"></div>
             <div class="container z-index-common">
-                <div class="hero-style2"><span class="sub-title hero-subtitle">Enjoy Every Good Moment <span class="shape right"><span class="dots"></span></span>
+                <div class="hero-style2"><span class="sub-title hero-subtitle">Enjoy every surf moment with Salty Waves <span class="shape right"><span class="dots"></span></span>
                     </span>
                     <h1 class="hero-title">Tamraght or Taghazout ?</h1>
                     <h1 class="hero-title">Doesn't Matter</h1>
-                    <p class="hero-text">Experience the best accommodation in Tamraght and Taghazout with us. where comfort meets perfection.</p>
-                    <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Salty Waves ? Check this out</a> <a href="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12" class="video-link popup-video"><span class="play-btn style3"><i class="fas fa-play"></i></span> Feel The Mood </a></div>
+                    <p class="hero-text">Visit our surf hostel to create the best surf memories. Choose between wonderful accommodations in Tamraght and Taghazout.</p>
+                    <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Salty Waves ? Check this out</a> <a href="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12" class="video-link popup-video"><span class="play-btn style3"><i class="fas fa-play"></i></span> Feel The Mood of our inviting surf hostel in Tamraght</a></div>
                 </div>
             </div>
         </div>
@@ -294,11 +296,11 @@
 
             <div class="col-xl-3 col-lg-4 col-md-6">
                 <div class="tour-offer">
-                    <div class="tour-offer__img"><img src="{{ asset('assets/img/surfnstays/5surfnstays.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">45% Off</span></div>
+                    <div class="tour-offer__img"><img src="{{ asset('assets/img/surfnstays/surfandyogaposter.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">45% Off</span></div>
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-stay', ['lang' => $lang]) }}">Surf N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 1</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-yoga', ['lang' => $lang]) }}">premuim SURF & YOGA Pack</a></h3><span class="tour-offer__subtitle" style="color: white">Premuim</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
                         </div>
                         <p class="tour-offer__text">Experience the thrill of surfing amidst breathtaking landscapes. Our Level 1 package offers the perfect blend of waves, relaxation, and personalized guidance. Professionally optimize your surfing skills and make memories that last a lifetime.</p>
                     </div>
@@ -307,37 +309,11 @@
 
             <div class="col-xl-3 col-lg-4 col-md-6">
                 <div class="tour-offer">
-                    <div class="tour-offer__img"><img src="{{ asset('assets/img/surfnstays/surfnstaysplus.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">45% Off</span></div>
+                    <div class="tour-offer__img"><img src="{{ asset('assets/img/surfnstays/surfcoachingposter.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">45% Off</span></div>
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-stayplus', ['lang' => $lang]) }}">Surf N' Stays +PLUS</a></h3><span class="tour-offer__subtitle" style="color: white">Level 2</span></div><span class="tour-offer__price"><span class="price" style="color: white">€470</span></span>
-                        </div>
-                        <p class="tour-offer__text">Elevate your surfing experience with our Level 2 package, Surf N' Stays +PLUS. Enjoy exclusive perks, personalized coaching, and a more immersive surf adventure. Immerse yourself in the waves and take your skills to the next level.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="tour-offer">
-                    <div class="tour-offer__img"><img src="{{ asset('assets/img/surfnstays/surfexplorenstays.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">45% Off</span></div>
-                    <div class="tour-offer__content">
-                        <div class="tour-offer__top">
-                            <div>
-                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-explore-stay', ['lang' => $lang]) }}">Surf Explore N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 3</span></div><span class="tour-offer__price"><span class="price" style="color: white">€540</span></span>
-                        </div>
-                        <p class="tour-offer__text">Embark on a surfing adventure like never before with our Level 3 package, Surf Explore N' Stays. Dive into the excitement of exploration, discover new surf spots, and create unforgettable memories. Join us for an unparalleled surf experience.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="tour-offer">
-                    <div class="tour-offer__img"><img src="{{ asset('assets/img/surfnstays/5surfnstays.jpg') }}" alt="Tour Image"> <span class="tour-offer__tag">45% Off</span></div>
-                    <div class="tour-offer__content">
-                        <div class="tour-offer__top">
-                            <div>
-                                <h3 class="tour-offer__title box-title"><a href="tour-details.html">5 Surf N' Stays</a></h3><span class="tour-offer__subtitle" style="color: white">Level 1</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-coaching', ['lang' => $lang]) }}">popular SURF COACHING Pack</a></h3><span class="tour-offer__subtitle" style="color: white">Popular</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
                         </div>
                         <p class="tour-offer__text">Experience the thrill of surfing amidst breathtaking landscapes. Our Level 1 package offers the perfect blend of waves, relaxation, and personalized guidance. Professionally optimize your surfing skills and make memories that last a lifetime.</p>
                     </div>

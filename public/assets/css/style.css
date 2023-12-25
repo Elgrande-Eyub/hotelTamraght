@@ -10758,3 +10758,19 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 .align-center {
     align-items: center;
 }
+
+.badge-btn {
+    padding: 0.1rem 1rem;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.premuim {
+    border: 1px solid #e5af26;
+    color: #e5af26;
+}
+
+.popular {
+    border: 1px solid #565656;
+    color: #565656;
+}

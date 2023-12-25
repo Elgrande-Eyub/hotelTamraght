@@ -63,9 +63,15 @@ Route::get('/{lang?}/packages', function () {
     return view('packages');
 })->name('packages');
 
-Route::get('/{lang?}/packages/surf-stays', function () {
-    return view('pack-details.surf-stay');
-})->name('surf-stay');
+Route::get('/{lang?}/packages/surf-yoga', function () {
+    return view('pack-details.surf-yoga');
+})->name('surf-yoga');
+
+Route::get('/{lang?}/packages/surf-coaching', function () {
+    return view('pack-details.surf-coaching');
+})->name('surf-coaching');
+
+
 
 Route::get('/{lang?}/packages/surf-stays-plus', function () {
     return view('pack-details.surf-stayplus');
