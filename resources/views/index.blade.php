@@ -53,7 +53,9 @@
                     <h1 class="hero-title">Tamraght or Taghazout ?</h1>
                     <h1 class="hero-title">Doesn't Matter</h1>
                     <p class="hero-text">Visit our surf hostel to create the best surf memories. Choose between wonderful accommodations in Tamraght and Taghazout.</p>
-                    <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Salty Waves ? Check this out</a> <a href="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12" class="video-link popup-video"><span class="play-btn style3"><i class="fas fa-play"></i></span> Feel The Mood of our inviting surf hostel in Tamraght</a></div>
+                    <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Salty Waves ? Check this out</a>
+                        <a href="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12"  class="video-link popup-video d-flex align-items-center">
+                            <span class="play-btn style3"><i class="fas fa-play"></i></span> Feel The Mood of our inviting surf hostel in Tamraght</a></div>
                 </div>
             </div>
         </div>
