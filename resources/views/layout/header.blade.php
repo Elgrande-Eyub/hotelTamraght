@@ -59,8 +59,14 @@
                         {{-- <li><a href="tour.html">@lang('index.menu.packages.surf')</a></li>
                         <li><a href="tour-details.html">@lang('index.menu.packages.yoga')</a></li> --}}
 
-                        <li><a href="{{ route('surf-yoga', ['lang' => $lang]) }}">7 NIGHTS SURF & YOGA</a></li>
-                        <li><a href="{{ route('surf-coaching', ['lang' => $lang]) }}"> Surf N'Stays Plus</a></li>
+                        {{-- <li><a href="{{ route('surf-yoga', ['lang' => $lang]) }}">7 NIGHTS SURF & YOGA</a></li>
+                        <li><a href="{{ route('surf-coaching', ['lang' => $lang]) }}"> Surf N'Stays Plus</a></li> --}}
+
+
+                            <li><a href="{{ route('surf-yoga', ['lang' => $lang]) }}"> Premuim SURF & YOGA</a></li>
+                            <li><a href="{{ route('surf-coaching', ['lang' => $lang]) }}"> Popular SURF COACHING</a></li>
+                            {{-- <li><a href="{{ route('surf-explore-stay', ['lang' => $lang]) }}"><i class="fa-regular fa-person-snowboarding p-7"></i> Surf Explore N'Stays</a></li> --}}
+
                         {{-- <li><a href="{{ route('surf-explore-stay', ['lang' => $lang]) }}"> Surf Explore N'Stays</a></li> --}}
 
                     </ul>
