@@ -40,14 +40,16 @@ class BookingController extends Controller
         try{
             DB::beginTransaction();
 
+            // return  $request;
+
         $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:255',
             'phone' => 'required|string|max:20',
             'email' => 'required|email|max:255',
             'country' => 'required|string|max:255',
             'accommodation' => 'required|string|max:255',
-            'rooms' => 'required|string|max:255',
-            'dorms' => 'required|string|max:255',
+            'rooms' => 'nullable|string|max:255',
+            'dorms' => 'nullable|string|max:255',
             'checkin' => 'required|date|after:today|max:255',
             'checkout' => 'required|date|after:today|max:255',
         ]);
@@ -67,8 +69,6 @@ class BookingController extends Controller
             ]);
         }
 
-
-
         if ($validator->fails()) {
             Session::flash('error', $validator->errors()->first());
             return redirect()->back()->withFragment('booking-form')->withInput($request->all());
@@ -80,10 +80,35 @@ class BookingController extends Controller
         $booking->email = $request->input('email');
         $booking->country = $request->input('country');
         $booking->accommodation = $request->input('accommodation');
-        $booking->pack =$request->input('pack');
-        $booking->person =$request->input('person');
-        $booking->dorms = $request->input('dorms');
-        $booking->rooms = $request->input('rooms');
+
+        if($request->accommodation == "Hostle Tamraght"){
+
+            if(($request->input('buddiescoaching') || $request->input('solocoaching')) != ""){
+                $booking->surfcoaching = true;
+                $booking->buddiescoaching = $request->input('buddiescoaching');
+                $booking->solocoaching = $request->input('solocoaching');
+            }
+
+            if(($request->input('buddiesyoga') || $request->input('soloyoga')) != ""){
+                $booking->surfyoga = true;
+                $booking->buddiesyoga = $request->input('buddiesyoga');
+                $booking->soloyoga = $request->input('soloyoga');
+            }
+
+            if($request->input('pack') == "Stay Only"){
+                $booking->pack =$request->input('pack');
+                $booking->person =$request->input('person');
+                $booking->dorms = $request->input('dorms');
+                $booking->rooms = $request->input('rooms');
+            }
+
+        }else{
+            $booking->pack =$request->input('pack');
+            $booking->person =$request->input('person');
+            $booking->dorms = $request->input('dorms');
+            $booking->rooms = $request->input('rooms');
+        }
+
         $booking->checkin = $request->input('checkin');
         $booking->checkout = $request->input('checkout');
         $booking->message = $request->input('message');

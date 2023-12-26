@@ -398,56 +398,56 @@
 
                             <div class="row">
                                 {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
-                                <div class="form-group col-6 solocoach d-none">
-                                    <select name="solo" id="solocoaching" class="form-select nice-select ">
+                                <div class="form-group col-6 solocoach  {{ old('pack') == 'Popular Surf Coaching Pack' ? '' : 'd-none' }}">
+                                    <select name="solocoaching" id="solocoaching" class="form-select nice-select ">
                                         <option value="" disabled="disabled" selected="selected" hidden>Surf Solo</option>
-                                        <option value="1 Surf Solo" data-Solo="505" {{ old('solo') == '1 Surf Solo' ? 'selected' : '' }}>1 Surf Solo</option>
-                                        <option value="2 Surf Solo" data-Solo="1010" {{ old('solo') == '2 Surf Solo' ? 'selected' : '' }}>2 Surf Solo</option>
-                                        <option value="3 Surf Solo" data-Solo="1515" {{ old('solo') == '3 Surf Solo' ? 'selected' : '' }}>3 Surf Solo</option>
-                                        <option value="4 Surf Solo" data-Solo="2020" {{ old('solo') == '4 Surf Solo' ? 'selected' : '' }}>4 Surf Solo</option>
-                                        <option value="5 Surf Solo" data-Solo="2525" {{ old('solo') == '5 Surf Solo' ? 'selected' : '' }}>5 Surf Solo</option>
-                                        <option value="6 Surf Solo" data-Solo="3030" {{ old('solo') == '6 Surf Solo' ? 'selected' : '' }}>6 Surf Solo</option>
-                                        <option value="0 Surf Solo" data-Solo="0" {{ old('solo') == '0 Surf Solo' ? 'selected' : '' }}>0 Surf Solo</option>
+                                        <option value="1 Surf Solo" data-Solo="505" {{ old('solocoaching') == '1 Surf Solo' ? 'selected' : '' }}>1 Surf Solo</option>
+                                        <option value="2 Surf Solo" data-Solo="1010" {{ old('solocoaching') == '2 Surf Solo' ? 'selected' : '' }}>2 Surf Solo</option>
+                                        <option value="3 Surf Solo" data-Solo="1515" {{ old('solocoaching') == '3 Surf Solo' ? 'selected' : '' }}>3 Surf Solo</option>
+                                        <option value="4 Surf Solo" data-Solo="2020" {{ old('solocoaching') == '4 Surf Solo' ? 'selected' : '' }}>4 Surf Solo</option>
+                                        <option value="5 Surf Solo" data-Solo="2525" {{ old('solocoaching') == '5 Surf Solo' ? 'selected' : '' }}>5 Surf Solo</option>
+                                        <option value="6 Surf Solo" data-Solo="3030" {{ old('solocoaching') == '6 Surf Solo' ? 'selected' : '' }}>6 Surf Solo</option>
+                                        <option value="0 Surf Solo" data-Solo="0" {{ old('solocoaching') == '0 Surf Solo' ? 'selected' : '' }}>0 Surf Solo</option>
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
-                                <div class="form-group col-6 buddiescoach d-none">
-                                    <select name="buddies" id="buddiescoaching" class="form-select nice-select">
+                                <div class="form-group col-6 buddiescoach {{ old('pack') == 'Popular Surf Coaching Pack' ? '' : 'd-none' }}">
+                                    <select name="buddiescoaching" id="buddiescoaching" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Surf Buddies</option>
-                                        <option value="1 Surf Buddies" data-buddies="1145" {{ old('buddies') == '1 Surf Buddies' ? 'selected' : '' }}>1 Surf Buddies</option>
-                                        <option value="2 Surf Buddies" data-buddies="2290" {{ old('buddies') == '2 Surf Buddies' ? 'selected' : '' }}>2 Surf Buddies</option>
-                                        <option value="3 Surf Buddies" data-buddies="3435" {{ old('buddies') == '3 Surf Buddies' ? 'selected' : '' }}>3 Surf Buddies</option>
-                                        <option value="0 Surf Buddies" data-buddies="0" {{ old('buddies') == '0 Surf Buddies' ? 'selected' : '' }}>0 Surf Buddies</option>
+                                        <option value="1 Surf Buddies" data-buddies="1145" {{ old('buddiescoaching') == '1 Surf Buddies' ? 'selected' : '' }}>1 Surf Buddies</option>
+                                        <option value="2 Surf Buddies" data-buddies="2290" {{ old('buddiescoaching') == '2 Surf Buddies' ? 'selected' : '' }}>2 Surf Buddies</option>
+                                        <option value="3 Surf Buddies" data-buddies="3435" {{ old('buddiescoaching') == '3 Surf Buddies' ? 'selected' : '' }}>3 Surf Buddies</option>
+                                        <option value="0 Surf Buddies" data-buddies="0" {{ old('buddiescoaching') == '0 Surf Buddies' ? 'selected' : '' }}>0 Surf Buddies</option>
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
 
-                                <div class="form-group col-6 soloyoga d-none">
-                                    <select name="solo" id="soloyoga" class="form-select nice-select ">
+                                <div class="form-group col-6 soloyoga {{ old('pack') == 'Premuim Surf & Yoga Pack' ? '' : 'd-none' }}">
+                                    <select name="soloyoga" id="soloyoga" class="form-select nice-select ">
                                         <option value="" disabled="disabled" selected="selected" hidden>Surf Solo</option>
-                                        <option value="1 Surf Solo" data-Solo="560" {{ old('solo') == '1 Surf Solo' ? 'selected' : '' }}>1 Surf Solo</option>
-                                        <option value="2 Surf Solo" data-Solo="1120" {{ old('solo') == '2 Surf Solo' ? 'selected' : '' }}>2 Surf Solo</option>
-                                        <option value="3 Surf Solo" data-Solo="1680" {{ old('solo') == '3 Surf Solo' ? 'selected' : '' }}>3 Surf Solo</option>
-                                        <option value="4 Surf Solo" data-Solo="2240" {{ old('solo') == '4 Surf Solo' ? 'selected' : '' }}>4 Surf Solo</option>
-                                        <option value="5 Surf Solo" data-Solo="2800" {{ old('solo') == '5 Surf Solo' ? 'selected' : '' }}>5 Surf Solo</option>
-                                        <option value="6 Surf Solo" data-Solo="3360" {{ old('solo') == '6 Surf Solo' ? 'selected' : '' }}>6 Surf Solo</option>
-                                        <option value="0 Surf Solo" data-Solo="0" {{ old('solo') == '0 Surf Solo' ? 'selected' : '' }}>0 Surf Solo</option>
+                                        <option value="1 Surf Solo" data-Solo="560" {{ old('soloyoga') == '1 Surf Solo' ? 'selected' : '' }}>1 Surf Solo</option>
+                                        <option value="2 Surf Solo" data-Solo="1120" {{ old('soloyoga') == '2 Surf Solo' ? 'selected' : '' }}>2 Surf Solo</option>
+                                        <option value="3 Surf Solo" data-Solo="1680" {{ old('soloyoga') == '3 Surf Solo' ? 'selected' : '' }}>3 Surf Solo</option>
+                                        <option value="4 Surf Solo" data-Solo="2240" {{ old('soloyoga') == '4 Surf Solo' ? 'selected' : '' }}>4 Surf Solo</option>
+                                        <option value="5 Surf Solo" data-Solo="2800" {{ old('soloyoga') == '5 Surf Solo' ? 'selected' : '' }}>5 Surf Solo</option>
+                                        <option value="6 Surf Solo" data-Solo="3360" {{ old('soloyoga') == '6 Surf Solo' ? 'selected' : '' }}>6 Surf Solo</option>
+                                        <option value="0 Surf Solo" data-Solo="0" {{ old('soloyoga') == '0 Surf Solo' ? 'selected' : '' }}>0 Surf Solo</option>
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
-                                <div class="form-group col-6 buddiesyoga d-none">
-                                    <select name="buddies" id="buddiesyoga" class="form-select nice-select">
+                                <div class="form-group col-6 buddiesyoga {{ old('pack') == 'Premuim Surf & Yoga Pack' ? '' : 'd-none' }}">
+                                    <select name="buddiesyoga" id="buddiesyoga" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Surf Buddies</option>
-                                        <option value="1 Surf Buddies" data-buddies="1200" {{ old('buddies') == '1 Surf Buddies' ? 'selected' : '' }}>1 Surf Buddies</option>
-                                        <option value="2 Surf Buddies" data-buddies="2400" {{ old('buddies') == '2 Surf Buddies' ? 'selected' : '' }}>2 Surf Buddies</option>
-                                        <option value="3 Surf Buddies" data-buddies="3600" {{ old('buddies') == '3 Surf Buddies' ? 'selected' : '' }}>3 Surf Buddies</option>
-                                        <option value="0 Surf Buddies" data-buddies="0" {{ old('buddies') == '0 Surf Buddies' ? 'selected' : '' }}>0 Surf Buddies</option>
+                                        <option value="1 Surf Buddies" data-buddies="1200" {{ old('buddiesyoga') == '1 Surf Buddies' ? 'selected' : '' }}>1 Surf Buddies</option>
+                                        <option value="2 Surf Buddies" data-buddies="2400" {{ old('buddiesyoga') == '2 Surf Buddies' ? 'selected' : '' }}>2 Surf Buddies</option>
+                                        <option value="3 Surf Buddies" data-buddies="3600" {{ old('buddiesyoga') == '3 Surf Buddies' ? 'selected' : '' }}>3 Surf Buddies</option>
+                                        <option value="0 Surf Buddies" data-buddies="0" {{ old('buddiesyoga') == '0 Surf Buddies' ? 'selected' : '' }}>0 Surf Buddies</option>
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
                             </div>
 
-                            <div class="rooms d-none">
+                            <div class="rooms {{ old('pack') == 'Stay Only' ? '' : 'd-none' }}">
                                 {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
                                 <div class="form-group">
                                     <select name="rooms" id="rooms" class="form-select nice-select">
@@ -460,7 +460,7 @@
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
                             </div>
-                            <div class="dorms d-none">
+                            <div class="dorms {{ old('pack') == 'Stay Only' ? '' : 'd-none' }}">
                                 {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
                                 <div class="form-group">
                                     <select name="dorms" id="dorms" class="form-select nice-select">
@@ -630,7 +630,47 @@
                             } */
                         });
 
-                        $('#rooms, #dorms').change(function () {
+
+                            function updateTotalCost() {
+                                var checkinDate = new Date($('#checkin').val());
+                                var checkoutDate = new Date($('#checkout').val());
+                                var dormsPrice = parseFloat($('#dorms').find(':selected').data('price')) || 0;
+                                var roomsPrice = parseFloat($('#rooms').find(':selected').data('price')) || 0;
+                                var selectedPack = $('#pack').val();
+                                if (selectedPack != "Premuim Surf & Yoga Pack" & selectedPack != "Popular Surf Coaching Pack") {
+                                    if (!isNaN(checkinDate.getTime()) && !isNaN(checkoutDate.getTime())) {
+                                    var timeDifference = checkoutDate.getTime() - checkinDate.getTime();
+                                    var nights = Math.ceil(timeDifference / (1000 * 3600 * 24));
+
+                                    var totalCost = nights * (dormsPrice + roomsPrice);
+
+                                    $('#total').text('€' + totalCost.toFixed(2));
+                                    $('#totalInput').val(totalCost.toFixed(2));
+                                } else {
+                                    $('#total').text('Invalid Dates');
+                                    $('#totalInput').val('');
+                                }
+                                }
+
+
+                            }
+
+                            $('#checkin, #checkout, #dorms, #rooms').change(updateTotalCost);
+                            updateTotalCost();
+
+
+
+                            $('#checkin').change(function () {
+                                var selectedPack = $('#pack').val();
+                                if (selectedPack === "Premuim Surf & Yoga Pack" || selectedPack === "Popular Surf Coaching Pack") {
+                                const checkoutDate = new Date(document.getElementById('checkin').valueAsDate);
+                                checkoutDate.setDate(checkoutDate.getDate() + 7);
+                                document.getElementById('checkout').valueAsDate = checkoutDate;
+                                }
+                            });
+
+
+                      /*   $('#rooms, #dorms').change(function () {
                             // Update total based on selected options
                             var activityPrice = parseFloat($('#pack').find(':selected').data('price')) || 0;
                             var dormsPrice = parseFloat($('#dorms').find(':selected').data('price')) || 0;
@@ -642,7 +682,7 @@
 
                             $('#total').text('€' + total.toFixed(2));
                             $('#totalInput').val(total.toFixed(2));
-                        });
+                        }); */
                     });
                 </script>
                 {{-- latest script worked --}}
