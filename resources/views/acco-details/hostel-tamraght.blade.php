@@ -387,10 +387,10 @@
                                 <div class="form-group">
                                     <select name="pack" id="pack" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
-                                        <option value="Premuim Surf & Yoga Pack" data-price="350" {{ old('pack') == 'Premuim Surf & Yoga Pack' ? 'selected' : '' }}>Premuim Surf & Yoga Pack</option>
-                                        <option value="Popular Surf Coaching Pack" data-price="470" {{ old('pack') == 'Popular Surf Coaching Pack' ? 'selected' : '' }}>Popular Surf Coaching Pack</option>
+                                        <option value="Premuim Surf & Yoga Pack" data-pack="surfnyoga"  {{ old('pack') == 'Premuim Surf & Yoga Pack' ? 'selected' : '' }}>Premuim Surf & Yoga Pack</option>
+                                        <option value="Popular Surf Coaching Pack" data-pack="surfcaoching" {{ old('pack') == 'Popular Surf Coaching Pack' ? 'selected' : '' }}>Popular Surf Coaching Pack</option>
                                         {{-- <option value="Surf Explore NStays" data-price="540" {{ old('pack') == 'Surf Explore NStays' ? 'selected' : '' }}>Surf Explore N'Stays - €540/Person</option> --}}
-                                        <option value="Surf Only" data-price="0" {{ old('pack') == 'Surf Only' ? 'selected' : '' }}>Stay Only</option>
+                                        <option value="Surf Only" data-pack="stayonly" {{ old('pack') == 'Surf Only' ? 'selected' : '' }}>Stay Only</option>
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
@@ -398,32 +398,32 @@
 
                             <div class="row">
                                 {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
-                                <div class="form-group col-6">
-                                    <select name="solo" id="rooms" class="form-select nice-select">
+                                <div class="form-group col-6 solo d-none">
+                                    <select name="solo" id="solo" class="form-select nice-select ">
                                         <option value="" disabled="disabled" selected="selected" hidden>Surf Solo</option>
-                                        <option value="1 Surf Solo" data-price="35" {{ old('rooms') == '1 Surf Solo' ? 'selected' : '' }}>1 Surf Solo</option>
-                                        <option value="2 Surf Solo" data-price="70" {{ old('rooms') == '2 Surf Solo' ? 'selected' : '' }}>2 Surf Solo</option>
-                                        <option value="3 Surf Solo" data-price="105" {{ old('rooms') == '3 Surf Solo' ? 'selected' : '' }}>3 Surf Solo</option>
-                                        <option value="4 Surf Solo" data-price="0" {{ old('rooms') == '4 Surf Solo' ? 'selected' : '' }}>4 Surf Solo</option>
-                                        <option value="5 Surf Solo" data-price="105" {{ old('rooms') == '5 Surf Solo' ? 'selected' : '' }}>5 Surf Solo</option>
-                                        <option value="6 Surf Solo" data-price="0" {{ old('rooms') == '6 Surf Solo' ? 'selected' : '' }}>6 Surf Solo</option>
-                                        <option value="0 Surf Solo" data-price="0" {{ old('rooms') == '0 Surf Solo' ? 'selected' : '' }}>0 Surf Solo</option>
+                                        <option value="1 Surf Solo" data-Solo="1" {{ old('solo') == '1 Surf Solo' ? 'selected' : '' }}>1 Surf Solo</option>
+                                        <option value="2 Surf Solo" data-Solo="2" {{ old('solo') == '2 Surf Solo' ? 'selected' : '' }}>2 Surf Solo</option>
+                                        <option value="3 Surf Solo" data-Solo="3" {{ old('solo') == '3 Surf Solo' ? 'selected' : '' }}>3 Surf Solo</option>
+                                        <option value="4 Surf Solo" data-Solo="4" {{ old('solo') == '4 Surf Solo' ? 'selected' : '' }}>4 Surf Solo</option>
+                                        <option value="5 Surf Solo" data-Solo="5" {{ old('solo') == '5 Surf Solo' ? 'selected' : '' }}>5 Surf Solo</option>
+                                        <option value="6 Surf Solo" data-Solo="6" {{ old('solo') == '6 Surf Solo' ? 'selected' : '' }}>6 Surf Solo</option>
+                                        <option value="0 Surf Solo" data-Solo="0" {{ old('solo') == '0 Surf Solo' ? 'selected' : '' }}>0 Surf Solo</option>
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
-                                <div class="form-group col-6">
-                                    <select name="buddies" id="rooms" class="form-select nice-select">
+                                <div class="form-group col-6 buddies d-none">
+                                    <select name="buddies" id="buddies" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Surf Buddies</option>
-                                        <option value="1 Surf Buddies" data-price="35" {{ old('rooms') == '1 Surf Buddies' ? 'selected' : '' }}>1 Surf Buddies</option>
-                                        <option value="2 Surf Buddies" data-price="70" {{ old('rooms') == '2 Surf Buddies' ? 'selected' : '' }}>2 Surf Buddies</option>
-                                        <option value="3 Surf Buddies" data-price="105" {{ old('rooms') == '3 Surf Buddies' ? 'selected' : '' }}>3 Surf Buddies</option>
-                                        <option value="0 Surf Buddies" data-price="0" {{ old('rooms') == '0 Surf Buddies' ? 'selected' : '' }}>0 Surf Buddies</option>
+                                        <option value="1 Surf Buddies" data-buddies="1" {{ old('buddies') == '1 Surf Buddies' ? 'selected' : '' }}>1 Surf Buddies</option>
+                                        <option value="2 Surf Buddies" data-buddies="2" {{ old('buddies') == '2 Surf Buddies' ? 'selected' : '' }}>2 Surf Buddies</option>
+                                        <option value="3 Surf Buddies" data-buddies="3" {{ old('buddies') == '3 Surf Buddies' ? 'selected' : '' }}>3 Surf Buddies</option>
+                                        <option value="0 Surf Buddies" data-buddies="0" {{ old('buddies') == '0 Surf Buddies' ? 'selected' : '' }}>0 Surf Buddies</option>
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
                             </div>
 
-                            <div>
+                            <div class="rooms d-none">
                                 {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
                                 <div class="form-group">
                                     <select name="rooms" id="rooms" class="form-select nice-select">
@@ -436,7 +436,7 @@
                                     <i class="fal fa-chevron-down"></i>
                                 </div>
                             </div>
-                            <div>
+                            <div class="dorms d-none">
                                 {{-- <p>Feel free to explore our activity packages at this link <a href="{{ route('packages',['lang'=>$lang]) }}">Link</a></p> --}}
                                 <div class="form-group">
                                     <select name="dorms" id="dorms" class="form-select nice-select">
@@ -499,7 +499,74 @@
                 </div>
 
 
+
+
                 <script>
+                    $(document).ready(function () {
+                        const checkINDate = new Date();
+                        checkINDate.setDate(checkINDate.getDate() + 1);
+                        document.getElementById('checkin').valueAsDate =checkINDate;
+
+
+
+                                     $('#pack').change(function() {
+                        // Check the selected value
+                        var selectedPack = $(this).val();
+
+
+                        if (selectedPack === 'Surf Only') {
+                            $('.solo').addClass('d-none');
+                            $('.buddies').addClass('d-none');
+                            $('.rooms').removeClass('d-none');
+                            $('.dorms').removeClass('d-none');
+                        }else{
+                            $('.solo').removeClass('d-none');
+                            $('.buddies').removeClass('d-none');
+                            $('.rooms').addClass('d-none');
+                            $('.dorms').addClass('d-none');
+                        }
+                            });
+
+
+
+
+
+
+
+
+                        $('#pack').change(function () {
+
+                            // console.log($(this).find(':selected').data('pack'));
+                            var selectedPack = $(this).val();
+                            $('#solo').removeAttr('disabled');
+                            // $('#solo').prop('disabled', false);
+
+                         /*    // Reset all options and enable/disable as needed
+                            $('#solo, #buddies, #rooms, #dorms, #checkout').val('').prop('disabled', false);
+                            if (selectedPack === 'Premuim Surf & Yoga Pack' || selectedPack === 'Popular Surf Coaching Pack') {
+                                // Disable rooms, dorms, and checkout for Premium and Popular packages
+                                $('#rooms, #dorms, #checkout').prop('disabled', true);
+                            } else if (selectedPack === 'Surf Only') {
+                                // Disable solo and buddies for Surf Only
+                                $('#solo, #buddies').prop('disabled', true);
+                            } */
+                        });
+
+                        $('#rooms, #dorms').change(function () {
+                            // Update total based on selected options
+                            var activityPrice = parseFloat($('#pack').find(':selected').data('price')) || 0;
+                            var dormsPrice = parseFloat($('#dorms').find(':selected').data('price')) || 0;
+                            var roomsPrice = parseFloat($('#rooms').find(':selected').data('price')) || 0;
+
+                            var total = activityPrice + dormsPrice + roomsPrice;
+
+                            $('#total').text('€' + total.toFixed(2));
+                            $('#totalInput').val(total.toFixed(2));
+                        });
+                    });
+                </script>
+                {{-- latest script worked --}}
+               {{--  <script>
                     $(document).ready(function () {
                         const checkINDate = new Date();
                         checkINDate.setDate(checkINDate.getDate() + 1);
@@ -521,7 +588,7 @@
                         });
                     });
                 </script>
-
+ --}}
 
                 {{-- <script>
                     $(document).ready(function () {

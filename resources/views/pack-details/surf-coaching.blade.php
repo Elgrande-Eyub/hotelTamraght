@@ -65,6 +65,10 @@
                                         <p class="about-info"><strong>6 x Surf lessons, surf equipment rental (board + wetsuit)</strong></p>
                                        </div>
                                        <div class="align-items-center" style="display: flex">
+                                        <p class="about-info"> <i style="background-color: #922801" class="fa-regular fa-xmark"></i></p>
+                                        <p class="about-info"><strong>7 x Yoga Classes (One Daily Session)</strong></p>
+                                       </div>
+                                       <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
                                         <p class="about-info"><strong>surf spot transport</strong></p>
                                        </div>

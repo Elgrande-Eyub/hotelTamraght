@@ -87,6 +87,7 @@ class BookingController extends Controller
         $booking->checkin = $request->input('checkin');
         $booking->checkout = $request->input('checkout');
         $booking->message = $request->input('message');
+        $booking->status = "Pending";
         $booking->total = $request->input('total');
         $booking->save();
 
