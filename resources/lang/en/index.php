@@ -5,7 +5,7 @@ return [
         'home' => 'Home',
         'about' => 'SALTY WAVES',
         'accommodations' => 'Accommodations',
-        'package' => 'packages',
+        'package' => 'Surf Packages ',
         'packages' => [
                         'surf'=>'surf activities',
                         'yoga'=>'yoga',
