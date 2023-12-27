@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\contactController;
+use App\Http\Controllers\NewsletterController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -84,5 +85,6 @@ Route::get('/{lang?}/packages/surf-explore-stays', function () {
 
 Route::post('/{lang?}/contactform', [contactController::class,'store'])->name('storeContact');
 
-
 Route::post('/{lang?}/booking', [BookingController::class,'store'])->name('bookingPost');
+
+Route::post('subscribe', [NewsletterController::class, 'store']);

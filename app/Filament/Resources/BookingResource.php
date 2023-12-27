@@ -73,7 +73,9 @@ class BookingResource extends Resource
 
                 TextInput::make('checkin')->readOnly(),
                 TextInput::make('checkout')->readOnly(),
-                TextInput::make('total')->readOnly()->prefix('€'),
+                TextInput::make('total')->readOnly()->prefix('€')->formatStateUsing(function ($state, Booking $record) {
+                    return '€'. number_format((float)$record->total, 2, '.', '');
+                }),
 
                 ])->columns(2),
 

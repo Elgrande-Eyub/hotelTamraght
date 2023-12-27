@@ -12,10 +12,63 @@
             <h2 class="sec-title text-white mb-2">Get Special Offers And More From Travon</h2>
             <p class="text-white fs-md mb-4">Sign up now and get the best deals straight in your inbox!</p>
             <form class="newsletter-form">
-                <div class="form-group"><input class="form-control" type="email" placeholder="Email Address" required=""> <i class="fal fa-envelope"></i></div><button type="submit" class="ot-btn">Subscribe</button></form>
+                @csrf
+                <div class="form-group">
+                    <input class="form-control" id="newsletter-input" name="email" type="email" placeholder="Email Address" required="">
+                    <i class="fal fa-envelope"></i>
+                </div>
+                <button type="submit" class="ot-btn">Subscribe</button>
+            </form>
+            <p class="text-white fs-md mt-3 d-none messageNewsletter"></p>
+            {{-- <p class="text-white fs-md mt-3 d-none messageError"></p> --}}
+
         </div>
+
     </div>
 </section>
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        // Intercept form submission
+        $('.newsletter-form').submit(function(event) {
+            event.preventDefault();
+
+            // Get form data
+            var formData = $(this).serialize();
+
+            // Submit form via AJAX
+            $.ajax({
+                type: 'POST',
+                url: '/subscribe', // Laravel route
+                data: formData,
+                dataType: 'json',
+                success: function(response) {
+
+                    $('.messageNewsletter').addClass('d-none');
+                   setTimeout(function() {
+                       $('.messageNewsletter').removeClass('d-none');
+                       $('.messageNewsletter').text(response.message);
+                       $('#newsletter-input').val('');
+                   }, 1500); // 1.5 seconds delay
+                },
+                error: function(xhr, status, error) {
+                    var responseJSON = xhr.responseJSON
+                    $('.messageNewsletter').addClass('d-none');
+                   setTimeout(function() {
+                       $('.messageNewsletter').removeClass('d-none');
+                       $('.messageNewsletter').text(responseJSON.message);
+                       $('#newsletter-input').val('');
+                   }, 1500);
+
+                }
+            });
+        });
+    });
+</script>
+
+
 <footer class="footer-wrapper footer-layout1">
     <div class="widget-area">
         <div class="container">

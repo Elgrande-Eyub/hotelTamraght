@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\newsletter;
+use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use PhpParser\Node\Stmt\TryCatch;
 
 class NewsletterController extends Controller
 {
@@ -28,7 +31,19 @@ class NewsletterController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        try{
+            DB::beginTransaction();
+            $newsletter = new newsletter();
+            $newsletter->email = $request['email'];
+            $newsletter->save();
+            DB::commit();
+            return response()->json(['message' => 'Awesome! As a subscriber, youll be the first to know about our latest special offers'],200);
+        }catch(Exception $e){
+            db::rollBack();
+            return response()->json(['message' => 'We encountered an error. Please refresh the page and try subscribing again'],400);
+        }
+
+
     }
 
     /**
