@@ -4,8 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\BookingResource\Pages;
 use App\Filament\Resources\BookingResource\RelationManagers;
-use App\Mail\booking as MailBooking;
-use App\Models\Booking;
+use App\Models\booking;
 
 use Filament\Forms;
 use Filament\Forms\Components\DatePicker;
@@ -22,7 +21,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class BookingResource extends Resource
 {
-    protected static ?string $model = Booking::class;
+    protected static ?string $model = booking::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-calendar-days';
 

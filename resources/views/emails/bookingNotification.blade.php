@@ -158,7 +158,7 @@
                </table>
 
                <table class="sm-leading-32" style="line-height: 28px; font-size: 14px;" width="100%" cellpadding="0" cellspacing="0" role="presentation">
-
+{{--
                  <tr>
                      <td class="sm-inline-block" style="color: #718096;" width="50%">Accommodation</td>
                      <td class="sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->accommodation }}</td>
@@ -180,6 +180,61 @@
                     <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Packages Selected</td>
                     <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->pack }}</td>
                 </tr>
+                @endif --}}
+
+
+                <tr>
+                    <td class="sm-inline-block" style="color: #718096;" width="50%">Accommodation</td>
+                    <td class="sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->accommodation }}</td>
+                </tr>
+
+                @if($booking->pack!="")
+                <tr>
+                    <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Packages Selected</td>
+                    <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->pack }}</td>
+                </tr>
+                @endif
+
+                @if($booking->accommodation== "Hostle Tamraght" & ($booking->surfcoaching || $booking->surfyoga) != true )
+                <tr>
+                    <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Rooms</td>
+                    <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->rooms }}</td>
+                </tr>
+
+                <tr>
+                    <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Dormitory</td>
+                    <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->dorms }}</td>
+                </tr>
+
+                @else
+
+                    @if($booking->surfcoaching == true)
+                    <tr>
+                        <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Package Selected</td>
+                        <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">Popular Surf Coaching Pack</td>
+                    </tr>
+                    <tr>
+                        <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Types</td>
+                        <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->solocoaching }}, {{ $booking->buddiescoaching }}</td>
+                    </tr>
+                    <tr>
+                        <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%"></td>
+                        <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right"></td>
+                    </tr>
+                    @endif
+
+                    @if($booking->surfyoga == true)
+                    <tr>
+                        <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Package Selected</td>
+                        <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">Premuim Surf & Yoga Pack</td>
+                    </tr>
+                    <tr>
+                        <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Types</td>
+                        <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->soloyoga }}, {{ $booking->buddiesyoga }}</td>
+                    </tr>
+
+                    @endif
+
                 @endif
 
                </table>
