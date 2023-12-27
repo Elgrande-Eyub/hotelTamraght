@@ -18,8 +18,9 @@ return new class extends Migration
             $table->string('phone')->nullable();
             $table->string('topic')->nullable();
             $table->string('status')->nullable();
-            $table->longText('message')->nullable();
+            $table->longText('message')->nullable()->limit(20);
             $table->boolean('seen')->default(0);
+            $table->string('note')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

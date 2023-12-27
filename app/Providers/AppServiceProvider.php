@@ -2,9 +2,11 @@
 
 namespace App\Providers;
 
+use Filament\Support\Facades\FilamentColor;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
+use Filament\Support\Colors\Color;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -27,5 +29,19 @@ class AppServiceProvider extends ServiceProvider
         });
 
         Model::unguard();
+
+        FilamentColor::register([
+            'danger' => Color::Red,
+            'gray' => Color::Zinc,
+            'info' => Color::Blue,
+            'primary' => Color::Amber,
+            'success' => Color::Green,
+            'warning' => Color::Amber,
+
+            'green' => Color::Lime,
+            'teal' => Color::Teal,
+            'sky' => Color::Sky,
+            'indigo' => Color::Indigo,
+        ]);
     }
 }

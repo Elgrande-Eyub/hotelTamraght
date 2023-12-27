@@ -38,6 +38,9 @@ return new class extends Migration
             $table->longText('message')->nullable();
             $table->float('total',8,2)->nullable();
             $table->boolean('seen')->default(0);
+
+            $table->string('note')->nullable();
+
             $table->timestamps();
             $table->softDeletes();
         });

@@ -55,6 +55,7 @@ class AdminPanelProvider extends PanelProvider
             ->authMiddleware([
                 Authenticate::class,
             ])
+            ->favicon(asset('assets/img/logo/icon.png'))
             ->brandLogo(asset('assets/img/logo/salty-waves.png'));
     }
 }

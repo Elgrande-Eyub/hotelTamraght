@@ -61,6 +61,7 @@ class contactController extends Controller
             $Contact->email = $request->input('email');
             $Contact->topic = $request->input('topic');
             $Contact->message = $request->input('message');
+            $Contact->status = 'Pending';
             $Contact->save();
 
             Mail::to('info@salty-wave.com')->send(new contactForm($Contact));
