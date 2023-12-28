@@ -17,7 +17,8 @@
                     <input class="form-control" id="newsletter-input" name="email" type="email" placeholder="Email Address" required="">
                     <i class="fal fa-envelope"></i>
                 </div>
-                <button type="submit" class="ot-btn">Subscribe</button>
+                <button type="submit" class="ot-btn">
+                    <i class="submit-spin "></i> Subscribe</button>
             </form>
             <p class="text-white fs-md mt-3 d-none messageNewsletter"></p>
             {{-- <p class="text-white fs-md mt-3 d-none messageError"></p> --}}
@@ -34,7 +35,7 @@
         // Intercept form submission
         $('.newsletter-form').submit(function(event) {
             event.preventDefault();
-
+            $('.submit-spin').addClass('fa fa-spinner fa-spin');
             // Get form data
             var formData = $(this).serialize();
 
@@ -47,10 +48,13 @@
                 success: function(response) {
 
                     $('.messageNewsletter').addClass('d-none');
+
+
                    setTimeout(function() {
                        $('.messageNewsletter').removeClass('d-none');
                        $('.messageNewsletter').text(response.message);
                        $('#newsletter-input').val('');
+                       $('.submit-spin').removeClass('fa fa-spinner fa-spin');
                    }, 1500); // 1.5 seconds delay
                 },
                 error: function(xhr, status, error) {
@@ -59,6 +63,7 @@
                    setTimeout(function() {
                        $('.messageNewsletter').removeClass('d-none');
                        $('.messageNewsletter').text(responseJSON.message);
+                       $('.submit-spin').removeClass('fa fa-spinner fa-spin');
                        $('#newsletter-input').val('');
                    }, 1500);
 
