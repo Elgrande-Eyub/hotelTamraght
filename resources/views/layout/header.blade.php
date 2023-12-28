@@ -12,8 +12,12 @@
                 <p class="about-text text-justify">
                     Embrace the coastal charm at Salty Waves Retreat in Tamraght. Where every stay is a dance with salty waves and each sunrise brings the promise of a new adventure.
                 </p>
-                <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.instagram.com/salty_waves_taghazout"><i class="fab fa-instagram"></i></a> <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></div>
+                <div class="ot-social">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    {{-- <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a> --}}
+                     {{-- <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a> --}}
+                    <a href="https://www.instagram.com/salty_waves_taghazout"><i class="fab fa-instagram"></i></a>
+                     <a href="https://api.whatsapp.com/send?phone=212678718045"><i class="fab fa-whatsapp"></i></a></div>
             </div>
         </div>
 
@@ -28,7 +32,7 @@
                     <div class="info-box_icon"><i class="fas fa-phone"></i></div>
                     <p class="info-box_text">
                         <a href="tel:+4917624898825" class="info-box_link">+49 1762 489 8825</a>
-                        <a href="tel:+212675111894" class="info-box_link">+212 6 75 11 18 94</a></p>
+                        <a href="tel:+212678718045" class="info-box_link">+212 678-718045</a></p>
                 </div>
                 <div class="info-box">
                     <div class="info-box_icon"><i class="fas fa-envelope"></i></div>
@@ -104,15 +108,13 @@
                 <div class="col-auto  d-lg-block">
                     <div class="header-links">
                         <ul>
-
-                            <li class="d-none d-xl-inline-block"><i class="fal fa-phone"></i><a href="tel:+212675111894">+212 675 111 894</a></li>
+                            <li class="d-none d-xl-inline-block"><i class="fal fa-phone"></i><a href="tel:+212678718045">+212 678-718045</a></li>
                             <li class="d-none d-xl-inline-block"><i class="fal fa-envelope"></i><a href="mailto:info@salty-wave.com">info@salty-wave.com</a></li>
                             <li class="d-none d-xl-inline-block"><i class="fal fa-location-dot"></i>Tamraght-Taghazout , Agadir , Morocco</li>
                             <li class="d-block d-xl-none"><i class="fa-regular fa-person-snowboarding p-7" style="margin: 0"></i>Welcome to Salty Waves<i class="fa-regular fa-person-snowboarding p-7" style="margin-left: 7px"></i></li>
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

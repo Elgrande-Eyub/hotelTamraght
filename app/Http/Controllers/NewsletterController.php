@@ -33,14 +33,25 @@ class NewsletterController extends Controller
     {
         try{
             DB::beginTransaction();
+
+            $email = $request['email'];
+
+            if(empty($email)){
+                return response()->json(['message' => '✘ To join our exclusive subscriber community, enter your email address in the field above and click \'Subscribe. ✘'],200);
+            }
+
+            if(newsletter::where('email',$email)->exists()){
+                return response()->json(['message' => '✘ You\'re already subscribed, Keep an eye on your inbox for deals. ✘'],200);
+            }
+
             $newsletter = new newsletter();
             $newsletter->email = $request['email'];
             $newsletter->save();
             DB::commit();
-            return response()->json(['message' => 'Awesome! As a subscriber, you\'ll be the first to know about our latest special offers'],200);
+            return response()->json(['message' => '✔ Awesome! As a subscriber, you\'ll be the first to know about our latest special offers ✔'],200);
         }catch(Exception $e){
             db::rollBack();
-            return response()->json(['message' => 'We encountered an error. Please refresh the page and try subscribing again'],400);
+            return response()->json(['message' => '✘ We encountered an error. Please refresh the page and try subscribing again ✘'],400);
         }
 
     }

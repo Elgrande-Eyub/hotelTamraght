@@ -1,9 +1,9 @@
 
 
 <div class="whats-float d-none d-xl-inline-block">
-    <a href="https://api.whatsapp.com/send?phone=212675111894"
+    <a href="https://api.whatsapp.com/send?phone=212678718045"
        target="_blank">
-       <i class="fa-brands fa-whatsapp"></i><span>WhatsApp<br><small>+212 675111894</small></span>
+       <i class="fa-brands fa-whatsapp"></i><span>WhatsApp<br><small>+212 678-718045</small></span>
     </a>
 </div>
 <section class="" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
@@ -14,7 +14,7 @@
             <form class="newsletter-form">
                 @csrf
                 <div class="form-group">
-                    <input class="form-control" id="newsletter-input" name="email" type="email" placeholder="Email Address" required="">
+                    <input class="form-control" id="newsletter-input" name="email" type="email" placeholder="Email Address" >
                     <i class="fal fa-envelope"></i>
                 </div>
                 <button type="submit" class="ot-btn">
