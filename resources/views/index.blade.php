@@ -3,47 +3,23 @@
 
 <head>
     @include('layout.head')
-    <title>SALTY WAVES</title>
+    <title>Salty Waves - Best Surf Camp & Yoga Retreats in Tamraght and Taghazout, Morocco</title>
+    <meta name="description" content="Unwind, reconnect, and surf your worries away. Salty Waves offers unforgettable surf & yoga experiences in paradise. Book your adventure today!">
+    <meta name="keywords" content="
+    surf, yoga, retreat, Morocco, accommodation,surf lessons Agadir,Tamraght yoga camp,
+    tamraght accommodation Agadir,surf package,yoga package,surf classe,yoga classe, surf camp,yoga camp,stay only,
+    taghazout,taghazout accommodation,Taghazout Surf,taghazout offer,tamraght offer,surf lessons,booking,tamraght reservation,booking taghazout,waves,salty,
+    agadir surf,agadir yoga , agadir surf,best agadir Beaches,best morocco Beaches,best Beaches for surf
+    packages, surfing, yoga classes, mindfulness, relaxation,
+    tamraght,waves,surf Waves,salty waves surf">
+    <meta property="og:title" content="Salty Waves - Best Surf Camp & Yoga Retreats in Tamraght and Taghazout, Morocco">
+    <meta property="og:image" content="https://www.saltywaves.com/images/featured-image.jpg">
+
 </head>
 
 <body>
     @include('layout.header')
-    {{--
-        <div class="ot-hero-wrapper hero-1">
-        <div class="hero-slider ot-carousel" data-fade="true">
-            <div class="ot-hero-slide">
-                <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_bg_1_5.jpg') }}"></div>
-                <div class="container z-index-common">
-                    <div class="hero-style1"><span class="sub-title hero-subtitle" data-ani="slideinup" data-ani-delay="0.1s">Relax & Enjoy <span class="shape right"><span class="dots"></span></span>
-                        </span>
-                        <h1 class="hero-title " style="color: white;"  data-ani="slideinup" data-ani-delay="0.2s">Tamraght or Taghazout ?</h1>
-                        <h1 class="hero-title" style="color: white" data-ani="slideinup" data-ani-delay="0.3s">Doesn't Matter</h1>
-                        <p class="hero-text" style="color: white" data-ani="slideinup" data-ani-delay="0.4s">Experience the best accommodation in Tamraght and Taghazout with us. where comfort meets perfection.</p><a href="about.html" class="ot-btn" data-ani="slideinup" data-ani-delay="0.5s">Learn More</a></div>
-                </div>
-            </div>
-            <div class="ot-hero-slide">
-                <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_bg_1_2.png') }}"></div>
-                <div class="container z-index-common">
-                    <div class="hero-style1"><span class="sub-title hero-subtitle" data-ani="slideinup" data-ani-delay="0.1s">Relax & Enjoy <span class="shape right"><span class="dots"></span></span>
-                        </span>
-                        <h1 class="hero-title" style="color: white;" data-ani="slideinup" data-ani-delay="0.2s">Enjoy Holiday By</h1>
-                        <h1 class="hero-title" style="color: white;" data-ani="slideinup" data-ani-delay="0.3s">Traveling</h1>
-                        <p class="hero-text" style="color: white;" data-ani="slideinup" data-ani-delay="0.4s">Fine Hotel And Ticket With Best Experience. Intrinsicly architect superior core competencies vis-a-vis interactive partnerships.</p><a href="about.html" class="ot-btn" data-ani="slideinup" data-ani-delay="0.5s">Learn More</a></div>
-                </div>
-            </div>
-            <div class="ot-hero-slide">
-                <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_bg_1_3.jpg') }}"></div>
-                <div class="container z-index-common">
-                    <div class="hero-style1"><span class="sub-title hero-subtitle" data-ani="slideinup" data-ani-delay="0.1s">Relax & Enjoy <span class="shape right"><span class="dots"></span></span>
-                        </span>
-                        <h1 class="hero-title" style="color: white;" data-ani="slideinup" data-ani-delay="0.2s">Start Your Travel</h1>
-                        <h1 class="hero-title" style="color: white;" data-ani="slideinup" data-ani-delay="0.3s">With SALTY WAVES</h1>
-                        <p class="hero-text " style="color: white;" data-ani="slideinup" data-ani-delay="0.4s">Fine Hotel And Ticket With Best Experience. Intrinsicly architect superior core competencies vis-a-vis interactive partnerships.</p><a href="about.html" class="ot-btn" data-ani="slideinup" data-ani-delay="0.5s">Learn More</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    --}}
+
     <div class="ot-hero-wrapper hero-2">
         <div class="ot-hero-slide">
             <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_bg_2_2.jpg') }}"></div>

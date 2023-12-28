@@ -147,14 +147,11 @@
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
-                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="https://www.instagram.com/salty_waves_taghazout" target="_blank">SALTY WAVES</a>. All Rights Reserved.</p>
+                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="https://www.instagram.com/salty_waves_taghazout" target="_blank" style="color: #1684d8">SALTY WAVES</a>. All Rights Reserved.</p>
                 </div>
                 <div class="col-lg-6 text-end d-none d-lg-block">
-                    <div class="footer-links">
-                        <ul>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privacy Environmental Policy</a></li>
-                        </ul>
+                    <div class="">
+                        <p class="copyright-text">Developped By <a href="https://easyeno.com/" target="_blank" style="color: #1684d8">Easyeno Media</a> <i class="fal fa-copyright"></i> 2024</p>
                     </div>
                 </div>
             </div>

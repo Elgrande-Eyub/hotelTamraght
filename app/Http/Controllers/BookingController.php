@@ -83,42 +83,46 @@ class BookingController extends Controller
 
         if($request->accommodation == "Hostle Tamraght"){
 
-            if(($request->input('buddiescoaching') || $request->input('solocoaching')) != ""){
-                if(($request->input('buddiesyoga') || $request->input('soloyoga')) != ""){
-                    $booking->pack = "Premuim Surf & Yoga Pack & Popular Surf Coaching Pack";
-                }else{
-                    $booking->pack = "Popular Surf Coaching Pack";
-                }
-                $booking->surfcoaching = true;
-                $booking->buddiescoaching = $request->input('buddiescoaching');
-                $booking->solocoaching = $request->input('solocoaching');
-            }
-
-            if(($request->input('buddiesyoga') || $request->input('soloyoga')) != ""){
-
-                if(($request->input('buddiescoaching') || $request->input('solocoaching')) != ""){
-                    $booking->pack = "Premuim Surf & Yoga Pack & Popular Surf Coaching Pack";
-                }else{
-                    $booking->pack = "Premuim Surf & Yoga Pack";
-                }
-
-                $booking->surfyoga = true;
-                $booking->buddiesyoga = $request->input('buddiesyoga');
-                $booking->soloyoga = $request->input('soloyoga');
-            }
-
             if($request->input('pack') == "Stay Only"){
                 $booking->pack =$request->input('pack');
                 $booking->person =$request->input('person');
                 $booking->dorms = $request->input('dorms');
                 $booking->rooms = $request->input('rooms');
+            }else{
+                if(($request->input('buddiescoaching') || $request->input('solocoaching')) != ""){
+                    if(($request->input('buddiesyoga') || $request->input('soloyoga')) != ""){
+                        $booking->pack = "Premuim Surf & Yoga Pack & Popular Surf Coaching Pack";
+                    }else{
+                        $booking->pack = "Popular Surf Coaching Pack";
+                    }
+                    $booking->surfcoaching = true;
+                    $booking->buddiescoaching = $request->input('buddiescoaching');
+                    $booking->solocoaching = $request->input('solocoaching');
+                }
+
+                if(($request->input('buddiesyoga') || $request->input('soloyoga')) != ""){
+
+                    if(($request->input('buddiescoaching') || $request->input('solocoaching')) != ""){
+                        $booking->pack = "Premuim Surf & Yoga Pack & Popular Surf Coaching Pack";
+                    }else{
+                        $booking->pack = "Premuim Surf & Yoga Pack";
+                    }
+
+                    $booking->surfyoga = true;
+                    $booking->buddiesyoga = $request->input('buddiesyoga');
+                    $booking->soloyoga = $request->input('soloyoga');
+                }
             }
+
+
+
+
 
         }else{
             $booking->pack =$request->input('pack');
             $booking->person =$request->input('person');
-            $booking->dorms = $request->input('dorms');
-            $booking->rooms = $request->input('rooms');
+            // $booking->dorms = $request->input('dorms');
+            // $booking->rooms = $request->input('rooms');
         }
 
         $booking->checkin = $request->input('checkin');

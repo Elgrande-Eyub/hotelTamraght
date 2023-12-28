@@ -6,6 +6,6 @@
         </div>
         <h3 class="tour-card__title"><a href="{{ route('surf-stayplus', ['lang' => $lang]) }}">Surf N' Stays +PLUS</a></h3>
         <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 7 Day</span> <span><i class="fa-light fa-turn-up"></i> Level 2</span></div>
-        <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€470</span></span> <a href="{{ route('surf-stayplus', ['lang' => $lang]) }}" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+        <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€470</span></span> <a href="{{ route('surf-stayplus', ['lang' => $lang]) }}" class="link-btn">Explore <i class="fas fa-arrow-up-right"></i></a></div>
     </div>
 </div>

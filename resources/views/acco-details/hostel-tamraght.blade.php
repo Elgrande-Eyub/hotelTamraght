@@ -3,12 +3,12 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves - Hostel Tamraght</title>
+    <title>Live the Moroccan Dream: Salty Waves Hostel, Tamraght</title>
     @include('layout.head')
 </head>
 <body>
     @include('layout.header')
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bgT.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title" >Hostel Tamraght </h1>
