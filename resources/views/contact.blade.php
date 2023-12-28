@@ -66,7 +66,7 @@
             </div>
         </div>
     </div>
-    <div id="contact" class="space-bottom" data-bg-src="{{ asset('assets/img/bg/contact_bg_1.html') }}">
+    <div id="contact" class="space-bottom">
         <div class="container">
 
             <form action="{{ route('storeContact',['lang' => $lang]) }}" method="POST" class="contact-form">

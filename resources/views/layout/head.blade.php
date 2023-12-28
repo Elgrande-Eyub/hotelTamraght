@@ -1,6 +1,6 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="author" content="Adivaha">
+    <meta name="author" content="Salty Waves">
     <meta name="description" content="SALTY WAVES - Tour and Hotel Booking HTML Template">
     <meta name="keywords" content="SALTY WAVES - Tour and Hotel Booking HTML Template">
     <meta name="robots" content="INDEX,FOLLOW">

@@ -82,7 +82,7 @@
                     <div class="widget footer-widget">
                         <div class="ot-widget-about">
                             <div class="about-logo">
-                                <a href="index.html"><img src="{{ asset('assets/img/logo/salty-waves-white.png') }}" alt="SALTY WAVES"></a>
+                                <a href="{{ route('index' ,['lang'=>$lang]) }}"><img src="{{ asset('assets/img/logo/salty-waves-white.png') }}" alt="SALTY WAVES"></a>
                             </div>
                             <p class="about-text text-justify">
                                 Embrace the coastal charm at Salty Waves Retreat in Tamraght. Where every stay is a dance with salty waves and each sunrise brings the promise of a new adventure.
