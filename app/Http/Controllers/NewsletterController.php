@@ -51,6 +51,7 @@ class NewsletterController extends Controller
             return response()->json(['message' => '✔ Awesome! As a subscriber, you\'ll be the first to know about our latest special offers ✔'],200);
         }catch(Exception $e){
             db::rollBack();
+
             return response()->json(['message' => '✘ We encountered an error. Please refresh the page and try subscribing again ✘'],400);
         }
 

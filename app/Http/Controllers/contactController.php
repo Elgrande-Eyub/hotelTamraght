@@ -36,12 +36,6 @@ class contactController extends Controller
      */
     public function store(Request $request,$lang)
     {
-
-        // $lang=  $request->segment(1);
-        // if($lang == 'fr'){
-        //     return 'ahahahah en';
-        // }
-
         try{
             DB::beginTransaction();
             $validator = Validator::make($request->all(), [
@@ -76,6 +70,11 @@ class contactController extends Controller
 
         }catch(Exception $e){
             DB::rollback();
+
+            if($lang == 'fr'){
+                Session::flash('error', 'Excusez-moi, il y a eu un problème pour envoyer votre message. Veuillez essayer de l’envoyer plus tard.');
+            }
+
             Session::flash('error', 'Apologies, there was an issue sending your message. Please attempt to send it again later.');
             return redirect()->back()->withFragment('booking-form')->withInput($request->all());
 
