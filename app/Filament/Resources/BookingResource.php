@@ -31,6 +31,8 @@ class BookingResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-calendar-days';
 
+
+
     public static function form(Form $form): Form
     {
         return $form

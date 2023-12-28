@@ -36,6 +36,11 @@ class ContactResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-chat-bubble-bottom-center-text';
 
+    public static function getModelLabel(): string
+    {
+        return __("Consultations");
+    }
+
     public static function form(Form $form): Form
     {
         return $form
@@ -93,11 +98,10 @@ class ContactResource extends Resource
             ])
             ->actions([
                 Tables\Actions\RestoreAction::make(),
-                Tables\Actions\ViewAction::make()->hidden(fn($record)=>$record->trashed()),
-                Tables\Actions\DeleteAction::make()->hidden(fn($record)=>$record->trashed()),
 
                 ActionsAction::make('outgoing')->label('Send Email')->hidden(fn($record)=>$record->trashed())
-                ->icon('heroicon-s-paper-clip')
+                ->icon('heroicon-o-envelope')
+                ->color('gray')
                 ->model(inbox::class)
                 ->form([
 
@@ -152,7 +156,10 @@ class ContactResource extends Resource
                         $contact->seen =1;
                     }
                     $contact->save();
-                })
+                }),
+                Tables\Actions\ViewAction::make()->hidden(fn($record)=>$record->trashed()),
+                Tables\Actions\DeleteAction::make()->hidden(fn($record)=>$record->trashed()),
+
 
             ])
             ->bulkActions([
