@@ -88,3 +88,4 @@ Route::post('/{lang?}/contactform', [contactController::class,'store'])->name('s
 Route::post('/{lang?}/booking', [BookingController::class,'store'])->name('bookingPost');
 
 Route::post('subscribe', [NewsletterController::class, 'store']);
+

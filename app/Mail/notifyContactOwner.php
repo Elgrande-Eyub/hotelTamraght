@@ -10,12 +10,9 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class contactForm extends Mailable
+class notifyContactOwner extends Mailable
 {
     use Queueable, SerializesModels;
-
-
-
 
     public function __construct(public contact $contact)
     {
@@ -28,7 +25,7 @@ class contactForm extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Salty Waves - Consultation Request Received!',
+            subject: 'Salty Waves - New Consultation Request Received!',
         );
     }
 
@@ -38,15 +35,10 @@ class contactForm extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.contactToGuest',
+            view: 'emails.contactToOwner',
         );
     }
 
-    /**
-     * Get the attachments for the message.
-     *
-     * @return array<int, \Illuminate\Mail\Mailables\Attachment>
-     */
     public function attachments(): array
     {
         return [];

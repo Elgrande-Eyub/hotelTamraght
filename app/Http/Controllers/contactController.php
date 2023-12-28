@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\contactForm;
+use App\Mail\notifyContactOwner;
 use App\Models\contact;
 use Exception;
 use Illuminate\Http\Request;
@@ -47,7 +48,7 @@ class contactController extends Controller
                 'name' => 'required|string|max:255',
                 'phone' => 'required|string|max:20',
                 'email' => 'required|email|max:255',
-                'message' => 'required|string|max:255',
+                'message' => 'required',
             ]);
 
             if ($validator->fails()) {
@@ -64,7 +65,8 @@ class contactController extends Controller
             $Contact->status = 'Pending';
             $Contact->save();
 
-            Mail::to('info@salty-wave.com')->send(new contactForm($Contact));
+            Mail::to($Contact->email)->send(new contactForm($Contact));
+            Mail::to('info@salty-wave.com')->send(new notifyContactOwner($Contact));
 
             DB::commit();
             if($lang == 'fr'){

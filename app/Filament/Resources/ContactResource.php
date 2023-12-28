@@ -53,7 +53,7 @@ class ContactResource extends Resource
                 ->description(fn (contact $record): string => $record->email),
                 TextColumn::make('phone')->icon('heroicon-o-phone')->copyable()->searchable()->sortable()->toggleable(),
                 TextColumn::make('topic')->copyable()->searchable()->sortable()->toggleable(),
-                TextColumn::make('message')->copyable()->searchable()->sortable()->toggleable(),
+                TextColumn::make('message')->limit(20)->copyable()->searchable()->sortable()->toggleable(),
 
                 TextColumn::make('status')->searchable()->copyable()->sortable()->toggleable()
                 ->badge()
