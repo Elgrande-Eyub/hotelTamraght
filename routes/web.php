@@ -89,3 +89,4 @@ Route::post('/{lang?}/booking', [BookingController::class,'store'])->name('booki
 
 Route::post('subscribe', [NewsletterController::class, 'store']);
 
+

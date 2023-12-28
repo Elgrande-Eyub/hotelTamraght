@@ -151,11 +151,31 @@ class BookingResource extends Resource
             })
             ])
             ->actions([
+
                 Tables\Actions\ViewAction::make()->label('Details')->hidden(fn($record)=>$record->trashed()),
                 ActionGroup::make([
-                    Tables\Actions\ViewAction::make()->label('Details')->hidden(fn($record)=>$record->trashed()),
+                    Action::make('callPhone')
+                    ->label('Call')
+                    ->icon('heroicon-o-phone-arrow-up-right')
+                    ->color('sky')
+                    ->hidden(fn($record) => $record->trashed())
+                    ->openUrlInNewTab()
+                    ->action(function ($record) {
+                        return redirect()->to("tel:{$record->phone}");
+                    }),
+                    Action::make('Whatsapp')
+                    ->label('Whatsapp')
+                    ->icon('heroicon-o-chat-bubble-left-right')
+                    ->color('green')
+                    ->openUrlInNewTab()
+                    ->hidden(fn($record) => $record->trashed())
+                    ->action(function ($record) {
+                        return redirect()->to("https://api.whatsapp.com/send?phone={$record->phone}");
+                    }),
+                    // Tables\Actions\ViewAction::make()->label('Details')->hidden(fn($record)=>$record->trashed()),
                     Action::make('addNote')->label('Edit Note')->hidden(fn($record)=>$record->trashed())
                     ->icon('heroicon-s-paper-clip')
+                    ->color('teal')
                     ->model(booking::class)
                     ->form([
                      Select::make('status')
