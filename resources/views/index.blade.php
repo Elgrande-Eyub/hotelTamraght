@@ -356,7 +356,7 @@
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-yoga', ['lang' => $lang]) }}">premuim SURF & YOGA Pack</a></h3><span class="tour-offer__subtitle" style="color: white">Premuim</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-yoga', ['lang' => $lang]) }}">premuim SURF & YOGA Pack</a></h3><span class="tour-offer__subtitle" style="color: white">Premuim</span></div><span class="tour-offer__price"><span class="price" style="color: white">€€665</span></span>
                         </div>
                         <p class="tour-offer__text">Experience the thrill of surfing amidst breathtaking landscapes. Our Level 1 package offers the perfect blend of waves, relaxation, and personalized guidance. Professionally optimize your surfing skills and make memories that last a lifetime.</p>
                     </div>
@@ -369,7 +369,7 @@
                     <div class="tour-offer__content">
                         <div class="tour-offer__top">
                             <div>
-                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-coaching', ['lang' => $lang]) }}">popular SURF COACHING Pack</a></h3><span class="tour-offer__subtitle" style="color: white">Popular</span></div><span class="tour-offer__price"><span class="price" style="color: white">€340</span></span>
+                                <h3 class="tour-offer__title box-title"><a href="{{ route('surf-coaching', ['lang' => $lang]) }}">popular SURF COACHING Pack</a></h3><span class="tour-offer__subtitle" style="color: white">Popular</span></div><span class="tour-offer__price"><span class="price" style="color: white">€609</span></span>
                         </div>
                         <p class="tour-offer__text">Experience the thrill of surfing amidst breathtaking landscapes. Our Level 1 package offers the perfect blend of waves, relaxation, and personalized guidance. Professionally optimize your surfing skills and make memories that last a lifetime.</p>
                     </div>
