@@ -9877,7 +9877,7 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    z-index: 2
+    z-index: 2;
 }
 
 .gallery-card .gallery-img:before {
@@ -9896,7 +9896,10 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 }
 
 .gallery-card .gallery-img img {
-    width: 100%
+    width: 100%;
+    /* width: 200px; */
+    max-height: 63vh;
+    object-fit: cover;
 }
 
 .gallery-card .gallery-btn {
@@ -10773,4 +10776,14 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 .popular {
     border: 1px solid #565656;
     color: #565656;
+}
+
+
+/* .gallery-div {
+    width: 20%;
+    background-image: contain;
+} */
+
+.masonary-active {
+    text-align: center;
 }

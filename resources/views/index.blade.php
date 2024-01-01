@@ -22,7 +22,7 @@
 
     <div class="ot-hero-wrapper hero-2">
         <div class="ot-hero-slide">
-            <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_bg_2_2.jpg') }}"></div>
+            <div class="ot-hero-bg" data-bg-src="{{ asset('assets/img/hero/hero_bg_2_3.jpg') }}"></div>
             <div class="container z-index-common">
                 <div class="hero-style2"><span class="sub-title hero-subtitle">Enjoy every surf moment with Salty Waves <span class="shape right"><span class="dots"></span></span>
                     </span>
@@ -52,7 +52,7 @@
                 <div class="col-xl-6">
                     <div class="img-box1">
                         <div class="img1"><img src="{{ asset('assets/img/normal/about_1_1.jpg') }}" alt="About"></div>
-                        <div class="img2 col-hide"><img src="{{ asset('assets/img/normal/about_1_2.jpg') }}" alt="About"></div>
+                        {{-- <div class="img2 col-hide"><img src="{{ asset('assets/img/normal/about_1_2.jpg') }}" alt="About"></div> --}}
                         <div class="shape1"><img src="{{ asset('assets/img/normal/about_shape_1.png') }}" alt="shape"></div>
                     </div>
                 </div>
@@ -116,6 +116,84 @@
             </div>
         </div>
     </div>
+
+    <div style="margin-bottom:4rem">
+        <div class="container">
+            <div class="destination-details">
+        <section >
+            <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Gallery <span class="shape right"><span class="dots"></span></span>
+            </span>
+            <h2 class="sec-title">Feel. Capture. Best Moment With SALTY WAVES</h2>
+            </div>
+            <div class="mb-4">
+                    <div class="row gy-30 masonary-active">
+                        <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card">
+                                <div class="gallery-img"><img  src="{{ asset('assets/img/surf/IMG_0978.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/surf/IMG_0978.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card" >
+                                <div  class="gallery-img"><img  src="{{ asset('assets/img/surf/IMG_1251.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/surf/IMG_1251.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card" >
+                                <div class="gallery-img"><img src="{{ asset('assets/img/surf/IMG_1266.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/surf/IMG_1266.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card">
+                                <div class="gallery-img"><img src="{{ asset('assets/img/surf/IMG_5759.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/surf/IMG_5759.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card">
+                                <div class="gallery-img"><img src="{{ asset('assets/img/surf/IMG_5863.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/surf/IMG_5863.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card">
+                                <div class="gallery-img"><img  src="{{ asset('assets/img/surf/IMG_4964.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/surf/IMG_4964.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card">
+                                <div class="gallery-img"><img  src="{{ asset('assets/img/yassin/BoobkerEditedJpg/2.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/yassin/BoobkerEditedJpg/2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card">
+                                <div class="gallery-img"><img  src="{{ asset('assets/img/yassin/BoobkerEditedJpg/3.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/yassin/BoobkerEditedJpg/3.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div> <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card">
+                                <div class="gallery-img"><img  src="{{ asset('assets/img/yassin/BoobkerEditedJpg/4.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/yassin/BoobkerEditedJpg/4.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card">
+                                <div class="gallery-img"><img  src="{{ asset('assets/img/yoga/yoga-0001.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/yoga/yoga-0001.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card">
+                                <div class="gallery-img"><img  src="{{ asset('assets/img/yoga/yoga-0002.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/yoga/yoga-0002.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 filter-item">
+                            <div class="gallery-card">
+                                <div class="gallery-img"><img  src="{{ asset('assets/img/yoga/yoga-0003.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/yoga/yoga-0003.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </section>
+    </div>  </div>  </div>
+
+
+
     <div class="space bg-smoke overflow-hidden">
         <div class="container">
             <div class="title-area text-center" >

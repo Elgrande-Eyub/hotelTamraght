@@ -50,7 +50,7 @@
                                     Add convenience with airport transfers at €20 per person or bus station transfers at €15 per person. Customize your stay with extra yoga classes for €10 each.
 <br>
                                     Book now for a week of surf, yoga, and relaxation on your terms.</p>
-                                    <p style="font-size: 2rem">7 NIGHTS SURF & YOGA - <strong style="color:#015292">€560.00/7Days</strong></p>
+                                    <p style="font-size: 2rem">7 NIGHTS SURF & YOGA - from <strong style="color:#015292">€665.00/7Days</strong></p>
                                 <div class="about-infos">
                                     <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
@@ -63,6 +63,10 @@
                                        <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
                                         <p class="about-info"><strong>6 x Surf lessons, surf equipment rental (board + wetsuit)</strong></p>
+                                       </div>
+                                       <div class="align-items-center " style="display: flex;margin-top:10px;">
+                                        <p class="about-info"> <i class="fa-regular fa-plane"></i></p>
+                                        <p class="about-info"><strong>Airport transfers from/to Agadir</strong></p>
                                        </div>
                                        <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
@@ -113,14 +117,14 @@
                                         </div>
                                         <div >
                                             <div class="d-flex" style="flex-wrap: wrap">
-                                               <div class="align-items-center " style="display: flex;margin-top:10px;">
+                                             {{--   <div class="align-items-center " style="display: flex;margin-top:10px;">
                                                 <p class="about-info"> <i class="fa-regular fa-plane"></i></p>
                                                 <p class="about-info"><strong>Airport transfers available for 20€</strong></p>
-                                               </div>
-                                               <div class="align-items-center" style="display: flex;margin-top:10px;">
+                                               </div> --}}
+                                               {{-- <div class="align-items-center" style="display: flex;margin-top:10px;">
                                                 <p class="about-info"> <i class="fa-regular fa-bus"></i></p>
                                                 <p class="about-info"><strong>Bus station transfers available for 15€</strong></p>
-                                               </div>
+                                               </div> --}}
                                                <div class="align-items-center" style="display: flex;margin-top:10px;">
                                                 <p class="about-info"><i class="fa-regular fa-head-side-heart"></i></p>
                                                 <p class="about-info"><strong>You can add extra yoga classes to your package for 10€ / class</strong></p>

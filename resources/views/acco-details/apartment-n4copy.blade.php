@@ -255,7 +255,65 @@
                 </div>
                 <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
                     <div class="tour-photos">
-                        <div class="row g-4 masonary-active">
+                        <div class="row gy-30 masonary-active">
+
+                            <div class="col-md-6 col-xxl-6 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n4/app4-01.jpg') }}" alt="gallery image">
+                                         <a href="{{ asset('assets/img/accommodations/apartement n4/app4-01.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xxl-6 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n4/app4-02.jpg') }}" alt="gallery image">
+                                         <a href="{{ asset('assets/img/accommodations/apartement n4/app4-02.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xxl-6 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n4/app4-03.jpg') }}" alt="gallery image">
+                                         <a href="{{ asset('assets/img/accommodations/apartement n4/app4-03.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-6 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n4/app4-03.jpg') }}" alt="gallery image">
+                                         <a href="{{ asset('assets/img/accommodations/apartement n4/app4-03.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-6 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n4/app4-03.jpg') }}" alt="gallery image">
+                                         <a href="{{ asset('assets/img/accommodations/apartement n4/app4-03.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-6 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n4/app4-03.jpg') }}" alt="gallery image">
+                                         <a href="{{ asset('assets/img/accommodations/apartement n4/app4-03.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+
+                           {{--  <div class="col-md-6 col-xxl-6 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n4/app4-04.jpg') }}" alt="gallery image">
+                                         <a href="{{ asset('assets/img/accommodations/apartement n4/app4-04.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div> --}}
+
+                          {{--   <div class="col-md-6 col-xxl-6 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n4/app4-05.jpg') }}" alt="gallery image">
+                                         <a href="{{ asset('assets/img/accommodations/apartement n4/app4-05.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div> --}}
+
+
+
+                        </div>
+                      {{--   <div class="row g-4 masonary-active">
                             <div class="col-md-6 filter-item">
                                 <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-1.jpg') }}" alt="Image"></div>
                             </div>
@@ -275,7 +333,7 @@
                                 <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-11.jpg') }}" alt="Image"></div>
                             </div>
 
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">

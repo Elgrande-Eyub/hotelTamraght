@@ -49,34 +49,34 @@
                 </div>
                 <div class="mt-4 mb-4">
                         <div class="row gy-30 masonary-active">
-                            <div class="col-md-6 col-xxl-auto filter-item">
+                            <div class="col-md-6 col-xxl-4 filter-item">
                                 <div class="gallery-card">
-                                    <div class="gallery-img"><img style="width:420ppx; height:320px"  src="{{ asset('assets/img/gallery/gallery_1_7.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/tamraght-hostle/0001.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/accommodations/tamraght-hostle/0001.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xxl-auto filter-item">
+                            <div class="col-md-6 col-xxl-4 filter-item">
                                 <div class="gallery-card">
-                                    <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/tamraght-hostle/0002.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/tamraght-hostle/0002.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xxl-auto filter-item">
+                            <div class="col-md-6 col-xxl-4 filter-item">
                                 <div class="gallery-card">
-                                    <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_3.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/tamraght-hostle/0003.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/tamraght-hostle/0003.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xxl-auto filter-item">
+                            <div class="col-md-6 col-xxl-4 filter-item">
                                 <div class="gallery-card">
-                                    <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_4.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_4.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/tamraght-hostle/0004.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/tamraght-hostle/0004.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xxl-auto filter-item">
+                            <div class="col-md-6 col-xxl-4 filter-item">
                                 <div class="gallery-card">
-                                    <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_5.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_5.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/tamraght-hostle/0005.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/tamraght-hostle/0005.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xxl-auto filter-item">
+                            <div class="col-md-6 col-xxl-4 filter-item">
                                 <div class="gallery-card">
-                                    <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_6.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_6.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/tamraght-hostle/0006.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/tamraght-hostle/0006.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +116,7 @@
                     <span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> lOCATION <span class="shape right"><span class="dots"></span></span>
                </span>
                     <h3 class="sec-title">hostle Tamraght Location</h3>
-                    <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d429.6588803933894!2d-9.679411!3d30.513374!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMwJzQ4LjEiTiA5wrA0MCc0NS43Ilc!5e0!3m2!1sen!2sma!4v1702371064141!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d206.43833427348594!2d-9.679468995806726!3d30.513058908704437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d30.512987852835472!2d-9.679463631389076!4m0!5e1!3m2!1sfr!2sma!4v1704105899130!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
 
