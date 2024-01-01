@@ -43,14 +43,14 @@
                                     </div>
                                 </div>
                                 <h4 class="about-card__subtitle">PACK Description</h4>
-                                <p class="mb-30 text-justify">Discover the ultimate surf and yoga escape with our 7 Nights Surf & Yoga Package. For just €560, solo surfers get 7 nights in shared accommodation, daily meals, 6 surf lessons, and equipment rental.
+                                <p class="mb-30 text-justify">Discover the ultimate surf and yoga escape with our 7 Nights Surf & Yoga Package. For just €{{ config('global.standardPremuimPrice') }}, solo surfers get 7 nights in shared accommodation, daily meals, 6 surf lessons, and equipment rental.
 <br><br>
-                                    If you're with a friend, the package for two people is from €1200, including a double room for 7 nights. Dive into local culture at Agadir's market, try sandboarding, and unwind with a spa Hammam.
+                                    If you're with a friend, the package for two people is from €{{ config('global.buddiesyogaPrice') }}, including a double room for 7 nights. Dive into local culture at Agadir's market, try sandboarding, and unwind with a spa Hammam.
 <br><br>
                                     Add convenience with airport transfers at €20 per person or bus station transfers at €15 per person. Customize your stay with extra yoga classes for €10 each.
 <br>
                                     Book now for a week of surf, yoga, and relaxation on your terms.</p>
-                                    <p style="font-size: 2rem">7 NIGHTS SURF & YOGA - from <strong style="color:#015292">€665.00/7Days</strong></p>
+                                    <p style="font-size: 2rem">7 NIGHTS SURF & YOGA - from <strong style="color:#015292">€{{ config('global.standardPremuimPrice') }}.00/7Days</strong></p>
                                 <div class="about-infos">
                                     <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>

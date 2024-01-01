@@ -6,6 +6,6 @@
         </div>
         <h3 class="tour-card__title"><a href="{{ route('surf-coaching', ['lang' => $lang]) }}">Popular SURF COACHING</a></h3>
         <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 7 Day</span> <span><i class="fa-light fa-turn-up"></i> Popular</span></div>
-        <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€609</span></span> <a href="{{ route('surf-coaching', ['lang' => $lang]) }}" class="link-btn">Explore <i class="fas fa-arrow-up-right"></i></a></div>
+        <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€{{ config('global.standardPopularPrice') }}</span></span> <a href="{{ route('surf-coaching', ['lang' => $lang]) }}" class="link-btn">Explore <i class="fas fa-arrow-up-right"></i></a></div>
     </div>
 </div>
