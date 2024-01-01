@@ -118,7 +118,7 @@
                                 <div class="info-box_icon"><i class="fas fa-phone"></i></div>
                                 <p class="info-box_text">
                                     <a href="tel:+4917624898825" class="info-box_link">+49 1762 489 8825</a>
-                                    <a href="tel:+212675111894" class="info-box_link">+212 6 75 11 18 94</a></p>
+                                    <a href="tel:+212678718045"  class="info-box_link">+212 678-718045</a></p>
                             </div>
                             <div class="info-box">
                                 <div class="info-box_icon"><i class="fas fa-envelope"></i></div>

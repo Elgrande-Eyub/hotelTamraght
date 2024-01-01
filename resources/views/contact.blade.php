@@ -33,7 +33,7 @@
                                 <div class="contact-info__icon"><i class="fal fa-phone"></i></div>
                                 <div class="media-body"><span class="contact-info__text">
                                     <a href="tel:+4917624898825">+49 1762 489 8825</a>
-                                     <a href="tel:+212675111894">+212 6 75 11 18 94</a></span></div>
+                                     <a href="tel:+212678718045">+212 678-718045</a></span></div>
                             </div>
                             <div class="contact-info">
                                 <h4 class="contact-info__title">Mail Address:</h4>
