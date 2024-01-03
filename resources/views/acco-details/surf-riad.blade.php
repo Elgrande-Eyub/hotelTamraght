@@ -366,48 +366,104 @@
                             </div>
                             <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
                                 <div class="tour-photos">
-                                    <div class="row g-4 masonary-active">
-                                        <div class="col-md-6 filter-item">
-                                            <div class="tour-photo"><img
-                                                    src="{{ asset('assets/img/accommodations/surf-riad/app-1.jpg') }}"
-                                                    alt="Image"></div>
+                                    <div class="row gy-30 masonary-active">
+
+                                        <div class="col-md-6 col-xxl-6 filter-item">
+                                            <div class="gallery-card">
+                                                <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/surf-riad/1.jpg') }}" alt="gallery image">
+                                                     <a href="{{ asset('assets/img/accommodations/surf-riad/1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                            </div>
                                         </div>
-                                        <div class="col-md-6 filter-item">
-                                            <div class="tour-photo"><img
-                                                    src="{{ asset('assets/img/accommodations/surf-riad/app-2.jpg') }}"
-                                                    alt="Image"></div>
+
+                                        <div class="col-md-6 col-xxl-6 filter-item">
+                                            <div class="gallery-card">
+                                                <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/surf-riad/2.jpg') }}" alt="gallery image">
+                                                     <a href="{{ asset('assets/img/accommodations/surf-riad/2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                            </div>
                                         </div>
-                                        <div class="col-md-6 filter-item">
-                                            <div class="tour-photo"><img
-                                                    src="{{ asset('assets/img/accommodations/surf-riad/app-3.jpg') }}"
-                                                    alt="Image"></div>
+
+                                        <div class="col-md-6 col-xxl-6 filter-item">
+                                            <div class="gallery-card">
+                                                <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/surf-riad/3.jpg') }}" alt="gallery image">
+                                                     <a href="{{ asset('assets/img/accommodations/surf-riad/3.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                            </div>
                                         </div>
-                                        <div class="col-md-6 filter-item">
-                                            <div class="tour-photo"><img
-                                                    src="{{ asset('assets/img/accommodations/surf-riad/app-4.jpg') }}"
-                                                    alt="Image"></div>
+                                        <div class="col-md-6 col-xxl-6 filter-item">
+                                            <div class="gallery-card">
+                                                <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/surf-riad/4.jpg') }}" alt="gallery image">
+                                                     <a href="{{ asset('assets/img/accommodations/surf-riad/4.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                            </div>
                                         </div>
-                                        <div class="col-md-6 filter-item">
-                                            <div class="tour-photo"><img
-                                                    src="{{ asset('assets/img/accommodations/surf-riad/app-5.jpg') }}"
-                                                    alt="Image"></div>
+                                        <div class="col-md-6 col-xxl-6 filter-item">
+                                            <div class="gallery-card">
+                                                <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/surf-riad/5.jpg') }}" alt="gallery image">
+                                                     <a href="{{ asset('assets/img/accommodations/surf-riad/5.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                            </div>
                                         </div>
-                                        <div class="col-md-6 filter-item">
-                                            <div class="tour-photo"><img
-                                                    src="{{ asset('assets/img/accommodations/surf-riad/app-6.jpg') }}"
-                                                    alt="Image"></div>
+                                        <div class="col-md-6 col-xxl-6 filter-item">
+                                            <div class="gallery-card">
+                                                <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/surf-riad/6.jpg') }}" alt="gallery image">
+                                                     <a href="{{ asset('assets/img/accommodations/surf-riad/6.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                            </div>
                                         </div>
-                                        <div class="col-md-6 filter-item">
-                                            <div class="tour-photo"><img
-                                                    src="{{ asset('assets/img/accommodations/surf-riad/app-7.jpg') }}"
-                                                    alt="Image"></div>
+                                        <div class="col-md-6 col-xxl-6 filter-item">
+                                            <div class="gallery-card">
+                                                <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/surf-riad/7.jpg') }}" alt="gallery image">
+                                                     <a href="{{ asset('assets/img/accommodations/surf-riad/7.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                            </div>
                                         </div>
-                                        <div class="col-md-6 filter-item">
-                                            <div class="tour-photo"><img
-                                                    src="{{ asset('assets/img/accommodations/surf-riad/app-8.jpg') }}"
-                                                    alt="Image"></div>
+                                        <div class="col-md-6 col-xxl-6 filter-item">
+                                            <div class="gallery-card">
+                                                <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/surf-riad/8.jpg') }}" alt="gallery image">
+                                                     <a href="{{ asset('assets/img/accommodations/surf-riad/8.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                            </div>
                                         </div>
+                                        <div class="col-md-6 col-xxl-6 filter-item">
+                                            <div class="gallery-card">
+                                                <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/surf-riad/9.jpg') }}" alt="gallery image">
+                                                     <a href="{{ asset('assets/img/accommodations/surf-riad/9.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                            </div>
+                                        </div>
+
+
+                                       {{--  <div class="col-md-6 col-xxl-6 filter-item">
+                                            <div class="gallery-card">
+                                                <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n4/app4-04.jpg') }}" alt="gallery image">
+                                                     <a href="{{ asset('assets/img/accommodations/apartement n4/app4-04.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                            </div>
+                                        </div> --}}
+
+                                      {{--   <div class="col-md-6 col-xxl-6 filter-item">
+                                            <div class="gallery-card">
+                                                <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n4/app4-05.jpg') }}" alt="gallery image">
+                                                     <a href="{{ asset('assets/img/accommodations/apartement n4/app4-05.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                            </div>
+                                        </div> --}}
+
+
+
                                     </div>
+                                  {{--   <div class="row g-4 masonary-active">
+                                        <div class="col-md-6 filter-item">
+                                            <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-1.jpg') }}" alt="Image"></div>
+                                        </div>
+                                        <div class="col-md-6 filter-item">
+                                            <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-2.jpg') }}" alt="Image"></div>
+                                        </div>
+                                        <div class="col-md-6 filter-item">
+                                            <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-3.jpg') }}" alt="Image"></div>
+                                        </div>
+                                        <div class="col-md-6 filter-item">
+                                            <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-4.jpg') }}" alt="Image"></div>
+                                        </div>
+                                        <div class="col-md-6 filter-item">
+                                            <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-5.jpg') }}" alt="Image"></div>
+                                        </div>
+                                        <div class="col-md-6 filter-item">
+                                            <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-11.jpg') }}" alt="Image"></div>
+                                        </div>
+
+                                    </div> --}}
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">

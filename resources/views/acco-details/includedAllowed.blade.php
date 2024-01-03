@@ -8,12 +8,12 @@ aria-hidden="true">
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div> --}}
         <div class="modal-body">
-            <h4 style="text-transform: uppercase">What this
+            <h4 style="text-transform: uppercase;font-weight: 300;">What this
                 place offers</h4>
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">
-                    Bathroom</h6>
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-light fa-bath"></i> Bathroom</h6>
                 <div>
                     <span>
                         <i class="fal fa-check"></i> Hair
@@ -30,8 +30,8 @@ aria-hidden="true">
             </div>
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">
-                    Bedroom and laundry</h6>
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-light fa-washing-machine"></i>  Bedroom and laundry</h6>
                 <div>
                     <span>
                         <i class="fal fa-check"></i>
@@ -58,8 +58,8 @@ aria-hidden="true">
             </div>
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">
-                    Entertainment</h6>
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-light fa-gamepad-modern"></i>  Entertainment</h6>
                 <div>
                     <span>
                         <i class="fal fa-check"></i>
@@ -78,8 +78,8 @@ aria-hidden="true">
             </div>
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">
-                    Family</h6>
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-light fa-family"></i>  Family</h6>
                 <div>
                     <span>
                         <i class="fal fa-check"></i> Crib -
@@ -92,8 +92,8 @@ aria-hidden="true">
             </div>
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">
-                    Heating and cooling</h6>
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-light fa-temperature-low"></i>  Heating and cooling</h6>
                 <div>
                     <span>
                         <i class="fal fa-check"></i>
@@ -102,8 +102,8 @@ aria-hidden="true">
             </div>
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">
-                    Privacy and safety
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-light fa-shield-halved"></i> Privacy and safety
                 </h6>
                 <div>
                     <span>
@@ -121,7 +121,8 @@ aria-hidden="true">
             </div>
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">Internet and office
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-light fa-wifi"></i> Internet and office
                 </h6>
                 <div>
                     <span>
@@ -134,7 +135,8 @@ aria-hidden="true">
             </div>
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">Kitchen and dining
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-light fa-kitchen-set"></i> Kitchen and dining
                 </h6>
                 <div>
                     <span>
@@ -170,7 +172,8 @@ aria-hidden="true">
 
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">Location features</h6>
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-sharp fa-light fa-mountain-sun"></i> Location features</h6>
                 <div>
                     <span>
                         <i class="fal fa-check"></i>
@@ -185,7 +188,8 @@ aria-hidden="true">
 
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">Outdoor</h6>
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-light fa-campfire"></i> Outdoor</h6>
                 <div>
                     <span>
                         <i class="fal fa-check"></i>
@@ -206,7 +210,8 @@ aria-hidden="true">
             </div>
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">Parking and facilities</h6>
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-light fa-square-parking"></i> Parking and facilities</h6>
                 <div>
                     <span>
                         <i class="fal fa-check"></i>
@@ -216,7 +221,8 @@ aria-hidden="true">
             </div>
             <hr>
             <div>
-                <h6 style="text-transform: uppercase">Services</h6>
+                <h6 class="titleIncl" style="text-transform: uppercase">
+                    <i class="fa-light fa-square-info"></i> Services</h6>
                 <div>
                     <span>
                         <i class="fal fa-check"></i>
@@ -235,7 +241,7 @@ aria-hidden="true">
                 </div>
             </div>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer" style="    justify-content: start;">
             <button type="button"
                 style="background-color: #015292"
                 class="btn btn-primary"

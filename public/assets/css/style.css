@@ -10798,7 +10798,7 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
     margin: 1rem 0rem;
     border-radius: 10px;
     padding: 0.4rem 2rem;
-    border: none;
+    border: solid 1px rgba(140, 140, 140, 0.312);
     color: rgba(128, 128, 128, 0.597);
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -10806,4 +10806,11 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 .btn-ShowMore:hover {
     color: rgb(128, 128, 128);
     background-color: rgba(255, 255, 255);
+}
+
+.titleIncl {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
 }
