@@ -10793,3 +10793,17 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
         background-position: -800px;
     }
 }
+
+.btn-ShowMore {
+    margin: 1rem 0rem;
+    border-radius: 10px;
+    padding: 0.4rem 2rem;
+    border: none;
+    color: rgba(128, 128, 128, 0.597);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-ShowMore:hover {
+    color: rgb(128, 128, 128);
+    background-color: rgba(255, 255, 255);
+}

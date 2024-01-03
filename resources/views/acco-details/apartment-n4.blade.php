@@ -28,7 +28,7 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title" style="margin: 0">Surf Apartment N4 Taghazout</h2>
-                            <p>5 Guests, 1 Bedroom, 3 Beds, 1 Bathroom <strong>(€50.00/day)</strong></p>
+                            <p>5 Guests, 1 Bedroom, 1 Double Bed, 3 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€50.00/day)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>

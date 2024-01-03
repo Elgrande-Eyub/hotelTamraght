@@ -28,7 +28,7 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title" style="margin: 0">Surf Apartment N6 Taghazout</h2>
-                            <p>5 Guests, 1 Bedroom, 1 Beds, 1 Bathroom <strong>(€50.00/day)</strong></p>
+                            <p>5 Guests, 2 Bedrooms, 1 Double Bed, 2 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€50.00/day)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
@@ -125,24 +125,33 @@
                                                     <th>Included</th>
                                                     <td>
                                                         <span><i class="fal fa-check"></i> Beach view</span>
+                                                        <br><span><i class="fal fa-check"></i> Security cameras on property</span>
+                                                        <br><span><i class="fal fa-check"></i> Hair dryer</span>
                                                         <br><span><i class="fal fa-check"></i> Washer</span>
-                                                        <br><span><i class="fal fa-check"></i> Children’s books and toys</span>
-                                                        <br><span><i class="fal fa-check"></i> Board games</span>
-                                                        <br><span><i class="fal fa-check"></i> Beach access</span>
-                                                        <br>...
+                                                        <br><span><i class="fal fa-check"></i> Towels</span>
+                                                        <br><span><i class="fal fa-check"></i> Bed Linen</span>
+                                                        <br><span><i class="fal fa-check"></i> Fully Equipped Kitchen</span>
+                                                        <br><span><i class="fal fa-check"></i> TV</span>
+                                                        <br>
+                                                        <!-- Button trigger modal -->
+                                                        <button class="btn-ShowMore" type="button" data-bs-toggle="modal"
+                                                            data-bs-target="#exampleModal">
+                                                            Show More
+                                                        </button>
+
+                                                        <!-- Modal -->
+                                                        @include('acco-details.includedAllowed')
 
                                                         </td>
                                                 </tr>
                                                 <tr>
                                                     <th>Excluded</th>
-                                                    <td><span><i class="fal fa-xmark"></i> Security cameras on property</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Hair dryer</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Essentials</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Smoke alarm</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Pets</span>
+                                                    <td>
+                                                        <br><span><i class="fal fa-xmark"></i> Pets Are Not Allowed</span>
 
                                                         <br></td>
                                                 </tr>
+
                                             </tbody>
                                         </table>
                                     </div>

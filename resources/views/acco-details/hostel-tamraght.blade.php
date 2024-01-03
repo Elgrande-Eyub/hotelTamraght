@@ -123,24 +123,33 @@
                                                     <th>Included</th>
                                                     <td>
                                                         <span><i class="fal fa-check"></i> Beach view</span>
+                                                        <br><span><i class="fal fa-check"></i> Security cameras on property</span>
+                                                        <br><span><i class="fal fa-check"></i> Hair dryer</span>
                                                         <br><span><i class="fal fa-check"></i> Washer</span>
-                                                        <br><span><i class="fal fa-check"></i> Children’s books and toys</span>
-                                                        <br><span><i class="fal fa-check"></i> Board games</span>
-                                                        <br><span><i class="fal fa-check"></i> Beach access</span>
-                                                        <br>...
+                                                        <br><span><i class="fal fa-check"></i> Towels</span>
+                                                        <br><span><i class="fal fa-check"></i> Bed Linen</span>
+                                                        <br><span><i class="fal fa-check"></i> Fully Equipped Kitchen</span>
+                                                        <br><span><i class="fal fa-check"></i> TV</span>
+                                                        <br>
+                                                        <!-- Button trigger modal -->
+                                                        <button class="btn-ShowMore" type="button" data-bs-toggle="modal"
+                                                            data-bs-target="#exampleModal">
+                                                            Show More
+                                                        </button>
+
+                                                        <!-- Modal -->
+                                                        @include('acco-details.includedAllowed')
 
                                                         </td>
                                                 </tr>
                                                 <tr>
                                                     <th>Excluded</th>
-                                                    <td><span><i class="fal fa-xmark"></i> Security cameras on property</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Hair dryer</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Essentials</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Smoke alarm</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Pets</span>
+                                                    <td>
+                                                        <br><span><i class="fal fa-xmark"></i> Pets Are Not Allowed</span>
 
                                                         <br></td>
                                                 </tr>
+
                                             </tbody>
                                         </table>
                                     </div>
