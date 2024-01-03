@@ -139,7 +139,7 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>
-                                                    <td>5 Guests, 2 Bedrooms, 5 Beds, 2.5 Bathrooms
+                                                    <td>5 Guests, 2 Bedrooms, 2 Living Rooms, 2 Kitchen,2 Bathrooms
                                                         <strong>(€85.00/day)</strong></td>
                                                 </tr>
                                                 <tr>

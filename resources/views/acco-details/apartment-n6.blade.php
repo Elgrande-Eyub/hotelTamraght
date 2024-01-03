@@ -114,7 +114,7 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>
-                                                    <td>5 Guests, 1 Bedroom, 1 Beds, 1 Bathroom <strong>(€50.00/day)</strong></td>
+                                                    <td>>5 Guests, 2 Bedrooms, 1 Double Bed, 2 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€50.00/day)</strong></td>
                                                 </tr>
 
                                                 <tr>
