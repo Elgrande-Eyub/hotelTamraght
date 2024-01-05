@@ -151,7 +151,7 @@
                 </div>
                 <div class="col-lg-6 text-end d-none d-lg-block">
                     <div class="">
-                        <p class="copyright-text">Developped By <a href="https://easyeno.com/" target="_blank" style="color: #1684d8">Easyeno Media</a> <i class="fal fa-copyright"></i> 2024</p>
+                        <p class="copyright-text">Developped By <a href="https://www.instagram.com/elgrande_eyub/" target="_blank" style="color: #1684d8">EYUB</a> <i class="fal fa-copyright"></i> 2024</p>
                     </div>
                 </div>
             </div>

@@ -51,7 +51,7 @@
                     </span>
                     <h2 class="sec-title">Taghazout Accommodations</h2>
                     </div>
-                    <div class="mt-4 mb-4">
+                {{--     <div class="mt-4 mb-4">
                             <div class="row gy-30 masonary-active">
                                 <div class="col-md-6 col-xxl-auto filter-item">
                                     <div class="gallery-card">
@@ -85,7 +85,41 @@
                                 </div>
                             </div>
 
-                    </div>
+                    </div> --}}
+                    <div class="mt-4 mb-4">
+                        <div class="row gy-30 masonary-active">
+                            <div class="col-md-6 col-xxl-4 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/Taghazout/main-1.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/accommodations/Taghazout/main-1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-4 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/Taghazout/main-7.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/Taghazout/main-7.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-4 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/Taghazout/main-16.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/Taghazout/main-16.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-4 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/apartement n4/1.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/apartement n4/1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-4 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/apartement n6/2.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/apartement n6/2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-4 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/apartement n4/2.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/apartement n4/2.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
                 </section>
 
                 <section style="margin-top: 5rem">

@@ -36,7 +36,7 @@
                         </span>
                         <h2 class="sec-title">Taghazout Or Tamraght ? Who Cares</h2>
                     </div>
-                    <p class="mt-n2 mb-35">Experience the best of both aghazout and Tamraght with our surf hostel, traditional Riad and apartments with direct view to the sea - because here, it doesn't matter which coastal gem you choose. Embrace the laid-back vibes of Tamraght or the vibrant hustle of Taghazout , all from the comfort of your cozy abode. Whether you're a surfer chasing the perfect wave or a traveler seeking tranquility, our accommodations is your gateway to the beauty of both Taghazout and Tamraght. Your adventure begins here, where choices become possibilities and memories are made effortlessly</p>
+                    <p class="mt-n2 mb-35 text-justify">Experience the best of both aghazout and Tamraght with our surf hostel, traditional Riad and apartments with direct view to the sea - because here, it doesn't matter which coastal gem you choose. Embrace the laid-back vibes of Tamraght or the vibrant hustle of Taghazout , all from the comfort of your cozy abode. Whether you're a surfer chasing the perfect wave or a traveler seeking tranquility, our accommodations is your gateway to the beauty of both Taghazout and Tamraght. Your adventure begins here, where choices become possibilities and memories are made effortlessly</p>
                     <div
                         class="about-media-wrap">
                         <div class="about-media" style="    width: 100%;max-width: none;">
@@ -78,7 +78,7 @@
                         </span>
                         <h2 class="sec-title">The Perfect Place For You & Your Family</h2>
                     </div>
-                    <p class="mt-n2 mb-40">Explore the coastal gems of Tamraght and Taghazout, where 'The Perfect Place' awaits to elevate your family getaway. Nestled in the heart of these charming Moroccan villages, our haven offers an unparalleled experience blending the laid-back atmosphere of Tamraght and the vibrant surf culture of Taghazout. Immerse your family in the thrill of surfing on world-renowned waves, embark on captivating trips to nearby scenic spots, and unwind with rejuvenating yoga sessions. At 'The Perfect Place,' every day is an adventure, and every moment is a cherished memory in the making.</p>
+                    <p class="mt-n2 mb-40 text-justify">Explore the coastal gems of Tamraght and Taghazout, where 'The Perfect Place' awaits to elevate your family getaway. Nestled in the heart of these charming Moroccan villages, our haven offers an unparalleled experience blending the laid-back atmosphere of Tamraght and the vibrant surf culture of Taghazout. Immerse your family in the thrill of surfing on world-renowned waves, embark on captivating trips to nearby scenic spots, and unwind with rejuvenating yoga sessions. At 'The Perfect Place,' every day is an adventure, and every moment is a cherished memory in the making.</p>
                     {{-- <div
                         class="skill-feature">
                         <h3 class="skill-feature_title">Relaxing And Enjoying</h3>
@@ -153,10 +153,81 @@
         <div class="container">
             <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Travel Image <span class="shape right"><span class="dots"></span></span>
                 </span>
-                <h2 class="sec-title">Image Gallery</h2>
+                <h2 class="sec-title">Salty Waves Vibes Gallery</h2>
             </div>
             <div class="row gy-30 masonary-active">
-                <div class="col-md-6 col-xxl-auto filter-item">
+                <div class="col-md-6 col-xxl-4 filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n6/1.jpg') }}" alt="gallery image">
+                             <a href="{{ asset('assets/img/accommodations/apartement n6/1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-4 filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/tamraght-hostle/0001.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/accommodations/tamraght-hostle/0001.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-4 filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/tamraght-hostle/0002.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/tamraght-hostle/0002.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-4 filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/tamraght-hostle/0003.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/tamraght-hostle/0003.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-4 filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/surf/IMG_0978.jpg') }}"
+                                alt="gallery image"> <a
+                                href="{{ asset('assets/img/surf/IMG_0978.jpg') }}"
+                                class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-4 filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/yoga/yoga-0001.jpg') }}"
+                                alt="gallery image"> <a
+                                href="{{ asset('assets/img/yoga/yoga-0001.jpg') }}"
+                                class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-4 filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img
+                                src="{{ asset('assets/img/yassin/BoobkerEditedJpg/2.jpg') }}"
+                                alt="gallery image"> <a
+                                href="{{ asset('assets/img/yassin/BoobkerEditedJpg/2.jpg') }}"
+                                class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xxl-4 filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/yoga/yoga-0002.jpg') }}"
+                                alt="gallery image"> <a
+                                href="{{ asset('assets/img/yoga/yoga-0002.jpg') }}"
+                                class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xxl-4 filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/Taghazout/main-1.jpg') }}" alt="gallery image"> <a   href="{{ asset('assets/img/accommodations/Taghazout/main-1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-4 filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/Taghazout/main-7.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/Taghazout/main-7.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-4 filter-item">
+                    <div class="gallery-card">
+                        <div class="gallery-img"><img src="{{ asset('assets/img/accommodations/Taghazout/main-16.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/accommodations/Taghazout/main-16.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                    </div>
+                </div>
+               {{--  <div class="col-md-6 col-xxl-auto filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img"><img style="width:420ppx; height:320px" src="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_1.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                     </div>
@@ -185,7 +256,7 @@
                     <div class="gallery-card">
                         <div class="gallery-img"><img src="{{ asset('assets/img/gallery/gallery_1_6.jpg') }}" alt="gallery image"> <a href="{{ asset('assets/img/gallery/gallery_1_6.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
