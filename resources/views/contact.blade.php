@@ -53,14 +53,14 @@
                 <div class="col-xl-6">
                     <h1>TAMRAGHT</h1>
                     <div class="contact-map">
-                        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d429.6588803933894!2d-9.679411!3d30.513374!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMwJzQ4LjEiTiA5wrA0MCc0NS43Ilc!5e0!3m2!1sen!2sma!4v1702371064141!5m2!1sen!2sma"
+                        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d263.22269155141305!2d-9.679540310406486!3d30.51312205967447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMwJzQ2LjkiTiA5wrA0MCc0Ni4yIlc!5e1!3m2!1sen!2sma!4v1704457291982!5m2!1sen!2sma"
                         allowfullscreen="" loading="lazy"></iframe></div>
                 </div>
 
                 <div class="col-xl-6">
                     <h1>Taghzout</h1>
                     <div class="contact-map">
-                        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d412.7379685492819!2d-9.713078851828755!3d30.545702211478222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQ0LjQiTiA5wrA0Mic0Ny4xIlc!5e1!3m2!1sen!2sma!4v1702293757319!5m2!1sen!2sma"
+                        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d263.1345083202829!2d-9.713227295910578!3d30.545675743825285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQ0LjYiTiA5wrA0Mic0Ny41Ilc!5e1!3m2!1sen!2sma!4v1704455853266!5m2!1sen!2sma"
                             allowfullscreen="" loading="lazy"></iframe></div>
                 </div>
             </div>

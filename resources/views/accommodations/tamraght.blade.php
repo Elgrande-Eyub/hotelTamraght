@@ -116,7 +116,7 @@
                     <span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> lOCATION <span class="shape right"><span class="dots"></span></span>
                </span>
                     <h3 class="sec-title">hostle Tamraght Location</h3>
-                    <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d206.43833427348594!2d-9.679468995806726!3d30.513058908704437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d30.512987852835472!2d-9.679463631389076!4m0!5e1!3m2!1sfr!2sma!4v1704105899130!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d263.22269155141305!2d-9.679540310406486!3d30.51312205967447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMwJzQ2LjkiTiA5wrA0MCc0Ni4yIlc!5e1!3m2!1sen!2sma!4v1704457291982!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
 

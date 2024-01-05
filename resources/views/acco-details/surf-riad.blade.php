@@ -400,7 +400,7 @@
                                 aria-labelledby="location-tab">
                                 <div class="tour-location">
                                     <iframe class="location"
-                                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d583.7036393297946!2d-9.709814815442307!3d30.545035769313657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQyLjQiTiA5wrA0MiczMy44Ilc!5e1!3m2!1sen!2sma!4v1702309439261!5m2!1sen!2sma"
+                                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d263.13646618813675!2d-9.709425761452977!3d30.54495331842164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQxLjkiTiA5wrA0MiczMy41Ilc!5e1!3m2!1sen!2sma!4v1704456364132!5m2!1sen!2sma"
                                         height="320px" style="border:0;" allowfullscreen="" loading="lazy"
                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
 
