@@ -36,14 +36,14 @@
                         </span>
                         <h2 class="sec-title">Taghazout Or Tamraght ? Who Cares</h2>
                     </div>
-                    <p class="mt-n2 mb-35">Experience the best of both Agadir with our rental apartment in Taghazout or Tamraght – because here, it doesn't matter which coastal gem you choose. Embrace the laid-back vibes of Tamraght or the vibrant hustle of Taghazout , all from the comfort of your cozy abode. Whether you're a surfer chasing the perfect wave or a traveler seeking tranquility, our accommodation is your gateway to the beauty of both Taghazout and Tamraght. Your adventure begins here, where choices become possibilities and memories are made effortlessly</p>
+                    <p class="mt-n2 mb-35">Experience the best of both aghazout and Tamraght with our surf hostel, traditional Riad and apartments with direct view to the sea - because here, it doesn't matter which coastal gem you choose. Embrace the laid-back vibes of Tamraght or the vibrant hustle of Taghazout , all from the comfort of your cozy abode. Whether you're a surfer chasing the perfect wave or a traveler seeking tranquility, our accommodations is your gateway to the beauty of both Taghazout and Tamraght. Your adventure begins here, where choices become possibilities and memories are made effortlessly</p>
                     <div
                         class="about-media-wrap">
                         <div class="about-media" style="    width: 100%;max-width: none;">
                             <div class="about-media_icon"><img src="{{ asset('assets/img/icon/about_media_1.svg') }}" alt="icon"></div>
                             <div class="media-body">
                                 <h3 class="about-media_title box-title">22 Years Experience</h3>
-                                <p class="about-media_text">we guarantee a legacy of excellence in every moment you spend.</p>
+                                <p class="about-media_text">We guarantee a legacy of excellence in every moment you spend.</p>
                             </div>
                         </div>
                   {{--       <div class="about-media">
@@ -63,7 +63,7 @@
                             <div class="customer-avater"><img src="{{ asset('assets/img/normal/avater_1_3.jpg') }}" alt="avater"></div>
                             <div class="customer-avater"><img src="{{ asset('assets/img/normal/avater_1_4.jpg') }}" alt="avater"></div>
                         </div>
-                        <p class="mb-0"><span class="text-theme fs-md fw-bold">500k+</span> Happy Customer</p>
+                        <p class="mb-0"><span class="text-theme fs-md fw-bold">2800+</span> Happy Customer</p>
                     </div>
                 </div>
             </div>

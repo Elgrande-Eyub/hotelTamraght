@@ -43,7 +43,7 @@ body {
     color: var(--body-color);
     line-height: 26px;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased
+    -webkit-font-smoothing: antialiased;
 }
 
 iframe {

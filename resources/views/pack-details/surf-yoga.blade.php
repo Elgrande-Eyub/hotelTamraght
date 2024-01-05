@@ -74,7 +74,7 @@
                                        </div>
                                        <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                        <p class="about-info"><strong>surf spot transport</strong></p>
+                                        <p class="about-info"><strong>Surf spot transport</strong></p>
                                        </div>
                                        <div class="align-items-center" style="display: flex">
                                         <p class="about-info"> <i class="fa-light fa-check"></i></p>
@@ -151,7 +151,7 @@
                                 <div class="row gy-30 text-center" style="display:flex;justify-content: center">
                                     <div class="col-xl-5 col-lg-4 col-md-6">
                                         <h3>Solo Surfer - Dormitory Rooms</h3>
-                                        <p class="text-justify">Our dorm room with is the perfect choice for groups of friends and solo travelers in a budget. A large room that will change your concept about dorm rooms, where you can have a good rest and recover all the energy spent during the surfing sessions.</p>
+                                        <p class="text-justify">Our dorm rooms with ocean view are the perfect choice for groups of friends and solo travelers in a budget. A large room that will change your concept about dorm rooms, where you can have a good rest and recover all the energy spent during the surfing sessions.</p>
                                         <div id="carouselExampleInterval" class="carousel slide tour-img" data-bs-ride="carousel">
                                             <div class="carousel-inner">
                                               <div class="carousel-item active" data-bs-interval="3000">

@@ -19,10 +19,10 @@
 </section>
 <section class="space-bottom">
     <div class="testi-sec space" data-bg-src="{{ asset('assets/img/bg/bg_map_2.png') }}">
-        <div class="container">
+        <div class="container text-justify">
             <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Testimonials <span class="shape right"><span class="dots"></span></span>
                 </span>
-                <h2 class="sec-title">What Customer Say About SALTY WAVES</h2>
+                <h2 class="sec-title">What Customers Say About SALTY WAVES</h2>
             </div>
             <div class="row slider-shadow ot-carousel" id="testiSlide1" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1">
                 <div class="col-lg-6">

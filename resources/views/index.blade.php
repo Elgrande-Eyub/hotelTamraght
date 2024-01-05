@@ -72,7 +72,7 @@
                         </span>
                         <h2 class="sec-title">Welcome to Salty Waves, where every place feels like home</h2>
                     </div>
-                    <p class="mt-n2 mb-35">Welcome to Salty Waves, where every place feels like home. Immerse yourself
+                    <p class="mt-n2 mb-35 text-justify">Welcome to Salty Waves, where every place feels like home. Immerse yourself
                         in the perfect blend of relaxation and adventure with our passion for surf, yoga, and memorable
                         trips. Whether you're catching waves, finding your zen in our yoga sessions, or exploring
                         exciting excursions, every moment is crafted to make your stay truly exceptional. Embrace the
@@ -83,10 +83,10 @@
                         <h4 class="sec-title"><img src="{{ asset('assets/img/icon/counter_1_2.svg') }}" alt="icon"
                                 style="margin-right: 1rem"> Our Location</h4>
                     </div>
-                    <p class="mt-n2 mb-35">To reach this charming spot, fly into Agadir, just a 45-minute drive away
-                        from our location in the Atlas Mountains. Marrakesh is another option, about three hours from
-                        the camp. We provide transfers from both airports. Public transportation and taxis are also
-                        available for you and your friends to easily access this scenic destination.</p>
+                    <p class="mt-n2 mb-35 text-justify">We are situated in the beautiful and popular locations of Taghazout and Tamraght,
+                         accessible within approximately 45 minutes from Agadir Airport.
+                         Upon request, we provide airport pick-up services, ensuring a seamless transfer directly to your booked accommodation.
+                         If you arrive in Marrakesh and require transportation, our pick-up service is also available to you.</p>
 
                     <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Discover
                             more</a>
@@ -101,7 +101,7 @@
                                 <div class="customer-avater"><img src="{{ asset('assets/img/normal/avater_1_4.jpg') }}"
                                         alt="avater"></div>
                             </div>
-                            <p class="mb-0"><span class="text-theme fs-md fw-bold">500k+</span> Happy Customer</p>
+                            <p class="mb-0"><span class="text-theme fs-md fw-bold">2800+</span> Happy Customer</p>
                         </div>
                     </div>
                 </div>

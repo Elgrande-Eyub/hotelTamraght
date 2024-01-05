@@ -85,7 +85,7 @@
                                 <a href="{{ route('index' ,['lang'=>$lang]) }}"><img src="{{ asset('assets/img/logo/salty-waves-white.png') }}" alt="SALTY WAVES"></a>
                             </div>
                             <p class="about-text text-justify">
-                                Embrace the coastal charm at Salty Waves Retreat in Tamraght. Where every stay is a dance with salty waves and each sunrise brings the promise of a new adventure.
+                                Embrace the coastal charm at Salty Waves Retreat in Tamraght and Taghazout. Where every stay is a dance with salty waves and each sunrise brings the promise of a new adventure.
                             </p>
                             <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/salty_waves_taghazout"><i class="fab fa-instagram"></i></a> <a href="https://api.whatsapp.com/send?phone=212675111894"><i class="fab fa-whatsapp"></i></a></div>
                         </div>
