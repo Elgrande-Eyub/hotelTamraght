@@ -179,7 +179,7 @@
                                     </div>
                                     <div class="col-xl-5 col-lg-4 col-md-6 ">
                                         <h3>Surf Buddies - Deluxe Rooms</h3>
-                                        <p class="text-justify">Our double rooms are the perfect choice for couples or solo traveleres that want an extra of privacy and comfort staying in a private room, decorated and designed with love by our interior will inspire your dreams, has air conditioning and Wi-Fi access.</p>
+                                        <p class="text-justify">Our double rooms are the perfect choice for couples or solo traveleres that want an extra of privacy and comfort staying in a private room, decorated and designed with love by our interior will inspire your dreams, has Wi-Fi access.</p>
 
                                         <div id="carouselExampleInterval1" class="carousel slide tour-img" data-bs-ride="carousel">
                                             <div class="carousel-inner">
