@@ -51,7 +51,7 @@
     </div>
 
     <div class="booknow">
-        <a href=" {{ route('accommodations', ['lang' => $lang]) }}" class="ot-btn booknow-btn">@lang('index.booknow')</a>
+        <a href=" {{ route('packages', ['lang' => $lang]) }}" class="ot-btn booknow-btn">@lang('index.booknow')</a>
     </div>
 
     <div class="space">
@@ -175,30 +175,6 @@
                             </div>
                             <div class="col-md-6 col-xxl-4 filter-item">
                                 <div class="gallery-card">
-                                    <div class="gallery-img"><img src="{{ asset('assets/img/surf/IMG_1266.jpg') }}"
-                                            alt="gallery image"> <a
-                                            href="{{ asset('assets/img/surf/IMG_1266.jpg') }}"
-                                            class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xxl-4 filter-item">
-                                <div class="gallery-card">
-                                    <div class="gallery-img"><img src="{{ asset('assets/img/surf/IMG_5759.jpg') }}"
-                                            alt="gallery image"> <a
-                                            href="{{ asset('assets/img/surf/IMG_5759.jpg') }}"
-                                            class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xxl-4 filter-item">
-                                <div class="gallery-card">
-                                    <div class="gallery-img"><img src="{{ asset('assets/img/surf/IMG_5863.jpg') }}"
-                                            alt="gallery image"> <a
-                                            href="{{ asset('assets/img/surf/IMG_5863.jpg') }}"
-                                            class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xxl-4 filter-item">
-                                <div class="gallery-card">
                                     <div class="gallery-img"><img src="{{ asset('assets/img/surf/IMG_4964.jpg') }}"
                                             alt="gallery image"> <a
                                             href="{{ asset('assets/img/surf/IMG_4964.jpg') }}"
@@ -211,24 +187,6 @@
                                             src="{{ asset('assets/img/yassin/BoobkerEditedJpg/2.jpg') }}"
                                             alt="gallery image"> <a
                                             href="{{ asset('assets/img/yassin/BoobkerEditedJpg/2.jpg') }}"
-                                            class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xxl-4 filter-item">
-                                <div class="gallery-card">
-                                    <div class="gallery-img"><img
-                                            src="{{ asset('assets/img/yassin/BoobkerEditedJpg/3.jpg') }}"
-                                            alt="gallery image"> <a
-                                            href="{{ asset('assets/img/yassin/BoobkerEditedJpg/3.jpg') }}"
-                                            class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xxl-4 filter-item">
-                                <div class="gallery-card">
-                                    <div class="gallery-img"><img
-                                            src="{{ asset('assets/img/yassin/BoobkerEditedJpg/4.jpg') }}"
-                                            alt="gallery image"> <a
-                                            href="{{ asset('assets/img/yassin/BoobkerEditedJpg/4.jpg') }}"
                                             class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                 </div>
                             </div>
@@ -250,9 +208,17 @@
                             </div>
                             <div class="col-md-6 col-xxl-4 filter-item">
                                 <div class="gallery-card">
-                                    <div class="gallery-img"><img src="{{ asset('assets/img/yoga/yoga-0003.jpg') }}"
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/surf/IMG_5759.jpg') }}"
                                             alt="gallery image"> <a
-                                            href="{{ asset('assets/img/yoga/yoga-0003.jpg') }}"
+                                            href="{{ asset('assets/img/surf/IMG_5759.jpg') }}"
+                                            class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xxl-4 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img src="{{ asset('assets/img/surf/IMG_5863.jpg') }}"
+                                            alt="gallery image"> <a
+                                            href="{{ asset('assets/img/surf/IMG_5863.jpg') }}"
                                             class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
                                 </div>
                             </div>

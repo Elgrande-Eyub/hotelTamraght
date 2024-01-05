@@ -165,7 +165,7 @@
                         <div class="header-button">
                             {{-- <button type="button" class="icon-btn searchBoxToggler"><i class="far fa-search"></i></button>  --}}
                             <a href="#" class="icon-btn sideMenuToggler"><i class="fa-regular fa-bars"></i></a>
-                             <a href=" {{ route('accommodations', ['lang' => $lang]) }}" class="ot-btn ml-25">@lang('index.booknow')</a></div>
+                             <a href=" {{ route('packages', ['lang' => $lang]) }}" class="ot-btn ml-25">@lang('index.booknow')</a></div>
                     </div>
                 </div>
             </div>
