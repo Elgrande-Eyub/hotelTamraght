@@ -328,7 +328,7 @@
                             <h4 class="title">Book This Accommodation</h4>
                             <p class="price">€20.00 per person</p>
                         </div>
-                        <form action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST" class="widget-form">
+                        <form id="bookingForm" action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST" class="widget-form">
                             @csrf
                             <p>This place has a maximum of 12 guests, not including infants. Pets aren't allowed.</p>
 
@@ -523,7 +523,11 @@
                                 <p>Total : <strong id="total">€{{ old('total', '0.00') }}</strong></p>
                             </div>
 
-                            <div class="form-btn"><button class="ot-btn w-100">Book now</button></div>
+                            <div class="form-btn">
+                                <button class="ot-btn w-100" id="bookNowBtn">
+                                    <i class="submit-spin"></i> Book now
+                                </button>
+                            </div>
                             <p class="form-messages mb-0 mt-3"></p>
                         </form>
 
@@ -532,7 +536,21 @@
 
 
 
+                <script>
+                    $(document).ready(function () {
+                        // Intercept form submission
+                        $('#bookNowBtn').click(function (event) {
+                            event.preventDefault();
+                            $('.submit-spin').addClass('fa fa-spinner fa-spin');
 
+                            setTimeout(function () {
+                                console.log('Form submitted!');
+                                $('#bookingForm').submit();
+
+                            }, 2000);
+                        });
+                    });
+                </script>
                 <script>
                     $(document).ready(function () {
                         const checkINDate = new Date();
