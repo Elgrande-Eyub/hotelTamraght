@@ -64,26 +64,15 @@
                             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n6/main.jpg') }}" class="d-block w-100" alt="Apartment n6 Photos">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
                                     <img src="{{ asset('assets/img/accommodations/apartement n6/main-1.jpg') }}" class="d-block w-100" alt="Apartment n6 Photos">
                                   </div>
+                                  @for($i = 2; $i <= 8; $i++)
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n6/main-2.jpg') }}" class="d-block w-100" alt="Apartment n6 Photos">
+                                      <img src="{{ asset('assets/img/accommodations/apartement n6/main-' . $i . '.jpg') }}"
+                                          class="d-block w-100" alt="Hostel Tamraght Photos">
                                   </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n6/main-3.jpg') }}" class="d-block w-100" alt="Apartment n6 Photos">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n6/main-4.jpg') }}" class="d-block w-100" alt="Apartment n6 Photos">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n6/main-5.jpg') }}" class="d-block w-100" alt="Apartment n6 Photos">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n6/main-6.jpg') }}" class="d-block w-100" alt="Apartment n6 Photos">
-                                  </div>
+                                   @endfor
+
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -114,9 +103,8 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>
-                                                    <td>>5 Guests, 2 Bedrooms, 1 Double Bed, 2 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€50.00/day)</strong></td>
+                                                    <td>5 Guests, 2 Bedrooms, 1 Double Bed, 2 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€50.00/day)</strong></td>
                                                 </tr>
-
                                                 <tr>
                                                     <th>Airbnb's Rate</th>
                                                     <td>4.83 out of 5</td>
@@ -266,31 +254,19 @@
                 </div>
                 <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
                     <div class="tour-photos">
+
                         <div class="row g-4 masonary-active">
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-1.jpg') }}" alt="Image"></div>
+
+                            @for($i = 1; $i <= 11; $i++)
+
+                            <div class="col-md-6 col-xxl-6 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n6/' . $i . '.jpg') }}" alt="gallery image">
+                                         <a href="{{ asset('assets/img/accommodations/apartement n6/' . $i . '.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
                             </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-2.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-3.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-4.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-5.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-11.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-22.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n6/app-44.jpg') }}" alt="Image"></div>
-                            </div>
+                        @endfor
+
                         </div>
                     </div>
                 </div>

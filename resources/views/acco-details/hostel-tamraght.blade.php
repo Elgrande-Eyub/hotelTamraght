@@ -108,7 +108,7 @@
                                                     <td>Salty Waves Taghazout >> Hostel Tamraght - Salty Waves</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Hostle Contain</th>
+                                                    <th>Hostel Contain</th>
                                                     <td>3 Rooms with 2 Beds each <strong>(35€/each)</strong> , Dormitory with 6 Beds <strong>(20€/each)</strong></td>
                                                 </tr>
                                                 <tr>
@@ -383,7 +383,7 @@
                             <div class="row">
                                 <div class=" form-group">
                                     <select disabled class="form-select nice-select">
-                                        <option value="" disabled="disabled" selected="selected" hidden>Accommodation: Hostle Tamraght</option>
+                                        <option value="" disabled="disabled" selected="selected" hidden>Accommodation: Hostel Tamraght</option>
                                     </select>
                                     <i class="fal fa-chevron-down"></i>
                                 </div>

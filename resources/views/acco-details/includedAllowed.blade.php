@@ -173,7 +173,7 @@ aria-hidden="true">
             <hr>
             <div>
                 <h6 class="titleIncl" style="text-transform: uppercase">
-                    <i class="fa-sharp fa-light fa-mountain-sun"></i> Location features</h6>
+                    <i class="fa-light fa-umbrella-beach"></i> Location features</h6>
                 <div>
                     <span>
                         <i class="fal fa-check"></i>

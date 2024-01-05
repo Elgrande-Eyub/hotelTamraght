@@ -80,7 +80,7 @@
                     <ul class="sub-menu">
                         {{-- <li><a href="{{ route('tamraght', ['lang' => $lang]) }}">Tamraght</a></li>
                         <li><a href="{{ route('taghazout', ['lang' => $lang]) }}">Taghazout</a></li> --}}
-                        <li><a href="{{ route('hostel-tamraght', ['lang' => $lang]) }}"> Hostle Tamraght</a></li>
+                        <li><a href="{{ route('hostel-tamraght', ['lang' => $lang]) }}"> Hostel Tamraght</a></li>
                         <li><a href="{{ route('apartment-n4', ['lang' => $lang]) }}"> Apartement N4 Taghazout</a></li>
                         <li><a href="{{ route('apartment-n6', ['lang' => $lang]) }}"> Apartement N6 Taghazout</a></li>
                         <li><a href="{{ route('surf-riad', ['lang' => $lang]) }}"> Surf Riad Taghazout</a></li>
@@ -146,7 +146,7 @@
 
                          <li class="menu-item-has-children"><a href="{{ route('accommodations', ['lang' => $lang]) }}"><i class="fa-regular fa-hotel"></i> @lang('index.menu.accommodations')</a>
                                     <ul class="sub-menu">
-                                        <li><a href="{{ route('hostel-tamraght', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Hostle Tamraght</a></li>
+                                        <li><a href="{{ route('hostel-tamraght', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Hostel Tamraght</a></li>
                                         <li><a href="{{ route('apartment-n4', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Apartement N4 Taghazout</a></li>
                                         <li><a href="{{ route('apartment-n6', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Apartement N6 Taghazout</a></li>
                                         <li><a href="{{ route('surf-riad', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Surf Riad Taghazout</a></li>
