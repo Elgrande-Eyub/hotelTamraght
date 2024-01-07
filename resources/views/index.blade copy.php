@@ -144,74 +144,6 @@
             </div>
         </div>
     </div>
-    <section style="margin-bottom:4rem" class="space-top" data-bg-src="{{ asset('assets/img/bg/deal_bg_1.jpg') }}">
-        <div class="container">
-            <div
-                class="row text-center text-lg-start justify-content-lg-between justify-content-center align-items-end">
-                <div class="col-lg-8 mb-n2 mb-lg-0">
-                    <div class="title-area"><span
-                            class="sub-title justify-content-center justify-content-lg-start"><span
-                                class="shape left d-inline-block d-lg-none"><span class="dots"></span></span> Deals
-                            & Offers <span class="shape right"><span class="dots"></span></span>
-                        </span>
-                        <h2 class="sec-title text-white">Our Surf Packages</h2>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <div class="sec-btn">
-                        <div class="icon-box style2"><button data-slick-prev="#dealSlide1"
-                                class="slick-arrow default"><i class="far fa-arrow-left"></i></button> <button
-                                data-slick-next="#dealSlide1" class="slick-arrow default"><i
-                                    class="far fa-arrow-right"></i></button></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row gx-0 ot-carousel" id="dealSlide1" data-slide-show="4" data-ml-slide-show="3"
-            data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1">
-
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="tour-offer">
-                    <div class="tour-offer__img"><img
-                            src="{{ asset('assets/img/surfnstays/surfandyogaposter.jpg') }}" alt="Tour Image"> <span
-                            class="tour-offer__tag">45% Off</span></div>
-                    <div class="tour-offer__content">
-                        <div class="tour-offer__top">
-                            <div>
-                                <h3 class="tour-offer__title box-title"><a
-                                        href="{{ route('surf-yoga', ['lang' => $lang]) }}">premuim SURF & YOGA
-                                        Pack</a></h3><span class="tour-offer__subtitle"
-                                    style="color: white">Premuim</span>
-                            </div><span class="tour-offer__price"><span class="price"
-                                    style="color: white">€{{ config('global.standardPremuimPrice') }}</span></span>
-                        </div>
-                        <p class="tour-offer__text"></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="tour-offer">
-                    <div class="tour-offer__img"><img
-                            src="{{ asset('assets/img/surfnstays/surfcoachingposter.jpg') }}" alt="Tour Image"> <span
-                            class="tour-offer__tag">45% Off</span></div>
-                    <div class="tour-offer__content">
-                        <div class="tour-offer__top">
-                            <div>
-                                <h3 class="tour-offer__title box-title"><a
-                                        href="{{ route('surf-coaching', ['lang' => $lang]) }}">popular SURF COACHING
-                                        Pack</a></h3><span class="tour-offer__subtitle"
-                                    style="color: white">Popular</span>
-                            </div><span class="tour-offer__price"><span class="price"
-                                    style="color: white">€{{ config('global.standardPopularPrice') }}</span></span>
-                        </div>
-                        <p class="tour-offer__text"></p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
 
     <div style="margin-bottom:4rem">
         <div class="container">
@@ -480,7 +412,80 @@
             </div>
         </div>
     </section>
+    <section class="space-top" data-bg-src="{{ asset('assets/img/bg/deal_bg_1.jpg') }}">
+        <div class="container">
+            <div
+                class="row text-center text-lg-start justify-content-lg-between justify-content-center align-items-end">
+                <div class="col-lg-8 mb-n2 mb-lg-0">
+                    <div class="title-area"><span
+                            class="sub-title justify-content-center justify-content-lg-start"><span
+                                class="shape left d-inline-block d-lg-none"><span class="dots"></span></span> Deals
+                            & Offers <span class="shape right"><span class="dots"></span></span>
+                        </span>
+                        <h2 class="sec-title text-white">Our Packs</h2>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="sec-btn">
+                        <div class="icon-box style2"><button data-slick-prev="#dealSlide1"
+                                class="slick-arrow default"><i class="far fa-arrow-left"></i></button> <button
+                                data-slick-next="#dealSlide1" class="slick-arrow default"><i
+                                    class="far fa-arrow-right"></i></button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-0 ot-carousel" id="dealSlide1" data-slide-show="4" data-ml-slide-show="3"
+            data-lg-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1">
 
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="tour-offer">
+                    <div class="tour-offer__img"><img
+                            src="{{ asset('assets/img/surfnstays/surfandyogaposter.jpg') }}" alt="Tour Image"> <span
+                            class="tour-offer__tag">45% Off</span></div>
+                    <div class="tour-offer__content">
+                        <div class="tour-offer__top">
+                            <div>
+                                <h3 class="tour-offer__title box-title"><a
+                                        href="{{ route('surf-yoga', ['lang' => $lang]) }}">premuim SURF & YOGA
+                                        Pack</a></h3><span class="tour-offer__subtitle"
+                                    style="color: white">Premuim</span>
+                            </div><span class="tour-offer__price"><span class="price"
+                                    style="color: white">€{{ config('global.standardPremuimPrice') }}</span></span>
+                        </div>
+                        <p class="tour-offer__text">Experience the thrill of surfing amidst breathtaking landscapes.
+                            Our Level 1 package offers the perfect blend of waves, relaxation, and personalized
+                            guidance. Professionally optimize your surfing skills and make memories that last a
+                            lifetime.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="tour-offer">
+                    <div class="tour-offer__img"><img
+                            src="{{ asset('assets/img/surfnstays/surfcoachingposter.jpg') }}" alt="Tour Image"> <span
+                            class="tour-offer__tag">45% Off</span></div>
+                    <div class="tour-offer__content">
+                        <div class="tour-offer__top">
+                            <div>
+                                <h3 class="tour-offer__title box-title"><a
+                                        href="{{ route('surf-coaching', ['lang' => $lang]) }}">popular SURF COACHING
+                                        Pack</a></h3><span class="tour-offer__subtitle"
+                                    style="color: white">Popular</span>
+                            </div><span class="tour-offer__price"><span class="price"
+                                    style="color: white">€{{ config('global.standardPopularPrice') }}</span></span>
+                        </div>
+                        <p class="tour-offer__text">Experience the thrill of surfing amidst breathtaking landscapes.
+                            Our Level 1 package offers the perfect blend of waves, relaxation, and personalized
+                            guidance. Professionally optimize your surfing skills and make memories that last a
+                            lifetime.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
     @include('layout.other.video-says')
 

@@ -10,6 +10,14 @@ $surf_packages = array(
     // packs
     'standardPopularPrice' => 609,
     'standardPremuimPrice' => 665,
+
+    // nights
+    //Popular pack
+    'solocoachingNightPrice' => 87,
+    'buddiescoachingNightPrice' => 188,
+    // premuim pack
+    'soloyogaNightPrice' => 95,
+    'buddiesyogaNightPrice' => 204,
 );
 
 
