@@ -92,10 +92,6 @@
                                         </div>
                                         <div class="align-items-center" style="display: flex">
                                             <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                            <p class="about-info"><strong>Spa Hammam</strong></p>
-                                        </div>
-                                        <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
                                             <p class="about-info"><strong>Day trip to Paradise Valley</strong></p>
                                         </div>
                                         <div class="booknow" style="margin-top:5rem;justify-content:start;">
