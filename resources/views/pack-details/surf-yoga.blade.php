@@ -654,10 +654,10 @@
                                 <div class="row gy-30 text-center" style="display:flex;justify-content: center">
                                     <div class="col-xl-5 col-lg-4 col-md-6">
                                         <h3>Solo Surfer - Dormitory Rooms</h3>
-                                        <p class="text-justify">Our dorm rooms with ocean view are the perfect choice
-                                            for groups of friends and solo travelers in a budget. A large room that will
-                                            change your concept about dorm rooms, where you can have a good rest and
-                                            recover all the energy spent during the surfing sessions.</p>
+
+                                        <p class="text-justify"> Experience cozy comfort in our double dorm rooms, ideal for groups of friends and solo travelers.
+                                            Thoughtfully designed and adorned, these spaces provide a private retreat.
+                                            Enjoy with Wi-Fi access </p>
                                         <div id="carouselExampleInterval" class="carousel slide tour-img"
                                             data-bs-ride="carousel">
                                             <div class="carousel-inner">
