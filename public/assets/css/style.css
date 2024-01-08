@@ -10770,12 +10770,24 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 
 .premuim {
     border: 1px solid #e5af26;
+    font-size: 1rem;
     color: #e5af26;
 }
 
 .popular {
     border: 1px solid #565656;
     color: #565656;
+}
+
+.packages-carousel {
+    height: 600px !important;
+    object-fit: cover;
+}
+
+.preDescription {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--theme-color);
 }
 
 
@@ -10791,6 +10803,9 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 @media (max-width: 600px) {
     .ot-hero-bg {
         background-position: -800px;
+    }
+    .packages-carousel {
+        height: 300px !important;
     }
 }
 

@@ -26,17 +26,120 @@
             <div class="row">
                 <div class="col-xxl-12 col-lg-12">
                     <div class="about-card mb-5">
-                        <div class="row align-items-center">
-                            <div class="col-xl-6">
-                                <div class="about-card__box ">
-                                    <div div class="about-card__top">
-                                        <div>
-                                            <h2 class="about-card__title">PREMUIM 7 NIGHTS SURF & YOGA PACKAGE</h2>
-                                            <p class="badge-btn premuim">Premuim</p>
-                                        </div>
+                        <div class="tour-header">
+                            <h2 class="tour-title d-flex align-items-center" style="margin: 0">PREMUIM 7 NIGHTS SURF
+                                & YOGA PACKAGE <span class="badge-btn premuim"
+                                    style="margin-left: 1rem">Premuim</span></h2>
+                            {{-- <p>5 Guests, 1 Bedroom, 1 Double Bed, 3 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€50.00/day)</strong></p> --}}
+                            <div class="meta-box-wrap">
+                                <div class="meta-box">
+                                    <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
+                                    <div class="media-body">
+                                        <h5 class="meta-box_title">From</h5>
+                                        <p class="meta-box_text">€50.00</p>
                                     </div>
+                                </div>
+                                <div class="meta-box">
+                                    <div class="meta-box_icon"><i class="fal fa-clock"></i></div>
+                                    <div class="media-body">
+                                        <h5 class="meta-box_title">Duration</h5>
+                                        <p class="meta-box_text">1 Day</p>
+                                    </div>
+                                </div>
+                                <div class="meta-box">
+                                    <div class="meta-box_icon"><i class="fal fa-location-dot"></i></div>
+                                    <div class="media-body">
+                                        <h5 class="meta-box_title">Location</h5>
+                                        <p class="meta-box_text">Taghazout</p>
+                                    </div>
+                                </div>
+                                <div class="meta-box">
+                                    <div class="meta-box_icon"><i class="fal fa-users"></i></div>
+                                    <div class="media-body">
+                                        <h5 class="meta-box_title">Group Size</h5>
+                                        <p class="meta-box_text">5 People</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space" style="padding-top:0; padding-bottom:1rem;margin-bottom:1rem; ">
+                            <div id="carouselExampleInterval1" class="carousel slide tour-img"
+                                data-bs-ride="carousel">
+                                <div class="carousel-inner" style="border-radius: 10px">
+                                    <div class="carousel-item active" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/surf/IMG_0978.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/surf/IMG_1116.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/surf/IMG_1041.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/surf/IMG_1083.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/surf/IMG_1150.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/surf/IMG_1120.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleInterval1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleInterval1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-xl-8">
+                                <div class="about-card__box " style="padding-left: 0">
                                     <h4 class="about-card__subtitle">PACK Description</h4>
-                                    <p class="mb-30 text-justify">Discover the ultimate surf and yoga escape with our 7
+                                    <p class="mb-30 text-justify">
+
+                                        Join us for an incredible 7-night journey where the thrill of surfing meets the
+                                        tranquility of yoga in a breathtaking coastal setting.
+                                        <br><br>
+                                        <span class="preDescription">Accommodation Options :</span>
+                                         Choose your haven—solo surfers' Dormitory Rooms for an
+                                        unbeatable value of €665 for 7 nights, or elevate your stay to the luxurious
+                                        Surf Buddies - Deluxe Rooms at €1430 for a week of indulgence and comfort.
+                                        <br><br>
+                                        <span class="preDescription">Surfing Adventure :</span> Enjoy 6 thrilling surf lessons with expert instructors ,gear
+                                        up with board and wetsuit rentals and let us take you to the top surf spots with
+                                        included transfers.
+                                        <br><br>
+                                        <span class="preDescription">Yoga Bliss :</span> Embrace one daily yoga classes amidst stunning views, Our skilled
+                                        instructors will lead you through sessions designed to rejuvenate mind, body,
+                                        and soul.
+                                        <br><br>
+                                        <span class="preDescription">Delicious Meals :</span> Delight your taste buds with daily breakfast, lunch, and dinner
+                                        featuring authentic Moroccan cuisine.
+                                        <br><br>
+                                        <span class="preDescription">Seamless Transfers :</span> Enjoy worry-free travel with included airport and bus
+                                        transfers, ensuring a smooth arrival and departure experience.
+                                        <br><br>
+                                        <span class="preDescription">Bonus Excursions :</span> Dive into adventure with a Paradise Valley day trip, complete
+                                        with a scrumptious lunch and poolside relaxation at our restaurant. Plus,
+                                        experience the thrill of sandboarding in the mesmerizing sand dunes. Don't miss
+                                        a visit to the vibrant Agadir Market (Souk)!
+                                        <br><br>
+                                        Experience the perfect blend of adventure and relaxation! Book now for an
+                                        unforgettable retreat filled with surf, yoga, and exploration.
+
+                                        {{--  Discover the ultimate surf and yoga escape with our 7
                                         Nights Surf & Yoga Package. For just
                                         €{{ config('global.standardPremuimPrice') }}, solo surfers get 7 nights in
                                         shared accommodation, daily meals, 6 surf lessons, and equipment rental.
@@ -50,7 +153,7 @@
                                         transfers at €15 per person. Customize your stay with extra yoga classes for €10
                                         each.
                                         <br>
-                                        Book now for a week of surf, yoga, and relaxation on your terms.
+                                        Book now for a week of surf, yoga, and relaxation on your terms. --}}
                                     </p>
                                     <p style="font-size: 2rem">7 NIGHTS SURF & YOGA - from <strong
                                             style="color:#015292">€{{ config('global.standardPremuimPrice') }}.00/7Days</strong>
@@ -66,7 +169,8 @@
                                         </div>
                                         <div class="align-items-center" style="display: flex">
                                             <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                            <p class="about-info"><strong>6 x Surf lessons, surf equipment rental (board
+                                            <p class="about-info"><strong>6 x Surf lessons, surf equipment rental
+                                                    (board
                                                     + wetsuit)</strong></p>
                                         </div>
                                         <div class="align-items-center " style="display: flex;margin-top:10px;">
@@ -96,12 +200,13 @@
                                         </div>
                                         <div class="booknow" style="margin-top:5rem;justify-content:start;">
                                             <a href="{{ asset('assets/img/surfnstays/surfnyoga.jpg') }}" download
-                                                class="ot-btn booknow-btn" style="width:auto;">Download INFOGRAPHIC</a>
+                                                class="ot-btn booknow-btn" style="width:auto;">Download
+                                                INFOGRAPHIC</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6" id="booking-form">
+                            <div class="col-xl-4" id="booking-form">
                                 <aside class="sidebar-area">
                                     <div class="widget widget_book">
                                         <div class="widget-tour-book">
@@ -288,7 +393,6 @@
 
 
                                     <script>
-
                                         $(document).ready(function() {
 
 
@@ -345,14 +449,14 @@
 
                                             $('#checkin').change(function() {
 
-                                            const checkoutDate = new Date(document.getElementById('checkin').valueAsDate);
-                                            checkoutDate.setDate(checkoutDate.getDate() + 3);
-                                            document.getElementById('checkout').valueAsDate = checkoutDate;
-                                            updateTotalCost();
+                                                const checkoutDate = new Date(document.getElementById('checkin').valueAsDate);
+                                                checkoutDate.setDate(checkoutDate.getDate() + 3);
+                                                document.getElementById('checkout').valueAsDate = checkoutDate;
+                                                updateTotalCost();
 
                                             });
 
-                                            $('#checkout').change(function () {
+                                            $('#checkout').change(function() {
                                                 $('#total').text('€0.00');
                                                 const checkinDate = new Date(document.getElementById('checkin').valueAsDate);
 
@@ -412,102 +516,211 @@
 
                         </div>
                     </div>
-                    <div class="tour-details" style="margin-bottom:35px;">
+                    <div class="" style="margin-bottom:35px;">
                         <div class="title-area text-center"><span class="sub-title justify-content-center"><span
                                     class="shape left"><span class="dots"></span></span> Package Details <span
                                     class="shape right"><span class="dots"></span></span>
                             </span>
                             {{-- <h2 class="sec-title">Our Accommodations</h2> --}}
                         </div>
-                        <div class="description-table-wrap pb-0 mb-0">
-                            <table class="description-table  pb-0 mb-0">
-                                <tbody>
-                                    <tr>
-                                        <th>Surf Packages</th>
-                                        <td>Salty Waves Taghazout >> Surf Apartment N4 Taghazout</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Apartement </th>
-                                        <td>5 Guests, 1 Bedroom, 3 Beds, 1 Bathrooms <strong>(€50.00/day)</strong></td>
-                                    </tr>
+                        <section class="tour-details">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="" style="padding: 0;margin:0">
+                                        <div class="">
 
-                                    <tr>
-                                        <th>Airbnb's Rate</th>
-                                        <td>5 out of 5</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Included</th>
-                                        <td>
-                                            <span><i class="fal fa-check"></i> Beach view</span>
-                                            <br><span><i class="fal fa-check"></i> Washer</span>
-                                            <br><span><i class="fal fa-check"></i> Children’s books and toys</span>
-                                            <br><span><i class="fal fa-check"></i> Board games</span>
-                                            <br><span><i class="fal fa-check"></i> Beach access</span>
-                                            <br>...
 
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th>Excluded</th>
-                                        <td><span><i class="fal fa-xmark"></i> Security cameras on property</span>
-                                            <br><span><i class="fal fa-xmark"></i> Hair dryer</span>
-                                            <br><span><i class="fal fa-xmark"></i> Essentials</span>
-                                            <br><span><i class="fal fa-xmark"></i> Smoke alarm</span>
-                                            <br><span><i class="fal fa-xmark"></i> Pets</span>
+                                            <ul class="nav tour-tab" id="tourTab" role="tablist">
+                                                <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Information</a></li>
+                                                <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">about</a></li>
+                                                {{-- <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="photos-tab" data-bs-toggle="tab" href="#photos" role="tab" aria-controls="photos" aria-selected="false">Photos</a></li> --}}
+                                                <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="location-tab" data-bs-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="false">Location</a></li>
+                                            </ul>
+                                            <div class="tab-content" id="productTabContent">
+                                                <div class="tab-pane fade show active" id="tourDescription" role="tabpanel" aria-labelledby="description-tab">
+                                                    <div class="tour-description">
 
-                                            <br>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="space">
-                        <div class="title-area text-center"><span class="sub-title justify-content-center"><span
-                                    class="shape left"><span class="dots"></span></span> Feel The Vibe <span
-                                    class="shape right"><span class="dots"></span></span>
-                            </span>
-                            {{-- <h2 class="sec-title">Our Accommodations</h2> --}}
-                        </div>
-                        <div id="carouselExampleInterval1" class="carousel slide tour-img" data-bs-ride="carousel">
-                            <div class="carousel-inner" style="border-radius: 10px">
-                                <div class="carousel-item active" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_0978.jpg') }}" class="d-block w-100"
-                                        alt="Dormitory Photos">
+                                                        <div class="description-table-wrap">
+                                                            <table class="description-table">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <th>Destination</th>
+                                                                        <td>Salty Waves Taghazout >> Surf   Apartment N4 Taghazout</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th>Apartement </th>
+                                                                        <td>5 Guests, 1 Bedroom, 3 Beds, 1 Bathrooms <strong>(€50.00/day)</strong></td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <th>Airbnb's Rate</th>
+                                                                        <td>5 out of 5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th>Included</th>
+                                                                        <td>
+                                                                            <span><i class="fal fa-check"></i> Beach view</span>
+                                                                            <br><span><i class="fal fa-check"></i> Washer</span>
+                                                                            <br><span><i class="fal fa-check"></i> Children’s books and toys</span>
+                                                                            <br><span><i class="fal fa-check"></i> Board games</span>
+                                                                            <br><span><i class="fal fa-check"></i> Beach access</span>
+                                                                            <br>...
+
+                                                                            </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th>Excluded</th>
+                                                                        <td><span><i class="fal fa-xmark"></i> Security cameras on property</span>
+                                                                            <br><span><i class="fal fa-xmark"></i> Hair dryer</span>
+                                                                            <br><span><i class="fal fa-xmark"></i> Essentials</span>
+                                                                            <br><span><i class="fal fa-xmark"></i> Smoke alarm</span>
+                                                                            <br><span><i class="fal fa-xmark"></i> Pets</span>
+
+                                                                            <br></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="plan" role="tabpanel" aria-labelledby="plan-tab">
+                                                    <div class="tour-plan">
+                                                        <h3 class="inner-title">Tour Plan</h3>
+                                                        <div class="accordion" id="planAccordion">
+                                                            <div class="accordion-card">
+                                                                <div class="accordion-header" id="collapse-item-1"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Day 01: Departure</button></div>
+                                                                <div id="collapse-1"
+                                                                    class="accordion-collapse collapse" aria-labelledby="collapse-item-1" data-bs-parent="#planAccordion">
+                                                                    <div class="accordion-body">
+                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                                            researched "outside the box" thinking via team building technologies.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-card active">
+                                                                <div class="accordion-header" id="collapse-item-2"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Day 02: Adventure Begins</button></div>
+                                                                <div id="collapse-2"
+                                                                    class="accordion-collapse collapse show" aria-labelledby="collapse-item-2" data-bs-parent="#planAccordion">
+                                                                    <div class="accordion-body">
+                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                                            researched "outside the box" thinking via team building technologies.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-card">
+                                                                <div class="accordion-header" id="collapse-item-3"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Day 03: Airplain Tour</button></div>
+                                                                <div id="collapse-3"
+                                                                    class="accordion-collapse collapse" aria-labelledby="collapse-item-3" data-bs-parent="#planAccordion">
+                                                                    <div class="accordion-body">
+                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                                            researched "outside the box" thinking via team building technologies.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-card">
+                                                                <div class="accordion-header" id="collapse-item-4"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">Day 04: Jungle Sufary</button></div>
+                                                                <div id="collapse-4"
+                                                                    class="accordion-collapse collapse" aria-labelledby="collapse-item-4" data-bs-parent="#planAccordion">
+                                                                    <div class="accordion-body">
+                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                                            researched "outside the box" thinking via team building technologies.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-card">
+                                                                <div class="accordion-header" id="collapse-item-5"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">Day 05: Explore Culloden</button></div>
+                                                                <div id="collapse-5"
+                                                                    class="accordion-collapse collapse" aria-labelledby="collapse-item-5" data-bs-parent="#planAccordion">
+                                                                    <div class="accordion-body">
+                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                                            researched "outside the box" thinking via team building technologies.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="accordion-card">
+                                                                <div class="accordion-header" id="collapse-item-6"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">Day 06: Loch Ness and the Isle of Skye</button></div>
+                                                                <div
+                                                                    id="collapse-6" class="accordion-collapse collapse" aria-labelledby="collapse-item-6" data-bs-parent="#planAccordion">
+                                                                    <div class="accordion-body">
+                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                                            researched "outside the box" thinking via team building technologies.</p>
+                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="accordion-card">
+                                                            <div class="accordion-header" id="collapse-item-7"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">Day 07: Walk the Walls of Stirling Castle</button></div>
+                                                            <div
+                                                                id="collapse-7" class="accordion-collapse collapse" aria-labelledby="collapse-item-7" data-bs-parent="#planAccordion">
+                                                                <div class="accordion-body">
+                                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched
+                                                                        "outside the box" thinking via team building technologies.</p>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-card">
+                                                        <div class="accordion-header" id="collapse-item-8"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">Day 08: Journey to Thriving Glasgow</button></div>
+                                                        <div
+                                                            id="collapse-8" class="accordion-collapse collapse" aria-labelledby="collapse-item-8" data-bs-parent="#planAccordion">
+                                                            <div class="accordion-body">
+                                                                <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched
+                                                                    "outside the box" thinking via team building technologies.</p>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-card">
+                                                    <div class="accordion-header" id="collapse-item-9"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">Day 09: Farewell Glasgow</button></div>
+                                                    <div id="collapse-9"
+                                                        class="accordion-collapse collapse" aria-labelledby="collapse-item-9" data-bs-parent="#planAccordion">
+                                                        <div class="accordion-body">
+                                                            <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched "outside
+                                                                the box" thinking via team building technologies.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-card">
+                                                    <div class="accordion-header" id="collapse-item-10"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10">Day 10: Return</button></div>
+                                                    <div id="collapse-10" class="accordion-collapse collapse"
+                                                        aria-labelledby="collapse-item-10" data-bs-parent="#planAccordion">
+                                                        <div class="accordion-body">
+                                                            <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched "outside
+                                                                the box" thinking via team building technologies.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+                                        <div class="tour-location">
+                                            <h3 class="inner-title">About this space</h3>
+                                            <p class="mt-n2 mb-4">
+                                                apartment located in a residence with beautiful ocean views and direct access to the beach
+                                                5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. Many activities await you: Surfing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
+                                            </p>
+                                            <h3>The space</h3>
+                                            <p class="mb-30">apartment located in a residence with beautiful ocean views and direct access to the beach
+                                                5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. There are plenty of activities waiting for you: sailing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
+                                            </p></div>
+                                    </div>
+                                    <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
+                                        <div class="tour-location">
+                                            <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d412.7379685492819!2d-9.713078851828755!3d30.545702211478222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQ0LjQiTiA5wrA0Mic0Ny4xIlc!5e1!3m2!1sen!2sma!4v1702293757319!5m2!1sen!2sma" height="320px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+                                            </div>
+                                    </div>
                                 </div>
-                                <div class="carousel-item" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_1116.jpg') }}" class="d-block w-100"
-                                        alt="Dormitory Photos">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_1041.jpg') }}" class="d-block w-100"
-                                        alt="Dormitory Photos">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_1083.jpg') }}" class="d-block w-100"
-                                        alt="Dormitory Photos">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_1150.jpg') }}" class="d-block w-100"
-                                        alt="Dormitory Photos">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_1120.jpg') }}" class="d-block w-100"
-                                        alt="Dormitory Photos">
-                                </div>
+
                             </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleInterval1" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleInterval1" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+                            </div>
+
+                            </div>
+                            </div>
+                        </section>
                     </div>
+
 
                     <div class="tour-details">
                         <div class="tour-header  ">
