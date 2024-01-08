@@ -27,8 +27,11 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="tour-details">
                         <div class="tour-header">
-                            <h2 class="tour-title d-flex align-items-center" style="margin: 0">PREMUIM 7 NIGHTS SURF
-                                & YOGA PACKAGE <span class="badge-btn premuim"
+                            <h2 class="tour-title d-flex align-items-center" style="margin: 0">
+                                <p>  PREMUIM 7 NIGHTS SURF
+                                    & YOGA PACKAGE <span style="color: #015292"> - From €665</span></p>
+
+                                <span class="badge-btn premuim"
                                     style="margin-left: 1rem">Premuim</span></h2><br>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
@@ -129,9 +132,17 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Surfing Adventure</th>
-                                                    <td>Enjoy 6 thrilling surf lessons with expert instructors ,gear up with board and wetsuit rentals and let us take you to the top surf spots with included transfers.</strong></td>
+                                                    <td>Enjoy 6 thrilling surf lessons with expert instructors ,gear up with board and wetsuit rentals and let us take you to the top surf spots with included transfers.</td>
                                                 </tr>
-
+                                                <tr>
+                                                    <th>Skill Level</th>
+                                                    <td>Beginner | Intermediate | Advanced</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Check-Time</th>
+                                                    <td>Check-In Time: 14:00 <br> Check-Out Time: 12:00
+                                                    </td>
+                                                </tr>
                                                 <tr>
                                                     <th>Yoga Bliss</th>
                                                     <td>Embrace one daily yoga classes amidst stunning views, Our skilled instructors will lead you through sessions designed to rejuvenate mind, body, and soul.</td>
@@ -360,7 +371,7 @@
                 <div class="widget widget_book">
                     <div class="widget-tour-book">
                         <div class="top">
-                            <h4 class="title">Book This Pachages</h4>
+                            <h4 class="title">Book This Package</h4>
                             <p class="price">€95.00 per Night</p>
                         </div>
                         <form id="bookingForm"
