@@ -24,704 +24,622 @@
     <section class="ot-tour-wrapper space-top space-extra-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-xxl-12 col-lg-12">
-                    <div class="about-card mb-5">
+                <div class="col-xxl-8 col-lg-7">
+                    <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title d-flex align-items-center" style="margin: 0">PREMUIM 7 NIGHTS SURF
                                 & YOGA PACKAGE <span class="badge-btn premuim"
-                                    style="margin-left: 1rem">Premuim</span></h2>
-                            {{-- <p>5 Guests, 1 Bedroom, 1 Double Bed, 3 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€50.00/day)</strong></p> --}}
+                                    style="margin-left: 1rem">Premuim</span></h2><br>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
-                                    <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
+                                    <div class="meta-box_icon"><i class="fa-light fa-check"></i></div>
                                     <div class="media-body">
-                                        <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">€50.00</p>
+                                        <h5 class="meta-box_title">Difficulty</h5>
+                                        <p class="meta-box_text">All Levels</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
-                                    <div class="meta-box_icon"><i class="fal fa-clock"></i></div>
+                                    <div class="meta-box_icon"><i class="fa-light fa-language"></i></div>
                                     <div class="media-body">
-                                        <h5 class="meta-box_title">Duration</h5>
-                                        <p class="meta-box_text">1 Day</p>
+                                        <h5 class="meta-box_title">Instruction</h5>
+                                        <p class="meta-box_text">in English</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
-                                    <div class="meta-box_icon"><i class="fal fa-location-dot"></i></div>
+                                    <div class="meta-box_icon"><i class="fa-light fa-turkey"></i></div>
                                     <div class="media-body">
-                                        <h5 class="meta-box_title">Location</h5>
-                                        <p class="meta-box_text">Taghazout</p>
+                                        <h5 class="meta-box_title">All Meals</h5>
+                                        <p class="meta-box_text">Included</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-users"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">Group Size</h5>
-                                        <p class="meta-box_text">5 People</p>
+                                        <p class="meta-box_text">12 People</p>
+                                    </div>
+                                </div>
+                                <div class="meta-box">
+                                    <div class="meta-box_icon"><i class="fa-light fa-plane"></i></div>
+                                    <div class="media-body">
+                                        <h5 class="meta-box_title">Airport transfer</h5>
+                                        <p class="meta-box_text">Included</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="space" style="padding-top:0; padding-bottom:1rem;margin-bottom:1rem; ">
+                        <div class="tour-img" style="margin-bottom:0">
                             <div id="carouselExampleInterval1" class="carousel slide tour-img"
-                                data-bs-ride="carousel">
-                                <div class="carousel-inner" style="border-radius: 10px">
-                                    <div class="carousel-item active" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/surf/IMG_0978.jpg') }}"
-                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/surf/IMG_1116.jpg') }}"
-                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/surf/IMG_1041.jpg') }}"
-                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/surf/IMG_1083.jpg') }}"
-                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/surf/IMG_1150.jpg') }}"
-                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                    </div>
-                                    <div class="carousel-item" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/surf/IMG_1120.jpg') }}"
-                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                    </div>
+                            data-bs-ride="carousel">
+                            <div class="carousel-inner" style="border-radius: 10px">
+                                <div class="carousel-item active" data-bs-interval="3500">
+                                    <img src="{{ asset('assets/img/surf/IMG_0978.jpg') }}"
+                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                 </div>
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleInterval1" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleInterval1" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
+                                <div class="carousel-item" data-bs-interval="3500">
+                                    <img src="{{ asset('assets/img/surf/IMG_1116.jpg') }}"
+                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3500">
+                                    <img src="{{ asset('assets/img/surf/IMG_1041.jpg') }}"
+                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3500">
+                                    <img src="{{ asset('assets/img/surf/IMG_1083.jpg') }}"
+                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3500">
+                                    <img src="{{ asset('assets/img/surf/IMG_1150.jpg') }}"
+                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3500">
+                                    <img src="{{ asset('assets/img/surf/IMG_1120.jpg') }}"
+                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                </div>
                             </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-xl-8">
-                                <div class="about-card__box " style="padding-left: 0">
-                                    <h4 class="about-card__subtitle">PACK Description</h4>
-                                    <p class="mb-30 text-justify">
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleInterval1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleInterval1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>  </div>
+                        <ul class="nav tour-tab" id="tourTab" role="tablist">
+                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Information</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">Included</a></li>
+                          </ul>
+                        <div class="tab-content" id="productTabContent">
+                            <div class="tab-pane fade show active" id="tourDescription" role="tabpanel" aria-labelledby="description-tab">
+                                <div class="tour-description">
 
-                                        Join us for an incredible 7-night journey where the thrill of surfing meets the
-                                        tranquility of yoga in a breathtaking coastal setting.
-                                        <br><br>
-                                        <span class="preDescription">Accommodation Options :</span>
-                                         Choose your haven—solo surfers' Dormitory Rooms for an
-                                        unbeatable value of €665 for 7 nights, or elevate your stay to the luxurious
-                                        Surf Buddies - Deluxe Rooms at €1430 for a week of indulgence and comfort.
-                                        <br><br>
-                                        <span class="preDescription">Surfing Adventure :</span> Enjoy 6 thrilling surf lessons with expert instructors ,gear
-                                        up with board and wetsuit rentals and let us take you to the top surf spots with
-                                        included transfers.
-                                        <br><br>
-                                        <span class="preDescription">Yoga Bliss :</span> Embrace one daily yoga classes amidst stunning views, Our skilled
-                                        instructors will lead you through sessions designed to rejuvenate mind, body,
-                                        and soul.
-                                        <br><br>
-                                        <span class="preDescription">Delicious Meals :</span> Delight your taste buds with daily breakfast, lunch, and dinner
-                                        featuring authentic Moroccan cuisine.
-                                        <br><br>
-                                        <span class="preDescription">Seamless Transfers :</span> Enjoy worry-free travel with included airport and bus
-                                        transfers, ensuring a smooth arrival and departure experience.
-                                        <br><br>
-                                        <span class="preDescription">Bonus Excursions :</span> Dive into adventure with a Paradise Valley day trip, complete
-                                        with a scrumptious lunch and poolside relaxation at our restaurant. Plus,
-                                        experience the thrill of sandboarding in the mesmerizing sand dunes. Don't miss
-                                        a visit to the vibrant Agadir Market (Souk)!
-                                        <br><br>
-                                        Experience the perfect blend of adventure and relaxation! Book now for an
-                                        unforgettable retreat filled with surf, yoga, and exploration.
+                                    <div class="description-table-wrap">
+                                        <p>Join us for an incredible 7-night journey where the thrill of surfing meets the tranquility of yoga in a breathtaking coastal setting.</p>
+                                        <table class="description-table">
+                                            <tbody>
+                                                <tr>
+                                                    <th>Accommodation Options</th>
+                                                    <td>Choose your haven—solo surfers' Dormitory Rooms for an unbeatable value of €665 for 7 nights, or elevate your stay to the luxurious Surf Buddies - Deluxe Rooms at €1430 for a week of indulgence and comfort.</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Surfing Adventure</th>
+                                                    <td>Enjoy 6 thrilling surf lessons with expert instructors ,gear up with board and wetsuit rentals and let us take you to the top surf spots with included transfers.</strong></td>
+                                                </tr>
 
-                                        {{--  Discover the ultimate surf and yoga escape with our 7
-                                        Nights Surf & Yoga Package. For just
-                                        €{{ config('global.standardPremuimPrice') }}, solo surfers get 7 nights in
-                                        shared accommodation, daily meals, 6 surf lessons, and equipment rental.
-                                        <br><br>
-                                        If you're with a friend, the package for two people is from
-                                        €{{ config('global.buddiesyogaPrice') }}, including a double room for 7 nights.
-                                        Dive into local culture at Agadir's market, try sandboarding, and unwind with a
-                                        spa Hammam.
-                                        <br><br>
-                                        Add convenience with airport transfers at €20 per person or bus station
-                                        transfers at €15 per person. Customize your stay with extra yoga classes for €10
-                                        each.
-                                        <br>
-                                        Book now for a week of surf, yoga, and relaxation on your terms. --}}
-                                    </p>
-                                    <p style="font-size: 2rem">7 NIGHTS SURF & YOGA - from <strong
-                                            style="color:#015292">€{{ config('global.standardPremuimPrice') }}.00/7Days</strong>
-                                    </p>
-                                    <div class="about-infos">
-                                        <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                            <p class="about-info"><strong>7 Nights Accommodation</strong></p>
-                                        </div>
-                                        <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                            <p class="about-info"><strong>7 x Breakfast, lunch and dinner</strong></p>
-                                        </div>
-                                        <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                            <p class="about-info"><strong>6 x Surf lessons, surf equipment rental
-                                                    (board
-                                                    + wetsuit)</strong></p>
-                                        </div>
-                                        <div class="align-items-center " style="display: flex;margin-top:10px;">
-                                            <p class="about-info"> <i class="fa-regular fa-plane"></i></p>
-                                            <p class="about-info"><strong>Airport transfers from/to Agadir</strong></p>
-                                        </div>
-                                        <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                            <p class="about-info"><strong>7 x Yoga Classes (One Daily Session)</strong>
-                                            </p>
-                                        </div>
-                                        <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                            <p class="about-info"><strong>Surf spot transport</strong></p>
-                                        </div>
-                                        <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                            <p class="about-info"><strong>Visit to Agadir market (Souk)</strong></p>
-                                        </div>
-                                        <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                            <p class="about-info"><strong>Sandboarding in the Sand dunes</strong></p>
-                                        </div>
-                                        <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
-                                            <p class="about-info"><strong>Day trip to Paradise Valley</strong></p>
-                                        </div>
-                                        <div class="booknow" style="margin-top:5rem;justify-content:start;">
-                                            <a href="{{ asset('assets/img/surfnstays/surfnyoga.jpg') }}" download
-                                                class="ot-btn booknow-btn" style="width:auto;">Download
-                                                INFOGRAPHIC</a>
-                                        </div>
+                                                <tr>
+                                                    <th>Yoga Bliss</th>
+                                                    <td>Embrace one daily yoga classes amidst stunning views, Our skilled instructors will lead you through sessions designed to rejuvenate mind, body, and soul.</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Delicious Meals</th>
+                                                    <td>
+                                                        Delight your taste buds with daily breakfast, lunch, and dinner featuring authentic Moroccan cuisine.
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Seamless Transfers</th>
+                                                    <td>Enjoy worry-free travel with included airport and bus transfers, ensuring a smooth arrival and departure experience.</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Bonus Excursions</th>
+                                                    <td>Dive into adventure with a Paradise Valley day trip, complete with a scrumptious lunch and poolside relaxation at our restaurant. Plus, experience the thrill of sandboarding in the mesmerizing sand dunes. Don't miss a visit to the vibrant Agadir Market (Souk)! </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p>Experience the perfect blend of adventure and relaxation! Book now for an unforgettable retreat filled with surf, yoga, and exploration.</p>
+
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-4" id="booking-form">
-                                <aside class="sidebar-area">
-                                    <div class="widget widget_book">
-                                        <div class="widget-tour-book">
-                                            <div class="top">
-                                                <h4 class="title">Book This Pachages</h4>
-                                                <p class="price">€95.00 per Night</p>
+                            <div class="tab-pane fade" id="plan" role="tabpanel" aria-labelledby="plan-tab">
+                                <div class="tour-plan">
+                                    <h3 class="inner-title">Tour Plan</h3>
+                                    <div class="accordion" id="planAccordion">
+                                        <div class="accordion-card">
+                                            <div class="accordion-header" id="collapse-item-1"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Day 01: Departure</button></div>
+                                            <div id="collapse-1"
+                                                class="accordion-collapse collapse" aria-labelledby="collapse-item-1" data-bs-parent="#planAccordion">
+                                                <div class="accordion-body">
+                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                        researched "outside the box" thinking via team building technologies.</p>
+                                                </div>
                                             </div>
-                                            <form id="bookingForm"
-                                                action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST"
-                                                class="widget-form">
-                                                @csrf
-                                                <p>This place has a maximum of 12 guests, not including infants. Pets
-                                                    aren't allowed.</p>
-
-                                                @if (session('success'))
-                                                    <div class="alert alert-success">
-                                                        {{ session('success') }}
-                                                    </div>
-                                                @endif
-                                                @if (Session::has('error'))
-                                                    <div class="alert alert-danger">
-                                                        {{ Session::get('error') }}
-                                                    </div>
-                                                @endif
-
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="name"
-                                                        id="name" placeholder="Your Name"
-                                                        value="{{ old('name') }}">
-                                                    <i class="fal fa-user"></i>
+                                        </div>
+                                        <div class="accordion-card active">
+                                            <div class="accordion-header" id="collapse-item-2"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Day 02: Adventure Begins</button></div>
+                                            <div id="collapse-2"
+                                                class="accordion-collapse collapse show" aria-labelledby="collapse-item-2" data-bs-parent="#planAccordion">
+                                                <div class="accordion-body">
+                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                        researched "outside the box" thinking via team building technologies.</p>
                                                 </div>
-
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" name="email"
-                                                        id="email" placeholder="Your Email"
-                                                        value="{{ old('email') }}">
-                                                    <i class="fal fa-envelope"></i>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-card">
+                                            <div class="accordion-header" id="collapse-item-3"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Day 03: Airplain Tour</button></div>
+                                            <div id="collapse-3"
+                                                class="accordion-collapse collapse" aria-labelledby="collapse-item-3" data-bs-parent="#planAccordion">
+                                                <div class="accordion-body">
+                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                        researched "outside the box" thinking via team building technologies.</p>
                                                 </div>
-
-                                                <div class="form-group">
-                                                    <input type="tel" class="form-control" name="phone"
-                                                        id="phone" placeholder="Phone Number"
-                                                        value="{{ old('phone') }}">
-                                                    <i class="fal fa-phone"></i>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-card">
+                                            <div class="accordion-header" id="collapse-item-4"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">Day 04: Jungle Sufary</button></div>
+                                            <div id="collapse-4"
+                                                class="accordion-collapse collapse" aria-labelledby="collapse-item-4" data-bs-parent="#planAccordion">
+                                                <div class="accordion-body">
+                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                        researched "outside the box" thinking via team building technologies.</p>
                                                 </div>
-
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="country"
-                                                        id="country" placeholder="Country"
-                                                        value="{{ old('country') }}">
-                                                    <i class="fa-light fa-globe"></i>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-card">
+                                            <div class="accordion-header" id="collapse-item-5"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">Day 05: Explore Culloden</button></div>
+                                            <div id="collapse-5"
+                                                class="accordion-collapse collapse" aria-labelledby="collapse-item-5" data-bs-parent="#planAccordion">
+                                                <div class="accordion-body">
+                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                        researched "outside the box" thinking via team building technologies.</p>
                                                 </div>
-
-                                                <input type="text" name="accommodation" hidden
-                                                    value="Hostle Tamraght">
-
-
-
-
-                                                <div>
-                                                    <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">
-                                                        Feel free to explore our activity packages at this link <a
-                                                            href="{{ route('packages', ['lang' => $lang]) }}">Link</a>
-                                                    </p>
-
-                                                    <div class="form-group">
-                                                        <select name="pack" disabled="disabled" id="pack"
-                                                            class="form-select nice-select">
-                                                            <option value="" selected="selected" hidden>Package
-                                                                : Premuim Surf & Yoga Pack</option>
-
-                                                        </select>
-                                                        <i class="fal fa-chevron-down"></i>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-card">
+                                            <div class="accordion-header" id="collapse-item-6"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">Day 06: Loch Ness and the Isle of Skye</button></div>
+                                            <div
+                                                id="collapse-6" class="accordion-collapse collapse" aria-labelledby="collapse-item-6" data-bs-parent="#planAccordion">
+                                                <div class="accordion-body">
+                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
+                                                        researched "outside the box" thinking via team building technologies.</p>
                                                 </div>
-
-                                                <div class="row">
-
-                                                    <div class="form-group col-6 soloyoga ">
-                                                        <select name="soloyoga" id="soloyoga"
-                                                            class="form-select nice-select ">
-                                                            <option value="" disabled="disabled"
-                                                                selected="selected" hidden>Surf Solo</option>
-                                                            <option value="1 Surf Solo"
-                                                                data-Solo="{{ config('global.soloyogaNightPrice') * 1 }}"
-                                                                {{ old('soloyoga') == '1 Surf Solo' ? 'selected' : '' }}>
-                                                                1 Surf Solo</option>
-                                                            <option value="2 Surf Solo"
-                                                                data-Solo="{{ config('global.soloyogaNightPrice') * 2 }}"
-                                                                {{ old('soloyoga') == '2 Surf Solo' ? 'selected' : '' }}>
-                                                                2 Surf Solo</option>
-                                                            <option value="3 Surf Solo"
-                                                                data-Solo="{{ config('global.soloyogaNightPrice') * 3 }}"
-                                                                {{ old('soloyoga') == '3 Surf Solo' ? 'selected' : '' }}>
-                                                                3 Surf Solo</option>
-                                                            <option value="4 Surf Solo"
-                                                                data-Solo="{{ config('global.soloyogaNightPrice') * 4 }}"
-                                                                {{ old('soloyoga') == '4 Surf Solo' ? 'selected' : '' }}>
-                                                                4 Surf Solo</option>
-                                                            <option value="5 Surf Solo"
-                                                                data-Solo="{{ config('global.soloyogaNightPrice') * 5 }}"
-                                                                {{ old('soloyoga') == '5 Surf Solo' ? 'selected' : '' }}>
-                                                                5 Surf Solo</option>
-                                                            <option value="6 Surf Solo"
-                                                                data-Solo="{{ config('global.soloyogaNightPrice') * 6 }}"
-                                                                {{ old('soloyoga') == '6 Surf Solo' ? 'selected' : '' }}>
-                                                                6 Surf Solo</option>
-                                                            <option value="0 Surf Solo" data-Solo="0"
-                                                                {{ old('soloyoga') == '0 Surf Solo' ? 'selected' : '' }}>
-                                                                0 Surf Solo</option>
-                                                        </select>
-                                                        <i class="fal fa-chevron-down"></i>
-                                                    </div>
-                                                    <div class="form-group col-6 buddiesyoga ">
-                                                        <select name="buddiesyoga" id="buddiesyoga"
-                                                            class="form-select nice-select">
-                                                            <option value="" disabled="disabled"
-                                                                selected="selected" hidden>Surf Buddies</option>
-                                                            <option value="1 Surf Buddies"
-                                                                data-buddies="{{ config('global.buddiesyogaNightPrice') * 1 }}"
-                                                                {{ old('buddiesyoga') == '1 Surf Buddies' ? 'selected' : '' }}>
-                                                                1 Surf Buddies</option>
-                                                            <option value="2 Surf Buddies"
-                                                                data-buddies="{{ config('global.buddiesyogaNightPrice') * 2 }}"
-                                                                {{ old('buddiesyoga') == '2 Surf Buddies' ? 'selected' : '' }}>
-                                                                2 Surf Buddies</option>
-                                                            <option value="3 Surf Buddies"
-                                                                data-buddies="{{ config('global.buddiesyogaNightPrice') * 3 }}"
-                                                                {{ old('buddiesyoga') == '3 Surf Buddies' ? 'selected' : '' }}>
-                                                                3 Surf Buddies</option>
-                                                            <option value="0 Surf Buddies" data-buddies="0"
-                                                                {{ old('buddiesyoga') == '0 Surf Buddies' ? 'selected' : '' }}>
-                                                                0 Surf Buddies</option>
-                                                        </select>
-                                                        <i class="fal fa-chevron-down"></i>
-                                                    </div>
-                                                </div>
-
-                                                <input type="hidden" value="{{ old('total') }}" name="total"
-                                                    id="totalInput">
-
-                                                <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">
-                                                    Checkin-Checkout Date</p>
-                                                <div class="form-group">
-                                                    <input type="date" class="form-control" name="checkin"
-                                                        id="checkin" placeholder="Checkin"
-                                                        value="{{ old('checkin') }}">
-                                                    {{-- <i class="fal fa-calendar-alt"></i> --}}
-                                                    <i class="fa-light fa-plane-departure"></i>
-                                                </div>
-
-                                                {{-- <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkout Date</p> --}}
-                                                <div class="form-group">
-                                                    <input type="date" class="form-control" name="checkout"
-                                                        id="checkout" placeholder="Checkout"
-                                                        value="{{ old('Checkout') }}">
-                                                    {{-- <i class="fal fa-calendar-alt"></i> --}}
-                                                    <i class="fa-light fa-plane-arrival"></i>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control"
-                                                        placeholder="Your Message">{{ old('message') }}</textarea>
-                                                    <i class="fal fa-pencil"></i>
-                                                </div>
-
-                                                <div class="form-group text-end">
-                                                    <p>Total : <strong
-                                                            id="total">€{{ old('total', '0.00') }}</strong></p>
-                                                </div>
-
-                                                <div class="form-btn">
-                                                    <button class="ot-btn w-100" id="bookNowBtn">
-                                                        <i class="submit-spin"></i> Book now
-                                                    </button>
-                                                </div>
-                                                <p class="form-messages mb-0 mt-3"></p>
-                                            </form>
-
                                         </div>
                                     </div>
-
-
-
-
-                                    <script>
-                                        $(document).ready(function() {
-
-
-
-                                            $('#bookNowBtn').click(function(event) {
-                                                event.preventDefault();
-                                                $('.submit-spin').addClass('fa fa-spinner fa-spin');
-
-                                                setTimeout(function() {
-                                                    console.log('Form submitted!');
-                                                    $('#bookingForm').submit();
-
-                                                }, 2000);
-                                            });
-
-                                            const checkINDate = new Date();
-                                            checkINDate.setDate(checkINDate.getDate() + 1);
-                                            document.getElementById('checkin').valueAsDate = checkINDate;
-                                            const checkoutDate = new Date();
-                                            checkoutDate.setDate(checkINDate.getDate() + 3);
-                                            document.getElementById('checkout').valueAsDate = checkoutDate;
-
-                                            $('#solocoaching, #buddiescoaching,#soloyoga, #buddiesyoga').change(function() {
-
-                                                $('#total').text('€0.00');
-                                                updateTotalCost();
-
-                                            });
-
-                                            function updateTotalCost() {
-                                                var checkinDate = new Date($('#checkin').val());
-                                                var checkoutDate = new Date($('#checkout').val());
-                                                var soloyoga = parseFloat($('#soloyoga').find(':selected').data('solo')) || 0;
-                                                var buddiesyoga = parseFloat($('#buddiesyoga').find(':selected').data('buddies')) || 0;
-
-                                                var selectedPack = $('#pack').val();
-
-                                                if (!isNaN(checkinDate.getTime()) && !isNaN(checkoutDate.getTime())) {
-                                                    var timeDifference = checkoutDate.getTime() - checkinDate.getTime();
-                                                    var nights = Math.ceil(timeDifference / (1000 * 3600 * 24));
-
-                                                    var totalCost = nights * (soloyoga + buddiesyoga);
-
-                                                    $('#total').text('€' + totalCost.toFixed(2));
-                                                    $('#totalInput').val(totalCost.toFixed(2));
-                                                } else {
-                                                    $('#total').text('Invalid Dates');
-                                                    $('#totalInput').val('');
-                                                }
-
-
-
-                                            }
-
-                                            $('#checkin').change(function() {
-
-                                                const checkoutDate = new Date(document.getElementById('checkin').valueAsDate);
-                                                checkoutDate.setDate(checkoutDate.getDate() + 3);
-                                                document.getElementById('checkout').valueAsDate = checkoutDate;
-                                                updateTotalCost();
-
-                                            });
-
-                                            $('#checkout').change(function() {
-                                                $('#total').text('€0.00');
-                                                const checkinDate = new Date(document.getElementById('checkin').valueAsDate);
-
-                                                // Calculate the minimum checkout date (3 days later)
-                                                const minCheckoutDate = new Date(checkinDate);
-                                                minCheckoutDate.setDate(minCheckoutDate.getDate() + 3);
-
-                                                // Get the current checkout date
-                                                const checkoutDateInput = document.getElementById('checkout');
-                                                const currentCheckoutDate = new Date(checkoutDateInput.valueAsDate);
-
-                                                // Check if the current checkout date is less than the minimum required checkout date
-                                                if (currentCheckoutDate < minCheckoutDate) {
-                                                    // Display an error message or take appropriate action
-                                                    alert('Minimum stay is 3 days. Please choose a later checkout date.');
-
-                                                    // You may choose to reset the checkout date to the minimum required date
-                                                    checkoutDateInput.valueAsDate = minCheckoutDate;
-                                                }
-
-                                                // Update total cost or perform other actions
-                                                updateTotalCost();
-                                            });
-
-
-
-
-
-                                        });
-                                    </script>
-
-
-
-
-                                    <style>
-                                        input[type="date"]::-webkit-calendar-picker-indicator {
-                                            display: none;
-                                        }
-
-                                        input[type="date"]::-webkit-inner-spin-button,
-                                        input[type="date"]::-webkit-outer-spin-button {
-                                            -webkit-appearance: none;
-                                            margin: 0;
-                                        }
-
-                                        input[type="date"] {
-                                            -webkit-appearance: none;
-                                            appearance: none;
-                                        }
-                                    </style>
-
-
-
-
-                                </aside>
+                                    <div class="accordion-card">
+                                        <div class="accordion-header" id="collapse-item-7"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">Day 07: Walk the Walls of Stirling Castle</button></div>
+                                        <div
+                                            id="collapse-7" class="accordion-collapse collapse" aria-labelledby="collapse-item-7" data-bs-parent="#planAccordion">
+                                            <div class="accordion-body">
+                                                <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched
+                                                    "outside the box" thinking via team building technologies.</p>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-card">
+                                    <div class="accordion-header" id="collapse-item-8"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">Day 08: Journey to Thriving Glasgow</button></div>
+                                    <div
+                                        id="collapse-8" class="accordion-collapse collapse" aria-labelledby="collapse-item-8" data-bs-parent="#planAccordion">
+                                        <div class="accordion-body">
+                                            <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched
+                                                "outside the box" thinking via team building technologies.</p>
+                                        </div>
+                                </div>
                             </div>
-
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-9"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">Day 09: Farewell Glasgow</button></div>
+                                <div id="collapse-9"
+                                    class="accordion-collapse collapse" aria-labelledby="collapse-item-9" data-bs-parent="#planAccordion">
+                                    <div class="accordion-body">
+                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched "outside
+                                            the box" thinking via team building technologies.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-card">
+                                <div class="accordion-header" id="collapse-item-10"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10">Day 10: Return</button></div>
+                                <div id="collapse-10" class="accordion-collapse collapse"
+                                    aria-labelledby="collapse-item-10" data-bs-parent="#planAccordion">
+                                    <div class="accordion-body">
+                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched "outside
+                                            the box" thinking via team building technologies.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="" style="margin-bottom:35px;">
-                        <div class="title-area text-center"><span class="sub-title justify-content-center"><span
-                                    class="shape left"><span class="dots"></span></span> Package Details <span
-                                    class="shape right"><span class="dots"></span></span>
-                            </span>
-                            {{-- <h2 class="sec-title">Our Accommodations</h2> --}}
+                </div>
+
+
+                <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+                    <div class="tour-location">
+                        <div class="about-infos">
+                            <div class="align-items-center" style="display: flex">
+                                <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                <p class="about-info"><strong>7 Nights Accommodation</strong></p>
+                            </div>
+                            <div class="align-items-center" style="display: flex">
+                                <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                <p class="about-info"><strong>7 x Breakfast, lunch and dinner</strong></p>
+                            </div>
+                            <div class="align-items-center" style="display: flex">
+                                <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                <p class="about-info"><strong>6 x Surf lessons, surf equipment rental
+                                        (board
+                                        + wetsuit)</strong></p>
+                            </div>
+                            <div class="align-items-center " style="display: flex;margin-top:10px;">
+                                <p class="about-info"> <i class="fa-regular fa-plane"></i></p>
+                                <p class="about-info"><strong>Airport transfers from/to Agadir</strong></p>
+                            </div>
+                            <div class="align-items-center" style="display: flex">
+                                <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                <p class="about-info"><strong>7 x Yoga Classes (One Daily Session)</strong>
+                                </p>
+                            </div>
+                            <div class="align-items-center" style="display: flex">
+                                <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                <p class="about-info"><strong>Surf spot transport</strong></p>
+                            </div>
+                            <div class="align-items-center" style="display: flex">
+                                <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                <p class="about-info"><strong>Visit to Agadir market (Souk)</strong></p>
+                            </div>
+                            <div class="align-items-center" style="display: flex">
+                                <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                <p class="about-info"><strong>Sandboarding in the Sand dunes</strong></p>
+                            </div>
+                            <div class="align-items-center" style="display: flex">
+                                <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                <p class="about-info"><strong>Day trip to Paradise Valley</strong></p>
+                            </div>
+                            <div class="booknow" style="margin-top:5rem;justify-content:start;">
+                                <a href="{{ asset('assets/img/surfnstays/surfnyoga.jpg') }}" download
+                                    class="ot-btn booknow-btn" style="width:auto;">Download
+                                    INFOGRAPHIC</a>
+                            </div>
                         </div>
-                        <section class="tour-details">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="" style="padding: 0;margin:0">
-                                        <div class="">
-
-
-                                            <ul class="nav tour-tab" id="tourTab" role="tablist">
-                                                <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Information</a></li>
-                                                <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">about</a></li>
-                                                {{-- <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="photos-tab" data-bs-toggle="tab" href="#photos" role="tab" aria-controls="photos" aria-selected="false">Photos</a></li> --}}
-                                                <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="location-tab" data-bs-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="false">Location</a></li>
-                                            </ul>
-                                            <div class="tab-content" id="productTabContent">
-                                                <div class="tab-pane fade show active" id="tourDescription" role="tabpanel" aria-labelledby="description-tab">
-                                                    <div class="tour-description">
-
-                                                        <div class="description-table-wrap">
-                                                            <table class="description-table">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <th>Destination</th>
-                                                                        <td>Salty Waves Taghazout >> Surf   Apartment N4 Taghazout</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <th>Apartement </th>
-                                                                        <td>5 Guests, 1 Bedroom, 3 Beds, 1 Bathrooms <strong>(€50.00/day)</strong></td>
-                                                                    </tr>
-
-                                                                    <tr>
-                                                                        <th>Airbnb's Rate</th>
-                                                                        <td>5 out of 5</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <th>Included</th>
-                                                                        <td>
-                                                                            <span><i class="fal fa-check"></i> Beach view</span>
-                                                                            <br><span><i class="fal fa-check"></i> Washer</span>
-                                                                            <br><span><i class="fal fa-check"></i> Children’s books and toys</span>
-                                                                            <br><span><i class="fal fa-check"></i> Board games</span>
-                                                                            <br><span><i class="fal fa-check"></i> Beach access</span>
-                                                                            <br>...
-
-                                                                            </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <th>Excluded</th>
-                                                                        <td><span><i class="fal fa-xmark"></i> Security cameras on property</span>
-                                                                            <br><span><i class="fal fa-xmark"></i> Hair dryer</span>
-                                                                            <br><span><i class="fal fa-xmark"></i> Essentials</span>
-                                                                            <br><span><i class="fal fa-xmark"></i> Smoke alarm</span>
-                                                                            <br><span><i class="fal fa-xmark"></i> Pets</span>
-
-                                                                            <br></td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane fade" id="plan" role="tabpanel" aria-labelledby="plan-tab">
-                                                    <div class="tour-plan">
-                                                        <h3 class="inner-title">Tour Plan</h3>
-                                                        <div class="accordion" id="planAccordion">
-                                                            <div class="accordion-card">
-                                                                <div class="accordion-header" id="collapse-item-1"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Day 01: Departure</button></div>
-                                                                <div id="collapse-1"
-                                                                    class="accordion-collapse collapse" aria-labelledby="collapse-item-1" data-bs-parent="#planAccordion">
-                                                                    <div class="accordion-body">
-                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                                            researched "outside the box" thinking via team building technologies.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-card active">
-                                                                <div class="accordion-header" id="collapse-item-2"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Day 02: Adventure Begins</button></div>
-                                                                <div id="collapse-2"
-                                                                    class="accordion-collapse collapse show" aria-labelledby="collapse-item-2" data-bs-parent="#planAccordion">
-                                                                    <div class="accordion-body">
-                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                                            researched "outside the box" thinking via team building technologies.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-card">
-                                                                <div class="accordion-header" id="collapse-item-3"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Day 03: Airplain Tour</button></div>
-                                                                <div id="collapse-3"
-                                                                    class="accordion-collapse collapse" aria-labelledby="collapse-item-3" data-bs-parent="#planAccordion">
-                                                                    <div class="accordion-body">
-                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                                            researched "outside the box" thinking via team building technologies.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-card">
-                                                                <div class="accordion-header" id="collapse-item-4"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">Day 04: Jungle Sufary</button></div>
-                                                                <div id="collapse-4"
-                                                                    class="accordion-collapse collapse" aria-labelledby="collapse-item-4" data-bs-parent="#planAccordion">
-                                                                    <div class="accordion-body">
-                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                                            researched "outside the box" thinking via team building technologies.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-card">
-                                                                <div class="accordion-header" id="collapse-item-5"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">Day 05: Explore Culloden</button></div>
-                                                                <div id="collapse-5"
-                                                                    class="accordion-collapse collapse" aria-labelledby="collapse-item-5" data-bs-parent="#planAccordion">
-                                                                    <div class="accordion-body">
-                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                                            researched "outside the box" thinking via team building technologies.</p>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="accordion-card">
-                                                                <div class="accordion-header" id="collapse-item-6"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">Day 06: Loch Ness and the Isle of Skye</button></div>
-                                                                <div
-                                                                    id="collapse-6" class="accordion-collapse collapse" aria-labelledby="collapse-item-6" data-bs-parent="#planAccordion">
-                                                                    <div class="accordion-body">
-                                                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                                            researched "outside the box" thinking via team building technologies.</p>
-                                                                    </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="accordion-card">
-                                                            <div class="accordion-header" id="collapse-item-7"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">Day 07: Walk the Walls of Stirling Castle</button></div>
-                                                            <div
-                                                                id="collapse-7" class="accordion-collapse collapse" aria-labelledby="collapse-item-7" data-bs-parent="#planAccordion">
-                                                                <div class="accordion-body">
-                                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched
-                                                                        "outside the box" thinking via team building technologies.</p>
-                                                                </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="accordion-card">
-                                                        <div class="accordion-header" id="collapse-item-8"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">Day 08: Journey to Thriving Glasgow</button></div>
-                                                        <div
-                                                            id="collapse-8" class="accordion-collapse collapse" aria-labelledby="collapse-item-8" data-bs-parent="#planAccordion">
-                                                            <div class="accordion-body">
-                                                                <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched
-                                                                    "outside the box" thinking via team building technologies.</p>
-                                                            </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-card">
-                                                    <div class="accordion-header" id="collapse-item-9"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">Day 09: Farewell Glasgow</button></div>
-                                                    <div id="collapse-9"
-                                                        class="accordion-collapse collapse" aria-labelledby="collapse-item-9" data-bs-parent="#planAccordion">
-                                                        <div class="accordion-body">
-                                                            <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched "outside
-                                                                the box" thinking via team building technologies.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-card">
-                                                    <div class="accordion-header" id="collapse-item-10"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10">Day 10: Return</button></div>
-                                                    <div id="collapse-10" class="accordion-collapse collapse"
-                                                        aria-labelledby="collapse-item-10" data-bs-parent="#planAccordion">
-                                                        <div class="accordion-body">
-                                                            <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched "outside
-                                                                the box" thinking via team building technologies.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
-                                        <div class="tour-location">
-                                            <h3 class="inner-title">About this space</h3>
-                                            <p class="mt-n2 mb-4">
-                                                apartment located in a residence with beautiful ocean views and direct access to the beach
-                                                5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. Many activities await you: Surfing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
-                                            </p>
-                                            <h3>The space</h3>
-                                            <p class="mb-30">apartment located in a residence with beautiful ocean views and direct access to the beach
-                                                5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. There are plenty of activities waiting for you: sailing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
-                                            </p></div>
-                                    </div>
-                                    <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
-                                        <div class="tour-location">
-                                            <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d412.7379685492819!2d-9.713078851828755!3d30.545702211478222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQ0LjQiTiA5wrA0Mic0Ny4xIlc!5e1!3m2!1sen!2sma!4v1702293757319!5m2!1sen!2sma" height="320px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-
-                                            </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            </div>
-
-                            </div>
-                            </div>
-                        </section>
                     </div>
+                </div>
+                <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
+                    <div class="tour-location">
+                        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d412.7379685492819!2d-9.713078851828755!3d30.545702211478222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQ0LjQiTiA5wrA0Mic0Ny4xIlc!5e1!3m2!1sen!2sma!4v1702293757319!5m2!1sen!2sma" height="320px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
+
+                        </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+        <div class="col-xxl-4 col-lg-5" id="booking-form">
+            <aside class="sidebar-area">
+                <div class="widget widget_book">
+                    <div class="widget-tour-book">
+                        <div class="top">
+                            <h4 class="title">Book This Pachages</h4>
+                            <p class="price">€95.00 per Night</p>
+                        </div>
+                        <form id="bookingForm"
+                            action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST"
+                            class="widget-form">
+                            @csrf
+                            <p>This place has a maximum of 12 guests, not including infants. Pets
+                                aren't allowed.</p>
+
+                            @if (session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
+                            @if (Session::has('error'))
+                                <div class="alert alert-danger">
+                                    {{ Session::get('error') }}
+                                </div>
+                            @endif
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name"
+                                    id="name" placeholder="Your Name"
+                                    value="{{ old('name') }}">
+                                <i class="fal fa-user"></i>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email"
+                                    id="email" placeholder="Your Email"
+                                    value="{{ old('email') }}">
+                                <i class="fal fa-envelope"></i>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="tel" class="form-control" name="phone"
+                                    id="phone" placeholder="Phone Number"
+                                    value="{{ old('phone') }}">
+                                <i class="fal fa-phone"></i>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="country"
+                                    id="country" placeholder="Country"
+                                    value="{{ old('country') }}">
+                                <i class="fa-light fa-globe"></i>
+                            </div>
+
+                            <input type="text" name="accommodation" hidden
+                                value="Hostle Tamraght">
+
+
+
+
+                            <div>
+                                <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">
+                                    Feel free to explore our activity packages at this link <a
+                                        href="{{ route('packages', ['lang' => $lang]) }}">Link</a>
+                                </p>
+
+                                <div class="form-group">
+                                    <select name="pack" disabled="disabled" id="pack"
+                                        class="form-select nice-select">
+                                        <option value="" selected="selected" hidden>Package
+                                            : Premuim Surf & Yoga Pack</option>
+
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="form-group col-6 soloyoga ">
+                                    <select name="soloyoga" id="soloyoga"
+                                        class="form-select nice-select ">
+                                        <option value="" disabled="disabled"
+                                            selected="selected" hidden>Surf Solo</option>
+                                        <option value="1 Surf Solo"
+                                            data-Solo="{{ config('global.soloyogaNightPrice') * 1 }}"
+                                            {{ old('soloyoga') == '1 Surf Solo' ? 'selected' : '' }}>
+                                            1 Surf Solo</option>
+                                        <option value="2 Surf Solo"
+                                            data-Solo="{{ config('global.soloyogaNightPrice') * 2 }}"
+                                            {{ old('soloyoga') == '2 Surf Solo' ? 'selected' : '' }}>
+                                            2 Surf Solo</option>
+                                        <option value="3 Surf Solo"
+                                            data-Solo="{{ config('global.soloyogaNightPrice') * 3 }}"
+                                            {{ old('soloyoga') == '3 Surf Solo' ? 'selected' : '' }}>
+                                            3 Surf Solo</option>
+                                        <option value="4 Surf Solo"
+                                            data-Solo="{{ config('global.soloyogaNightPrice') * 4 }}"
+                                            {{ old('soloyoga') == '4 Surf Solo' ? 'selected' : '' }}>
+                                            4 Surf Solo</option>
+                                        <option value="5 Surf Solo"
+                                            data-Solo="{{ config('global.soloyogaNightPrice') * 5 }}"
+                                            {{ old('soloyoga') == '5 Surf Solo' ? 'selected' : '' }}>
+                                            5 Surf Solo</option>
+                                        <option value="6 Surf Solo"
+                                            data-Solo="{{ config('global.soloyogaNightPrice') * 6 }}"
+                                            {{ old('soloyoga') == '6 Surf Solo' ? 'selected' : '' }}>
+                                            6 Surf Solo</option>
+                                        <option value="0 Surf Solo" data-Solo="0"
+                                            {{ old('soloyoga') == '0 Surf Solo' ? 'selected' : '' }}>
+                                            0 Surf Solo</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                                <div class="form-group col-6 buddiesyoga ">
+                                    <select name="buddiesyoga" id="buddiesyoga"
+                                        class="form-select nice-select">
+                                        <option value="" disabled="disabled"
+                                            selected="selected" hidden>Surf Buddies</option>
+                                        <option value="1 Surf Buddies"
+                                            data-buddies="{{ config('global.buddiesyogaNightPrice') * 1 }}"
+                                            {{ old('buddiesyoga') == '1 Surf Buddies' ? 'selected' : '' }}>
+                                            1 Surf Buddies</option>
+                                        <option value="2 Surf Buddies"
+                                            data-buddies="{{ config('global.buddiesyogaNightPrice') * 2 }}"
+                                            {{ old('buddiesyoga') == '2 Surf Buddies' ? 'selected' : '' }}>
+                                            2 Surf Buddies</option>
+                                        <option value="3 Surf Buddies"
+                                            data-buddies="{{ config('global.buddiesyogaNightPrice') * 3 }}"
+                                            {{ old('buddiesyoga') == '3 Surf Buddies' ? 'selected' : '' }}>
+                                            3 Surf Buddies</option>
+                                        <option value="0 Surf Buddies" data-buddies="0"
+                                            {{ old('buddiesyoga') == '0 Surf Buddies' ? 'selected' : '' }}>
+                                            0 Surf Buddies</option>
+                                    </select>
+                                    <i class="fal fa-chevron-down"></i>
+                                </div>
+                            </div>
+
+                            <input type="hidden" value="{{ old('total') }}" name="total"
+                                id="totalInput">
+
+                            <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">
+                                Checkin-Checkout Date</p>
+                            <div class="form-group">
+                                <input type="date" class="form-control" name="checkin"
+                                    id="checkin" placeholder="Checkin"
+                                    value="{{ old('checkin') }}">
+                                {{-- <i class="fal fa-calendar-alt"></i> --}}
+                                <i class="fa-light fa-plane-departure"></i>
+                            </div>
+
+                            {{-- <p style="margin-bottom: 0;padding-bottom: 0; margin-left:10px">Checkout Date</p> --}}
+                            <div class="form-group">
+                                <input type="date" class="form-control" name="checkout"
+                                    id="checkout" placeholder="Checkout"
+                                    value="{{ old('Checkout') }}">
+                                {{-- <i class="fal fa-calendar-alt"></i> --}}
+                                <i class="fa-light fa-plane-arrival"></i>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea name="message" id="message" cols="30" rows="3" class="form-control"
+                                    placeholder="Your Message">{{ old('message') }}</textarea>
+                                <i class="fal fa-pencil"></i>
+                            </div>
+
+                            <div class="form-group text-end">
+                                <p>Total : <strong
+                                        id="total">€{{ old('total', '0.00') }}</strong></p>
+                            </div>
+
+                            <div class="form-btn">
+                                <button class="ot-btn w-100" id="bookNowBtn">
+                                    <i class="submit-spin"></i> Book now
+                                </button>
+                            </div>
+                            <p class="form-messages mb-0 mt-3"></p>
+                        </form>
+
+                    </div>
+                </div>
+
+
+
+
+                <script>
+                    $(document).ready(function() {
+
+
+
+                        $('#bookNowBtn').click(function(event) {
+                            event.preventDefault();
+                            $('.submit-spin').addClass('fa fa-spinner fa-spin');
+
+                            setTimeout(function() {
+                                console.log('Form submitted!');
+                                $('#bookingForm').submit();
+
+                            }, 2000);
+                        });
+
+                        const checkINDate = new Date();
+                        checkINDate.setDate(checkINDate.getDate() + 1);
+                        document.getElementById('checkin').valueAsDate = checkINDate;
+                        const checkoutDate = new Date();
+                        checkoutDate.setDate(checkINDate.getDate() + 3);
+                        document.getElementById('checkout').valueAsDate = checkoutDate;
+
+                        $('#solocoaching, #buddiescoaching,#soloyoga, #buddiesyoga').change(function() {
+
+                            $('#total').text('€0.00');
+                            updateTotalCost();
+
+                        });
+
+                        function updateTotalCost() {
+                            var checkinDate = new Date($('#checkin').val());
+                            var checkoutDate = new Date($('#checkout').val());
+                            var soloyoga = parseFloat($('#soloyoga').find(':selected').data('solo')) || 0;
+                            var buddiesyoga = parseFloat($('#buddiesyoga').find(':selected').data('buddies')) || 0;
+
+                            var selectedPack = $('#pack').val();
+
+                            if (!isNaN(checkinDate.getTime()) && !isNaN(checkoutDate.getTime())) {
+                                var timeDifference = checkoutDate.getTime() - checkinDate.getTime();
+                                var nights = Math.ceil(timeDifference / (1000 * 3600 * 24));
+
+                                var totalCost = nights * (soloyoga + buddiesyoga);
+
+                                $('#total').text('€' + totalCost.toFixed(2));
+                                $('#totalInput').val(totalCost.toFixed(2));
+                            } else {
+                                $('#total').text('Invalid Dates');
+                                $('#totalInput').val('');
+                            }
+
+
+
+                        }
+
+                        $('#checkin').change(function() {
+
+                            const checkoutDate = new Date(document.getElementById('checkin').valueAsDate);
+                            checkoutDate.setDate(checkoutDate.getDate() + 3);
+                            document.getElementById('checkout').valueAsDate = checkoutDate;
+                            updateTotalCost();
+
+                        });
+
+                        $('#checkout').change(function() {
+                            $('#total').text('€0.00');
+                            const checkinDate = new Date(document.getElementById('checkin').valueAsDate);
+
+                            // Calculate the minimum checkout date (3 days later)
+                            const minCheckoutDate = new Date(checkinDate);
+                            minCheckoutDate.setDate(minCheckoutDate.getDate() + 3);
+
+                            // Get the current checkout date
+                            const checkoutDateInput = document.getElementById('checkout');
+                            const currentCheckoutDate = new Date(checkoutDateInput.valueAsDate);
+
+                            // Check if the current checkout date is less than the minimum required checkout date
+                            if (currentCheckoutDate < minCheckoutDate) {
+                                // Display an error message or take appropriate action
+                                alert('Minimum stay is 3 days. Please choose a later checkout date.');
+
+                                // You may choose to reset the checkout date to the minimum required date
+                                checkoutDateInput.valueAsDate = minCheckoutDate;
+                            }
+
+                            // Update total cost or perform other actions
+                            updateTotalCost();
+                        });
+
+
+
+
+
+                    });
+                </script>
+
+
+
+
+                <style>
+                    input[type="date"]::-webkit-calendar-picker-indicator {
+                        display: none;
+                    }
+
+                    input[type="date"]::-webkit-inner-spin-button,
+                    input[type="date"]::-webkit-outer-spin-button {
+                        -webkit-appearance: none;
+                        margin: 0;
+                    }
+
+                    input[type="date"] {
+                        -webkit-appearance: none;
+                        appearance: none;
+                    }
+                </style>
+
+
+
+
+            </aside>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="ot-tour-wrapper space-top space-extra-bottom" style="padding:0">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-lg-12">
                     <div class="tour-details">
                         <div class="tour-header  ">
                             {{-- <h1 class="tour-title text-center m-0">Choose Your Accommodations</h1> --}}
