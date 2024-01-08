@@ -10780,7 +10780,7 @@ ul.comment-list .ot-comment-item:first-child>.ot-post-comment {
 }
 
 .packages-carousel {
-    /* height: 600px !important; */
+    height: 350px !important;
     object-fit: cover;
 }
 
