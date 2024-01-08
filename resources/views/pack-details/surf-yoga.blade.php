@@ -109,7 +109,10 @@
                             </button>
                         </div>  </div>
                         <ul class="nav tour-tab" id="tourTab" role="tablist">
-                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Information</a></li>
+
+                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Description</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="www-tab" data-bs-toggle="tab" href="#www" role="tab" aria-controls="www" aria-selected="false">About</a></li>
+
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">Included</a></li>
                           </ul>
                         <div class="tab-content" id="productTabContent">
@@ -319,6 +322,32 @@
 
 
 
+                        </div>
+                </div>
+                <div class="tab-pane fade" id="www" role="tabpanel" aria-labelledby="www-tab">
+                    <div class="tour-location">
+                        <h3 class="inner-title">About this space</h3>
+                                    <p class="mt-n2 mb-4">
+                                        You'll have a great time at this comfortable place to stay.
+                                    </p>
+                                    <h3>The space</h3>
+                                    <p class="mb-30">This apartment is located directly on the beach of Taghazout and is 70 square meters in size.
+
+                                        It has one bedroom with a double bed,
+
+                                        one bedroom with two single beds(bed linen is provided) one bathroom with
+
+                                        Shower, a kitchen equipped with electric appliances(fridge-freezer,
+
+                                        Microwave, kettle, electric grill, coffee maker), as well as the complete dishes.
+
+                                        The living room is equipped in a Moroccan style and thus also offers sleeping options  for two to three people.
+
+                                        There is also a CD player and a video device in the living room with digital  programs(all European programs).
+
+                                        In the hallway is a large closet with enough storage space.
+
+                                        The apartment has a large balcony with beautiful views of the sea.</p>
                         </div>
                 </div>
             </div>
