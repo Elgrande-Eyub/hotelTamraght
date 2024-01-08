@@ -115,6 +115,8 @@
 
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Description</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="www-tab" data-bs-toggle="tab" href="#www" role="tab" aria-controls="www" aria-selected="false">About</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Plan</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan1-tab" data-bs-toggle="tab" href="#plan1" role="tab" aria-controls="plan1" aria-selected="false">Plan 1</a></li>
 
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">Included</a></li>
                           </ul>
@@ -128,19 +130,15 @@
                                             <tbody>
                                                 <tr>
                                                     <th>Accommodation Options</th>
-                                                    <td>Choose your haven—solo surfers' Dormitory Rooms for an unbeatable value of €665 for 7 nights, or elevate your stay to the luxurious Surf Buddies - Deluxe Rooms at €1430 for a week of indulgence and comfort.</td>
+                                                    <td>Choose your haven—solo surfers' Dormitory Rooms for an unbeatable value of €665 for 7 nights, or elevate your stay to the luxurious Surf Buddies - Deluxe Rooms at €1430 for a week of indulgence and comfort.
+                                                        <br>
+                                                        <strong>Check-In Time: 14:00</strong> | <strong>Check-Out Time: 12:00</strong>
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <th>Surfing Adventure</th>
-                                                    <td>Enjoy 6 thrilling surf lessons with expert instructors ,gear up with board and wetsuit rentals and let us take you to the top surf spots with included transfers.</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Skill Level</th>
-                                                    <td>Beginner | Intermediate | Advanced</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Check-Time</th>
-                                                    <td>Check-In Time: 14:00 <br> Check-Out Time: 12:00
+                                                    <td>Enjoy 6 thrilling surf lessons with expert instructors ,gear up with board and wetsuit rentals and let us take you to the top surf spots with included transfers.
+                                                        <br><strong>Skill Level : </strong> Beginner | Intermediate | Advanced
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -170,108 +168,73 @@
                             </div>
                             <div class="tab-pane fade" id="plan" role="tabpanel" aria-labelledby="plan-tab">
                                 <div class="tour-plan">
-                                    <h3 class="inner-title">Tour Plan</h3>
+                                    <h4 class="inner-title">Daily Retreat Schedule: A Day of Wellness and Adventure</h4>
                                     <div class="accordion" id="planAccordion">
                                         <div class="accordion-card">
-                                            <div class="accordion-header" id="collapse-item-1"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Day 01: Departure</button></div>
+                                            <div class="accordion-header" id="collapse-item-1"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">08:00 - 09:00</button></div>
                                             <div id="collapse-1"
                                                 class="accordion-collapse collapse" aria-labelledby="collapse-item-1" data-bs-parent="#planAccordion">
                                                 <div class="accordion-body">
-                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                        researched "outside the box" thinking via team building technologies.</p>
+                                                    <p class="faq-text">Initiate your day with an optional morning yoga session, available at 08:00 for an additional fee. Allow the soothing sounds of nature and the expert guidance of our experienced yoga instructor to guide you through invigorating poses, breathing exercises, and meditation. Embrace the tranquility and set a positive tone for the day.</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-card active">
-                                            <div class="accordion-header" id="collapse-item-2"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Day 02: Adventure Begins</button></div>
+                                            <div class="accordion-header" id="collapse-item-2"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">09:15 - 10:00</button></div>
                                             <div id="collapse-2"
                                                 class="accordion-collapse collapse show" aria-labelledby="collapse-item-2" data-bs-parent="#planAccordion">
                                                 <div class="accordion-body">
-                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                        researched "outside the box" thinking via team building technologies.</p>
+                                                    <p class="faq-text">Following the rejuvenating yoga session, join us for a relaxed breakfast. Savor a nutritious meal that caters to various dietary preferences, preparing you for the exciting day ahead.</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-card">
-                                            <div class="accordion-header" id="collapse-item-3"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Day 03: Airplain Tour</button></div>
+                                            <div class="accordion-header" id="collapse-item-3"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">10:00 - 12:30</button></div>
                                             <div id="collapse-3"
                                                 class="accordion-collapse collapse" aria-labelledby="collapse-item-3" data-bs-parent="#planAccordion">
                                                 <div class="accordion-body">
-                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                        researched "outside the box" thinking via team building technologies.</p>
+                                                    <p class="faq-text">Embark on an invigorating surfing session led by our seasoned surf instructor. Receive personalized lessons tailored to your skill level, ensuring both beginners and experienced surfers can enjoy the waves. Dive into the thrill of surfing, surrounded by the beauty of the ocean.</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-card">
-                                            <div class="accordion-header" id="collapse-item-4"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">Day 04: Jungle Sufary</button></div>
+                                            <div class="accordion-header" id="collapse-item-4"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">12:30 - 13:00</button></div>
                                             <div id="collapse-4"
                                                 class="accordion-collapse collapse" aria-labelledby="collapse-item-4" data-bs-parent="#planAccordion">
                                                 <div class="accordion-body">
-                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                        researched "outside the box" thinking via team building technologies.</p>
+                                                    <p class="faq-text">As the midday sun warms the beach, indulge in a delightful beachside lunch experience. Our culinary team has crafted a menu featuring fresh, locally sourced ingredients that capture the essence of coastal cuisine.</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-card">
-                                            <div class="accordion-header" id="collapse-item-5"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">Day 05: Explore Culloden</button></div>
+                                            <div class="accordion-header" id="collapse-item-5"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">13:00 - 16:00</button></div>
                                             <div id="collapse-5"
                                                 class="accordion-collapse collapse" aria-labelledby="collapse-item-5" data-bs-parent="#planAccordion">
                                                 <div class="accordion-body">
-                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                        researched "outside the box" thinking via team building technologies.</p>
+                                                    <p class="faq-text">After lunch, take advantage of leisure time. Engage in beach games, relax under the sun, or choose to immerse yourself in solo surfing practice in the water. This free time allows you to personalize your experience and make the most of the stunning coastal surroundings.</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-card">
-                                            <div class="accordion-header" id="collapse-item-6"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">Day 06: Loch Ness and the Isle of Skye</button></div>
+                                            <div class="accordion-header" id="collapse-item-6"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">16:00 - 18:30</button></div>
                                             <div
                                                 id="collapse-6" class="accordion-collapse collapse" aria-labelledby="collapse-item-6" data-bs-parent="#planAccordion">
                                                 <div class="accordion-body">
-                                                    <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully
-                                                        researched "outside the box" thinking via team building technologies.</p>
+                                                    <p class="faq-text">Return home to refresh and prepare for the evening yoga session. Reflect on the day's adventures and rejuvenate your mind and body with a second session of yoga, scheduled for 18:30. The serene ambiance and guided practice provide the perfect way to unwind and find balance.</p>
                                                 </div>
                                         </div>
                                     </div>
                                     <div class="accordion-card">
-                                        <div class="accordion-header" id="collapse-item-7"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">Day 07: Walk the Walls of Stirling Castle</button></div>
+                                        <div class="accordion-header" id="collapse-item-7"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">20:30</button></div>
                                         <div
                                             id="collapse-7" class="accordion-collapse collapse" aria-labelledby="collapse-item-7" data-bs-parent="#planAccordion">
                                             <div class="accordion-body">
-                                                <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched
-                                                    "outside the box" thinking via team building technologies.</p>
+                                                <p class="faq-text">Conclude your day with a delightful dinner. Join us for a culinary journey that celebrates local flavors and nourishes your body. Share stories and experiences with fellow retreat participants, creating lasting memories in a relaxed and inviting atmosphere.</p>
                                             </div>
                                     </div>
                                 </div>
-                                <div class="accordion-card">
-                                    <div class="accordion-header" id="collapse-item-8"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">Day 08: Journey to Thriving Glasgow</button></div>
-                                    <div
-                                        id="collapse-8" class="accordion-collapse collapse" aria-labelledby="collapse-item-8" data-bs-parent="#planAccordion">
-                                        <div class="accordion-body">
-                                            <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched
-                                                "outside the box" thinking via team building technologies.</p>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-9"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">Day 09: Farewell Glasgow</button></div>
-                                <div id="collapse-9"
-                                    class="accordion-collapse collapse" aria-labelledby="collapse-item-9" data-bs-parent="#planAccordion">
-                                    <div class="accordion-body">
-                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched "outside
-                                            the box" thinking via team building technologies.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-10"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10">Day 10: Return</button></div>
-                                <div id="collapse-10" class="accordion-collapse collapse"
-                                    aria-labelledby="collapse-item-10" data-bs-parent="#planAccordion">
-                                    <div class="accordion-body">
-                                        <p class="faq-text">Authoritatively engage transparent users for standard compliant vortal. Continually seize technically sound applications rather than an expanded array of methodologies. Competently envisioneer fully researched "outside
-                                            the box" thinking via team building technologies.</p>
-                                    </div>
-                                </div>
-                            </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -327,6 +290,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
                     <div class="tour-location">
                         <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d412.7379685492819!2d-9.713078851828755!3d30.545702211478222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQ0LjQiTiA5wrA0Mic0Ny4xIlc!5e1!3m2!1sen!2sma!4v1702293757319!5m2!1sen!2sma" height="320px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -360,6 +324,18 @@
 
                                         The apartment has a large balcony with beautiful views of the sea.</p>
                         </div>
+                </div>
+                <div class="tab-pane fade" id="plan1" role="tabpanel" aria-labelledby="plan1-tab">
+                    <h4 class="inner-title">Daily Retreat Schedule: A Day of Wellness and Adventure</h4>
+                    <p class="text-justify">
+                        Initiate your day with an optional morning yoga session, available at <strong>08:00</strong> for an additional fee, followed by a relaxed breakfast at approximately <strong>09:15</strong>.
+                        <br><br>
+                        By <strong>10:00</strong>, set off for an invigorating surfing session and personalized lessons guided by a seasoned surf instructor. Around <strong>12:30</strong> or <strong>13:00</strong>, indulge in a beachside lunch experience. Afterward, enjoy some leisure time, partake in games, or immerse yourself in solo surfing practice in the water.
+                        <br><br>
+                        Return home around <strong>16:00</strong> to prepare for the evening yoga session slated for <strong>18:30</strong>. Conclude the day with a delightful dinner at <strong>20:30</strong>.
+                    </p>
+
+
                 </div>
             </div>
 
