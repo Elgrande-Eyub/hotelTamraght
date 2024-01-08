@@ -738,10 +738,6 @@
 
                                     </div>
 
-                                    <div class="booknow" style="margin-top:5rem ">
-                                        <a href=" {{ route('hostel-tamraght', ['lang' => $lang]) }}"
-                                            class="ot-btn booknow-btn">Book This Package</a>
-                                    </div>
 
                                 </div>
                             </div>
