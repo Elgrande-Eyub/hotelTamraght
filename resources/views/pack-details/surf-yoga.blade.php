@@ -27,12 +27,12 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="tour-details">
                         <div class="tour-header">
-                            <h2 class="tour-title d-flex align-items-center" style="margin: 0">
-                                <p>  PREMUIM 7 NIGHTS SURF
-                                    & YOGA PACKAGE <span style="color: #015292"> - From €665</span></p>
-
-                                <span class="badge-btn premuim"
-                                    style="margin-left: 1rem">Premuim</span></h2><br>
+                            <h2 class="tour-title " style="margin: 0">
+                                <p style="margin: 0">  PREMUIM 7 NIGHTS SURF
+                                    & YOGA PACKAGE <span style="color: #015292"> - €665</span></p>
+                                    <span class="badge-btn premuim"
+                                    style="margin-left: 1rem">Premuim</span>
+                               </h2><br>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fa-light fa-check"></i></div>
@@ -116,8 +116,6 @@
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Description</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="www-tab" data-bs-toggle="tab" href="#www" role="tab" aria-controls="www" aria-selected="false">About</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Plan</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan1-tab" data-bs-toggle="tab" href="#plan1" role="tab" aria-controls="plan1" aria-selected="false">Plan 1</a></li>
-
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">Included</a></li>
                           </ul>
                         <div class="tab-content" id="productTabContent">
@@ -325,18 +323,7 @@
                                         The apartment has a large balcony with beautiful views of the sea.</p>
                         </div>
                 </div>
-                <div class="tab-pane fade" id="plan1" role="tabpanel" aria-labelledby="plan1-tab">
-                    <h4 class="inner-title">Daily Retreat Schedule: A Day of Wellness and Adventure</h4>
-                    <p class="text-justify">
-                        Initiate your day with an optional morning yoga session, available at <strong>08:00</strong> for an additional fee, followed by a relaxed breakfast at approximately <strong>09:15</strong>.
-                        <br><br>
-                        By <strong>10:00</strong>, set off for an invigorating surfing session and personalized lessons guided by a seasoned surf instructor. Around <strong>12:30</strong> or <strong>13:00</strong>, indulge in a beachside lunch experience. Afterward, enjoy some leisure time, partake in games, or immerse yourself in solo surfing practice in the water.
-                        <br><br>
-                        Return home around <strong>16:00</strong> to prepare for the evening yoga session slated for <strong>18:30</strong>. Conclude the day with a delightful dinner at <strong>20:30</strong>.
-                    </p>
 
-
-                </div>
             </div>
 
         </div>
