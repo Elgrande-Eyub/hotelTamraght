@@ -15,7 +15,7 @@
     packages, surfing, yoga classes, mindfulness, relaxation,
     tamraght,waves,surf Waves,salty waves surf">
     <meta property="og:title" content="Salty Waves - Best Surf Camp & Yoga Retreats in Tamraght and Taghazout, Morocco">
-    <meta property="og:image" content="https://www.saltywaves.com/images/featured-image.jpg">
+    <meta property="og:image" content="{{ asset('assets/img/favicons/ms-icon-144x144.png') }}">
 
 </head>
 
