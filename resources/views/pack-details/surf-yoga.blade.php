@@ -308,28 +308,21 @@
                 </div>
                 <div class="tab-pane fade" id="www" role="tabpanel" aria-labelledby="www-tab">
                     <div class="tour-location">
-                        <h3 class="inner-title">About this space</h3>
-                                    <p class="mt-n2 mb-4">
-                                        You'll have a great time at this comfortable place to stay.
+                        <h4 class="inner-title">About this Package</h4>
+                                    <p class="text-justify">
+                                        Initiate your day with an optional morning yoga session, available at
+                                        <strong>08:00</strong> for an additional fee, followed by a relaxed breakfast at
+                                        approximately <strong>09:15</strong>. <br><br>
+                                        By <strong>10:00</strong>, set off for an invigorating surfing session and
+                                        personalized lessons guided by a seasoned surf instructor. Around
+                                        <strong>12:30</strong> or <strong>13:00</strong>, indulge in a beachside lunch
+                                        experience. Afterward, enjoy some leisure time, partake in games, or immerse
+                                        yourself in solo surfing practice in the water. <br><br>
+                                        Return home around <strong>16:00</strong> to prepare for the evening yoga
+                                        session slated for <strong>18:30</strong>. Conclude the day with a delightful
+                                        dinner at <strong>20:30</strong>.
+
                                     </p>
-                                    <h3>The space</h3>
-                                    <p class="mb-30">This apartment is located directly on the beach of Taghazout and is 70 square meters in size.
-
-                                        It has one bedroom with a double bed,
-
-                                        one bedroom with two single beds(bed linen is provided) one bathroom with
-
-                                        Shower, a kitchen equipped with electric appliances(fridge-freezer,
-
-                                        Microwave, kettle, electric grill, coffee maker), as well as the complete dishes.
-
-                                        The living room is equipped in a Moroccan style and thus also offers sleeping options  for two to three people.
-
-                                        There is also a CD player and a video device in the living room with digital  programs(all European programs).
-
-                                        In the hallway is a large closet with enough storage space.
-
-                                        The apartment has a large balcony with beautiful views of the sea.</p>
                         </div>
                 </div>
 
