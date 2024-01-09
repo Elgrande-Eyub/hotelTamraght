@@ -397,7 +397,7 @@
                 <div class="col-xl-9">
                     <div class="trip-tab" data-asnavfor=".trip-details-slide">
                         <div class="trip-card active">
-                            <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_1.png') }}"
+                            <div class="trip-card__img"><img src="{{ asset('assets/img/trip/dest_1_1.jpg') }}"
                                     alt="Trip image"></div>
                             <div class="trip-card__content">
                                 <div class="trip-card__location"><i class="fas fa-location-dot"></i></div>
