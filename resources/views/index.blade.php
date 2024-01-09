@@ -5,7 +5,7 @@
     @include('layout.head')
     <title>Salty Waves - Best Surf Camp & Yoga Retreats in Tamraght and Taghazout, Morocco</title>
     <meta name="description"
-        content="Unwind, reconnect, and surf your worries away. Salty Waves offers unforgettable surf & yoga experiences in paradise. Book your adventure today!">
+        content="Unwind, reconnect, and surf your worries away. Salty Waves offers unforgettable surf & yoga experiences in Tamraght and Tagahzout. Book your adventure today!">
     <meta name="keywords"
         content="
     surf, yoga, retreat, Morocco, accommodation,surf lessons Agadir,Tamraght yoga camp,
