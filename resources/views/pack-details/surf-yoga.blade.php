@@ -74,32 +74,6 @@
                         <div class="tour-img" style="margin-bottom:0">
                             <div id="carouselExampleInterval1" class="carousel slide tour-img"
                             data-bs-ride="carousel">
-                          {{--   <div class="carousel-inner" style="border-radius: 10px">
-                                <div class="carousel-item active" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_0978.jpg') }}"
-                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_1116.jpg') }}"
-                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_1041.jpg') }}"
-                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_1083.jpg') }}"
-                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_1150.jpg') }}"
-                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="3500">
-                                    <img src="{{ asset('assets/img/surf/IMG_1120.jpg') }}"
-                                        class="d-block w-100 packages-carousel" alt="Dormitory Photos">
-                                </div>
-                            </div> --}}
                             <div class="carousel-inner" style="border-radius: 10px">
                                 <div class="carousel-item active" data-bs-interval="3500" >
                                     <img src="{{ asset('assets/img/packages/surfnyoga/surf-1.jpg') }}"
