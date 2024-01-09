@@ -33,7 +33,7 @@
                     <h1 class="hero-title">Doesn't Matter</h1>
                     {{-- <p class="hero-text">Visit our surf hostel to create the best surf memories. Choose between
                         wonderful accommodations in Tamraght and Taghazout.</p> --}}
-                        <p class="hero-text">Enjoy an all-inclusive holiday at SALTY WAVES surf camp! Daily surf and yoga, charming hostel, local cuisine, Moroccan cultural experiences. Your perfect escape awaits!</p>
+                        <p class="hero-text">Enjoy an all-inclusive holiday at SALTY WAVES surf camp! Daily surf and yoga, charming hostel, local cuisine, Moroccan cultural experiences. Your perfect escape awaits!</p>
                     <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Salty Waves
                             ? Check this out</a>
                         <a href="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12"
