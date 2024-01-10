@@ -4,7 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\NewsletterResource\Pages;
 use App\Filament\Resources\NewsletterResource\RelationManagers;
-use App\Models\Newsletter;
+use App\Models\newsletter;
 use Filament\Forms;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\TextInput;
@@ -20,7 +20,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class NewsletterResource extends Resource
 {
-    protected static ?string $model = Newsletter::class;
+    protected static ?string $model = newsletter::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-envelope';
 
