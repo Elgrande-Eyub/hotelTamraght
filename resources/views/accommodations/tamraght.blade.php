@@ -3,7 +3,11 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>SALTY WAVES - Tamraght</title>
+    <title>Salty Waves in Tamraght - Serene Coastal Escape</title>
+    <meta name="description" content="Experience the tranquility of Tamraght with Salty Waves. Our accommodations in Tamraght provide a serene coastal escape, surrounded by stunning landscapes and the perfect waves for surfing. Immerse yourself in the Tamraght lifestyle and book your stay with Salty Waves today!">
+    <meta property="og:title" content="Salty Waves in Tamraght - Serene Coastal Escape">
+    <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
+
     @include('layout.head')
 </head>
 

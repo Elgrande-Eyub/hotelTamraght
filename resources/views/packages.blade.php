@@ -3,7 +3,11 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves - Packages</title>
+    <title>Salty Waves Packages - Unforgettable Surf, Yoga, and Stay Experiences</title>
+    <meta name="description" content="Explore Salty Waves' curated packages for a perfect blend of surf, yoga, and accommodation. Immerse yourself in thrilling surf lessons, rejuvenate with yoga sessions, and relax in our comfortable accommodations. Discover the ideal package for your dream surf and yoga retreat. Book your unforgettable experience with Salty Waves today!">
+    <meta property="og:title" content="Salty Waves Packages - Unforgettable Surf, Yoga, and Stay Experiences">
+    <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
+
    @include('layout.head')
 </head>
 

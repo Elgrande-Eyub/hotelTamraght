@@ -6,8 +6,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/logo/icon.png') }}">
     <meta name="author" content="Salty Waves">
     <meta http-equiv="content-language" content="{{ $lang }}">
-    <meta name="description"
-    content="Unwind, reconnect, and surf your worries away. Salty Waves offers unforgettable surf & yoga experiences in Tamraght and Tagahzout. Book your adventure today!">
+
     <meta name="keywords" content="surf, yoga, retreat, Morocco, accommodation, surf lessons, Agadir, Tamraght yoga camp,
     tamraght accommodation Agadir, surf package, yoga package, surf classes, yoga classes, surf camp, yoga camp, stay only,
     taghazout, taghazout accommodation, Taghazout Surf, taghazout offer, tamraght offer, surf lessons, booking, tamraght reservation, booking taghazout, waves, salty,

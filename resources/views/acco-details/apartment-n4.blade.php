@@ -3,7 +3,11 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves - Apartment N4</title>
+    <title>Salty Waves - Apartment N4 in Taghazout</title>
+    <meta name="description" content="Experience comfort and style in Apartment N4 at Salty Waves, Taghazout. This cozy ocean-view apartment offers a perfect blend of modern amenities and coastal charm. Enjoy direct access to Taghazout's renowned surf spots and unwind in a serene atmosphere. Book your stay in Apartment N4 and make your Taghazout experience unforgettable.">
+    <meta property="og:title" content="Salty Waves - Apartment N4 in Taghazout">
+    <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
+
     @include('layout.head')
 </head>
 

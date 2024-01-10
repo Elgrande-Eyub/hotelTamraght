@@ -4,7 +4,10 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves - About Us</title>
+    <title>Salty Waves - Your Ultimate Retreat for Accommodation, Surf, and Yoga Packages</title>
+    <meta name="description" content="Discover the perfect blend of relaxation and adventure at Salty Waves. Immerse yourself in the coastal charm of our accommodations and dive into thrilling surf and rejuvenating yoga packages. Our camp is a haven for those seeking a harmonious balance between waves, wellness, and the serenity of coastal living. Book your stay with us and embark on a journey of unforgettable experiences.">
+    <meta property="og:title" content="Salty Waves - Your Ultimate Retreat for Accommodation, Surf, and Yoga Packages">
+    <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
     @include('layout.head')
 </head>
 

@@ -3,7 +3,11 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves - Accommodations</title>
+    <title>Salty Waves Accommodations - Your Coastal Retreat</title>
+    <meta name="description" content="Preview our diverse range of coastal accommodations at Salty Waves. From cozy beachfront cottages to spacious ocean-view villas, we offer the perfect lodging for your surf and yoga getaway. Explore our accommodations and book your seaside escape with Salty Waves today!">
+    <meta property="og:title" content="Salty Waves Accommodations - Your Coastal Retreat">
+    <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
+
    @include('layout.head')
 </head>
 

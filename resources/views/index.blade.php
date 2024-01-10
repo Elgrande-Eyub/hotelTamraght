@@ -4,9 +4,10 @@
 <head>
     @include('layout.head')
     <title>Salty Waves - Best Surf Camp & Yoga Retreats in Tamraght and Taghazout, Morocco</title>
+    <meta name="description"
+    content="Unwind, reconnect, and surf your worries away. Salty Waves offers unforgettable surf & yoga experiences in Tamraght and Tagahzout. Book your adventure today!">
     <meta property="og:title" content="Salty Waves - Best Surf Camp & Yoga Retreats in Tamraght and Taghazout, Morocco">
     <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
-
 </head>
 
 <body>

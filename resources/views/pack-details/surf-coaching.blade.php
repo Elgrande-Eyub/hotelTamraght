@@ -3,7 +3,11 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves - SURF COACHING</title>
+    <title>Salty Waves Surf Coaching Package - Improve Your Skills</title>
+    <meta name="description" content="Enhance your surfing skills with Salty Waves' Surf Coaching Package. Dive into personalized coaching sessions, master the waves with experienced instructors, and enjoy a comfortable stay in our coastal accommodations. Elevate your surf game and make the most of your surfing journey. Book your coaching package today!">
+    <meta property="og:title" content="Salty Waves Surf Coaching Package - Improve Your Skills">
+    <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
+
     @include('layout.head')
 </head>
 

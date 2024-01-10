@@ -3,7 +3,11 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves - Surf Riad Taghazout</title>
+    <title>Salty Waves - Surf Riad in Taghazout</title>
+    <meta name="description" content="Experience the charm of Salty Waves Surf Riad in Taghazout. Our traditional riad offers a unique blend of Moroccan hospitality and surf culture. Immerse yourself in cozy accommodations, enjoy panoramic views of the ocean, and explore Taghazout's famous surf spots. Book your stay at Salty Waves Surf Riad for an authentic Taghazout experience.">
+    <meta property="og:title" content="Salty Waves - Surf Riad in Taghazout">
+    <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
+
     @include('layout.head')
 </head>
 

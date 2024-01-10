@@ -3,7 +3,11 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Live the Moroccan Dream: Salty Waves Hostel, Tamraght</title>
+    <title>Salty Waves - Hostel in Tamraght</title>
+    <meta name="description" content="Discover a vibrant and budget-friendly stay at Salty Waves Hostel in Tamraght. Our cozy hostel offers a lively atmosphere, comfortable accommodations, and a perfect base for exploring Tamraght's surf scene. Immerse yourself in the camaraderie of fellow travelers and experience the essence of Tamraght. Book your stay at Salty Waves Hostel today!">
+    <meta property="og:title" content="Salty Waves - Hostel in Tamraght">
+    <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
+
     @include('layout.head')
 </head>
 <body>

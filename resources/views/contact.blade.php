@@ -3,7 +3,11 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Travon - Tour and Hotel Booking HTML Template - Contact Us</title>
+    <title>Contact Salty Waves - Get in Touch for Your Surf and Yoga Experience</title>
+    <meta name="description" content="Connect with Salty Waves for any inquiries or bookings. Our dedicated team is here to assist you in planning your dream surf and yoga experience. Reach out to us for accommodation details, package information, or any other questions. We look forward to welcoming you to Salty Waves!">
+    <meta property="og:title" content="Contact Salty Waves - Get in Touch for Your Surf and Yoga Experience">
+    <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
+
     @include('layout.head')
 </head>
 

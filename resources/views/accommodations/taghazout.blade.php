@@ -3,7 +3,11 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>SALTY WAVES - TAGHAZOUT</title>
+    <title>Salty Waves in Taghazout - Coastal Bliss</title>
+    <meta name="description" content="Explore the charm of Taghazout with Salty Waves. Discover our cozy accommodations nestled in the heart of Taghazout, offering breathtaking views and easy access to the best surf spots. Immerse yourself in the Taghazout experience and book your stay with Salty Waves today!">
+    <meta property="og:title" content="Salty Waves in Taghazout - Coastal Bliss">
+    <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
+
     @include('layout.head')
 </head>
 
