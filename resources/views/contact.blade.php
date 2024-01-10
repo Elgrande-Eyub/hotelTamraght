@@ -73,7 +73,7 @@
     <div id="contact" class="space-bottom">
         <div class="container">
 
-            <form action="{{ route('storeContact',['lang' => $lang]) }}" method="POST" class="contact-form">
+            <form id="contactnow" action="{{ route('storeContact',['lang' => $lang]) }}" method="POST" class="contact-form">
              @csrf
 
                 <h3 class="form-title">Make An Appointment</h3>
@@ -112,13 +112,32 @@
                         <textarea name="message" id="message" cols="30" rows="3" class="form-control style3" placeholder="Your Message*">{{ old('message') }}</textarea>
                         <i class="fal fa-pencil"></i>
                     </div>
-                     <div class="form-btn col-12"><button class="ot-btn">Send Message Now</button></div>
+                     {{-- <div class="form-btn col-12"><button class="ot-btn">Send Message Now</button></div> --}}
+                     <div class="form-btn">
+                        <button class="ot-btn" id="bookNowBtn">
+                            <i class="submit-spin"></i> Send Message Now
+                        </button>
+                    </div>
                 </div>
                 <p class="form-messages mb-0 mt-3"></p>
             </form>
         </div>
     </div>
+    <script>
+        $(document).ready(function () {
+            // Intercept form submission
+            $('#bookNowBtn').click(function (event) {
+                event.preventDefault();
+                $('.submit-spin').addClass('fa fa-spinner fa-spin');
 
+                setTimeout(function () {
+
+                    $('#contactnow').submit();
+
+                }, 1000);
+            });
+        });
+    </script>
    @include('layout.footer')
 
 </body>
