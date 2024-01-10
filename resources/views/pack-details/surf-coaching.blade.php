@@ -120,7 +120,7 @@
                                     aria-selected="false">About</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab"
                                     data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan"
-                                    aria-selected="false">Plan</a></li>
+                                    aria-selected="false">Program</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab"
                                     data-bs-toggle="tab" href="#about" role="tab" aria-controls="about"
                                     aria-selected="false">Included</a></li>
@@ -198,12 +198,7 @@
                                             <div id="collapse-1" class="accordion-collapse collapse"
                                                 aria-labelledby="collapse-item-1" data-bs-parent="#planAccordion">
                                                 <div class="accordion-body">
-                                                    <p class="faq-text">Initiate your day with an optional morning yoga
-                                                        session, available at 08:00 for an additional fee. Allow the
-                                                        soothing sounds of nature and the expert guidance of our
-                                                        experienced yoga instructor to guide you through invigorating
-                                                        poses, breathing exercises, and meditation. Embrace the
-                                                        tranquility and set a positive tone for the day.</p>
+                                                    <p class="faq-text">Arrive and settle in, taking in the peaceful surroundings and anticipating the exciting day ahead.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -215,10 +210,7 @@
                                             <div id="collapse-2" class="accordion-collapse collapse show"
                                                 aria-labelledby="collapse-item-2" data-bs-parent="#planAccordion">
                                                 <div class="accordion-body">
-                                                    <p class="faq-text">Following the rejuvenating yoga session, join
-                                                        us for a relaxed breakfast. Savor a nutritious meal that caters
-                                                        to various dietary preferences, preparing you for the exciting
-                                                        day ahead.</p>
+                                                    <p class="faq-text">Join us for a relaxed breakfast after a peaceful morning. Savor a nutritious meal that caters to various dietary preferences, preparing you for the exhilarating activities planned for the day.</p>
                                                 </div>
                                             </div>
                                         </div>

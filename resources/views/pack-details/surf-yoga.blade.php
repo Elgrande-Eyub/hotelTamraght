@@ -124,7 +124,7 @@
 
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn active" id="description-tab" data-bs-toggle="tab" href="#tourDescription" role="tab" aria-controls="tourDescription" aria-selected="true">Description</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="www-tab" data-bs-toggle="tab" href="#www" role="tab" aria-controls="www" aria-selected="false">About</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Plan</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab" data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan" aria-selected="false">Program</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">Included</a></li>
                           </ul>
                         <div class="tab-content" id="productTabContent">
