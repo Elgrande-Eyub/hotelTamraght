@@ -4,18 +4,8 @@
 <head>
     @include('layout.head')
     <title>Salty Waves - Best Surf Camp & Yoga Retreats in Tamraght and Taghazout, Morocco</title>
-    <meta name="description"
-        content="Unwind, reconnect, and surf your worries away. Salty Waves offers unforgettable surf & yoga experiences in Tamraght and Tagahzout. Book your adventure today!">
-    <meta name="keywords"
-        content="
-    surf, yoga, retreat, Morocco, accommodation,surf lessons Agadir,Tamraght yoga camp,
-    tamraght accommodation Agadir,surf package,yoga package,surf classe,yoga classe, surf camp,yoga camp,stay only,
-    taghazout,taghazout accommodation,Taghazout Surf,taghazout offer,tamraght offer,surf lessons,booking,tamraght reservation,booking taghazout,waves,salty,
-    agadir surf,agadir yoga , agadir surf,best agadir Beaches,best morocco Beaches,best Beaches for surf
-    packages, surfing, yoga classes, mindfulness, relaxation,
-    tamraght,waves,surf Waves,salty waves surf">
     <meta property="og:title" content="Salty Waves - Best Surf Camp & Yoga Retreats in Tamraght and Taghazout, Morocco">
-    <meta property="og:image" content="{{ asset('assets/img/favicons/ms-icon-144x144.png') }}">
+    <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
 
 </head>
 
