@@ -15,7 +15,7 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bgT.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title" >Hostel Tamraght </h1>
+                <h1 class="breadcumb-title" >Hostel Tamraght</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li><a href="{{ route('accommodations', ['lang' => $lang]) }}">Accommodations</a></li>
@@ -297,14 +297,8 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
-                    <div class="tour-location"> <h3 class="inner-title">About this space</h3>
-                        <p class="mt-n2 mb-4 text-justify">
-                            Our house is a riad with a beautiful courtyard and a magnificent terrace with barbecue.
-                            The terrace upstairs offers three different seating areas and downstairs courtyard additionally a traditional seating area.
-                            The following rooms are located on the ground floor:
-                            A kitchen , a bedroom with a double bed for 2 people , a living room with sleeping facilities for 2 people as well as a bathroom with shower and the magnificent courtyard.
-                        </p>
-                        <h3>Guest access</h3>
+                    <div class="tour-location">
+                         <h4 class="inner-title">Hostel Tamraght</h4>
                         <p class="mb-4 text-justify">Welcome to our surf hostel in Tamraght, just 700 meters from the enchanting Imourane beach! Our beautifully decorated house spans three floors and two rooftop terraces with breathtaking views of the sea and mountains.
 
                            <p class="mb-4 text-justify">In just 10 minutes on foot, you can reach the beach, and within 5 minutes, discover the many cozy cafes and restaurants in the vicinity. Our accommodation features three double rooms, two with a sea view, as well as a dormitory with four beds. The dormitory boasts a terrace with a splendid view of the sea, the town, and the surrounding mountains.
