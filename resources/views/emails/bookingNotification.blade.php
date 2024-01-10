@@ -280,6 +280,32 @@
                  </tr>
                </table>
 
+
+               <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
+                <tr>
+                  <td style="padding-top: 24px; padding-bottom: 24px;">
+                    <div style="background-color: #edf2f7; height: 2px; line-height: 2px;">&zwnj;</div>
+                  </td>
+                </tr>
+              </table>
+
+
+
+
+                 <h4 style="color: #000;font-weight: 600;">
+                    Please review the guest's request at your earliest convenience and decide on the next steps. You can access the full message and guest information through the CRM system Pages
+
+                    <br><br>
+                    We recommend responding to the guest within 24 hours to maintain a positive experience.
+                    <br><br>
+                    Thank you for your attention to this request. We're excited to help you connect with potential guests and grow your Salty Waves community!
+                    <br><br>
+                    Sincerely,
+                    <br><br>
+                    Salty Waves Automation
+
+                 </h4>
+
              </td>
            </tr>
          </table>
