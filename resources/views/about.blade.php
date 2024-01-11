@@ -39,7 +39,7 @@
                         <br><br>In Tamraght we invite you to stay in our beautiful surf-camp, where we take pride in providing not just accommodation, but a lifestyle. It's a vibrant hub for surfers and like-minded travelers seeking an immersive experience on the waves and a lively community atmosphere. Whether you're a seasoned surfer or a beginner eager to catch your first wave, our surf camp is the perfect basecamp for surf enthusiasts of all levels. that's not all, at our surf camp, we also offer invigorating yoga activities to complement your surfing experience.
                         <br><br>check out our Surf packages for more information and feel free to contact us, if you have any questions.
                         </p>
-                    <a href=" {{ route('packages', ['lang' => $lang]) }}" class="ot-btn booknow-btn">Book Your Package</a>
+                    <a href=" {{ route('packages', ['lang' => $lang]) }}" class="ot-btn booknow-btn">Check Our Packages</a>
 
             </div>
             <div class="col-xl-6 mt-40 mt-xl-0">

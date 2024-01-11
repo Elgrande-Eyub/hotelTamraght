@@ -306,7 +306,8 @@
                            <p class="mb-4 text-justify">With three bathrooms, three kitchens, and a reception, our house is well-equipped. The spacious Moroccan-style living room is perfect for reading, relaxing, and watching TV together.
                         </p>
                         <p class="mb-4 text-justify">The highlight of our hostel is the rooftop terrace at the very top – ideal for a leisurely breakfast or dinner with a rich selection of healthy dishes. We spoil you with freshly cooked specialties, including vegetarian delights and typical Moroccan dishes like the popular Tagine. Welcome to your home away from home – here, you experience a surf vacation with style and comfort!</p>
-                            </p></div>
+                            </p>
+                        </div>
                 </div>
                 <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
                     <div class="tour-location">

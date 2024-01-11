@@ -328,12 +328,14 @@
                 </div>
                 <div class="tab-pane fade" id="www" role="tabpanel" aria-labelledby="www-tab">
                     <div class="tour-location">
-                        <h4 class="inner-titl e">About this space</h4>
-                        <p class="mt-n2 mb-4 text-justify">
-                            apartment located in a residence with beautiful ocean views and direct access to the beach
-                            5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. Many activities await you: Surfing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
-                        </p>
 
+
+
+                           <h4 class="inner-title">About Surf Camp Hostel Tamraght</h4>
+                           <p class="mb-4 text-justify">Welcome to our surf hostel in Tamraght, just 700 meters from the enchanting Imourane beach! Our beautifully decorated house spans three floors and two rooftop terraces with breathtaking views of the sea and mountains.
+
+                            <p class="mb-4 text-justify">In just 10 minutes on foot, you can reach the beach, and within 5 minutes, discover the many cozy cafes and restaurants in the vicinity. Our accommodation features three double rooms, two with a sea view, as well as a dormitory with four beds. The dormitory boasts a terrace with a splendid view of the sea, the town, and the surrounding mountains.
+                         </p>
                         <div id="carouselExampleInterval" class="carousel slide mb-4" data-bs-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active" data-bs-interval="3000">
@@ -361,10 +363,10 @@
                               <span class="visually-hidden">Next</span>
                             </button>
                           </div>
-                          <h4>The space</h4>
-                        <p class="mb-30 text-justify">apartment located in a residence with beautiful ocean views and direct access to the beach
-                            5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. There are plenty of activities waiting for you: sailing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
+                          <p class="mb-4 text-justify">With three bathrooms, three kitchens, and a reception, our house is well-equipped. The spacious Moroccan-style living room is perfect for reading, relaxing, and watching TV together.
                         </p>
+                        <p class="mb-4 text-justify">The highlight of our hostel is the rooftop terrace at the very top – ideal for a leisurely breakfast or dinner with a rich selection of healthy dishes. We spoil you with freshly cooked specialties, including vegetarian delights and typical Moroccan dishes like the popular Tagine. Welcome to your home away from home – here, you experience a surf vacation with style and comfort!</p>
+                            </p>
                     </div>
                 </div>
 
