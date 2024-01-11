@@ -191,7 +191,7 @@
                         <div class="tour-offer__top">
                             <div>
                                 <h3 class="tour-offer__title box-title"><a
-                                        href="{{ route('surf-coaching', ['lang' => $lang]) }}">popular SURF COACHING
+                                        href="{{ route('basic-coaching', ['lang' => $lang]) }}">popular SURF COACHING
                                         Pack</a></h3><span class="tour-offer__subtitle"
                                     style="color: white">Popular</span>
                             </div><span class="tour-offer__price"><span class="price"
