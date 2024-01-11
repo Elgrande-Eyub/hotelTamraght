@@ -24,8 +24,36 @@
             </div>
         </div>
     </div>
-    <div class="space">
+
+    </div>
+    <div class="overflow-hidden bg-smoke space">
         <div class="container">
+            <div class="row">
+                <div class="col-xl-6 pe-xxl-5 text-center text-xl-start">
+                    <div class="title-area mb-35"><span class="sub-title justify-content-center justify-content-xl-start"><span class="shape left d-inline-block d-xl-none"><span class="dots"></span></span> Salty Waves Bored ? <span class="shape right"><span class="dots"></span></span>
+                        </span>
+                        <h2 class="sec-title">The Perfect Place For You & Your Family</h2>
+                    </div>
+                    <p class="mt-n2 mb-40 text-justify">
+                        Welcome to Salty Waves - your gateway to the perfect coastal retreat in Taghazout and Tamraght! Experience with us the charm and captivating beauty of these idyllic and popular Moroccan villages.
+                        <br><br>In Tamraght we invite you to stay in our beautiful surf-camp, where we take pride in providing not just accommodation, but a lifestyle. It's a vibrant hub for surfers and like-minded travelers seeking an immersive experience on the waves and a lively community atmosphere. Whether you're a seasoned surfer or a beginner eager to catch your first wave, our surf camp is the perfect basecamp for surf enthusiasts of all levels. that's not all, at our surf camp, we also offer invigorating yoga activities to complement your surfing experience.
+                        <br><br>check out our Surf packages for more information and feel free to contact us, if you have any questions.
+                        </p>
+                    <a href=" {{ route('packages', ['lang' => $lang]) }}" class="ot-btn booknow-btn">Book Your Package</a>
+
+            </div>
+            <div class="col-xl-6 mt-40 mt-xl-0">
+                <div class="img-box2">
+                    <div class="img1"><img src="{{ asset('assets/img/normal/about_2_1.png') }}" alt="About"></div>
+                    <div class="ot-video" data-overlay="title" data-opacity="2"><img src="{{ asset('assets/img/normal/about_2_2.jpg') }}" alt="Video"> <a href="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12" class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
+                    <div class="shape1"><img src="{{ asset('assets/img/normal/about_shape_2.svg') }}" alt="shape"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="space ">
+        <div class="container" style="margin-bottom: 5rem">
             <div class="row">
                 <div class="col-xl-6">
                     <div class="img-box1">
@@ -35,11 +63,11 @@
                     </div>
                 </div>
                 <div class="col-xl-6 pe-xl-4">
-                    <div class="title-area mb-35"><span class="sub-title">About Us <span class="shape right"><span class="dots"></span></span>
+                    <div class="title-area mb-35"><span class="sub-title">About Taghazout Waves <span class="shape right"><span class="dots"></span></span>
                         </span>
-                        <h2 class="sec-title">Taghazout Or Tamraght ? Who Cares</h2>
+                        <h2 class="sec-title">The Perfect Place For You & Your Family</h2>
                     </div>
-                    <p class="mt-n2 mb-35 text-justify">Experience the best of both aghazout and Tamraght with our surf hostel, traditional Riad and apartments with direct view to the sea - because here, it doesn't matter which coastal gem you choose. Embrace the laid-back vibes of Tamraght or the vibrant hustle of Taghazout , all from the comfort of your cozy abode. Whether you're a surfer chasing the perfect wave or a traveler seeking tranquility, our accommodations is your gateway to the beauty of both Taghazout and Tamraght. Your adventure begins here, where choices become possibilities and memories are made effortlessly</p>
+                    <p class="mt-n2 mb-35 text-justify">In Taghazout we offer you a selection of the finest accommodations, ensuring that your stay in this beautiful village will be nothing but extraordinary. Whether you're seeking a charming riad nestled in the heart of Taghazout or a beautiful beach-apartment allowing you to waking up to the soothing sounds of the ocean, we have the perfect accommodation to make you experience the best of Taghazout. If you´re looking for more than just a place to sleep, we also offer you a range of activities like surfing, sandboarding or day trips to popular places nearby like Paradise Valley, Imsouane and many more. You can simply contact us and tell us which activities you are interested in. We will then immediately get back to you for more details. </p>
                     <div
                         class="about-media-wrap">
                         <div class="about-media" style="    width: 100%;max-width: none;">
@@ -67,56 +95,13 @@
                             <div class="customer-avater"><img src="{{ asset('assets/img/normal/avater_1_4.jpg') }}" alt="avater"></div>
                         </div>
                         <p class="mb-0"><span class="text-theme fs-md fw-bold">2800+</span> Happy Customer</p>
+                        <a href=" {{ route('accommodations', ['lang' => $lang]) }}" class="ot-btn booknow-btn">Book Your Stay</a>
+
                     </div>
+
                 </div>
             </div>
         </div>
-    </div>
-    </div>
-    <div class="overflow-hidden bg-smoke space">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 pe-xxl-5 text-center text-xl-start">
-                    <div class="title-area mb-35"><span class="sub-title justify-content-center justify-content-xl-start"><span class="shape left d-inline-block d-xl-none"><span class="dots"></span></span> Salty Waves Bored ? <span class="shape right"><span class="dots"></span></span>
-                        </span>
-                        <h2 class="sec-title">The Perfect Place For You & Your Family</h2>
-                    </div>
-                    <p class="mt-n2 mb-40 text-justify">Explore the coastal gems of Tamraght and Taghazout, where 'The Perfect Place' awaits to elevate your family getaway. Nestled in the heart of these charming Moroccan villages, our haven offers an unparalleled experience blending the laid-back atmosphere of Tamraght and the vibrant surf culture of Taghazout. Immerse your family in the thrill of surfing on world-renowned waves, embark on captivating trips to nearby scenic spots, and unwind with rejuvenating yoga sessions. At 'The Perfect Place,' every day is an adventure, and every moment is a cherished memory in the making.</p>
-                    {{-- <div
-                        class="skill-feature">
-                        <h3 class="skill-feature_title">Relaxing And Enjoying</h3>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 100%;">
-                                <div class="progress-value">100%</div>
-                            </div>
-                        </div>
-                </div>
-                <div class="skill-feature">
-                    <h3 class="skill-feature_title">Activities</h3>
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 100%;">
-                            <div class="progress-value">100%</div>
-                        </div>
-                    </div>
-                </div>
-                 <div class="skill-feature">
-                    <h3 class="skill-feature_title">Destinations Around</h3>
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 100%;">
-                            <div class="progress-value">100%</div>
-                        </div>
-                    </div>
-                </div> --}}
-            </div>
-            <div class="col-xl-6 mt-40 mt-xl-0">
-                <div class="img-box2">
-                    <div class="img1"><img src="{{ asset('assets/img/normal/about_2_1.png') }}" alt="About"></div>
-                    <div class="ot-video" data-overlay="title" data-opacity="2"><img src="{{ asset('assets/img/normal/about_2_2.jpg') }}" alt="Video"> <a href="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12" class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
-                    <div class="shape1"><img src="{{ asset('assets/img/normal/about_shape_2.svg') }}" alt="shape"></div>
-                </div>
-            </div>
-        </div>
-    </div>
     </div>
     <div class="bg-dark2 py-5">
         <div class="container py-4">
