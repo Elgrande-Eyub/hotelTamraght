@@ -70,7 +70,7 @@ class NotificationResource extends Resource
                 Tables\Actions\Action::make('Inactive/Active')->label('Switch Status')->hidden(fn($record)=>$record->trashed())
                 ->icon('heroicon-m-cursor-arrow-rays')
                 ->action(function ($record): void {
-                    if(notification::count() <= 1){
+                    if(notification::count() <= 1 ){
                         notify::make()
                         ->danger()
                         ->title('You Cannot Make Last Record Inactive')
@@ -78,6 +78,16 @@ class NotificationResource extends Resource
                         ->send();
                         return;
                     }
+
+                    if(notification::where('active',1)->count() == 1 & $record->active == 1){
+                        notify::make()
+                        ->danger()
+                        ->title('You Cannot Make Last Record Inactive1')
+                        ->body('Must be one email at least in the system1')
+                        ->send();
+                        return;
+                    }
+
                     $record->active = !$record->active;
                     $record->save();
                 }),
