@@ -13,7 +13,7 @@
 
 <body>
     @include('layout.header')
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/basic-surf-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Basic SURF COACHING Package</h1>
