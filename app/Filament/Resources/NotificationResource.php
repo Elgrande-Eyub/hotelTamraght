@@ -82,8 +82,8 @@ class NotificationResource extends Resource
                     if(notification::where('active',1)->count() == 1 & $record->active == 1){
                         notify::make()
                         ->danger()
-                        ->title('You Cannot Make Last Record Inactive1')
-                        ->body('Must be one email at least in the system1')
+                        ->title('You Cannot Make Last Record Inactive')
+                        ->body('Must be one email at least in the system')
                         ->send();
                         return;
                     }
