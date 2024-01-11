@@ -4,7 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\NotificationResource\Pages;
 use App\Filament\Resources\NotificationResource\RelationManagers;
-use App\Models\notification;
+ use App\Models\notification ;
 use Filament\Forms;
 use Filament\Forms\Components\DatePicker;
 use Filament\Forms\Components\Select;
@@ -18,6 +18,7 @@ use Filament\Tables\Filters\Filter;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+ use Filament\Notifications\Notification as notify;
 
 class NotificationResource extends Resource
 {
@@ -29,7 +30,7 @@ class NotificationResource extends Resource
     {
         return $form
             ->schema([
-                TextInput::make('email')->required()->email(),
+                TextInput::make('email')->required()->email()->unique(ignoreRecord:true),
                 Select::make('active')
                 ->options([
                     1 => 'Active',
@@ -66,16 +67,42 @@ class NotificationResource extends Resource
             })
             ])
             ->actions([
-                Tables\Actions\Action::make('Inactive/Active')->label('Switch Status')
+                Tables\Actions\Action::make('Inactive/Active')->label('Switch Status')->hidden(fn($record)=>$record->trashed())
                 ->icon('heroicon-m-cursor-arrow-rays')
                 ->action(function ($record): void {
+                    if(notification::count() <= 1){
+                        notify::make()
+                        ->danger()
+                        ->title('You Cannot Make Last Record Inactive')
+                        ->body('Must be one email at least in the system')
+                        ->send();
+                        return;
+                    }
                     $record->active = !$record->active;
                     $record->save();
                 }),
                 Tables\Actions\EditAction::make()->hidden(fn($record)=>$record->trashed()),
                 Tables\Actions\RestoreAction::make(),
                 Tables\Actions\ForceDeleteAction::make(),
-                Tables\Actions\DeleteAction::make()->label('Archive'),
+                Tables\Actions\DeleteAction::make()->label('Archive')
+                ->action(function($record){
+                    if(notification::count() <= 1){
+                        notify::make()
+                        ->danger()
+                        ->title('You Cannot Delete Last Record')
+                        ->body('Must be one email at least in the system')
+                        ->send();
+                        return;
+                    }
+                     $record->delete();
+
+                     if(notification::count() == 1){
+                        $email = notification::first();
+                        $email->active = 1;
+                        $email->save();
+                     }
+             })
+
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
