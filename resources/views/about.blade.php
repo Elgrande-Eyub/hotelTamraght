@@ -32,7 +32,7 @@
                 <div class="col-xl-6 pe-xxl-5 text-center text-xl-start">
                     <div class="title-area mb-35"><span class="sub-title justify-content-center justify-content-xl-start"><span class="shape left d-inline-block d-xl-none"><span class="dots"></span></span> Salty Waves Bored ? <span class="shape right"><span class="dots"></span></span>
                         </span>
-                        <h2 class="sec-title">The Perfect Place For You & Your Family</h2>
+                        <h2 class="sec-title">More than a Surf Camp : Beyond the Waves</h2>
                     </div>
                     <p class="mt-n2 mb-40 text-justify">
                         Welcome to Salty Waves - your gateway to the perfect coastal retreat in Taghazout and Tamraght! Experience with us the charm and captivating beauty of these idyllic and popular Moroccan villages.
