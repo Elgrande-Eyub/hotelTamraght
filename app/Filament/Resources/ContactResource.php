@@ -100,6 +100,7 @@ class ContactResource extends Resource
                 Tables\Actions\RestoreAction::make(),
 
                 ActionsAction::make('outgoing')->label('Send Email')->hidden(fn($record)=>$record->trashed())
+                ->disabled()
                 ->icon('heroicon-o-envelope')
                 ->color('gray')
                 ->model(inbox::class)

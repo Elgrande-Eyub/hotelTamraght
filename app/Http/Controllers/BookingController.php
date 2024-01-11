@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\booking as MailBooking;
 use App\Mail\bookingSystem;
 use App\Models\booking;
+use App\Models\notification;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -141,7 +142,13 @@ class BookingController extends Controller
 
 
         Mail::to($booking->email)->send(new MailBooking($booking));
-        Mail::to('info@salty-wave.com')->send(new bookingSystem($booking));
+
+        $emails = notification::where('active',true)->get();
+        foreach($emails as $email){
+            Mail::to($email->email)->send(new bookingSystem($booking));
+        }
+
+
 
         DB::commit();
         if($lang == 'fr'){

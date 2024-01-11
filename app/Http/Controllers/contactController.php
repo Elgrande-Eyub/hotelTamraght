@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\contactForm;
 use App\Mail\notifyContactOwner;
 use App\Models\contact;
+use App\Models\notification;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -60,7 +61,12 @@ class contactController extends Controller
             $Contact->save();
 
             Mail::to($Contact->email)->send(new contactForm($Contact));
-            Mail::to('info@salty-wave.com')->send(new notifyContactOwner($Contact));
+
+
+            $emails = notification::where('active',true)->get();
+            foreach($emails as $email){
+                Mail::to($email->email)->send(new notifyContactOwner($Contact));
+            }
 
             DB::commit();
             if($lang == 'fr'){
