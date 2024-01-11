@@ -294,7 +294,8 @@
                         <h3>The space</h3>
                         <p class="mb-30">apartment located in a residence with beautiful ocean views and direct access to the beach
                             5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. There are plenty of activities waiting for you: sailing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
-                        </p></div>
+                        </p>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
                     <div class="tour-location">

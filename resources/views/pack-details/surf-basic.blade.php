@@ -122,7 +122,7 @@
                                     aria-controls="tourDescription" aria-selected="true">Description</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="www-tab"
                                     data-bs-toggle="tab" href="#www" role="tab" aria-controls="www"
-                                    aria-selected="false">About</a></li>
+                                    aria-selected="false">Surf House</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link ot-btn" id="plan-tab"
                                     data-bs-toggle="tab" href="#plan" role="tab" aria-controls="plan"
                                     aria-selected="false">Program</a></li>
@@ -339,20 +339,43 @@
                             </div>
                             <div class="tab-pane fade" id="www" role="tabpanel" aria-labelledby="www-tab">
                                 <div class="tour-location">
-                                    <h4 class="inner-title">About this Package</h4>
-                                    <p class="text-justify">
-                                        Indulge in a week-long experience in Morocco's coastal paradise with our Surf and Meals Package. Choose your haven—solo surfers' Dormitory Rooms for an unbeatable value of €455 for 7 nights, or elevate your stay to the luxurious Surf Buddies - Deluxe Rooms at €1010 for a week of indulgence and comfort.
-                                        <br>
-                                        <strong>Check-In Time: 14:00</strong> | <strong>Check-Out Time: 12:00</strong>
-                                        <br><br>
-                                        Immerse yourself in 6 thrilling surf lessons with expert instructors, gear up with board and wetsuit rentals, and explore top surf spots with included transfers.
-                                        <br><strong>Skill Level : </strong> Beginner | Intermediate | Advanced
-                                        <br><br>
-                                        Delight your taste buds with daily breakfast, lunch, and dinner featuring authentic Moroccan cuisine.
-                                        <br><br>
-                                        Enjoy worry-free travel with included airport and bus transfers, ensuring a smooth arrival and departure experience.
+                                    <h4 class="inner-titl e">About this space</h4>
+                                    <p class="mt-n2 mb-4 text-justify">
+                                        apartment located in a residence with beautiful ocean views and direct access to the beach
+                                        5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. Many activities await you: Surfing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
                                     </p>
-                                    <p>Book now and secure your spot today to embark on an unforgettable surfing journey along the captivating Moroccan coast!</p>
+
+                                    <div id="carouselExampleInterval" class="carousel slide mb-4" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active" data-bs-interval="3000">
+                                            <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main.jpg') }}" class="d-block w-100" alt="Surf Riad Photos">
+                                          </div>
+                                          <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-1.jpg') }}" class="d-block w-100" alt="Surf Riad Photos">
+                                          </div>
+                                          <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-2.jpg') }}" class="d-block w-100" alt="Surf Riad Photos">
+                                          </div>
+                                          <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-3.jpg') }}" class="d-block w-100" alt="Surf Riad Photos">
+                                          </div>
+                                          <div class="carousel-item" data-bs-interval="3000">
+                                            <img src="{{ asset('assets/img/accommodations/tamraght-hostle/main-4.jpg') }}" class="d-block w-100" alt="Surf Riad Photos">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                                      <h4>The space</h4>
+                                    <p class="mb-30 text-justify">apartment located in a residence with beautiful ocean views and direct access to the beach
+                                        5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. There are plenty of activities waiting for you: sailing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
+                                    </p>
                                 </div>
                             </div>
 
