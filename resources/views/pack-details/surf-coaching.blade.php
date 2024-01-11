@@ -78,11 +78,11 @@
                             <div id="carouselExampleInterval1" class="carousel slide tour-img" data-bs-ride="carousel">
                                 <div class="carousel-inner" style="border-radius: 10px">
                                     <div class="carousel-item active" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/packages/surfnyoga/surf-1.jpg') }}"
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/surf-2.jpg') }}"
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/packages/surfnyoga/surf-2.jpg') }}"
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/surf-1.jpg') }}"
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3500">
