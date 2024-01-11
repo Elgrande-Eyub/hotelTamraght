@@ -202,6 +202,27 @@
                 </div>
             </div>
 
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="tour-offer">
+                    <div class="tour-offer__img"><img
+                            src="{{ asset('assets/img/surfnstays/basiccoachingposter.jpg') }}" alt="Tour Image"> <span
+                            class="tour-offer__tag">45% Off</span></div>
+                    <div class="tour-offer__content">
+                        <div class="tour-offer__top">
+                            <div>
+                                <h3 class="tour-offer__title box-title"><a
+                                        href="{{ route('surf-coaching', ['lang' => $lang]) }}">Basic SURF COACHING
+                                        Pack</a></h3><span class="tour-offer__subtitle"
+                                    style="color: white">Basic</span>
+                            </div><span class="tour-offer__price"><span class="price"
+                                    style="color: white">€{{ config('global.standardBasicPrice') }}</span></span>
+                        </div>
+                        <p class="tour-offer__text"></p>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </section>
 

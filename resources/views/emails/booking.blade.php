@@ -164,7 +164,14 @@
                   </tr>
                 @endif
 
-                @if($booking->accommodation== "Hostle Tamraght" & ($booking->surfcoaching || $booking->surfyoga) != true )
+                @if($booking->pack!="" & $booking->accommodation != "Hostle Tamraght")
+                <tr>
+                    <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Packages Selected</td>
+                    <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->pack }}</td>
+                </tr>
+                @endif
+
+                @if($booking->accommodation== "Hostle Tamraght" & ($booking->surfcoaching || $booking->surfyoga || $booking->surfbasic) != true )
                 <tr>
                     <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Package Selected</td>
                     <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->pack }}</td>
@@ -206,6 +213,20 @@
                         <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Types</td>
                         <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->soloyoga }}, {{ $booking->buddiesyoga }}</td>
                     </tr>
+
+                    @endif
+
+                    @if($booking->surfbasic == true)
+                    <tr>
+                        <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Package Selected</td>
+                        <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">Basic Surf Coaching Package</td>
+                    </tr>
+                    <tr>
+                        <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Types</td>
+                        <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">{{ $booking->solobasic }}, {{ $booking->buddiesbasic }}</td>
+                    </tr>
+
+
 
                     @endif
 

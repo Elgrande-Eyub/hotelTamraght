@@ -112,6 +112,13 @@ class BookingController extends Controller
                     $booking->buddiesyoga = $request->input('buddiesyoga');
                     $booking->soloyoga = $request->input('soloyoga');
                 }
+
+                if(($request->input('buddiesbasic') || $request->input('solobasic')) != ""){
+                    $booking->pack = "Basic Surf Coaching Package";
+                    $booking->surfbasic = true;
+                    $booking->buddiesbasic = $request->input('buddiesbasic');
+                    $booking->solobasic = $request->input('solobasic');
+                }
             }
 
 

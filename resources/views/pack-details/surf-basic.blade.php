@@ -3,9 +3,9 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-    <title>Salty Waves Surf Coaching Package - Improve Your Skills</title>
+    <title>Salty Waves Basic Surf Coaching Package - Improve Your Skills</title>
     <meta name="description" content="Enhance your surfing skills with Salty Waves' Surf Coaching Package. Dive into personalized coaching sessions, master the waves with experienced instructors, and enjoy a comfortable stay in our coastal accommodations. Elevate your surf game and make the most of your surfing journey. Book your coaching package today!">
-    <meta property="og:title" content="Salty Waves Surf Coaching Package - Improve Your Skills">
+    <meta property="og:title" content="Salty Waves Basic Surf Coaching Package - Improve Your Skills">
     <meta property="og:image" content="{{ asset('assets/img/logo/icon.png') }}">
 
     @include('layout.head')
@@ -16,11 +16,11 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Popular SURF COACHING Package</h1>
+                <h1 class="breadcumb-title">Basic SURF COACHING Package</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li><a href="{{ route('packages', ['lang' => $lang]) }}">Packages</a></li>
-                    <li>Popular SURF COACHING Package</li>
+                    <li>Basic SURF COACHING Package</li>
                 </ul>
             </div>
         </div>
@@ -32,8 +32,8 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title " style="margin: 0">
-                                <p style="margin: 0"> POPULAR 7 NIGHTS SURF COACHING PACKAGE <span
-                                        style="color: #015292"> - €609</span></p>
+                                <p style="margin: 0">7 NIGHTS Basic SURF COACHING PACKAGE <span
+                                        style="color: #015292"> - €455</span></p>
 
                             </h2><br>
                             <div class="meta-box-wrap">
@@ -86,21 +86,22 @@
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/packages/surfnyoga/trip-1.jpg') }}"
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/surf-3.jpg') }}"
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/packages/surfnyoga/trip-2.jpg') }}"
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/surf-4.jpg') }}"
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/packages/surfnyoga/sandboarding-1.jpg') }}"
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/surf-5.jpg') }}"
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3500">
-                                        <img src="{{ asset('assets/img/packages/surfnyoga/sandboarding-2.jpg') }}"
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/surf-6.jpg') }}"
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
+
                                 </div>
                                 <button class="carousel-control-prev" type="button"
                                     data-bs-target="#carouselExampleInterval1" data-bs-slide="prev">
@@ -134,58 +135,34 @@
                                 aria-labelledby="description-tab">
                                 <div class="tour-description">
 
-                                    <div class="description-table-wrap">
-                                        <p>Join us for an incredible week-long Surf Coaching Package nestled in the
-                                            heart of Morocco's coastal paradise.</p>
-                                        <table class="description-table">
-                                            <tbody>
-                                                <tr>
-                                                    <th>Accommodation Options</th>
-                                                    <td>Choose your haven—solo surfers' Dormitory Rooms for an
-                                                        unbeatable value of €609 for 7 nights, or elevate your stay to
-                                                        the luxurious Surf Buddies - Deluxe Rooms at €1320 for a week of
-                                                        indulgence and comfort.
-                                                        <br>
-                                                        <strong>Check-In Time: 14:00</strong> | <strong>Check-Out Time:
-                                                            12:00</strong>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Surfing Adventure</th>
-                                                    <td>Enjoy 6 thrilling surf lessons with expert instructors ,gear up
-                                                        with board and wetsuit rentals and let us take you to the top
-                                                        surf spots with included transfers.
-                                                        <br><strong>Skill Level : </strong> Beginner | Intermediate |
-                                                        Advanced
-                                                    </td>
-                                                </tr>
 
-                                                <tr>
-                                                    <th>Delicious Meals</th>
-                                                    <td>
-                                                        Delight your taste buds with daily breakfast, lunch, and dinner
-                                                        featuring authentic Moroccan cuisine.
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Seamless Transfers</th>
-                                                    <td>Enjoy worry-free travel with included airport and bus transfers,
-                                                        ensuring a smooth arrival and departure experience.</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Bonus Excursions</th>
-                                                    <td>Dive into adventure with a Paradise Valley day trip, complete
-                                                        with a scrumptious lunch and poolside relaxation at our
-                                                        restaurant. Plus, experience the thrill of sandboarding in the
-                                                        mesmerizing sand dunes. Don't miss a visit to the vibrant Agadir
-                                                        Market (Souk)!</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <p>Book now and Secure your spot today and embark on an unforgettable surfing
-                                            journey along the captivating Moroccan coast!</p>
+                                                <div class="description-table-wrap">
+                                                    <p>Indulge in a week-long experience in Morocco's coastal paradise with our Surf and Stay Package.</p>
+                                                    <table class="description-table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>Accommodation Options</th>
+                                                                <td>Choose your haven—solo surfers' Dormitory Rooms for an unbeatable value of €455 for 7 nights, or elevate your stay to the luxurious Surf Buddies - Deluxe Rooms at €1010 for a week of indulgence and comfort.
+                                                                    <br>
+                                                                    <strong>Check-In Time: 14:00</strong> | <strong>Check-Out Time: 12:00</strong>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Surfing Adventure</th>
+                                                                <td>Immerse yourself in 6 thrilling surf lessons with expert instructors, gear up with board and wetsuit rentals, and explore top surf spots with included transfers.
+                                                                    <br><strong>Skill Level : </strong> Beginner | Intermediate | Advanced
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>Delicious Meals</th>
+                                                                <td>Delight your taste buds with daily breakfast, lunch, and dinner featuring authentic Moroccan cuisine.
+                                                                </td>
+                                                            </tr>
 
-                                    </div>
+                                                        </tbody>
+                                                    </table>
+                                                    <p>Book now and secure your spot today to embark on an unforgettable surfing journey along the captivating Moroccan coast!</p>
+                                                </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="plan" role="tabpanel" aria-labelledby="plan-tab">
@@ -268,23 +245,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="accordion-card">
-                                            <div class="accordion-header" id="collapse-item-6"><button
-                                                    class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapse-6"
-                                                    aria-expanded="false" aria-controls="collapse-6">16:00 -
-                                                    18:30</button></div>
-                                            <div id="collapse-6" class="accordion-collapse collapse"
-                                                aria-labelledby="collapse-item-6" data-bs-parent="#planAccordion">
-                                                <div class="accordion-body">
-                                                    <p class="faq-text">Return home to refresh and prepare for the
-                                                        evening yoga session. Reflect on the day's adventures and
-                                                        rejuvenate your mind and body with a second session of yoga,
-                                                        scheduled for 18:30. The serene ambiance and guided practice
-                                                        provide the perfect way to unwind and find balance.</p>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                         <div class="accordion-card">
                                             <div class="accordion-header" id="collapse-item-7"><button
                                                     class="accordion-button collapsed" type="button"
@@ -327,13 +288,13 @@
                                                     + wetsuit)</strong></p>
                                         </div>
                                         <div class="align-items-center " style="display: flex;margin-top:10px;">
-                                            <p class="about-info"> <i class="fa-regular fa-plane"></i></p>
-                                            <p class="about-info"><strong>Airport transfers from/to Agadir</strong></p>
+                                            <p class="about-info"> <i class="fa-regular fa-plane" style="background-color: #922801"></i></p>
+                                            <p class="about-info"><strong>Airport transfers from/to Agadir (extra:€20/pp)</strong></p>
                                         </div>
                                         <div class="align-items-center" style="display: flex">
                                             <p class="about-info"> <i style="background-color: #922801"
                                                     class="fa-regular fa-xmark"></i></p>
-                                            <p class="about-info"><strong>7 x Yoga Classes (One Daily Session)</strong>
+                                            <p class="about-info"><strong>7 x Yoga Classes (One Daily Session) (extra:€10/class)</strong>
                                             </p>
                                         </div>
                                         <div class="align-items-center" style="display: flex">
@@ -341,19 +302,22 @@
                                             <p class="about-info"><strong>Surf spot transport</strong></p>
                                         </div>
                                         <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                            <p class="about-info"> <i style="background-color: #922801"
+                                                class="fa-regular fa-xmark"></i></p>
                                             <p class="about-info"><strong>Visit to Agadir market (Souk)</strong></p>
                                         </div>
                                         <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                            <p class="about-info"> <i style="background-color: #922801"
+                                                class="fa-regular fa-xmark"></i></p>
                                             <p class="about-info"><strong>Sandboarding in the Sand dunes</strong></p>
                                         </div>
                                         <div class="align-items-center" style="display: flex">
-                                            <p class="about-info"> <i class="fa-light fa-check"></i></p>
+                                            <p class="about-info"> <i style="background-color: #922801"
+                                                class="fa-regular fa-xmark"></i></p>
                                             <p class="about-info"><strong>Day trip to Paradise Valley</strong></p>
                                         </div>
                                         <div class="booknow" style="margin-top:5rem;justify-content:start;">
-                                            <a href="{{ asset('assets/img/surfnstays/surfnyoga.jpg') }}" download
+                                            <a href="{{ asset('assets/img/surfnstays/basicCoaching.jpg') }}" download
                                                 class="ot-btn booknow-btn" style="width:auto;">Download
                                                 INFOGRAPHIC</a>
                                         </div>
@@ -377,21 +341,21 @@
                                 <div class="tour-location">
                                     <h4 class="inner-title">About this Package</h4>
                                     <p class="text-justify">
-                                        Initiate your day with an optional morning yoga session, available at
-                                        <strong>08:00</strong> for an additional fee, followed by a relaxed breakfast at
-                                        approximately <strong>09:15</strong>. <br><br>
-                                        By <strong>10:00</strong>, set off for an invigorating surfing session and
-                                        personalized lessons guided by a seasoned surf instructor. Around
-                                        <strong>12:30</strong> or <strong>13:00</strong>, indulge in a beachside lunch
-                                        experience. Afterward, enjoy some leisure time, partake in games, or immerse
-                                        yourself in solo surfing practice in the water. <br><br>
-                                        Return home around <strong>16:00</strong> to prepare for the evening yoga
-                                        session slated for <strong>18:30</strong>. Conclude the day with a delightful
-                                        dinner at <strong>20:30</strong>.
-
+                                        Indulge in a week-long experience in Morocco's coastal paradise with our Surf and Meals Package. Choose your haven—solo surfers' Dormitory Rooms for an unbeatable value of €455 for 7 nights, or elevate your stay to the luxurious Surf Buddies - Deluxe Rooms at €1010 for a week of indulgence and comfort.
+                                        <br>
+                                        <strong>Check-In Time: 14:00</strong> | <strong>Check-Out Time: 12:00</strong>
+                                        <br><br>
+                                        Immerse yourself in 6 thrilling surf lessons with expert instructors, gear up with board and wetsuit rentals, and explore top surf spots with included transfers.
+                                        <br><strong>Skill Level : </strong> Beginner | Intermediate | Advanced
+                                        <br><br>
+                                        Delight your taste buds with daily breakfast, lunch, and dinner featuring authentic Moroccan cuisine.
+                                        <br><br>
+                                        Enjoy worry-free travel with included airport and bus transfers, ensuring a smooth arrival and departure experience.
                                     </p>
+                                    <p>Book now and secure your spot today to embark on an unforgettable surfing journey along the captivating Moroccan coast!</p>
                                 </div>
                             </div>
+
 
                         </div>
 
@@ -404,7 +368,7 @@
                             <div class="widget-tour-book">
                                 <div class="top">
                                     <h4 class="title">Book This Package</h4>
-                                    <p class="price">€87.00 per Night</p>
+                                    <p class="price">€65.00 per Night</p>
                                 </div>
                                 <form id="bookingForm" action="{{ route('bookingPost', ['lang' => $lang]) }}"
                                     method="POST" class="widget-form">
@@ -462,7 +426,7 @@
                                             <select name="pack" disabled="disabled" id="pack"
                                                 class="form-select nice-select">
                                                 <option value="" selected="selected" hidden>Package
-                                                    : Popular Surf Coaching Package</option>
+                                                    : Basic Surf Coaching Package</option>
 
                                             </select>
                                             <i class="fal fa-chevron-down"></i>
@@ -472,58 +436,58 @@
                                     <div class="row">
 
                                         <div class="form-group col-6 soloyoga ">
-                                            <select name="soloyoga" id="soloyoga" class="form-select nice-select ">
+                                            <select name="solobasic" id="soloyoga" class="form-select nice-select ">
                                                 <option value="" disabled="disabled" selected="selected"
                                                     hidden>Surf Solo</option>
                                                 <option value="1 Surf Solo"
-                                                    data-Solo="{{ config('global.solocoachingNightPrice') * 1 }}"
-                                                    {{ old('soloyoga') == '1 Surf Solo' ? 'selected' : '' }}>
+                                                    data-Solo="{{ config('global.solobasiccoachingNightPrice') * 1 }}"
+                                                    {{ old('solobasic') == '1 Surf Solo' ? 'selected' : '' }}>
                                                     1 Surf Solo</option>
                                                 <option value="2 Surf Solo"
-                                                    data-Solo="{{ config('global.solocoachingNightPrice') * 2 }}"
-                                                    {{ old('soloyoga') == '2 Surf Solo' ? 'selected' : '' }}>
+                                                    data-Solo="{{ config('global.solobasiccoachingNightPrice') * 2 }}"
+                                                    {{ old('solobasic') == '2 Surf Solo' ? 'selected' : '' }}>
                                                     2 Surf Solo</option>
                                                 <option value="3 Surf Solo"
-                                                    data-Solo="{{ config('global.solocoachingNightPrice') * 3 }}"
-                                                    {{ old('soloyoga') == '3 Surf Solo' ? 'selected' : '' }}>
+                                                    data-Solo="{{ config('global.solobasiccoachingNightPrice') * 3 }}"
+                                                    {{ old('solobasic') == '3 Surf Solo' ? 'selected' : '' }}>
                                                     3 Surf Solo</option>
                                                 <option value="4 Surf Solo"
-                                                    data-Solo="{{ config('global.solocoachingNightPrice') * 4 }}"
-                                                    {{ old('soloyoga') == '4 Surf Solo' ? 'selected' : '' }}>
+                                                    data-Solo="{{ config('global.solobasiccoachingNightPrice') * 4 }}"
+                                                    {{ old('solobasic') == '4 Surf Solo' ? 'selected' : '' }}>
                                                     4 Surf Solo</option>
                                                 <option value="5 Surf Solo"
-                                                    data-Solo="{{ config('global.solocoachingNightPrice') * 5 }}"
-                                                    {{ old('soloyoga') == '5 Surf Solo' ? 'selected' : '' }}>
+                                                    data-Solo="{{ config('global.solobasiccoachingNightPrice') * 5 }}"
+                                                    {{ old('solobasic') == '5 Surf Solo' ? 'selected' : '' }}>
                                                     5 Surf Solo</option>
                                                 <option value="6 Surf Solo"
-                                                    data-Solo="{{ config('global.solocoachingNightPrice') * 6 }}"
-                                                    {{ old('soloyoga') == '6 Surf Solo' ? 'selected' : '' }}>
+                                                    data-Solo="{{ config('global.solobasiccoachingNightPrice') * 6 }}"
+                                                    {{ old('solobasic') == '6 Surf Solo' ? 'selected' : '' }}>
                                                     6 Surf Solo</option>
                                                 <option value="0 Surf Solo" data-Solo="0"
-                                                    {{ old('soloyoga') == '0 Surf Solo' ? 'selected' : '' }}>
+                                                    {{ old('solobasic') == '0 Surf Solo' ? 'selected' : '' }}>
                                                     0 Surf Solo</option>
                                             </select>
                                             <i class="fal fa-chevron-down"></i>
                                         </div>
                                         <div class="form-group col-6 buddiesyoga ">
-                                            <select name="buddiesyoga" id="buddiesyoga"
+                                            <select name="buddiesbasic" id="buddiesyoga"
                                                 class="form-select nice-select">
                                                 <option value="" disabled="disabled" selected="selected"
                                                     hidden>Surf Buddies</option>
                                                 <option value="1 Surf Buddies"
-                                                    data-buddies="{{ config('global.buddiescoachingNightPrice') * 1 }}"
-                                                    {{ old('buddiesyoga') == '1 Surf Buddies' ? 'selected' : '' }}>
+                                                    data-buddies="{{ config('global.buddiesbasiccoachingNightPrice') * 1 }}"
+                                                    {{ old('buddiesbasic') == '1 Surf Buddies' ? 'selected' : '' }}>
                                                     1 Surf Buddies</option>
                                                 <option value="2 Surf Buddies"
-                                                    data-buddies="{{ config('global.buddiescoachingNightPrice') * 2 }}"
-                                                    {{ old('buddiesyoga') == '2 Surf Buddies' ? 'selected' : '' }}>
+                                                    data-buddies="{{ config('global.buddiesbasiccoachingNightPrice') * 2 }}"
+                                                    {{ old('buddiesbasic') == '2 Surf Buddies' ? 'selected' : '' }}>
                                                     2 Surf Buddies</option>
                                                 <option value="3 Surf Buddies"
-                                                    data-buddies="{{ config('global.buddiescoachingNightPrice') * 3 }}"
-                                                    {{ old('buddiesyoga') == '3 Surf Buddies' ? 'selected' : '' }}>
+                                                    data-buddies="{{ config('global.buddiesbasiccoachingNightPrice') * 3 }}"
+                                                    {{ old('buddiesbasic') == '3 Surf Buddies' ? 'selected' : '' }}>
                                                     3 Surf Buddies</option>
                                                 <option value="0 Surf Buddies" data-buddies="0"
-                                                    {{ old('buddiesyoga') == '0 Surf Buddies' ? 'selected' : '' }}>
+                                                    {{ old('buddiesbasic') == '0 Surf Buddies' ? 'selected' : '' }}>
                                                     0 Surf Buddies</option>
                                             </select>
                                             <i class="fal fa-chevron-down"></i>
@@ -829,7 +793,7 @@
                                         </div>
                                         <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
 
-                                            @include('layout.packages.basicsurf')
+                                            @include('layout.packages.surfcoaching')
 
                                         </div>
                                         {{--   <div class="col-xl-4 col-lg-6 col-md-6 mb-30">

@@ -48,6 +48,13 @@
 
 
                         </div>
+                        <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+
+
+                            @include('layout.packages.basicsurf')
+
+
+                        </div>
 
                     </div>
 

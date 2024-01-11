@@ -72,6 +72,9 @@ Route::get('/{lang?}/packages/surf-coaching', function () {
     return view('pack-details.surf-coaching');
 })->name('surf-coaching');
 
+Route::get('/{lang?}/packages/basic-surf-coaching', function () {
+    return view('pack-details.surf-basic');
+})->name('basic-coaching');
 
 
 Route::get('/{lang?}/packages/surf-stays-plus', function () {
