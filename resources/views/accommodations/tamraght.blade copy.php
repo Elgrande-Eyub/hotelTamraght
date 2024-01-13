@@ -28,46 +28,6 @@
 
     <section class="space-top space-extra-bottom">
         <div class="container">
-
-            <section style="margin-top: 5rem">
-
-
-                <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span>Surf Packages <span class="shape right"><span class="dots"></span></span>
-                </span>
-                <h2 class="sec-title">Tamraght Surf House Hostel</h2>
-                </div>
-
-
-                <div class="text-justify d-flex" style="gap: 2rem" >
-                    <div class="col-lg-7">
-                        <p class="mb-4 text-justify">Welcome to our surf hostel in Tamraght, just 700 meters from the enchanting Imourane beach! Our beautifully decorated house spans three floors and two rooftop terraces with breathtaking views of the sea and mountains.
-                        </p>
-                           <p class="mb-4">In just 10 minutes on foot, you can reach the beach, and within 5 minutes, discover the many cozy cafes and restaurants in the vicinity. Our accommodation features three double rooms, two with a sea view, as well as a dormitory with four beds. The dormitory boasts a terrace with a splendid view of the sea, the town, and the surrounding mountains.
-                        </p>
-                           <p class="mb-4">With three bathrooms, three kitchens, and a reception, our house is well-equipped. The spacious Moroccan-style living room is perfect for reading, relaxing, and watching TV together.
-                        </p>
-                        <p class="mb-4">The highlight of our hostel is the rooftop terrace at the very top – ideal for a leisurely breakfast or dinner with a rich selection of healthy dishes. We spoil you with freshly cooked specialties, including vegetarian delights and typical Moroccan dishes like the popular Tagine. Welcome to your home away from home – here, you experience a surf vacation with style and comfort!</p>
-
-                    </div>
-                    <div class="col-lg-5">
-                        <iframe class="location" style="width:90%;height: 90%;" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d263.22269155141305!2d-9.679540310406486!3d30.51312205967447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMwJzQ2LjkiTiA5wrA0MCc0Ni4yIlc!5e1!3m2!1sen!2sma!4v1704457291982!5m2!1sen!2sma"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                    </div>
-                </div>
-
-                <div
-                    class="row mb-40 ot-carousel slider-shadow" data-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1">
-                    <div class="col-lg-6 col-md-6">
-                        @include('layout.packages.surfnstay')
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        @include('layout.packages.surfcoaching')
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        @include('layout.packages.basicsurf')
-                    </div>
-                </div>
-            </section>
             <div class="destination-details">
                 <section>
                 <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> A Haven for Surf Enthusiasts <span class="shape right"><span class="dots"></span></span>
@@ -130,7 +90,33 @@
                 </div>
             </section>
 
+                <section style="margin-top: 5rem">
 
+
+                    <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Accommodation <span class="shape right"><span class="dots"></span></span>
+                    </span>
+                    <h2 class="sec-title">Tamraght Surf House Hostel</h2>
+                    </div>
+
+
+                    <div class="text-justify">
+                   <p class="mb-4 text-justify">Welcome to our surf hostel in Tamraght, just 700 meters from the enchanting Imourane beach! Our beautifully decorated house spans three floors and two rooftop terraces with breathtaking views of the sea and mountains.
+                </p>
+                   <p class="mb-4">In just 10 minutes on foot, you can reach the beach, and within 5 minutes, discover the many cozy cafes and restaurants in the vicinity. Our accommodation features three double rooms, two with a sea view, as well as a dormitory with four beds. The dormitory boasts a terrace with a splendid view of the sea, the town, and the surrounding mountains.
+                </p>
+                   <p class="mb-4">With three bathrooms, three kitchens, and a reception, our house is well-equipped. The spacious Moroccan-style living room is perfect for reading, relaxing, and watching TV together.
+                </p>
+                <p class="mb-4">The highlight of our hostel is the rooftop terrace at the very top – ideal for a leisurely breakfast or dinner with a rich selection of healthy dishes. We spoil you with freshly cooked specialties, including vegetarian delights and typical Moroccan dishes like the popular Tagine. Welcome to your home away from home – here, you experience a surf vacation with style and comfort!</p>
+                    </div>
+
+                    <div
+                        class="row mb-40 ot-carousel slider-shadow" data-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1">
+                        <div class="col-lg-6 col-md-6">
+                            @include('layout.accommodations.tamraght-hostle')
+                        </div>
+
+                    </div>
+                </section>
 
 
 
@@ -254,13 +240,13 @@
                       </div>
                 </section>
 
-          {{--       <div class="col-12">
+                <div class="col-12">
                     <span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> lOCATION <span class="shape right"><span class="dots"></span></span>
                </span>
                     <h3 class="sec-title">hostle Tamraght Location</h3>
                     <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d263.22269155141305!2d-9.679540310406486!3d30.51312205967447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMwJzQ2LjkiTiA5wrA0MCc0Ni4yIlc!5e1!3m2!1sen!2sma!4v1704457291982!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
- --}}
+
 
         </div>
         </div>

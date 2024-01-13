@@ -12,6 +12,6 @@ return [
                     ],
         'contact' => 'contact us',
                 ],
-    'booknow' => 'Book Your Stay',
+    'booknow' => 'Book Now',
 
 ];

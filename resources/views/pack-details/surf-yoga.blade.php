@@ -67,10 +67,12 @@
                                     </div>
                                 </div>
                                 <div class="meta-box">
-                                    <div class="meta-box_icon"><i class="fa-light fa-plane"></i></div>
+                                    <div class="meta-box_icon">
+                                        <i class="fa-light fa-heart"></i>
+                                    </div>
                                     <div class="media-body">
-                                        <h5 class="meta-box_title">Airport transfer</h5>
-                                        <p class="meta-box_text">Included</p>
+                                        <h5 class="meta-box_title">Yoga Sessions</h5>
+                                        <p class="meta-box_text">Daily Session</p>
                                     </div>
                                 </div>
                             </div>
