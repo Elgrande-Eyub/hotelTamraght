@@ -67,11 +67,11 @@
                                 </div>
                                 <div class="meta-box">
                                     <div class="meta-box_icon">
-                                        <i class="fa-light fa-heart"></i>
+                                        <i class="fa-light fa-plane"></i>
                                     </div>
                                     <div class="media-body">
-                                        <h5 class="meta-box_title">Yoga Sessions</h5>
-                                        <p class="meta-box_text">Extra Pay</p>
+                                        <h5 class="meta-box_title">Airport Transfer</h5>
+                                        <p class="meta-box_text">Included</p>
                                     </div>
                                 </div>
                             </div>

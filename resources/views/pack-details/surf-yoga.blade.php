@@ -75,6 +75,15 @@
                                         <p class="meta-box_text">Daily Session</p>
                                     </div>
                                 </div>
+                                <div class="meta-box">
+                                    <div class="meta-box_icon">
+                                        <i class="fa-light fa-plane"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5 class="meta-box_title">Airport Transfer</h5>
+                                        <p class="meta-box_text">Included</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="tour-img" style="margin-bottom:0">

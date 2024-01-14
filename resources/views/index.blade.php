@@ -27,7 +27,8 @@
                         <p class="hero-text">Enjoy an all-inclusive holiday at SALTY WAVES surf camp! Daily surf and yoga, charming hostel, local cuisine, Moroccan cultural experiences. Your perfect escape awaits!</p>
                     <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Salty Waves
                             ? Check this out</a>
-                        <a href="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12"
+
+                        <a href="https://www.veed.io/embed/aed928e2-20bf-469d-ac3b-91b8c5b62af7"
                             class="video-link popup-video d-flex align-items-center">
                             <span class="play-btn style3"><i class="fas fa-play"></i></span> Feel The Mood of our
                             inviting surf hostel in Tamraght</a>

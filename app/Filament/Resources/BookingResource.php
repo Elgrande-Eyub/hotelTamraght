@@ -90,6 +90,8 @@ class BookingResource extends Resource
     {
         return $table
             ->columns([
+                TextColumn::make('id')->label('CODE'),
+
                 TextColumn::make('name')->label('Guest')->copyable()->searchable()->sortable()->toggleable()
                 ->description(fn (Booking $record): string => $record->email),
 

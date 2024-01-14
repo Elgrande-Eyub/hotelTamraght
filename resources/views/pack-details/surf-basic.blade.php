@@ -65,7 +65,7 @@
                                         <p class="meta-box_text">12 People</p>
                                     </div>
                                 </div>
-                                <div class="meta-box">
+                             {{--    <div class="meta-box">
                                     <div class="meta-box_icon">
                                         <i class="fa-light fa-heart"></i>
                                     </div>
@@ -73,7 +73,7 @@
                                         <h5 class="meta-box_title">Yoga Sessions</h5>
                                         <p class="meta-box_text">Extra Pay</p>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="tour-img" style="margin-bottom:0">
