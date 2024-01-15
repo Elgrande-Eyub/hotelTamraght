@@ -38,7 +38,7 @@
                 </div>
 
 
-                <div class="text-justify " >
+                <div class="text-justify "  style="padding-bottom: 2rem">
 
                         <p class="mb-4 text-justify">Welcome to our surf hostel in Tamraght, just 700 meters from the enchanting Imourane beach! Our beautifully decorated house spans three floors and two rooftop terraces with breathtaking views of the sea and mountains.
                         </p>
@@ -50,18 +50,8 @@
 
 
                 </div>
-
-                <div
-                    class="row mb-40 ot-carousel slider-shadow" data-slide-show="3" data-md-slide-show="2" data-sm-slide-show="1">
-                    <div class="col-lg-6 col-md-6">
-                        @include('layout.packages.surfnstay')
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        @include('layout.packages.surfcoaching')
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        @include('layout.packages.basicsurf')
-                    </div>
+                <div class="booknow " >
+                    <a href=" {{ route('packages', ['lang' => $lang]) }}" class="ot-btn booknow-btn">@lang('index.booknow')</a>
                 </div>
             </section>
             <div class="destination-details">
@@ -87,7 +77,7 @@
                 <section >
                 <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Gallery <span class="shape right"><span class="dots"></span></span>
                 </span>
-                <h2 class="sec-title">TAMRAGHT HOSTLE</h2>
+                <h2 class="sec-title">TAMRAGHT HOSTEL</h2>
                 </div>
                 <div class="mt-4 mb-4">
                         <div class="row gy-30 masonary-active">
@@ -134,7 +124,7 @@
 
                     <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Surf Camp <span class="shape right"><span class="dots"></span></span>
                     </span>
-                    <h2 class="sec-title">Discouver Best Surf Spots Near Tamraght</h2>
+                    <h2 class="sec-title">Discover Best Surf Spots Near Tamraght</h2>
                     </div>
 
                     <p class="text-justify">Mild winters, temperatures above 20 degrees, and 350+ days of sun annually make Morocco a prime surf destination. Boasting 20+ surf spots just a short flight from Europe, it's the ultimate winter escape. From Anza in the south to Imsouane in the north, Morocco offers diverse waves fueled by big northwest swells.

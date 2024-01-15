@@ -394,7 +394,7 @@
                                 <div class="form-group">
                                     <select name="pack" id="pack" class="form-select nice-select">
                                         <option value="" disabled="disabled" selected="selected" hidden>Activities</option>
-                                        <option value="Premuim Surf & Yoga Pack" data-pack="surfnyoga"  {{ old('pack') == 'Premuim Surf & Yoga Pack' ? 'selected' : '' }}>Premuim Surf & Yoga Pack</option>
+                                        <option value="Premuim Surf & Yoga Pack" data-pack="surfnyoga"  {{ old('pack') == 'Premuim Surf & Yoga Pack' ? 'selected' : '' }}>Premium Surf & Yoga Pack</option>
                                         <option value="Popular Surf Coaching Pack" data-pack="surfcaoching" {{ old('pack') == 'Popular Surf Coaching Pack' ? 'selected' : '' }}>Popular Surf Coaching Pack</option>
                                         {{-- <option value="Surf Explore NStays" data-price="540" {{ old('pack') == 'Surf Explore NStays' ? 'selected' : '' }}>Surf Explore N'Stays - €540/Person</option> --}}
                                         <option value="Stay Only" data-pack="stayonly" {{ old('pack') == 'Stay Only' ? 'selected' : '' }}>Stay Only</option>

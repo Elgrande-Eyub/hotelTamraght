@@ -58,7 +58,7 @@
                 </li>
                 <li class="menu-item-has-children"><a href="{{ route('packages', ['lang' => $lang]) }}">@lang('index.menu.package')</a>
                     <ul class="sub-menu">
-                            <li><a href="{{ route('surf-yoga', ['lang' => $lang]) }}"> Premuim SURF & YOGA</a></li>
+                            <li><a href="{{ route('surf-yoga', ['lang' => $lang]) }}"> Premium SURF & YOGA</a></li>
                             <li><a href="{{ route('surf-coaching', ['lang' => $lang]) }}"> Popular SURF COACHING</a></li>
                             <li><a href="{{ route('basic-coaching', ['lang' => $lang]) }}"> Basic SURF COACHING</a></li>
                     </ul>
@@ -122,7 +122,7 @@
                                 </li>
                                 <li class="menu-item-has-children"><a href="{{ route('packages', ['lang' => $lang]) }}"><i class=" fa-light fa-hand-holding-heart"></i> @lang('index.menu.package')</a>
                                     <ul class="sub-menu">
-                                        <li><a href="{{ route('surf-yoga', ['lang' => $lang]) }}"><i class="fa-regular fa-person-snowboarding p-7"></i> Premuim SURF & YOGA</a></li>
+                                        <li><a href="{{ route('surf-yoga', ['lang' => $lang]) }}"><i class="fa-regular fa-person-snowboarding p-7"></i> Premium SURF & YOGA</a></li>
                                         <li><a href="{{ route('surf-coaching', ['lang' => $lang]) }}"><i class="fa-regular fa-person-snowboarding p-7"></i> Popular SURF COACHING</a></li>
                                         <li><a href="{{ route('basic-coaching', ['lang' => $lang]) }}"><i class="fa-regular fa-person-snowboarding p-7"></i> Basic SURF COACHING</a></li>
                                         {{-- <li><a href="{{ route('surf-explore-stay', ['lang' => $lang]) }}"><i class="fa-regular fa-person-snowboarding p-7"></i> Surf Explore N'Stays</a></li> --}}

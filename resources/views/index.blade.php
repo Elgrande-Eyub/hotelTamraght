@@ -168,9 +168,9 @@
                         <div class="tour-offer__top">
                             <div>
                                 <h3 class="tour-offer__title box-title"><a
-                                        href="{{ route('surf-yoga', ['lang' => $lang]) }}">premuim SURF & YOGA
+                                        href="{{ route('surf-yoga', ['lang' => $lang]) }}">Premium SURF & YOGA
                                         Pack</a></h3><span class="tour-offer__subtitle"
-                                    style="color: white">Premuim</span>
+                                    style="color: white">Premium</span>
                             </div><span class="tour-offer__price"><span class="price"
                                     style="color: white">€{{ config('global.standardPremuimPrice') }}</span></span>
                         </div>

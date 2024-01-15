@@ -16,11 +16,11 @@
     <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/img/bg/yogapackage-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Premuim SURF & YOGA Package</h1>
+                <h1 class="breadcumb-title">Premium SURF & YOGA Package</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{ route('index', ['lang' => $lang]) }}">Home</a></li>
                     <li><a href="{{ route('packages', ['lang' => $lang]) }}">Packages</a></li>
-                    <li>Premuim SURF & YOGA Package</li>
+                    <li>Premium SURF & YOGA Package</li>
                 </ul>
             </div>
         </div>
@@ -32,10 +32,10 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title " style="margin: 0">
-                                <p style="margin: 0">  PREMUIM 7 NIGHTS SURF
+                                <p style="margin: 0">  Premium 7 NIGHTS SURF
                                     & YOGA PACKAGE <span style="color: #015292"> - €665</span></p>
-                                    <span class="badge-btn premuim"
-                                    style="margin-left: 1rem">Premuim</span>
+                                    <span class="badge-btn Premium"
+                                    style="margin-left: 1rem">Premium</span>
                                </h2><br>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
@@ -480,7 +480,7 @@
                                     <select name="pack" disabled="disabled" id="pack"
                                         class="form-select nice-select">
                                         <option value="" selected="selected" hidden>Package
-                                            : Premuim Surf & Yoga Pack</option>
+                                            : Premium Surf & Yoga Pack</option>
 
                                     </select>
                                     <i class="fal fa-chevron-down"></i>

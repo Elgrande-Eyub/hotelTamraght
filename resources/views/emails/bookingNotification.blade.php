@@ -227,7 +227,7 @@
                     @if($booking->surfyoga == true)
                     <tr>
                         <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Package Selected</td>
-                        <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">Premuim Surf & Yoga Pack</td>
+                        <td class="sm-w-3-4 sm-inline-block" style="font-weight: 600; text-align: right;" width="50%" align="right">Premium Surf & Yoga Pack</td>
                     </tr>
                     <tr>
                         <td class="sm-w-1-4 sm-inline-block" style="color: #718096;" width="50%">Types</td>
