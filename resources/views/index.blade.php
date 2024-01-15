@@ -20,7 +20,7 @@
                 <div class="hero-style2"><span class="sub-title hero-subtitle">Enjoy every surf moment with Salty Waves
                         <span class="shape right"><span class="dots"></span></span>
                     </span>
-                    <h1 class="hero-title">Where Every wave tells a story</h1>
+                    <h1 class="hero-title">Where every wave tells a story</h1>
                         <p class="hero-text">Enjoy an all-inclusive holiday at SALTY WAVES surf camp! Daily surf and yoga, charming hostel, local cuisine, Moroccan cultural experiences. Your perfect escape awaits!</p>
                     <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Salty Waves
                             ? Check this out</a>
