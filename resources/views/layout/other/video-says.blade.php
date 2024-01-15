@@ -11,7 +11,7 @@
             <div class="ot-video" data-overlay="title" data-opacity="5" data-pos-for=".testi-sec" data-sec-pos="bottom-half">
                 <img src="{{ asset('assets/img/normal/video_1.jpg') }}" alt="Video">
 
-                 <a href="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12" class="play-btn style3 popup-video"><i class="fas fa-play"></i></a>
+                 <a href="https://www.veed.io/embed/aed928e2-20bf-469d-ac3b-91b8c5b62af7" class="play-btn style3 popup-video"><i class="fas fa-play"></i></a>
                  {{-- <iframe  src="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12" width="744" height="504" frameborder="0" title="Final.mp4" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> --}}
                 </div>
         </div>
