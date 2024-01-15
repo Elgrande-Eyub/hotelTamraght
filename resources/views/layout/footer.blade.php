@@ -9,7 +9,7 @@
 <section class="" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
     <div class="container">
         <div class="newsletter-wrap" data-bg-src="{{ asset('assets/img/bg/subscribe_bg_1.svg') }}">
-            <h2 class="sec-title text-white mb-2">Get Special Offers And More From Travon</h2>
+            <h2 class="sec-title text-white mb-2">Get Special Offers And More From Salty Waves</h2>
             <p class="text-white fs-md mb-4">Sign up now and get the best deals straight in your inbox!</p>
             <form class="newsletter-form">
                 @csrf

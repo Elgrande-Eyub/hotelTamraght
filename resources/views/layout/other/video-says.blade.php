@@ -3,10 +3,10 @@
         <div class="container">
             <div class="title-area text-center"><span class="sub-title justify-content-center"><span class="shape left"><span class="dots"></span></span> Watch Our Story <span class="shape right"><span class="dots"></span></span>
                 </span>
-                <h2 class="sec-title">Book your unforgettable travel now</h2>
+                <h2 class="sec-title">Reserve Your Extraordinary Getaway</h2>
                 <div class="btn-group pb-3 mt-30 justify-content-center">
                     <a href="{{ route('contact', ['lang' => $lang]) }}" class="ot-btn">Contact Us</a>
-                    <a href="{{ route('accommodations', ['lang' => $lang]) }}" class="ot-btn style3">Book Now</a></div>
+                    <a href="{{ route('packages', ['lang' => $lang]) }}" class="ot-btn style3">Book Now</a></div>
             </div>
             <div class="ot-video" data-overlay="title" data-opacity="5" data-pos-for=".testi-sec" data-sec-pos="bottom-half">
                 <img src="{{ asset('assets/img/normal/video_1.jpg') }}" alt="Video">
