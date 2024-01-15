@@ -45,7 +45,9 @@
             <div class="col-xl-6 mt-40 mt-xl-0">
                 <div class="img-box2">
                     <div class="img1"><img src="{{ asset('assets/img/normal/about_2_1.png') }}" alt="About"></div>
-                    <div class="ot-video" data-overlay="title" data-opacity="2"><img src="{{ asset('assets/img/normal/about_2_2.jpg') }}" alt="Video"> <a href="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12" class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
+                    <div class="ot-video" data-overlay="title" data-opacity="2">
+                        <img src="{{ asset('assets/img/normal/about_2_2.jpg') }}" alt="Video">
+                        <a href="https://www.veed.io/embed/4941c311-1a0c-4015-9d6b-b454bc351e12" class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
                     <div class="shape1"><img src="{{ asset('assets/img/normal/about_shape_2.svg') }}" alt="shape"></div>
                 </div>
             </div>

@@ -70,9 +70,9 @@
                                   <div class="carousel-item active" data-bs-interval="3000">
                                     <img src="{{ asset('assets/img/accommodations/apartement n4/main.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
+                                  {{-- <div class="carousel-item" data-bs-interval="3000">
                                     <img src="{{ asset('assets/img/accommodations/apartement n4/main-1.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
-                                  </div>
+                                  </div> --}}
                                   <div class="carousel-item" data-bs-interval="3000">
                                     <img src="{{ asset('assets/img/accommodations/apartement n4/main-2.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
@@ -81,9 +81,6 @@
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
                                     <img src="{{ asset('assets/img/accommodations/apartement n4/main-4.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-5.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
 
                                 </div>

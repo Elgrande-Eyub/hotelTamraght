@@ -96,11 +96,27 @@
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/trip-3.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3500">
                                         <img src="{{ asset('assets/img/packages/surfnyoga/sandboarding-1.jpg') }}"
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3500">
                                         <img src="{{ asset('assets/img/packages/surfnyoga/sandboarding-2.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/sandboarding-3.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/sandboarding-4.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/sandboarding-5.jpg') }}"
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3500">
@@ -117,6 +133,10 @@
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3500">
                                         <img src="{{ asset('assets/img/packages/surfnyoga/surf-6.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/surf-7.jpg') }}"
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
                                 </div>

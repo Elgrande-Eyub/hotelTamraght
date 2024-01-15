@@ -20,18 +20,14 @@
                 <div class="hero-style2"><span class="sub-title hero-subtitle">Enjoy every surf moment with Salty Waves
                         <span class="shape right"><span class="dots"></span></span>
                     </span>
-                    <h1 class="hero-title">Tamraght or Taghazout ?</h1>
-                    <h1 class="hero-title">Doesn't Matter</h1>
-                    {{-- <p class="hero-text">Visit our surf hostel to create the best surf memories. Choose between
-                        wonderful accommodations in Tamraght and Taghazout.</p> --}}
+                    <h1 class="hero-title">Where Every wave tells a story</h1>
                         <p class="hero-text">Enjoy an all-inclusive holiday at SALTY WAVES surf camp! Daily surf and yoga, charming hostel, local cuisine, Moroccan cultural experiences. Your perfect escape awaits!</p>
                     <div class="btn-group"><a href="{{ route('about', ['lang' => $lang]) }}" class="ot-btn">Salty Waves
                             ? Check this out</a>
 
                         <a href="https://www.veed.io/embed/aed928e2-20bf-469d-ac3b-91b8c5b62af7"
                             class="video-link popup-video d-flex align-items-center">
-                            <span class="play-btn style3"><i class="fas fa-play"></i></span> Feel The Mood of our
-                            inviting surf hostel in Tamraght</a>
+                            <span class="play-btn style3"><i class="fas fa-play"></i></span> Feel the pulse of pure adventure at Salty Waves</a>
                     </div>
                 </div>
             </div>
