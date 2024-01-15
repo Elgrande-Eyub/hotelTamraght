@@ -107,6 +107,10 @@
                                         <img src="{{ asset('assets/img/packages/surfnyoga/surf-7.jpg') }}"
                                             class="d-block w-100 packages-carousel" alt="Dormitory Photos">
                                     </div>
+                                    <div class="carousel-item" data-bs-interval="3500">
+                                        <img src="{{ asset('assets/img/packages/surfnyoga/surf-8.jpg') }}"
+                                            class="d-block w-100 packages-carousel" alt="Dormitory Photos">
+                                    </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button"
                                     data-bs-target="#carouselExampleInterval1" data-bs-slide="prev">
