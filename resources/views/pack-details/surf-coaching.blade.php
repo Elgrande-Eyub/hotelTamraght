@@ -33,7 +33,7 @@
                         <div class="tour-header">
                             <h2 class="tour-title " style="margin: 0">
                                 <p style="margin: 0"> POPULAR 7 NIGHTS SURF COACHING PACKAGE <span
-                                        style="color: #015292"> - €609</span></p>
+                                        style="color: #015292"> - €{{ config('global.standardPopularPrice') }}</span></p>
 
                             </h2><br>
                             <div class="meta-box-wrap">
@@ -184,7 +184,7 @@
                                                 <tr>
                                                     <th>Accommodation Options</th>
                                                     <td>Choose your haven—solo surfers' Dormitory Rooms for an
-                                                        unbeatable value of €609 for 7 nights, or elevate your stay to
+                                                        unbeatable value of €{{ config('global.standardPopularPrice') }} for 7 nights, or elevate your stay to
                                                         the luxurious Surf Buddies - Deluxe Rooms at €1320 for a week of
                                                         indulgence and comfort.
                                                         <br>
