@@ -31,13 +31,13 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title" style="margin: 0">Hostel Tamraght - Salty Waves</h2>
-                            <p>3 Rooms with 2 Beds each <strong>(35€/each)</strong> , Dormitory with 6 Beds <strong>(20€/each)</strong></p>
+                            <p>3 Rooms with 2 Beds each <strong>(35€/each)</strong> , Dormitory with 6 Beds <strong>({{ config('global.hostelTamraght') }}€/each)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">€20.00</p>
+                                        <p class="meta-box_text">€{{ config('global.hostelTamraght') }}.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -113,7 +113,7 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Hostel Contain</th>
-                                                    <td>3 Rooms with 2 Beds each <strong>(35€/each)</strong> , Dormitory with 6 Beds <strong>(20€/each)</strong></td>
+                                                    <td>3 Rooms with 2 Beds each <strong>(35€/each)</strong> , Dormitory with 6 Beds <strong>({{ config('global.hostelTamraght') }}€/each)</strong></td>
                                                 </tr>
                                                 <tr>
                                                     <th>Breakfast</th>
@@ -325,7 +325,7 @@
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">€20.00 per person</p>
+                            <p class="price">€{{ config('global.hostelTamraght') }}.00 per person</p>
                         </div>
                         <form id="bookingForm" action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST" class="widget-form">
                             @csrf

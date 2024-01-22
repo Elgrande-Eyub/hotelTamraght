@@ -32,14 +32,14 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title" style="margin: 0">Surf Riad Taghazout</h2>
-                            <p>5 Guests, 2 Bedrooms, 2 Living Rooms, 2 Kitchen,2 Bathrooms <strong>(€85.00/day)</strong>
+                            <p>5 Guests, 2 Bedrooms, 2 Living Rooms, 2 Kitchen,2 Bathrooms <strong>(€{{ config('global.surfriad') }}.00/day)</strong>
                             </p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">€85.00</p>
+                                        <p class="meta-box_text">€{{ config('global.surfriad') }}.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -124,7 +124,7 @@
                                                 <tr>
                                                     <th>Apartement </th>
                                                     <td>5 Guests, 2 Bedrooms, 2 Living Rooms, 2 Kitchen,2 Bathrooms
-                                                        <strong>(€85.00/day)</strong></td>
+                                                        <strong>(€{{ config('global.surfriad') }}.00/day)</strong></td>
                                                 </tr>
                                                 <tr>
                                                     <th>Airbnb's Rate</th>
@@ -420,7 +420,7 @@
                             <div class="widget-tour-book">
                                 <div class="top">
                                     <h4 class="title">Book This Accommodation</h4>
-                                    <p class="price">€85.00 per day</p>
+                                    <p class="price">€{{ config('global.surfriad') }}.00 per day</p>
                                 </div>
                                 <form id="bookingForm" action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST"
                                     class="widget-form">
@@ -614,7 +614,7 @@
                                                     var timeDifference = checkoutDate.getTime() - checkinDate.getTime();
                                                     var nights = Math.ceil(timeDifference / (1000 * 3600 * 24));
 
-                                                    var totalCost = nights * 85;
+                                                    var totalCost = nights * {{ config('global.surfriad') }};
 
                                                     $('#total').text('€' + totalCost.toFixed(2));
 

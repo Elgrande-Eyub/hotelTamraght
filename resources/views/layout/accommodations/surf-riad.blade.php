@@ -6,6 +6,6 @@
         </div>
         <h3 class="tour-card__title"><a href="{{ route('surf-riad', ['lang' => $lang]) }}">Surf Riad Taghazout</a></h3>
         <div class="tour-meta"><span><i class="fa-light fa-clock"></i> 1 Day</span> <span><i class="fa-light fa-user-group"></i> 5</span></div>
-        <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€85</span></span> <a href="{{ route('surf-riad', ['lang' => $lang]) }}" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
+        <div class="tour-card__bottom"><span class="tour-card__price">From <span class="price">€{{ config('global.surfriad') }}</span></span> <a href="{{ route('surf-riad', ['lang' => $lang]) }}" class="link-btn">See Details <i class="fas fa-arrow-up-right"></i></a></div>
     </div>
 </div>

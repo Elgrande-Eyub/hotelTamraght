@@ -32,13 +32,13 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title" style="margin: 0">Surf Apartment N4 Taghazout</h2>
-                            <p>5 Guests, 1 Bedroom, 1 Double Bed, 3 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€50.00/day)</strong></p>
+                            <p>5 Guests, 1 Bedroom, 1 Double Bed, 3 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€{{ config('global.appartment4') }}.00/day)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">€50.00</p>
+                                        <p class="meta-box_text">€{{ config('global.appartment4') }}.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -113,7 +113,7 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>
-                                                    <td>5 Guests, 1 Bedroom, 1 Double Bed, 3 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€50.00/day)</strong></td>
+                                                    <td>5 Guests, 1 Bedroom, 1 Double Bed, 3 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€{{ config('global.appartment4') }}.00/day)</strong></td>
                                                 </tr>
 
                                                 <tr>
@@ -312,7 +312,7 @@
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">€50.00 per day</p>
+                            <p class="price">€{{ config('global.appartment4') }}.00 per day</p>
                         </div>
                         <form id="bookingForm" action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST" class="widget-form">
                             @csrf
@@ -491,7 +491,7 @@
                                     var timeDifference = checkoutDate.getTime() - checkinDate.getTime();
                                     var nights = Math.ceil(timeDifference / (1000 * 3600 * 24));
 
-                                    var totalCost = nights * 50;
+                                    var totalCost = nights * {{ config('global.appartment4') }};
 
                                     $('#total').text('€' + totalCost.toFixed(2));
 
