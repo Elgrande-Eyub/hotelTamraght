@@ -416,7 +416,7 @@
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Package</h4>
-                            <p class="price">€95.00 per Night</p>
+                            <p class="price">€{{ config('global.soloyogaNightPrice') }}.00 per Night</p>
                         </div>
                         <form id="bookingForm"
                             action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST"

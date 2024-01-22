@@ -470,7 +470,7 @@
                             <div class="widget-tour-book">
                                 <div class="top">
                                     <h4 class="title">Book This Package</h4>
-                                    <p class="price">€87.00 per Night</p>
+                                    <p class="price">€{{ config('global.solocoachingNightPrice') }}.00 per Night</p>
                                 </div>
                                 <form id="bookingForm" action="{{ route('bookingPost', ['lang' => $lang]) }}"
                                     method="POST" class="widget-form">
