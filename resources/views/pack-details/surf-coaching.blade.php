@@ -311,23 +311,6 @@
                                             </div>
                                         </div>
                                         <div class="accordion-card">
-                                            <div class="accordion-header" id="collapse-item-6"><button
-                                                    class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapse-6"
-                                                    aria-expanded="false" aria-controls="collapse-6">16:00 -
-                                                    18:30</button></div>
-                                            <div id="collapse-6" class="accordion-collapse collapse"
-                                                aria-labelledby="collapse-item-6" data-bs-parent="#planAccordion">
-                                                <div class="accordion-body">
-                                                    <p class="faq-text">Return home to refresh and prepare for the
-                                                        evening yoga session. Reflect on the day's adventures and
-                                                        rejuvenate your mind and body with a second session of yoga,
-                                                        scheduled for 18:30. The serene ambiance and guided practice
-                                                        provide the perfect way to unwind and find balance.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-card">
                                             <div class="accordion-header" id="collapse-item-7"><button
                                                     class="accordion-button collapsed" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#collapse-7"
