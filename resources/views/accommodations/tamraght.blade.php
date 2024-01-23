@@ -237,6 +237,23 @@
                               </div>
                             </div>
                           </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Imsouane
+                              </button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                              <p class="text-justify">
+                                Imsouane, an enchanting fishing village an hour from Taghazout, offers two unique surf spots: "The Bay" and "The Cathedral." <br>
+"The Bay" provides consistently clean waves, protected by the south-facing bay, with an impressive 600m ride length. Ideal for longboarding on smaller swell days. <br>
+For a more powerful experience, try "The Cathedral," an exposed beach break with right and left peaks ending on a reef. <br>
+Don't miss the picturesque lookout spot just before town, offering a stunning bay view, and explore local markets for fresh seafood – a perfect spot for a healthy lunch.
+ </p>
+                              </div>
+                            </div>
+                          </div>
                       </div>
                 </section>
 
