@@ -32,13 +32,13 @@
                     <div class="tour-details">
                         <div class="tour-header">
                             <h2 class="tour-title" style="margin: 0">Surf Apartment N4 Taghazout</h2>
-                            <p>5 Guests, 1 Bedroom, 1 Double Bed, 3 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€50.00/day)</strong></p>
+                            <p>5 Guests, 1 Bedroom, 1 Double Bed, 3 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€{{ config('global.appartment4') }}.00/day)</strong></p>
                             <div class="meta-box-wrap">
                                 <div class="meta-box">
                                     <div class="meta-box_icon"><i class="fal fa-circle-dollar"></i></div>
                                     <div class="media-body">
                                         <h5 class="meta-box_title">From</h5>
-                                        <p class="meta-box_text">€50.00</p>
+                                        <p class="meta-box_text">€{{ config('global.appartment4') }}.00</p>
                                     </div>
                                 </div>
                                 <div class="meta-box">
@@ -65,27 +65,24 @@
                             </div>
                         </div>
                         <div class="tour-img">
-                            {{-- <img src="{{ asset('assets/img/accommodations/apartement n4/main.jpg') }}" alt="Tour Image"> --}}
                             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main.jpg') }}" class="d-block w-100" alt="Apartement Photos">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
+                                  </div>
+                                  {{-- <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-1.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
+                                  </div> --}}
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-2.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-1.jpg') }}" class="d-block w-100" alt="Apartement Photos">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-3.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-2.jpg') }}" class="d-block w-100" alt="Apartement Photos">
+                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-4.jpg') }}" class="d-block w-100" alt="Apartment n4 Photos">
                                   </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-3.jpg') }}" class="d-block w-100" alt="Apartement Photos">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-4.jpg') }}" class="d-block w-100" alt="Apartement Photos">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="3000">
-                                    <img src="{{ asset('assets/img/accommodations/apartement n4/main-5.jpg') }}" class="d-block w-100" alt="Apartement Photos">
-                                  </div>
+
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -116,7 +113,7 @@
                                                 </tr>
                                                 <tr>
                                                     <th>Apartement </th>
-                                                    <td>5 Guests, 1 Bedroom, 3 Beds, 1 Bathrooms <strong>(€50.00/day)</strong></td>
+                                                    <td>5 Guests, 1 Bedroom, 1 Double Bed, 3 Single Beds, 1 Bathroom, 1 Kitchen, 1 Balcony With Beach View <strong>(€{{ config('global.appartment4') }}.00/day)</strong></td>
                                                 </tr>
 
                                                 <tr>
@@ -127,24 +124,33 @@
                                                     <th>Included</th>
                                                     <td>
                                                         <span><i class="fal fa-check"></i> Beach view</span>
+                                                        <br><span><i class="fal fa-check"></i> Security cameras on property</span>
+                                                        <br><span><i class="fal fa-check"></i> Hair dryer</span>
                                                         <br><span><i class="fal fa-check"></i> Washer</span>
-                                                        <br><span><i class="fal fa-check"></i> Children’s books and toys</span>
-                                                        <br><span><i class="fal fa-check"></i> Board games</span>
-                                                        <br><span><i class="fal fa-check"></i> Beach access</span>
-                                                        <br>...
+                                                        <br><span><i class="fal fa-check"></i> Towels</span>
+                                                        <br><span><i class="fal fa-check"></i> Bed Linen</span>
+                                                        <br><span><i class="fal fa-check"></i> Fully Equipped Kitchen</span>
+                                                        <br><span><i class="fal fa-check"></i> TV</span>
+                                                        <br>
+                                                        <!-- Button trigger modal -->
+                                                        <button class="btn-ShowMore" type="button" data-bs-toggle="modal"
+                                                            data-bs-target="#exampleModal">
+                                                            Show More
+                                                        </button>
+
+                                                        <!-- Modal -->
+                                                        @include('acco-details.includedAllowed')
 
                                                         </td>
                                                 </tr>
                                                 <tr>
                                                     <th>Excluded</th>
-                                                    <td><span><i class="fal fa-xmark"></i> Security cameras on property</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Hair dryer</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Essentials</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Smoke alarm</span>
-                                                        <br><span><i class="fal fa-xmark"></i> Pets</span>
+                                                    <td>
+                                                        <br><span><i class="fal fa-xmark"></i> Pets Are Not Allowed</span>
 
                                                         <br></td>
                                                 </tr>
+
                                             </tbody>
                                         </table>
                                     </div>
@@ -257,37 +263,24 @@
                         </div>
                     </div>
                 </div>
-           {{--      <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
+                <div class="tab-pane fade" id="photos" role="tabpanel" aria-labelledby="photos-tab">
                     <div class="tour-photos">
-                        <div class="row g-4 masonary-active">
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-1.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-2.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-3.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-4.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-5.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-11.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-33.jpg') }}" alt="Image"></div>
-                            </div>
-                            <div class="col-md-6 filter-item">
-                                <div class="tour-photo"><img src="{{ asset('assets/img/accommodations/apartement n4/app-55.jpg') }}" alt="Image"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
+                        <div class="row gy-30 masonary-active">
 
+                            @for($i = 1; $i <= 9; $i++)
+
+                            <div class="col-md-6 col-xxl-6 filter-item">
+                                <div class="gallery-card">
+                                    <div class="gallery-img"><img  src="{{ asset('assets/img/accommodations/apartement n4/' . $i . '.jpg') }}" alt="gallery image">
+                                         <a href="{{ asset('assets/img/accommodations/apartement n4/' . $i . '.jpg') }}" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a></div>
+                                </div>
+                            </div>
+                        @endfor
+
+                        </div>
+
+                    </div>
+                </div>
                 <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
                     <div class="tour-location">
                         <h3 class="inner-title">About this space</h3>
@@ -298,11 +291,12 @@
                         <h3>The space</h3>
                         <p class="mb-30">apartment located in a residence with beautiful ocean views and direct access to the beach
                             5-person apartment Agadir. Come and discover the small romantic fishing village in Aghazout. The temperatures are warm 25°. There are plenty of activities waiting for you: sailing, diving...as well as a very warm welcome. Has several rentals in Agadir, don't hesitate to ask
-                        </p></div>
+                        </p>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab">
                     <div class="tour-location">
-                        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d412.7379685492819!2d-9.713078851828755!3d30.545702211478222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQ0LjQiTiA5wrA0Mic0Ny4xIlc!5e1!3m2!1sen!2sma!4v1702293757319!5m2!1sen!2sma" height="320px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d263.1345083202829!2d-9.713227295910578!3d30.545675743825285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDMyJzQ0LjYiTiA5wrA0Mic0Ny41Ilc!5e1!3m2!1sen!2sma!4v1704455853266!5m2!1sen!2sma" height="320px"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 
@@ -318,9 +312,9 @@
                     <div class="widget-tour-book">
                         <div class="top">
                             <h4 class="title">Book This Accommodation</h4>
-                            <p class="price">€50.00 per day</p>
+                            <p class="price">€{{ config('global.appartment4') }}.00 per day</p>
                         </div>
-                        <form action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST" class="widget-form">
+                        <form id="bookingForm" action="{{ route('bookingPost', ['lang' => $lang]) }}" method="POST" class="widget-form">
                             @csrf
                             <p>This place has a maximum of 5 guests, not including infants. Pets aren't allowed.</p>
 
@@ -497,7 +491,7 @@
                                     var timeDifference = checkoutDate.getTime() - checkinDate.getTime();
                                     var nights = Math.ceil(timeDifference / (1000 * 3600 * 24));
 
-                                    var totalCost = nights * 50;
+                                    var totalCost = nights * {{ config('global.appartment4') }};
 
                                     $('#total').text('€' + totalCost.toFixed(2));
 
@@ -516,20 +510,34 @@
                         });
                         </script>
 
+                        <div class="form-btn">
+                            <button class="ot-btn w-100" id="bookNowBtn">
+                                <i class="submit-spin"></i> Book now
+                            </button>
+                        </div>
+                        <p class="form-messages mb-0 mt-3"></p>
 
-                            <div class="form-btn"><button class="ot-btn w-100">Book now</button></div>
-                            <p class="form-messages mb-0 mt-3"></p>
+
                         </form>
 
                     </div>
                 </div>
 
+                <script>
+                    $(document).ready(function () {
+                        // Intercept form submission
+                        $('#bookNowBtn').click(function (event) {
+                            event.preventDefault();
+                            $('.submit-spin').addClass('fa fa-spinner fa-spin');
 
+                            setTimeout(function () {
+                                console.log('Form submitted!');
+                                $('#bookingForm').submit();
 
-
-
-
-
+                            }, 2000);
+                        });
+                    });
+                </script>
 
                 <style>
                     input[type="date"]::-webkit-calendar-picker-indicator {
@@ -566,8 +574,6 @@
     </section>
 
     @include('layout.footer')
-
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </body>
 
 </html>

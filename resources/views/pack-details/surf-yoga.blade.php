@@ -192,7 +192,7 @@
                                             <tbody>
                                                 <tr>
                                                     <th>Accommodation Options</th>
-                                                    <td>Choose your haven—solo surfers' Dormitory Rooms for an unbeatable value of €{{ config('global.standardPremuimPrice') }} for 7 nights, or elevate your stay to the luxurious Surf Buddies - Deluxe Rooms at €1430 for a week of indulgence and comfort.
+                                                    <td>Choose your haven—solo surfers' Dormitory Rooms for an unbeatable value of €{{ config('global.soloyogaPrice') }} for 7 nights, or elevate your stay to the luxurious Surf Buddies - Deluxe Rooms at €{{ config('global.buddiesyogaPrice') }} for a week of indulgence and comfort.
                                                         <br>
                                                         <strong>Check-In Time: 14:00</strong> | <strong>Check-Out Time: 12:00</strong>
                                                     </td>

@@ -77,6 +77,7 @@
                     <ul class="sub-menu">
                          <li><a href="{{ route('tamraght', ['lang' => $lang]) }}"> Salty Waves Tamraght</a></li>
                         <li><a href="{{ route('taghazout', ['lang' => $lang]) }}"> Salty Waves Taghazout</a></li>
+                        <li><a href="{{ route('surfSpot', ['lang' => $lang]) }}"> Surf Spots</a></li>
                     </ul>
                 </li>
 
@@ -141,6 +142,7 @@
                                     <ul class="sub-menu">
                                          <li><a href="{{ route('tamraght', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Salty Waves Tamraght</a></li>
                                         <li><a href="{{ route('taghazout', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Salty Waves Taghazout</a></li>
+                                        <li><a href="{{ route('surfSpot', ['lang' => $lang]) }}"><i class="fa-duotone fa-location-dot p-7"></i> Surf Spots</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="{{ route('contact', ['lang' => $lang]) }}"><i class="fa-regular fa-messages"></i> @lang('index.menu.contact')</a></li>

@@ -40,12 +40,16 @@ Route::get('/{lang?}/taghazout', function () {
     return view('accommodations.taghazout');
 })->name('taghazout');
 
+Route::get('/{lang?}/surf-spots', function () {
+    return view('accommodations.surfSpot');
+})->name('surfSpot');
+
 Route::get('/{lang?}/accommodations', function () {
     return view('accommodations');
 })->name('accommodations');
 
 Route::get('/{lang?}/accommodations/apartment-n4', function () {
-    return view('acco-details.apartment-n4copy');
+    return view('acco-details.apartment-n4');
 })->name('apartment-n4');
 
 Route::get('/{lang?}/accommodations/apartment-n6', function () {
