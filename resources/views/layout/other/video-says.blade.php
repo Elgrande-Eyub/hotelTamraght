@@ -6,7 +6,10 @@
                 <h2 class="sec-title">Reserve Your Extraordinary Getaway</h2>
                 <div class="btn-group pb-3 mt-30 justify-content-center">
                     <a href="{{ route('contact', ['lang' => $lang]) }}" class="ot-btn">Contact Us</a>
+                    @if (!request()->routeIs(['surf-yoga','surf-coaching','basic-coaching']))
                     <a href="{{ route('packages', ['lang' => $lang]) }}" class="ot-btn style3">Book Now</a></div>
+                    @endif
+
             </div>
             <div class="ot-video" data-overlay="title" data-opacity="5" data-pos-for=".testi-sec" data-sec-pos="bottom-half">
                 <img src="{{ asset('assets/img/normal/video_1.jpg') }}" alt="Video">
