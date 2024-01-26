@@ -87,7 +87,7 @@
                             <p class="about-text text-justify">
                                 Embrace the coastal charm at Salty Waves Retreat in Tamraght and Taghazout. Where every stay is a dance with salty waves and each sunrise brings the promise of a new adventure.
                             </p>
-                            <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/salty_waves_taghazout"><i class="fab fa-instagram"></i></a> <a href="https://api.whatsapp.com/send?phone=212675111894"><i class="fab fa-whatsapp"></i></a></div>
+                            <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/salty_waves_morocco/"><i class="fab fa-instagram"></i></a> <a href="https://api.whatsapp.com/send?phone=212675111894"><i class="fab fa-whatsapp"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6">
-                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="https://www.instagram.com/salty_waves_taghazout" target="_blank" style="color: #1684d8">SALTY WAVES</a>. All Rights Reserved.</p>
+                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="https://www.instagram.com/salty_waves_morocco/" target="_blank" style="color: #1684d8">SALTY WAVES</a>. All Rights Reserved.</p>
                 </div>
                 <div class="col-lg-6 text-end d-none d-lg-block">
                     <div class="">

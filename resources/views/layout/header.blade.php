@@ -14,7 +14,7 @@
                 </p>
                 <div class="ot-social">
                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/salty_waves_taghazout"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/salty_waves_morocco/"><i class="fab fa-instagram"></i></a>
                      <a href="https://api.whatsapp.com/send?phone=212678718045"><i class="fab fa-whatsapp"></i></a></div>
             </div>
         </div>
