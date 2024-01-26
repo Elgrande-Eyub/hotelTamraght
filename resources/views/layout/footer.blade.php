@@ -1,11 +1,13 @@
 
 
-<div class="whats-float d-none d-xl-inline-block">
+{{-- <div class="whats-float d-none d-xl-inline-block"> --}}
+<div class="whats-float">
     <a href="https://api.whatsapp.com/send?phone=212678718045"
        target="_blank">
        <i class="fa-brands fa-whatsapp"></i><span>WhatsApp<br><small>+212 678-718045</small></span>
     </a>
 </div>
+
 <section class="" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
     <div class="container">
         <div class="newsletter-wrap" data-bg-src="{{ asset('assets/img/bg/subscribe_bg_1.svg') }}">
